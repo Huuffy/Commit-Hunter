@@ -1,23 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileAlt, faSearch, faUsers } from "@fortawesome/free-solid-svg-icons";
 import commitAnalyzerClient from "../../api/commitAnalyzerClient";
-import SecurityCheckModal from "./SecurityCheckModal";
 
 // Module-level cache so data persists across mounts/navigations
 let _cachedTeams = null;
 
 const Dashboard = () => {
-    const navigate = useNavigate();
     const [teams, setTeams] = useState(_cachedTeams || []);
     const [loading, setLoading] = useState(!_cachedTeams);
     const [searchQuery, setSearchQuery] = useState("");
-
-    // UI States
-    const [showReportModal, setShowReportModal] = useState(false);
-    const [selectedTeam, setSelectedTeam] = useState(null);
 
     useEffect(() => {
         fetchTeams();
@@ -38,13 +31,6 @@ const Dashboard = () => {
         }
     };
 
-
-    const unlockReport = () => {
-        if (selectedTeam) {
-            navigate(`/admin/commit-analyzer/report/${selectedTeam.team_name}`);
-        }
-    };
-
     const filteredTeams = teams.filter(t =>
         t.team_name?.toLowerCase().includes(searchQuery.toLowerCase())
     );
@@ -61,24 +47,12 @@ const Dashboard = () => {
                     <p className="text-purple-300/60 mt-1">Hackathon Status & Performance Overview</p>
                 </div>
 
-                <div className="flex gap-4">
-                    <span className="flex items-center gap-2 px-6 py-2.5 rounded-xl font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/30">
-                        Static Mode
-                    </span>
-
-                    <button
-                        onClick={() => {
-                            sessionStorage.removeItem("commitAccess");
-                            window.location.reload();
-                        }}
-                        className="flex items-center gap-2 px-4 py-2.5 rounded-xl font-medium bg-slate-800 text-slate-400 hover:text-white transition-all ml-2"
-                    >
-                        Lock
-                    </button>
-                </div>
+                <span className="flex items-center gap-2 px-6 py-2.5 rounded-xl font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/30">
+                    Static Mode
+                </span>
             </div>
 
-            {/* Stats Overview (Optional Placeholder) */}
+            {/* Stats Overview */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                 <div className="bg-white/5 border border-purple-500/10 rounded-2xl p-6 backdrop-blur-md">
                     <h3 className="text-purple-300/70 text-sm font-medium uppercase tracking-wider">Active Teams</h3>
@@ -161,16 +135,13 @@ const Dashboard = () => {
                                             <span className="text-red-400/80">-{team.deletions || 0}</span>
                                         </td>
                                         <td className="p-5 text-right">
-                                            <button
-                                                onClick={() => {
-                                                    setSelectedTeam(team);
-                                                    setShowReportModal(true);
-                                                }}
+                                            <Link
+                                                to={`/admin/commit-analyzer/report/${team.team_name}`}
                                                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-purple-300 hover:text-white transition-all text-sm font-medium border border-transparent hover:border-purple-500/30"
                                             >
                                                 <FontAwesomeIcon icon={faFileAlt} />
                                                 Get Report
-                                            </button>
+                                            </Link>
                                         </td>
                                     </tr>
                                 ))
@@ -179,15 +150,6 @@ const Dashboard = () => {
                     </table>
                 </div>
             </div>
-
-            {/* Modals */}
-            <SecurityCheckModal
-                isOpen={showReportModal}
-                onClose={() => setShowReportModal(false)}
-                onSuccess={unlockReport}
-                title="Access Sensitive Report"
-                actionButtonText="Unlock Report"
-            />
 
         </div>
     );
