@@ -78,11 +78,7 @@ Each commit is analyzed by a local [Ollama](https://ollama.ai) model (`qwen2.5-c
 | I | Multi-service integration | 17 |
 | J | Exceptional engineering | 19 |
 
-<div align="center">
 
-![ai gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzE3aHZjNXVhM3ZxazF4aG9xdnhjaHZzOWZoNzV4MXJuaGdocmUxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif)
-
-</div>
 
 ---
 
@@ -144,11 +140,7 @@ git push
 | Output Directory | `dist` |
 | Environment Variables | *(none needed)* |
 
-<div align="center">
 
-![deploy gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG9yNWJkNW9ibjNua21ucXRiaHVobHlkMHhsdXQ1ZHh3NzBqZGZobiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du3J3cXyzhj75IOgvA/giphy.gif)
-
-</div>
 
 ---
 
@@ -190,7 +182,7 @@ commit-hunter/
 
 <div align="center">
 
-Built with 💜 for **COHERENCE '26** by MLSC VCET
+Built with 💜 for **COHERENCE '26**
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=A855F7&height=100&section=footer)
 
