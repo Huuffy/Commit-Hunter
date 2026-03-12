@@ -1,0 +1,24 @@
+[
+  {
+    "team_name": "xyz",
+    "repo_url": "https://github.com/YashMayekar/test2",
+    "commit_count": 1,
+    "additions": 1,
+    "deletions": 0,
+    "churn_rate": 0.0,
+    "productivity_score": 1.1,
+    "is_finalized": false,
+    "final_review": null
+  },
+  {
+    "team_name": "abc",
+    "repo_url": "https://github.com/YashMayekar/test-repo",
+    "commit_count": 1,
+    "additions": 3,
+    "deletions": 1,
+    "churn_rate": 0.33,
+    "productivity_score": 1.3,
+    "is_finalized": false,
+    "final_review": null
+  }
+]

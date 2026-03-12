@@ -1,0 +1,95 @@
+{
+  "team_name": "xyz",
+  "commit_count": 1,
+  "additions": 1,
+  "deletions": 0,
+  "churn_rate": 0.0,
+  "productivity_score": 1.1,
+  "hourly_commits": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Yash Mayekar",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "new folder/text.py",
+      "value": 1
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "new folder",
+      "value": 1
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".py",
+      "value": 1
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "First Commit",
+      "author_name": "Yash Mayekar",
+      "score": 5,
+      "summary": "Addition of non-functional comment",
+      "url": "https://github.com/YashMayekar/test2/commit/a15487778db032de4581b3c53c173b31f16b4831",
+      "date": "2026-02-14 21:51:19.000000"
+    }
+  ],
+  "final_review": null
+}

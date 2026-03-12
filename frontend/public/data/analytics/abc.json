@@ -1,0 +1,95 @@
+{
+  "team_name": "abc",
+  "commit_count": 1,
+  "additions": 3,
+  "deletions": 1,
+  "churn_rate": 0.33,
+  "productivity_score": 1.3,
+  "hourly_commits": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Yash Mayekar",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "sample folder/samplefile.py",
+      "value": 4
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "sample folder",
+      "value": 4
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".py",
+      "value": 4
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "first commit",
+      "author_name": "Yash Mayekar",
+      "score": 5,
+      "summary": "A non-standard comment ('LOVE YOUUU') was added to the code.",
+      "url": "https://github.com/YashMayekar/test-repo/commit/6c89bd8426544ab9a4d129b2b52554d0cdca51ec",
+      "date": "2026-02-14 21:51:31.000000"
+    }
+  ],
+  "final_review": null
+}
