@@ -4,12 +4,9 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faChartBar,
-    faTrophy,
-    faClock,
     faLock,
     faArrowRight,
     faTools,
-    faUsers
 } from "@fortawesome/free-solid-svg-icons";
 import Background from "../components/background";
 
@@ -49,27 +46,6 @@ const AdminDashboard = () => {
             path: "/admin/commit-analyzer",
             color: "from-blue-500 to-indigo-600"
         },
-        {
-            title: "Leaderboard Admin",
-            description: "Manage participant scores and rankings.",
-            icon: faTrophy,
-            path: "/admin/leaderboard",
-            color: "from-yellow-500 to-orange-600"
-        },
-        {
-            title: "Real-Time Timer",
-            description: "Control the 24-hour countdown and notifications.",
-            icon: faClock,
-            path: "/admin/realtime",
-            color: "from-green-500 to-emerald-600"
-        },
-        {
-            title: "Shortlisted Teams",
-            description: "Update and manage shortlisted team status.",
-            icon: faUsers,
-            path: "/shortlisted-teams",
-            color: "from-purple-500 to-pink-600"
-        }
     ];
 
     if (!isAuthenticated) {
@@ -163,12 +139,6 @@ const AdminDashboard = () => {
                     ))}
                 </div>
 
-                <div className="mt-16 text-center">
-                    <Link to="/" className="text-purple-400 hover:text-purple-300 transition-colors inline-flex items-center gap-2">
-                        <span>Back to Home</span>
-                        <span>→</span>
-                    </Link>
-                </div>
             </div>
         </div>
     );

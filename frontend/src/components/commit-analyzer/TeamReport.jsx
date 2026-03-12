@@ -60,9 +60,6 @@ const TeamReport = () => {
 
   useEffect(() => {
     fetchAnalytics();
-    // Background refresh every 30s
-    const interval = setInterval(() => fetchAnalyticsBackground(), 30000);
-    return () => clearInterval(interval);
   }, [team_name]);
 
   const parseAnalyticsResponse = (res) => {
@@ -530,16 +527,8 @@ const TeamReport = () => {
               ) : (
                 <div>
                   <p className="text-gray-400 mb-4">
-                    No AI review generated yet. Generate a report to analyze
-                    code quality, commit patterns, and productivity.
+                    No AI review available. Reviews require a live backend with Ollama.
                   </p>
-                  <button
-                    onClick={handleGenerateReview}
-                    disabled={aiLoading}
-                    className="px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg font-medium hover:opacity-90 disabled:opacity-50 transition-all shadow-lg shadow-purple-900/20"
-                  >
-                    {aiLoading ? "Analyzing..." : "Generate Final Review"}
-                  </button>
                 </div>
               )}
             </div>

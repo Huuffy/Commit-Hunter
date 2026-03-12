@@ -72,3 +72,9 @@ data/
 .pytest_cache/
 htmlcov/
 .coverage
+
+
+
+
+/.claude
+CLAUDE.md
