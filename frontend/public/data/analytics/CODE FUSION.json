@@ -1,0 +1,331 @@
+{
+  "team_name": "CODE FUSION",
+  "commit_count": 113,
+  "additions": 82194,
+  "deletions": 34319,
+  "churn_rate": 0.42,
+  "productivity_score": 8332.4,
+  "hourly_commits": [
+    0,
+    0,
+    17,
+    0,
+    22,
+    9,
+    5,
+    1,
+    7,
+    3,
+    0,
+    2,
+    5,
+    8,
+    2,
+    9,
+    3,
+    2,
+    4,
+    9,
+    1,
+    1,
+    2,
+    1
+  ],
+  "hourly_volume": [
+    82194,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Surajphirke3",
+      "commits": 84
+    },
+    {
+      "name": "James Lewis",
+      "commits": 19
+    },
+    {
+      "name": "Soham",
+      "commits": 9
+    },
+    {
+      "name": "divdavane@gmail.com",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "package-lock.json",
+      "value": 30020
+    },
+    {
+      "name": "src/app/(workspace)/outreach/workflows/[id]/builder/page.tsx",
+      "value": 2893
+    },
+    {
+      "name": "src/app/globals.css",
+      "value": 2744
+    },
+    {
+      "name": "scripts/seed.ts",
+      "value": 2588
+    },
+    {
+      "name": "src/app/(workspace)/outreach/monitor/page.tsx",
+      "value": 2396
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 32608
+    },
+    {
+      "name": "src/lib/services",
+      "value": 9790
+    },
+    {
+      "name": "src/components/landing-v2",
+      "value": 4904
+    },
+    {
+      "name": "src/app",
+      "value": 3838
+    },
+    {
+      "name": "src/components/landing",
+      "value": 3782
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".tsx",
+      "value": 43261
+    },
+    {
+      "name": ".ts",
+      "value": 38400
+    },
+    {
+      "name": ".json",
+      "value": 30623
+    },
+    {
+      "name": ".css",
+      "value": 2744
+    },
+    {
+      "name": ".md",
+      "value": 1288
+    },
+    {
+      "name": ".mjs",
+      "value": 106
+    },
+    {
+      "name": "no_ext",
+      "value": 79
+    },
+    {
+      "name": ".svg",
+      "value": 10
+    },
+    {
+      "name": ".html",
+      "value": 2
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat: add internationalization (i18n) support with language switcher and translations across all workspace pages\n\n- Import useT hook and useLanguageStore in workspace pages (AI, dashboard, docs, leads, monitor, workflows, projects, settings)\n- Add language switcher section to settings page with flag icons and selection UI\n- Replace hardcoded English strings with t() translation keys throughout UI\n- Add Globe icon import and language configuration section with collapsible provider accordion\n- Implement expand",
+      "author_name": "Surajphirke3",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/15710f824bb6463e0fea26737661236104083fdc",
+      "date": "2026-03-07 05:51:13.000000"
+    },
+    {
+      "message": "feat: add lead search filter, expand workflow templates library, and randomize multi-lead execution timing\n\n- Add Search icon import and leadSearch state to workflow builder\n- Implement search input with icon in lead picker modal filtering by name, email, company, title\n- Reset leadSearch when opening lead picker modal\n- Change ReactFlow background from lines to dots variant with CSS variable colors\n- Add 20 new workflow templates: demo invite, re-engagement, referral, event invite, partnership, free",
+      "author_name": "Surajphirke3",
+      "score": 5,
+      "summary": "The code does not add or change any significant parts of the default Next.js/Vite scaffolding. It only includes minor updates to existing components and styles.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/bc4cb39cbc36ce706b79b6e2dbffee3d43d6452b",
+      "date": "2026-03-07 05:11:48.000000"
+    },
+    {
+      "message": "feat: centralize email and AI configuration to global settings page\n\n- Add VSCode settings to ignore CSS lint warnings for unknown at-rules\n- Remove per-workflow AI/SMTP configuration from workflow builder settings tab\n- Replace workflow settings UI with links directing users to global Settings page\n- Add email configuration section to Settings page with Gmail/App Password setup\n- Add AI provider configuration save button to persist settings for all workflows\n- Create /api/user/settings route to store",
+      "author_name": "Surajphirke3",
+      "score": 11,
+      "summary": "The code adds a new API route `/api/user/settings` that stores the email and AI configuration settings for all workflows. This simplifies the management of these configurations and ensures consistency across different workflows.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/ab621f71243a48429c8268f2f6c9b5a90c4517cb",
+      "date": "2026-03-07 04:55:38.000000"
+    },
+    {
+      "message": "feat: add real-time visual execution animation to workflow builder nodes\n\n- Add execution status badges (running/done/failed) with CheckCircle, AlertCircle icons\n- Implement animateExecution() to walk node graph and animate each step sequentially\n- Add pulsing glow effect with nodeRunPulse keyframe animation for running nodes\n- Change node border colors and shadows based on execution state (blue/green/red)\n- Hide delete button during execution to prevent accidental modifications\n- Integrate animation",
+      "author_name": "Surajphirke3",
+      "score": 15,
+      "summary": "The commit adds real-time visual execution animations to the workflow builder nodes in the code diff. It includes adding execution status badges with CheckCircle and AlertCircle icons, implementing animateExecution() to walk the node graph and animate each step sequentially, adding a pulsing glow effect for running nodes, changing node border colors and shadows based on execution state, hiding the delete button during execution, and integrating animation.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/0377ebbaffc589524e35d4df0138f4ee509bc16c",
+      "date": "2026-03-07 04:00:26.000000"
+    },
+    {
+      "message": "feat: replace Generate Leads node with real CSV-based lead picker and update workflow templates\n\n- Remove generateLeads node type from builder palette and node configurations\n- Add lead picker modal with select all/none/new filters and real-time lead selection\n- Implement openLeadPicker() to fetch leads from /api/leads and pre-select leads with status 'new'\n- Update execute flow to executeWithLeads() accepting array of selected lead IDs\n- Change \"Save & Execute\" button to \"Select Leads & Run\" with loading",
+      "author_name": "Surajphirke3",
+      "score": 11,
+      "summary": "The code adds a new API route `/api/leads` to fetch leads from the server and a function `openLeadPicker()` to open a lead picker modal. The `executeWithLeads()` function is also updated to accept an array of selected lead IDs and execute the workflow with these leads.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/d7356d4c56a947af6640365f40df1373751c2597",
+      "date": "2026-03-07 03:03:20.000000"
+    },
+    {
+      "message": "feat: add landing page hero component featuring an interactive workflow canvas.",
+      "author_name": "Surajphirke3",
+      "score": 9,
+      "summary": "The commit adds a new utility function `useTransform` from the Framer Motion library to the Hero component. This function is used to transform the position of an element based on certain conditions.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/c06869ccb7b167557b43494e7c2077fd475db80c",
+      "date": "2026-03-07 02:24:54.000000"
+    },
+    {
+      "message": "Merge branch 'main' into James-new",
+      "author_name": "Surajphirke3",
+      "score": 1,
+      "summary": "This commit is a merge operation, which typically involves combining changes from one branch (in this case, 'main') into another branch ('James-new'). The commit message indicates that the changes in 'main' have been merged into 'James-new'. This type of commit is often used to synchronize code between different development branches.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/f9ef30e990a05dc32dbdc6b751a8151bd6c847d0",
+      "date": "2026-03-07 02:19:08.000000"
+    },
+    {
+      "message": "feat: migrate monitor page from hardcoded colors to CSS variables for theme support\n\n- Replace hardcoded hex colors with CSS variable references throughout monitor UI\n- Add themeColor() helper function to map semantic color names (info, success, warning, danger, gray, brand) to CSS variables\n- Update COLUMNS and NODE_TYPE_ICONS to use cssVar keys instead of direct color values\n- Convert all inline styles to use var(--*) syntax for backgrounds, text, borders, and shadows\n- Support both light and dark themes through",
+      "author_name": "Surajphirke3",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/15b4142d3cd51388d08d1107bc19b197ccfe6f50",
+      "date": "2026-03-07 02:16:31.000000"
+    },
+    {
+      "message": "feat: add comprehensive live monitor UI with kanban/table views, enhanced execution cards, and real-time status tracking\n\n- Add nodemailer and @types/nodemailer dependencies for email functionality\n- Implement dual view modes (kanban board and table) with view toggle\n- Add manual refresh button with loading state indicator\n- Enhance stats cards with visual progress bars and percentage calculations\n- Add node type icons and color coding for different workflow steps (trigger, AI, email, delay, condition",
+      "author_name": "Surajphirke3",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/1e7cf9348435e00c230b65929adfd4c6fb3c740e",
+      "date": "2026-03-07 02:09:28.000000"
+    },
+    {
+      "message": "Final Landing Page Additional Changes",
+      "author_name": "James Lewis",
+      "score": 1,
+      "summary": "The provided diff shows that the commit is a merge commit, which typically occurs when multiple branches are merged into one. No new files or changes were added or modified.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/397f1d3c19c50f49c62865b249710454df023030",
+      "date": "2026-03-07 02:01:21.000000"
+    },
+    {
+      "message": "Final Landing Page",
+      "author_name": "James Lewis",
+      "score": 1,
+      "summary": "The commit message states 'Final Landing Page', indicating that the commit might have been used to finalize the landing page of a project. However, the actual content of the commit is not provided in the given text, so it's unclear what specific changes were made.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/428ed2d75cf3c218b4883b0dab7de18ba438eabf",
+      "date": "2026-03-07 01:47:18.000000"
+    },
+    {
+      "message": "stats landing page update",
+      "author_name": "James Lewis",
+      "score": 7,
+      "summary": "The code adds new components called ProgressRing, MiniBarChart, and ProblemStatsData to display statistics such as active users, teams onboarded, tasks completed, uptime, tools used by average team, lost daily to context-switching, and more. The code also modifies the Stats.tsx file to use these components.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/26746666dcb3d6167257d546b04fffee61c8282d",
+      "date": "2026-03-07 01:37:37.000000"
+    },
+    {
+      "message": "feat: remove unique index constraint on User email field\n\n- Remove unique index on email field to allow duplicate emails across different auth providers\n- Enables users to sign in with same email via multiple authentication methods (credentials, Google, etc.)",
+      "author_name": "Surajphirke3",
+      "score": 1,
+      "summary": "This is a merge commit that combines multiple previous commits into one, effectively squashing them into a single commit. The commit message indicates that it's a feature addition but doesn't specify any new functionality or changes to the codebase.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/caccdf7577d0493e6e0aac46bae2c3655d3e0e7f",
+      "date": "2026-03-07 01:33:54.000000"
+    },
+    {
+      "message": "Merge branch 'James-new' of https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION into James-new",
+      "author_name": "James Lewis",
+      "score": 1,
+      "summary": "No new code was added or changed. This is a merge commit that combines changes from the 'James-new' branch into the current branch without making any modifications to the files.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/4943dee82fe55f432170f4441e9f948edf5074a7",
+      "date": "2026-03-07 01:30:05.000000"
+    },
+    {
+      "message": "Landing Page update",
+      "author_name": "James Lewis",
+      "score": 1,
+      "summary": "This is a merge commit or an empty diff, indicating that no new files were added or existing ones modified.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/d0e5ea416618013bc5dfaec9345a84363f0cfba7",
+      "date": "2026-03-07 01:29:19.000000"
+    },
+    {
+      "message": "feat: add type annotation to framer-motion fadeUp variant and update easing curve\n\n- Add explicit Variants type to fadeUp animation object\n- Replace 'easeOut' string with cubic-bezier array for smoother animation easing",
+      "author_name": "Surajphirke3",
+      "score": 1,
+      "summary": "The provided code diff is empty and does not contain any new or changed files. It appears to be a placeholder for indicating that no changes were made in the specified file.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/0ded43a52165e943682240777d10169fb3bf9601",
+      "date": "2026-03-07 01:27:23.000000"
+    },
+    {
+      "message": "Merge branch 'main' into James-new",
+      "author_name": "Surajphirke3",
+      "score": 1,
+      "summary": "This commit is a merge of the 'main' branch into another branch named 'James-new'. No new code was added or changed; it's primarily a record of merging two branches without any modifications.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/271cf288a47b496824760a9e7835ac7b3de0ac6c",
+      "date": "2026-03-07 00:43:24.000000"
+    },
+    {
+      "message": "feat: migrate Google OAuth from NextAuth to Firebase Authentication with client-side popup flow\n\n- Add Firebase SDK dependency and configuration\n- Replace NextAuth GoogleProvider with Firebase client-side signInWithPopup\n- Add firebase-google credentials provider to bridge Firebase auth with NextAuth session\n- Add loading state and error handling for Google sign-in button\n- Auto-create MongoDB user on first Firebase Google sign-in\n- Simplify JWT callback by removing Google provider special case",
+      "author_name": "Surajphirke3",
+      "score": 12,
+      "summary": "The commit adds an API route for handling Google sign-in using Firebase Authentication. It includes the necessary imports and functions to authenticate users via Google's OAuth flow, handle loading states, and manage errors.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/fd1dd37bbd3a889d3b17b380d9bb1464d31695af",
+      "date": "2026-03-07 00:42:47.000000"
+    },
+    {
+      "message": "Landing Page commenced",
+      "author_name": "James Lewis",
+      "score": 6,
+      "summary": "No code changes were made to the default files of a Next.js or Vite project.",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/76a5fbeff812070d9fa26d145b59efcefe9a2f59",
+      "date": "2026-03-07 00:03:29.000000"
+    },
+    {
+      "message": "feat: add Google OAuth, workflow execution engine with n8n webhook support, and execution output panel\n\n- Add Google OAuth provider with auto-user creation on first sign-in\n- Implement dual execution engine: n8n webhook (primary) and local fallback\n- Add Execute button in workflow builder with loading states\n- Add execution output panel below canvas with engine badge and JSON display\n- Forward workflow payload to N8N_EXECUTE_WEBHOOK_URL when configured\n- Add Google sign-in button with divider on",
+      "author_name": "Surajphirke3",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Surajphirke3/COHERENCE-26_CODEFUSION/commit/fbec3e05553c5faaba3a0d4fbe12e2ff598bad3a",
+      "date": "2026-03-06 23:54:56.000000"
+    }
+  ],
+  "final_review": "The team built several robust features and systems using React, Next.js, MongoDB, Express, and Framer Motion. They started with setup and gradually progressed to features, committing frequently but not in large batches. Commits were well-structured, with clear descriptions of what was added or changed. The code quality varied; some commits had low scores due to mostly setup/config work, while others had high scores for strong technical code. There were no AI-generated portions visible from the summaries. They did well in building functional features and systems, but their project output compared poorly to what's expected in a 24-hour hackathon."
+}

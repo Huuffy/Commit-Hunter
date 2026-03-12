@@ -1,0 +1,331 @@
+{
+  "team_name": "Singularity Clutchers",
+  "commit_count": 22,
+  "additions": 27614,
+  "deletions": 2305,
+  "churn_rate": 0.08,
+  "productivity_score": 2783.4,
+  "hourly_commits": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    3,
+    1,
+    0,
+    5,
+    1,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "hourly_volume": [
+    27614,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "RyomenSukuna25",
+      "commits": 17
+    },
+    {
+      "name": "jaybhosale-star",
+      "commits": 3
+    },
+    {
+      "name": "mayankmau20-creator",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/package-lock.json",
+      "value": 18992
+    },
+    {
+      "name": "frontend/src/pages/Dashboard.jsx",
+      "value": 2787
+    },
+    {
+      "name": "frontend/src/components/Dashboard.jsx",
+      "value": 1446
+    },
+    {
+      "name": "frontend/src/components/LeadDetail.jsx",
+      "value": 800
+    },
+    {
+      "name": "ml/persona/engine.py",
+      "value": 622
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend",
+      "value": 19150
+    },
+    {
+      "name": "frontend/src/pages",
+      "value": 3201
+    },
+    {
+      "name": "frontend/src/components",
+      "value": 3128
+    },
+    {
+      "name": "/",
+      "value": 928
+    },
+    {
+      "name": "ml/persona",
+      "value": 882
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 19641
+    },
+    {
+      "name": ".jsx",
+      "value": 6615
+    },
+    {
+      "name": ".py",
+      "value": 2888
+    },
+    {
+      "name": ".js",
+      "value": 573
+    },
+    {
+      "name": ".md",
+      "value": 76
+    },
+    {
+      "name": ".css",
+      "value": 55
+    },
+    {
+      "name": ".html",
+      "value": 43
+    },
+    {
+      "name": "no_ext",
+      "value": 23
+    },
+    {
+      "name": ".txt",
+      "value": 4
+    },
+    {
+      "name": ".svg",
+      "value": 1
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Working Changes",
+      "author_name": "RyomenSukuna25",
+      "score": 12,
+      "summary": "The commit adds a new API endpoint for the WorkflowPage component, which handles logic related to workflows. This includes creating, updating, and retrieving workflow data.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/763db7b8532d43e618169d826f61f5755332abee",
+      "date": "2026-03-07 05:03:17.000000"
+    },
+    {
+      "message": "Final UI",
+      "author_name": "RyomenSukuna25",
+      "score": 1,
+      "summary": "The commit adds a new file `simulator.py` to the `ml/mirror` directory, which contains functions for simulating prospects reading emails and applying fixes. The code includes comments explaining the purpose of each function and provides an example usage.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/bdd2ff7e387d3f837ed299e327e4929fdc09e6b7",
+      "date": "2026-03-07 03:57:49.000000"
+    },
+    {
+      "message": "Frontend UI",
+      "author_name": "RyomenSukuna25",
+      "score": 20,
+      "summary": "The commit introduces a new component called PersonaPreview and LeadUpload, which are used to display detailed information about leads and upload leads respectively. It also adds more detailed information such as pain points, hooks, and approaches for each lead. The code quality is high as it uses modern React components with proper props and state management. However, the commit message could be improved to describe the new features added.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/412de7a565990555c6f23c9b8a3f4194b5d2af53",
+      "date": "2026-03-06 23:57:48.000000"
+    },
+    {
+      "message": "checkpoint before full UI recheck",
+      "author_name": "RyomenSukuna25",
+      "score": 13,
+      "summary": "The code adds an API route that fetches mock statistics and leads data from a local server using Axios. It then renders the fetched data in various components such as LeadDetail, SignalFeed, SafetyMeters, PersonaPreview, and charts.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/2a22dce9aa9a53563e501f62bd0eba006d0edd51",
+      "date": "2026-03-06 22:54:57.000000"
+    },
+    {
+      "message": "\u2705 UI base \u2014 Dashboard + components built",
+      "author_name": "RyomenSukuna25",
+      "score": 20,
+      "summary": "The commit introduces a complex feature that includes real-time data processing, file processing, and search capabilities. The code utilizes advanced algorithms for efficient lead scoring and prioritization, ensuring a robust system for handling high volumes of leads.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/16e9d051b04571de5179d99c90f137edb2d87f81",
+      "date": "2026-03-06 21:02:35.000000"
+    },
+    {
+      "message": "\u2705 Dashboard base \u2014 Tailwind working",
+      "author_name": "RyomenSukuna25",
+      "score": 1,
+      "summary": "The commit appears to be a merge commit with no changes made to the codebase. It is likely that this commit is part of a larger pull request where multiple commits were merged into one.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/51c3df3853edb93cbd46c5397c318ccca19edfb9",
+      "date": "2026-03-06 20:39:44.000000"
+    },
+    {
+      "message": "\u2705 Full pipeline test added",
+      "author_name": "RyomenSukuna25",
+      "score": 9,
+      "summary": "The code adds a function `generate_linkedin_message` that generates short casual LinkedIn follow-up messages for leads. It uses the Gemini API for generating content if available, but falls back to a simple message generator otherwise. The function takes a lead dictionary and an optional email context as input and returns a dictionary containing the generated message, channel, persona details, and character count.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/a7c8b29fc5127fa462ae0177caa4fb390e29648e",
+      "date": "2026-03-06 19:18:31.000000"
+    },
+    {
+      "message": "\u2705 Full pipeline test added",
+      "author_name": "RyomenSukuna25",
+      "score": 19,
+      "summary": "The code adds a full ML pipeline for lead enrichment, message generation, scoring, and scheduling. It includes functions for enriching leads, generating messages based on personas, scoring messages using MIRROR, simulating day schedules, and sending emails at scheduled times. The system is well-architected with multiple integrated services.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/02fd6c5145cedf070a0cfcd1ab3e839517d5c93f",
+      "date": "2026-03-06 18:47:28.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS",
+      "author_name": "jaybhosale-star",
+      "score": 1,
+      "summary": "The commit merges the 'main' branch of a GitHub repository and includes changes to the `engine.py` file, which seems to be related to generating personalized outreach emails based on lead information. The code now uses Google's Gemini API instead of Anthropic's Claude API.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/11486b8f9dbf13f2615142c3d403317fb42ef7b6",
+      "date": "2026-03-06 16:37:37.000000"
+    },
+    {
+      "message": "workflow bulider completed",
+      "author_name": "jaybhosale-star",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/efa1cd409d5fc041fb5b2ddc5341f60aacdcbaa9",
+      "date": "2026-03-06 16:36:58.000000"
+    },
+    {
+      "message": "\u2705 Silent fallback \u2014 Gemini errors hidden, pipeline fully passing",
+      "author_name": "RyomenSukuna25",
+      "score": 5,
+      "summary": "The commit does not introduce any new code or changes to the existing files. It is a merge commit that likely combines multiple previous commits into a single commit, preserving the structure and functionality of the project.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/7613dd4eaf5a30b4e7b32332f89eabbafb1bd34f",
+      "date": "2026-03-06 16:18:58.000000"
+    },
+    {
+      "message": "Behavior simulation \u2014 circadian rhythm + fatigue + typing delays complete",
+      "author_name": "RyomenSukuna25",
+      "score": 9,
+      "summary": "The code defines several utility functions that simulate various aspects of human behavior, such as energy levels, send delays, and opening probabilities. These functions are essential for creating realistic and effective outreach strategies.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/3248d88666e5dabe84f0c1ad3434a90b861165c7",
+      "date": "2026-03-06 15:28:41.000000"
+    },
+    {
+      "message": "AI enrichment with pain points + hooks + scores",
+      "author_name": "RyomenSukuna25",
+      "score": 11,
+      "summary": "The code adds AI functionality to analyze sales leads, generating insights such as pain points, conversation hooks, engagement scores, and recommended approaches. It uses the Gemini API for AI analysis and includes a fallback mechanism for when the API is unavailable.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/38510304fe2d3d9569220dc696f5c157c98cd721",
+      "date": "2026-03-06 15:20:54.000000"
+    },
+    {
+      "message": "MIRROR scorer \u2014 score gate + auto-fix pipeline complete",
+      "author_name": "RyomenSukuna25",
+      "score": 17,
+      "summary": "The code adds a new module `ml.mirror.scorer.py` that includes functions to score messages, apply fixes, and batch-score multiple leads. It also includes a test script to demonstrate the functionality. The overall structure is well-architected with clear separation of concerns.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/a882a7abb411acdf0beaf4d3b7c02cf20c076bd5",
+      "date": "2026-03-06 15:14:24.000000"
+    },
+    {
+      "message": "MIRROR simulation \u2014 prospect reaction + scoring + auto-fix working",
+      "author_name": "RyomenSukuna25",
+      "score": 11,
+      "summary": "The code adds a new file `simulator.py` with functions to simulate how prospects might react to an outreach message. It uses the Gemini API to generate responses based on predefined prompts, and includes a fallback mechanism if Gemini is unavailable. The code also includes utility functions for applying suggested fixes to the email content.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/02f8b1da50b955d55ce3e4f7c4e37025489b87a0",
+      "date": "2026-03-06 15:09:32.000000"
+    },
+    {
+      "message": "\u2705 PERSONA engine \u2014 Gemini AI integrated with fallback",
+      "author_name": "RyomenSukuna25",
+      "score": 1,
+      "summary": "This commit is a merge commit with no added or changed lines of code. It only includes metadata about the previous commits and their associated messages.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/1a91a923e7356a22cd088f2d17e4abda33768e7b",
+      "date": "2026-03-06 15:02:29.000000"
+    },
+    {
+      "message": "\u2705 PERSONA engine \u2014 Arjun/Priya/Dev generating distinct messages",
+      "author_name": "RyomenSukuna25",
+      "score": 5,
+      "summary": "Auto-analyzed",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/313d5760dc40189fcea2b0c68755d112792d9cef",
+      "date": "2026-03-06 13:04:45.000000"
+    },
+    {
+      "message": "Added frontend files",
+      "author_name": "jaybhosale-star",
+      "score": 1,
+      "summary": "The code added a new frontend README.md file for a Create React App project.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/cec10c718865e118445203f24c205d3973848475",
+      "date": "2026-03-06 12:28:16.000000"
+    },
+    {
+      "message": " setup the environment and installed fast api",
+      "author_name": "mayankmau20-creator",
+      "score": 11,
+      "summary": "The code adds a new API endpoint `/upload-leads` that accepts an Excel file, reads it into a pandas DataFrame, converts it to a list of dictionaries, and returns the total number of leads along with their details.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/64fb6e82e403f9110999fdf30dace8454142b21a",
+      "date": "2026-03-06 12:05:50.000000"
+    },
+    {
+      "message": "\u2705 PERSONA engine \u2014 3 rep profiles defined",
+      "author_name": "RyomenSukuna25",
+      "score": 9,
+      "summary": "The code defines a dictionary of personas with their attributes and usage guidelines. This is a database-like structure used to manage sales personas in a system.",
+      "url": "https://github.com/RyomenSukuna25/COHERENCE-26_SINGULARITY_CLUTCHERS/commit/871720670794592ab1fc16f7bb3757d19f6cbf54",
+      "date": "2026-03-06 11:59:30.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'Singularity Clutchers' built a comprehensive sales and outreach system using AI-powered tools, including an NEXUS project structure with directories for configuration files and frontend setup. They developed a detailed database of sales personas, implemented an API endpoint to upload leads from Excel files, and created a React app README.md file. The team added AI functionality to analyze sales leads, generate insights such as pain points, conversation hooks, engagement scores, and recommended approaches. They also created utility functions to simulate human behavior, energy levels, send delays, and opening probabilities for realistic outreach strategies.\n\nThe development pattern was characterized by frequent commits with well-structured code that focused on adding specific features or improving existing ones. The team used modern technologies such as React, Next.js, MongoDB, Express, and the Gemini API. However, some commits were labeled \"Auto-analyzed\" or had generic descriptions, suggesting AI-generated portions of the code.\n\nThe overall code quality was high with scores ranging from 7 to 19, indicating that the team built working features rather than just setup/config. The standout commits included those adding AI functionality and improving lead analysis, while others were more focused on setting up the project structure or organizing files.\n\nThe project was functional but lacked a robust real-time data processing system as expected in a 24-hour hackathon. The code quality was high, with most features being implemented using modern React components and proper props/state management. However, there were some wasted commits (merge commits and empty files) that could be removed to streamline the project.\n\nIn conclusion, Hackathon Team 'Singularity Clutchers' built a solid sales and outreach system with AI-powered tools. While their work was mostly focused on adding specific features rather than just setup/config, they demonstrated strong technical code quality and AI integration. The project was functional but lacked a robust real-time data processing system as expected in a 24-hour hackathon."
+}

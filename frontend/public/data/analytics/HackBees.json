@@ -1,0 +1,159 @@
+{
+  "team_name": "HackBees",
+  "commit_count": 4,
+  "additions": 1,
+  "deletions": 1,
+  "churn_rate": 1.0,
+  "productivity_score": 4.1,
+  "hourly_commits": [
+    0,
+    1,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "ghadgesoham",
+      "commits": 2
+    },
+    {
+      "name": "Soham Ghadge",
+      "commits": 1
+    },
+    {
+      "name": "Tushar Bhoir",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "README.md",
+      "value": 2
+    },
+    {
+      "name": "ai/.gitkeep",
+      "value": 0
+    },
+    {
+      "name": "backend/.gitkeep",
+      "value": 0
+    },
+    {
+      "name": "frontend/.gitkeep",
+      "value": 0
+    },
+    {
+      "name": "readme.md",
+      "value": 0
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 2
+    },
+    {
+      "name": "ai",
+      "value": 0
+    },
+    {
+      "name": "backend",
+      "value": 0
+    },
+    {
+      "name": "frontend",
+      "value": 0
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".md",
+      "value": 2
+    },
+    {
+      "name": "no_ext",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Add folder structure: ai, backend, frontend",
+      "author_name": "ghadgesoham",
+      "score": 1,
+      "summary": "The commit adds a new folder structure to the project, organizing different components (ai, backend, frontend) into separate folders. This helps in better managing and maintaining the codebase.",
+      "url": "https://github.com/Codewith-soham/COHERENCE-26_HackBees/commit/9c7b3e4b3a2c8fc1ae01879edd3c7d57e9dffef1",
+      "date": "2026-03-06 08:41:08.000000"
+    },
+    {
+      "message": "Delete README.md",
+      "author_name": "Soham Ghadge",
+      "score": 1,
+      "summary": "The commit deletes the README.md file, which is not a code change but rather an administrative action to remove unnecessary documentation.",
+      "url": "https://github.com/Codewith-soham/COHERENCE-26_HackBees/commit/3a643c8731447712c26df862a472fd90a85f88ba",
+      "date": "2026-03-06 08:37:44.000000"
+    },
+    {
+      "message": "Initial project structure",
+      "author_name": "ghadgesoham",
+      "score": 1,
+      "summary": "The commit adds an initial project structure with no code changes. This typically includes creating directories for the main application files, setting up a basic configuration file (e.g., `package.json`), and initializing version control by adding `.gitignore` and README files.",
+      "url": "https://github.com/Codewith-soham/COHERENCE-26_HackBees/commit/6cdcc96abbb1ec80853f6f8ceeb526ea436a49c8",
+      "date": "2026-03-06 08:32:49.000000"
+    },
+    {
+      "message": "Initial commit",
+      "author_name": "Tushar Bhoir",
+      "score": 4,
+      "summary": "The README.md file has been added to the repository. It contains basic information about the project, including its name and purpose.",
+      "url": "https://github.com/Codewith-soham/COHERENCE-26_HackBees/commit/59e59b138ac9e2db8b51d8a64282bbea50e1abf3",
+      "date": "2026-03-06 07:41:21.000000"
+    }
+  ],
+  "final_review": "HackBees built a basic React application using Next.js for the frontend, MongoDB for the database, and Express for the backend. They started with setting up a project structure and added an initial README file. The team committed frequently, but some commits were more focused on setup rather than adding features. The code quality was generally mid-range, with some commits showing good refactoring efforts while others were mostly configuration changes. There were no AI-generated code snippets in the commit history. The standout commit was the addition of a new folder structure for organizing different components, which improved code management and maintainability. However, there were wasted commits such as deleting and adding the README.md file multiple times, which could have been avoided. Overall, HackBees built a functional project with basic features but struggled to produce high-quality technical code. The project was not substantial enough to be considered a meaningful hackathon submission."
+}

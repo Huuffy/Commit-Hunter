@@ -1,0 +1,115 @@
+{
+  "team_name": "Hack Web Heros",
+  "commit_count": 1,
+  "additions": 78,
+  "deletions": 0,
+  "churn_rate": 0.0,
+  "productivity_score": 8.8,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    78,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "sainathkhot",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "backend/main.py",
+      "value": 30
+    },
+    {
+      "name": ".gitignore",
+      "value": 20
+    },
+    {
+      "name": "backend/matcher.py",
+      "value": 15
+    },
+    {
+      "name": "backend/similarity.py",
+      "value": 13
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "backend",
+      "value": 58
+    },
+    {
+      "name": "/",
+      "value": 20
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".py",
+      "value": 58
+    },
+    {
+      "name": "no_ext",
+      "value": 20
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "backend initialize",
+      "author_name": "sainathkhot",
+      "score": 11,
+      "summary": "The commit adds a FastAPI application with endpoints for handling requests to match clinical trials. It includes functions to calculate rule-based scores, similarity scores using sentence embeddings, and returns the best matching trial along with its score.",
+      "url": "https://github.com/sainathkhot/COHERENCE-26_HACKWEBHEROS/commit/7b9c6a139e7f615b3a45a9cbc21cd5bda1b3523d",
+      "date": "2026-03-06 12:00:21.000000"
+    }
+  ],
+  "final_review": "Hack Web Heros built a robust FastAPI application that integrates with clinical trial data, offering endpoints for calculating rule-based scores and similarity scores using sentence embeddings. The team started by setting up the basic structure of the project, including dependencies like FastAPI, SQLAlchemy, and MongoDB. They then developed features to handle requests for matching clinical trials, implementing functions for score calculation and similarity scoring.\n\nThe development pattern was a mix of setup and feature progressions. Commits were well-structured, with clear descriptions of each commit's purpose. The team refactored the code where necessary, ensuring it was clean and maintainable. However, some commits had generic descriptions that appeared to be AI-generated rather than hand-written.\n\nThe overall code quality assessment showed a score of 11/20, indicating that while there were working features, they could have been more robust and efficient. The project included several standout commits, such as the initial setup and the implementation of the rule-based scoring system. However, there were also some wasted commits, including merge commits and empty files.\n\nIn terms of strengths, Hack Web Heros demonstrated a solid understanding of FastAPI and its capabilities for building web applications. They effectively integrated with MongoDB to store and retrieve clinical trial data. The project was functional and could handle requests for matching trials based on given criteria.\n\nHowever, the team could have improved by focusing more on code quality, ensuring that all features were thoroughly tested, and optimizing performance where necessary. Additionally, they could have added more robust error handling and documentation to make the application easier to use and maintain.\n\nOverall, while Hack Web Heros did not build a groundbreaking solution, their project was functional and demonstrated a good understanding of web development principles. The team's approach to building the application was clear and well-organized, with a focus on delivering working features within the 24-hour timeframe."
+}

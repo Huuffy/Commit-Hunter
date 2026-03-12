@@ -1,0 +1,339 @@
+{
+  "team_name": "FourSight",
+  "commit_count": 20,
+  "additions": 9992,
+  "deletions": 1203,
+  "churn_rate": 0.12,
+  "productivity_score": 1019.2,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    2,
+    1,
+    3,
+    2,
+    5,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "hourly_volume": [
+    9992,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "shwetaravnak",
+      "commits": 13
+    },
+    {
+      "name": "SabeehaShaikh57",
+      "commits": 4
+    },
+    {
+      "name": "Piyagaikwad",
+      "commits": 2
+    },
+    {
+      "name": "Swara",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/js/main.js",
+      "value": 2709
+    },
+    {
+      "name": "backend/main.py",
+      "value": 1043
+    },
+    {
+      "name": "frontend/css/styles.css",
+      "value": 822
+    },
+    {
+      "name": "frontend/src/app/components/ExplanationModal.tsx",
+      "value": 600
+    },
+    {
+      "name": "backend/criteria_parser.py",
+      "value": 536
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "backend",
+      "value": 3342
+    },
+    {
+      "name": "frontend",
+      "value": 3022
+    },
+    {
+      "name": "frontend/js",
+      "value": 2709
+    },
+    {
+      "name": "frontend/css",
+      "value": 822
+    },
+    {
+      "name": "frontend/src/app/components",
+      "value": 600
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".py",
+      "value": 3332
+    },
+    {
+      "name": ".html",
+      "value": 3022
+    },
+    {
+      "name": ".js",
+      "value": 2709
+    },
+    {
+      "name": ".css",
+      "value": 822
+    },
+    {
+      "name": ".tsx",
+      "value": 600
+    },
+    {
+      "name": ".json",
+      "value": 568
+    },
+    {
+      "name": ".ts",
+      "value": 66
+    },
+    {
+      "name": ".md",
+      "value": 52
+    },
+    {
+      "name": "no_ext",
+      "value": 11
+    },
+    {
+      "name": ".txt",
+      "value": 10
+    },
+    {
+      "name": ".mjs",
+      "value": 3
+    },
+    {
+      "name": ".svg",
+      "value": 0
+    },
+    {
+      "name": ".db",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "update in backend",
+      "author_name": "shwetaravnak",
+      "score": 1,
+      "summary": "The commit title indicates that it is an update to the backend, but there are no lines of code added or changed. This suggests that the commit might be a configuration file update, lock file modification, or other non-code change.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/5f45165fc6d8083673a6b88c15e52b85745da28d",
+      "date": "2026-03-07 04:43:16.000000"
+    },
+    {
+      "message": "patient form update",
+      "author_name": "shwetaravnak",
+      "score": 12,
+      "summary": "The code adds two new API routes: `apiAddTrial` to handle the addition of a new trial and `apiDeactivateTrial` to deactivate an existing trial. These functions use the `fetch` function to make HTTP requests to the server, with appropriate HTTP methods and request bodies. The added functionality enhances the application's ability to manage trials programmatically.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/bb07ce437e05f106549377f40ed7bcbd45c84e73",
+      "date": "2026-03-07 04:03:43.000000"
+    },
+    {
+      "message": "updated",
+      "author_name": "Piyagaikwad",
+      "score": 13,
+      "summary": "The code adds a new function `autoCalcBMI` that retrieves user input for height and weight, calculates the BMI, and updates the BMI field in the form. This functionality enhances user experience by automating the calculation process.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/288c87291a313e02f0329ed5b850ed34e911a631",
+      "date": "2026-03-07 00:44:37.000000"
+    },
+    {
+      "message": "update in ui",
+      "author_name": "shwetaravnak",
+      "score": 12,
+      "summary": "The code adds a function `sendInterest` that sends an inquiry to a patient's trial and displays a success modal if the inquiry is sent successfully. The success modal includes details about the trial, its status, and actions to close or view inquiries.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/a9f42b363fb875f66628663d66192276d7024a98",
+      "date": "2026-03-06 19:48:29.000000"
+    },
+    {
+      "message": "updated",
+      "author_name": "shwetaravnak",
+      "score": 13,
+      "summary": "The commit adds new functions for registering and logging in users, as well as an API endpoint to fetch data from the backend. It also introduces session management using localStorage to persist user information across page navigations.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/f95220033fc431c1870eaa0caa74217ac2340812",
+      "date": "2026-03-06 18:39:35.000000"
+    },
+    {
+      "message": "updated",
+      "author_name": "shwetaravnak",
+      "score": 11,
+      "summary": "The code adds new functions to seed trials into the database, loads an ML model, and handles API requests related to trial seeding and ML matching. The updated code is well-architected with clear separation of concerns and error handling.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/6a354679ceeb3870f3c1dcde19467fea371a6ef6",
+      "date": "2026-03-06 15:08:19.000000"
+    },
+    {
+      "message": "updated backend",
+      "author_name": "shwetaravnak",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/defe29150d10c43488424a909e635876f482b43a",
+      "date": "2026-03-06 14:31:59.000000"
+    },
+    {
+      "message": "frontend",
+      "author_name": "SabeehaShaikh57",
+      "score": 9,
+      "summary": "The code adds a new file `database.py` which sets up the database connection using SQLAlchemy. It defines models for entities like Patient, Trial, MatchResult, Inquiry, and User, and initializes these tables in the database when the application starts.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/4840164963636832728d1ce93ccdca0cb1f5208f",
+      "date": "2026-03-06 14:23:04.000000"
+    },
+    {
+      "message": "added frontend",
+      "author_name": "SabeehaShaikh57",
+      "score": 11,
+      "summary": "The commit adds a new API route in the backend that handles logic for parsing criteria from inclusion and exclusion text. It uses regular expressions to extract age ranges, HbA1c values, BMI values, and other relevant information from the input strings and returns structured JSON rules.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/8230b3bbdc77961d7d236a83c2240805071eae2e",
+      "date": "2026-03-06 14:21:07.000000"
+    },
+    {
+      "message": "Database",
+      "author_name": "Piyagaikwad",
+      "score": 9,
+      "summary": "The commit adds a Python script that sets up a database using SQLAlchemy. It defines the database connection and session management, along with models for various entities like Patient, Trial, MatchResult, Inquiry, and User. The code is structured to create tables in the SQLite database when the `init_db` function is called.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/5d18c6770e0f998fedcbad0b4e697e47c3499ceb",
+      "date": "2026-03-06 14:09:50.000000"
+    },
+    {
+      "message": "Added frontend",
+      "author_name": "SabeehaShaikh57",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/f19f9adef84ee5ee01a9725f1024ca39d67eef5e",
+      "date": "2026-03-06 14:09:25.000000"
+    },
+    {
+      "message": "added criteria_parser.py",
+      "author_name": "shwetaravnak",
+      "score": 11,
+      "summary": "The code defines a function `parse_criteria` that takes raw inclusion and exclusion text, parses them using regular expressions to extract specific criteria like age ranges, HbA1c levels, BMI values, etc., and returns structured JSON rules. This is useful for filtering clinical trial data based on various medical parameters.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/81c7ff45c8d7c6cb0d2b12a054d272c03423bf70",
+      "date": "2026-03-06 14:05:13.000000"
+    },
+    {
+      "message": "Added frontend",
+      "author_name": "SabeehaShaikh57",
+      "score": 1,
+      "summary": "This file contains a React component named `ExplanationModal`, which is responsible for displaying an eligibility breakdown modal in a diabetes glucose control study application. The component uses Lucide icons for icons like X, CheckCircle, and XCircle, and it includes a table that lists various criteria such as age, HbA1c level, diagnosis, BMI, heart disease status, and metformin requirement. The modal is styled with CSS to ensure it has a fixed position at the center of the screen with a semi",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/368f7c7ccab5efbf82f4246ad55a594860737199",
+      "date": "2026-03-06 13:13:19.000000"
+    },
+    {
+      "message": "changes",
+      "author_name": "shwetaravnak",
+      "score": 9,
+      "summary": "The code adds new database models for User, Patient, Trial, MatchResult, and Inquiry entities to the backend using SQLAlchemy. Each model includes fields such as user_id, email, hashed_password, role, full_name, institution, created_at, among others.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/da98ee8de4caea4d61c6dac5ebbc5e1b728e8f04",
+      "date": "2026-03-06 12:44:07.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/shwetaravnak/COHERENCE-26_FourSight",
+      "author_name": "shwetaravnak",
+      "score": 1,
+      "summary": "This commit is a merge operation, bringing changes from the 'main' branch into the current branch. It does not introduce any new code or modify existing files.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/d40352c44fc2774ddf197ca27e53fb2d54a758fe",
+      "date": "2026-03-06 12:23:05.000000"
+    },
+    {
+      "message": "backend changes",
+      "author_name": "shwetaravnak",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/ac4d7cd49e0b00108075185087811c570aa1a5f6",
+      "date": "2026-03-06 12:22:53.000000"
+    },
+    {
+      "message": "Added frontend UI for project",
+      "author_name": "Swara",
+      "score": 7,
+      "summary": "The code adds a new component called ExplanationModal.tsx to the frontend of a project. This component displays eligibility breakdown information related to diabetes glucose control study, including criteria such as age, HbA1c, diagnosis, BMI, heart disease, and metformin usage. The component is styled with CSS and uses React hooks for state management.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/8c839f93c8bfffcecb9a276d8738bc4fb05037ab",
+      "date": "2026-03-06 12:17:03.000000"
+    },
+    {
+      "message": "updated backend structure",
+      "author_name": "shwetaravnak",
+      "score": 1,
+      "summary": "No specific code or changes were added or changed in this commit.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/0400d7cfc657f49a73474f819942c01de62ee421",
+      "date": "2026-03-06 10:46:19.000000"
+    },
+    {
+      "message": "initial commit: project structure setup",
+      "author_name": "shwetaravnak",
+      "score": 1,
+      "summary": "This commit initializes the project by setting up the backend and frontend directories, installing necessary packages, and configuring the initial files for both. The code does not add any new features or functionality; it only sets up the basic environment for further development.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/88a59f04e5f88b035f4ddbabcb353525d33d00a3",
+      "date": "2026-03-06 09:44:45.000000"
+    },
+    {
+      "message": "initial commit: project structure setup",
+      "author_name": "shwetaravnak",
+      "score": 1,
+      "summary": "1. The code adds a README.md file to describe the project, including setup instructions for both backend and frontend components.\n2. It also creates a .gitignore file to exclude unnecessary files from version control.\n3. The commit marks as an initial setup, indicating that no specific technical changes were made.",
+      "url": "https://github.com/shwetaravnak/COHERENCE-26_FourSight/commit/95e42e0dc0480a0c2584329d0776185c07c18964",
+      "date": "2026-03-06 09:38:24.000000"
+    }
+  ],
+  "final_review": "Team 'FourSight' built a comprehensive diabetes glucose control study application using React, Next.js, and Express for the frontend and backend respectively. They started with setting up the project and initialized necessary packages, then added README.md and .gitignore files to document setup instructions and exclude unnecessary files. After that, they merged changes from the 'main' branch into their current branch, which did not introduce any new code or modify existing files. The team then added a new component called ExplanationModal.tsx for displaying eligibility breakdown information related to diabetes glucose control study, using React hooks for state management. They also added new database models for User, Patient, Trial, MatchResult, and Inquiry entities using SQLAlchemy. The team defined a function `parse_criteria` that parses raw inclusion and exclusion text into structured JSON rules. They created a Python script to set up the database using SQLAlchemy and defined models for various entities like Patient, Trial, MatchResult, Inquiry, and User. They added an API route in the backend that handles logic for parsing criteria from inclusion and exclusion text. The team seeded trials into the database, loaded an ML model, and handled API requests related to trial seeding and ML matching. They also introduced session management using localStorage to persist user information across page navigations. The team added functions to register and log in users, as well as an API endpoint to fetch data from the backend. They added a function `sendInterest` that sends an inquiry to a patient's trial and displays a success modal if the inquiry is sent successfully. The team also added a new function `autoCalcBMI` that retrieves user input for height and weight, calculates the BMI, and updates the BMI field in the form. Finally, they added two new API routes: `apiAddTrial` to handle the addition of a new trial and `apiDeactivateTrial` to deactivate an existing trial. The team's work was mostly setup/config with some working features and refactoring. The code quality assessment was mid-range (7-12) as they built working features but also had some wasted commits (merge commits, empty files). Overall, the project was functional but could be improved by adding more robust error handling and better separation of concerns."
+}

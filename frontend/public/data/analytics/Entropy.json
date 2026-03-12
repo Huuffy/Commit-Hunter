@@ -1,0 +1,355 @@
+{
+  "team_name": "Entropy",
+  "commit_count": 13,
+  "additions": 47943,
+  "deletions": 8119,
+  "churn_rate": 0.17,
+  "productivity_score": 4807.3,
+  "hourly_commits": [
+    0,
+    1,
+    0,
+    0,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    47943,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "riteshgharat",
+      "commits": 7
+    },
+    {
+      "name": "Ayush Choudhar",
+      "commits": 3
+    },
+    {
+      "name": "Prashant Dhuri",
+      "commits": 2
+    },
+    {
+      "name": "Ritesh Gharat",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "services/whatsapp-service/.wwebjs_auth/session/Subresource Filter/Unindexed Rules/9.65.0/Filtering Rules",
+      "value": 12026
+    },
+    {
+      "name": "backend/uv.lock",
+      "value": 3608
+    },
+    {
+      "name": "tool-kit/package-lock.json",
+      "value": 2983
+    },
+    {
+      "name": "backend/BACKEND.md",
+      "value": 1872
+    },
+    {
+      "name": "client/src/pages/Workflows.tsx",
+      "value": 1781
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "services/whatsapp-service/.wwebjs_auth/session/Subresource Filter/Unindexed Rules/9.65.0",
+      "value": 12804
+    },
+    {
+      "name": "client/src/pages",
+      "value": 7830
+    },
+    {
+      "name": "backend",
+      "value": 6285
+    },
+    {
+      "name": "tool-kit",
+      "value": 4802
+    },
+    {
+      "name": "client/src/components/workflow",
+      "value": 2676
+    }
+  ],
+  "file_types": [
+    {
+      "name": "no_ext",
+      "value": 12778
+    },
+    {
+      "name": ".tsx",
+      "value": 11778
+    },
+    {
+      "name": ".py",
+      "value": 11050
+    },
+    {
+      "name": ".lock",
+      "value": 5632
+    },
+    {
+      "name": ".md",
+      "value": 4340
+    },
+    {
+      "name": ".json",
+      "value": 4334
+    },
+    {
+      "name": ".js",
+      "value": 2460
+    },
+    {
+      "name": ".txt",
+      "value": 1147
+    },
+    {
+      "name": ".ts",
+      "value": 994
+    },
+    {
+      "name": ".css",
+      "value": 540
+    },
+    {
+      "name": ".sh",
+      "value": 356
+    },
+    {
+      "name": ".old",
+      "value": 184
+    },
+    {
+      "name": ".yml",
+      "value": 120
+    },
+    {
+      "name": ".toml",
+      "value": 119
+    },
+    {
+      "name": ".html",
+      "value": 113
+    },
+    {
+      "name": ".example",
+      "value": 84
+    },
+    {
+      "name": ".ini",
+      "value": 12
+    },
+    {
+      "name": ".csv",
+      "value": 12
+    },
+    {
+      "name": ".pb",
+      "value": 4
+    },
+    {
+      "name": ".baj",
+      "value": 3
+    },
+    {
+      "name": ".svg",
+      "value": 2
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".pma",
+      "value": 0
+    },
+    {
+      "name": ".dat",
+      "value": 0
+    },
+    {
+      "name": ".baf",
+      "value": 0
+    },
+    {
+      "name": ".journal",
+      "value": 0
+    },
+    {
+      "name": ".ldb",
+      "value": 0
+    },
+    {
+      "name": ".db-journal",
+      "value": 0
+    },
+    {
+      "name": ".db-wal",
+      "value": 0
+    },
+    {
+      "name": ".db",
+      "value": 0
+    },
+    {
+      "name": ".db-shm",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "fix: agentic flow",
+      "author_name": "Prashant Dhuri",
+      "score": 1,
+      "summary": "The commit is a merge commit that combines multiple smaller commits into one. It does not add or change any specific code.",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/04d4b836f3d35c563e8fb7dbf92b0d59e586870e",
+      "date": "2026-03-07 01:52:25.000000"
+    },
+    {
+      "message": "added channels",
+      "author_name": "Prashant Dhuri",
+      "score": 1,
+      "summary": "The commit only adds a new file named LICENSE.txt with text content related to EasyList repository licenses and Creative Commons Attribution-ShareAlike 3.0 Unported license information.",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/a9c333b20e11fba18152513b41f08833e5d3c978",
+      "date": "2026-03-07 01:29:57.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "Ayush Choudhar",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/90c3a04ccfdab60bae030fb6134b107356112b80",
+      "date": "2026-03-07 00:20:20.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "Ayush Choudhar",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/b7aa99071d871f6ea9ae26fe94eea58f0968468f",
+      "date": "2026-03-07 00:19:47.000000"
+    },
+    {
+      "message": "Merge pull request #1 from riteshgharat/ayush\n\nMerging with Ayush",
+      "author_name": "Ritesh Gharat",
+      "score": 1,
+      "summary": "This is a merge commit that brings changes from another branch into the current one. The added code appears to be related to building a workflow management system using React Flow, which involves creating various components and defining node types for different workflow steps.",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/ac23d36061fa3af60d5b2d00b439cf77367af02e",
+      "date": "2026-03-06 19:01:05.000000"
+    },
+    {
+      "message": "add agentic flow",
+      "author_name": "riteshgharat",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/0a0058c7a39c744bbbd6e7c74ce482595a559e92",
+      "date": "2026-03-06 18:58:19.000000"
+    },
+    {
+      "message": "Merge branch 'main' into ayush",
+      "author_name": "riteshgharat",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/b113053e991b6e0fee23b1d64025ca51a38f6e42",
+      "date": "2026-03-06 15:27:09.000000"
+    },
+    {
+      "message": "linkedin and whatsapp init",
+      "author_name": "riteshgharat",
+      "score": 1,
+      "summary": "The commit adds several new packages and files, including aioimaplib, aiosmtplib, annotated-doc, annotated-types, anyio, exceptiongroup, idna, and typing-extensions. These packages are likely used for handling email services in Python applications.",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/c6599ce0b98b0086f29778399b84574d8fa23f3c",
+      "date": "2026-03-06 15:22:35.000000"
+    },
+    {
+      "message": "Ui",
+      "author_name": "Ayush Choudhar",
+      "score": 20,
+      "summary": "This code adds a new feature to the Workflow application using React Flow for visual representation and interaction. The added components handle various workflow nodes such as start, end, delay, and follow-up, along with their respective icons and descriptions. This demonstrates exceptional engineering by integrating complex UI elements with robust functionality.",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/8a40abe8c791ff5550921ccb0e4f3cb6d7867b57",
+      "date": "2026-03-06 13:14:25.000000"
+    },
+    {
+      "message": "backend phase 2",
+      "author_name": "riteshgharat",
+      "score": 1,
+      "summary": "3 sentences",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/b3878c7da83c7c85111566b080c4b615264b3157",
+      "date": "2026-03-06 13:05:32.000000"
+    },
+    {
+      "message": "backend phase 1",
+      "author_name": "riteshgharat",
+      "score": 1,
+      "summary": "The provided diff shows a series of changes to various files within the backend directory, including updates to service and worker files, configuration settings, and logging. However, there are no new files added or major structural changes.",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/50569d6e6a056ab219e3fcbcd1c879e81190c097",
+      "date": "2026-03-06 10:53:07.000000"
+    },
+    {
+      "message": "backend init",
+      "author_name": "riteshgharat",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/70bb3fc65cc85866209bfcef4caa7158d05f7f2d",
+      "date": "2026-03-06 10:39:15.000000"
+    },
+    {
+      "message": "first commit",
+      "author_name": "riteshgharat",
+      "score": 1,
+      "summary": "This is a new file created for the uv.lock package version 1.",
+      "url": "https://github.com/riteshgharat/COHERENCE-26_ENTROPY/commit/b96e492629c10f6b91900e2d373ea3858a4bade3",
+      "date": "2026-03-06 08:06:30.000000"
+    }
+  ],
+  "final_review": "Team 'Entropy' built a robust workflow management system using React Flow for visual representation and interaction. They started with setup and progress to features, committing frequently and in large batches. Commits were well-structured, with clear descriptions of changes made. The code quality was assessed based on scores ranging from 1-20, with the highest score being 20/20. Multiple commits had generic descriptions, identical patterns, or suspiciously uniform structure, indicating that portions may have been AI-generated. However, the overall output demonstrated strong technical code and a clear understanding of React Flow's capabilities. They built something substantial and functional, but there were some wasted commits (merge commits, empty files) that could be improved. The project was compared to what is expected in a 24-hour hackathon, with room for improvement in terms of efficiency and collaboration among team members."
+}

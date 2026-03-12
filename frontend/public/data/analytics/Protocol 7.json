@@ -1,0 +1,251 @@
+{
+  "team_name": "Protocol 7",
+  "commit_count": 12,
+  "additions": 22904,
+  "deletions": 11605,
+  "churn_rate": 0.51,
+  "productivity_score": 2302.4,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    3,
+    0,
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1
+  ],
+  "hourly_volume": [
+    22904,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Keshav-63",
+      "commits": 7
+    },
+    {
+      "name": "Nickhasntlost",
+      "commits": 4
+    },
+    {
+      "name": "Nikhil",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "FRONTEND_INTEGRATION.md",
+      "value": 2085
+    },
+    {
+      "name": "SECURITY_MODULE_GUIDE.md",
+      "value": 1917
+    },
+    {
+      "name": "README.md",
+      "value": 1578
+    },
+    {
+      "name": "PHASE1_IMPLEMENTATION_SUMMARY.md",
+      "value": 1569
+    },
+    {
+      "name": "BUDGET_ANALYTICS_READY.md",
+      "value": 1179
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 22323
+    },
+    {
+      "name": "app/services",
+      "value": 1122
+    },
+    {
+      "name": "app/intelligence/engine",
+      "value": 1007
+    },
+    {
+      "name": "app/budget/models",
+      "value": 1001
+    },
+    {
+      "name": "app/fund_flow/engine",
+      "value": 965
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".md",
+      "value": 18739
+    },
+    {
+      "name": ".py",
+      "value": 14650
+    },
+    {
+      "name": ".json",
+      "value": 808
+    },
+    {
+      "name": ".txt",
+      "value": 203
+    },
+    {
+      "name": "no_ext",
+      "value": 59
+    },
+    {
+      "name": ".example",
+      "value": 50
+    },
+    {
+      "name": ".xlsx",
+      "value": 0
+    },
+    {
+      "name": ".joblib",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat: realloction",
+      "author_name": "Keshav-63",
+      "score": 9,
+      "summary": "The code adds a utility function `calculate_distance` to compute the distance between two points using their latitude and longitude. It also updates the `get_location_context` function to use this utility function to fetch nearby locations, districts, and states within 50 kilometers of the given coordinates.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/5490d8806b4fad5e60320486cd374fe8b332c88f",
+      "date": "2026-03-07 05:40:46.000000"
+    },
+    {
+      "message": "feat: reallocation",
+      "author_name": "Keshav-63",
+      "score": 13,
+      "summary": "The code adds a new API endpoint `/reallocation/reallocate` that allows users to request the reallocation of budget from donor departments to receiver department. It uses FastAPI framework, Pydantic for data validation, and MongoDB for database operations.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/d6f114ce10ffd60813e79cdaeb262a86aa83620a",
+      "date": "2026-03-07 04:18:06.000000"
+    },
+    {
+      "message": "predective analysis",
+      "author_name": "Nickhasntlost",
+      "score": 9,
+      "summary": "The code adds a `fetch_training_data` function to fetch and preprocess data from a MongoDB database. It defines features like allocated budget, historical utilization percentage, project delays, and quarterly percentages. The code also includes functions for training RandomForest classifiers and regressors for predicting lapse and spend.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/8ecaade0dd224541a6a79ddd65ccf9bc5e1ef782",
+      "date": "2026-03-07 02:57:15.000000"
+    },
+    {
+      "message": "feat: RAG pipeline",
+      "author_name": "Keshav-63",
+      "score": 12,
+      "summary": "The commit adds a new class `FundFlowGraphBuilder` with methods to build and manage a graph representing how public money flows across entities. This involves creating nodes for various government entities and edges representing budget allocations, which are stored in MongoDB.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/81c763e44d0fb2abddbc620396944d98d1ca9fd7",
+      "date": "2026-03-07 01:46:45.000000"
+    },
+    {
+      "message": "dashboard backend",
+      "author_name": "Nickhasntlost",
+      "score": 11,
+      "summary": "The code adds a new function `seed_admin_dashboard` that connects to a MongoDB database and deletes existing mock data related to the admin dashboard. It then inserts mock budget allocations, expenditures, anomaly flags, budget transactions, and risk scores for various ministries, simulating administrative data.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/7c0fa5055df718b680e6311b46e70c1129dc538a",
+      "date": "2026-03-07 01:37:45.000000"
+    },
+    {
+      "message": "Merge pull request #1 from Keshav-63/Nikhil-backend\n\nNikhil backend",
+      "author_name": "Nikhil",
+      "score": 1,
+      "summary": "This is a merge commit, which combines changes from one branch (Keshav-63/Nikhil-backend) into another branch (main). The commit message indicates that Nikhil's backend code was merged into the project.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/b8b86733f161ac3e2d45a590305958a910b3af33",
+      "date": "2026-03-06 22:13:42.000000"
+    },
+    {
+      "message": "feat: anomalies",
+      "author_name": "Keshav-63",
+      "score": 1,
+      "summary": "This commit is a merge commit that combines multiple smaller commits into one. There are no changes to the existing files.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/edce954a41948749f0da3a51c4e39f6716a23776",
+      "date": "2026-03-06 22:06:31.000000"
+    },
+    {
+      "message": "backend added",
+      "author_name": "Nickhasntlost",
+      "score": 9,
+      "summary": "The commit adds a Python script to insert mockup data into a MongoDB database. It includes functions to clear previous mock data, seed mock schemes and states with budgets and actual expenditures, ensuring the database is populated with initial mock data for analytics dashboard purposes.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/26a33ac16de2f2a9ae3afb24bf3144beb10aaf09",
+      "date": "2026-03-06 22:00:24.000000"
+    },
+    {
+      "message": "backend added",
+      "author_name": "Nickhasntlost",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/8c22b48c73ac8a79bb59e4dfb01fcb1675436ff6",
+      "date": "2026-03-06 20:43:25.000000"
+    },
+    {
+      "message": "feat: integration of auth system with the public-private",
+      "author_name": "Keshav-63",
+      "score": 14,
+      "summary": "The commit adds a new Python script that defines a class `BudgetDataImporterV2` for importing budget data from an Excel file. The script includes functions to clean and extract numerical values, find ministry names from sheet1 based on demand numbers, and initialize counters. The code also sets up logging and connects to MongoDB.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/5ad72cc5f90c2a415189ac76ea3fd985f7940dc8",
+      "date": "2026-03-06 16:30:25.000000"
+    },
+    {
+      "message": "test: write automated test cases of public-private key",
+      "author_name": "Keshav-63",
+      "score": 13,
+      "summary": "The code adds a new API route that handles authentication using Google OAuth2. It includes a GET request to get the authorization URL and a script to extract the authorization URL from the response.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/fa015d0be5eb260c24468356365851aa725bcb83",
+      "date": "2026-03-06 10:37:53.000000"
+    },
+    {
+      "message": "feat(security): add multi-tenancy with public-private key authentication\n\n- Invitation system for state/minister admin onboarding\n- SSH key-based request signature verification (RSA/Ed25519)\n- Email notifications with temporary password generation\n- Auto-lock after 5 failed signature attempts\n- Complete admin session management",
+      "author_name": "Keshav-63",
+      "score": 14,
+      "summary": "The commit adds a new API route that processes security-related requests. It includes JWT token verification, request signature verification using RSA/Ed25519 keys, and admin session management.",
+      "url": "https://github.com/Keshav-63/COHERENCE-26_PROTOCOL_7/commit/4199e7f0e1113fb433c332f09360906fefdff437",
+      "date": "2026-03-06 09:41:12.000000"
+    }
+  ],
+  "final_review": "Protocol 7 built several key features for a budget management system, including a secure API with JWT token verification, Google OAuth2 authentication, data import from Excel files, and an admin dashboard. They used React.js for the frontend, Express.js for the backend, MongoDB for storage, and FastAPI for building APIs. The development pattern involved frequent commits (12 in total), with well-structured commits that focused on specific features or improvements. The code quality varied from 5 to 14 points, with some commits being AI-generated due to generic descriptions. They did well in building working features but struggled with code quality. Standout commits included the budget data import script and the reallocation API endpoint. There were no wasted commits. Overall, Protocol 7 built a functional system that could handle budget management tasks securely and efficiently, though it needed more attention to code quality for long-term maintenance."
+}

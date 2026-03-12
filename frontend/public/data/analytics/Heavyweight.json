@@ -1,0 +1,355 @@
+{
+  "team_name": "Heavyweight",
+  "commit_count": 35,
+  "additions": 33874,
+  "deletions": 4760,
+  "churn_rate": 0.14,
+  "productivity_score": 3422.4,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    4,
+    1,
+    3,
+    3,
+    0,
+    1,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    0,
+    4,
+    2,
+    0,
+    1,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    33874,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Your GitHub Username",
+      "commits": 26
+    },
+    {
+      "name": "Vipul Palkar",
+      "commits": 5
+    },
+    {
+      "name": "Team",
+      "commits": 2
+    },
+    {
+      "name": "lakshya-pm",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "package-lock.json",
+      "value": 12611
+    },
+    {
+      "name": "app/dashboard/page.tsx",
+      "value": 1916
+    },
+    {
+      "name": "README.md",
+      "value": 1449
+    },
+    {
+      "name": "app/dashboard/workflow/page.tsx",
+      "value": 1384
+    },
+    {
+      "name": "app/monitoring/page.tsx",
+      "value": 1362
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 15764
+    },
+    {
+      "name": "chronoreach-backend/services",
+      "value": 2735
+    },
+    {
+      "name": "chronoreach-backend/routers",
+      "value": 2237
+    },
+    {
+      "name": "app/dashboard",
+      "value": 1966
+    },
+    {
+      "name": "components/ui",
+      "value": 1873
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".tsx",
+      "value": 14030
+    },
+    {
+      "name": ".json",
+      "value": 13047
+    },
+    {
+      "name": ".py",
+      "value": 8482
+    },
+    {
+      "name": ".md",
+      "value": 2615
+    },
+    {
+      "name": ".css",
+      "value": 250
+    },
+    {
+      "name": "no_ext",
+      "value": 110
+    },
+    {
+      "name": ".txt",
+      "value": 29
+    },
+    {
+      "name": ".example",
+      "value": 27
+    },
+    {
+      "name": ".mjs",
+      "value": 25
+    },
+    {
+      "name": ".ts",
+      "value": 14
+    },
+    {
+      "name": ".svg",
+      "value": 5
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".xlsx",
+      "value": 0
+    },
+    {
+      "name": ".db",
+      "value": 0
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".db-shm",
+      "value": 0
+    },
+    {
+      "name": ".db-wal",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat: N8N-style pipeline overhaul + context window + Twilio fix\n\n- Premium bigger buttons (Copilot/Preflight/Launch) with SVG icons\n- Bezier curve connections with animated flowing dash gradient\n- Input/output port handles on nodes (drag-to-connect)\n- Snap-to-grid (28px) on node drag\n- Per-node execution status rings (idle/running/done/failed)\n- Explicit edges data model with re-linking on add/delete\n- Unified Context Window (context panel + backend router)\n- Fix TWILIO_SID env typo (ILIO_SID -> TWILIO_SID)",
+      "author_name": "Your GitHub Username",
+      "score": 12,
+      "summary": "The code adds new components for pipeline nodes, edges, execution statuses, and a context window. It also includes updates to the API routes and fixes a typo in the TWILIO_SID environment variable.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/60df2afa30225d03bc14a03320951247f27efa65",
+      "date": "2026-03-07 04:27:35.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/sahilm029/COHERENCE-26_Heavyweight",
+      "author_name": "Your GitHub Username",
+      "score": 1,
+      "summary": "This commit merges the 'main' branch into the current branch, effectively combining all changes from 'main' into this branch. It doesn't add or change any code, but rather represents a synchronization of the project's development history.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/f686fb53a1d30d8230f9f716a35060e3bdee5090",
+      "date": "2026-03-07 01:57:07.000000"
+    },
+    {
+      "message": "feat: landing page, auth login/signup, spherical pipeline nodes, cleanup\n\n- Integrated full SynaptIQ landing page (Hero, Features, About, Footer with animated connectors)\n- Rewrote login/signup with localStorage auth, validation, error handling, and redirect\n- Added auth guard + working logout to dashboard\n- Changed pipeline DAG nodes from rounded squares to spherical (rounded-full)\n- Updated layout metadata to SynaptIQ branding\n- Fixed Cal.com booking date/time extraction (previous session)\n- Cleaned .gitignore: added __pycache__, *.db, *.pyc, ~$ temp files\n- Removed tracked __pycache__ and .db files from repo",
+      "author_name": "Your GitHub Username",
+      "score": 1,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/ce8f761ef628f4441fc59f20f5eccea6ea2eb512",
+      "date": "2026-03-07 01:56:47.000000"
+    },
+    {
+      "message": "Update hackathon details in README.md",
+      "author_name": "lakshya-pm",
+      "score": 4,
+      "summary": "The commit modifies the README file to reflect that it is for a different hackathon, Coherence '26 Hackathon instead of Coherence 7.0 Hackathon.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/0faaa50c645682a2d61b9b98ebf2b6a5c6c2bc21",
+      "date": "2026-03-07 01:27:55.000000"
+    },
+    {
+      "message": "Update team member name in README",
+      "author_name": "lakshya-pm",
+      "score": 1,
+      "summary": "The code diff shows a single line change where 'Nidhi' is replaced with 'Vipul' in the list of team members. This update does not add any new functionality or modify existing code, but rather corrects an error in the documentation.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/ab933ba6f5c64df49929ad42d9b71004b4354fd1",
+      "date": "2026-03-07 01:26:34.000000"
+    },
+    {
+      "message": "docs: add comprehensive README + skip rate limits in demo mode",
+      "author_name": "Your GitHub Username",
+      "score": 1,
+      "summary": "The provided information does not indicate any changes to the codebase. It appears to be a README.md file update, which is typically a non-code addition.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/b1ebdb1e656a1907169dd7dc94ed69dd4148ea11",
+      "date": "2026-03-07 01:11:31.000000"
+    },
+    {
+      "message": "feat: wire preflight, safety, shield flash, autopsy page, bland.ai call integration\n\n- Wire preflight router to real preflight_ai spam scorer (was mocked)\n- Wire safety rate limits (3/min, 20/hr, 150/day) into executor\n- Add red flash on competitor shield blocked event in monitoring\n- Create autopsy page with 8 metric cards at /autopsy\n- Integrate Bland.ai agentic call feature into main backend\n- Add phone column to Lead model + BlandCall model\n- Add Call Lead button to monitoring page per lead row\n- Demo fallback: calls route to +917738786485 if no phone in CSV",
+      "author_name": "Your GitHub Username",
+      "score": 1,
+      "summary": "This code diff represents a significant addition to the application by introducing a new feature called the 'Autopsy' page. The commit also updates the Navbar component to include a link to this new page. Additionally, it modifies the API endpoint for preflight checks to use a real AI spam scorer instead of a mock one. Furthermore, the code integrates Bland.ai's agentic call feature into the backend by adding phone columns to the Lead and BlandCall models and implementing a Call Lead button on t",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/11debcb5108245425041c4843898dcde2c4d0319",
+      "date": "2026-03-07 00:58:25.000000"
+    },
+    {
+      "message": "feat: Cal.com booking detection via email polling + WhatsApp celebration notification",
+      "author_name": "Your GitHub Username",
+      "score": 5,
+      "summary": "The commit does not introduce any new code or changes to existing files. It is a standard initialization of a FastAPI application using the `create-next-app` template.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/afb1c8d42ebc4288ff91bd4d13b5a8e04e223246",
+      "date": "2026-03-06 22:58:49.000000"
+    },
+    {
+      "message": "feat: WhatsApp reply poller \u2014 eliminates webhook dependency, ClawBot alerts metric",
+      "author_name": "Your GitHub Username",
+      "score": 9,
+      "summary": "The code adds a new file `whatsapp_poller.py` which defines a function `_process_reply` to handle incoming WhatsApp messages. It also includes functions to fetch recent incoming messages from Twilio API and track processed message IDs.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/a5b140fb37d39eb89005ada66dbe2648e9bb5a1a",
+      "date": "2026-03-06 22:48:03.000000"
+    },
+    {
+      "message": "feat: horizontal milestone monitoring page redesign",
+      "author_name": "Your GitHub Username",
+      "score": 1,
+      "summary": "The commit message states 'feat: horizontal milestone monitoring page redesign', but no actual code was added or changed. The code diff shows only whitespace changes and no functional modifications.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/01c753fafa0486e603d06dba15ebd8377429a2db",
+      "date": "2026-03-06 22:22:21.000000"
+    },
+    {
+      "message": "feat: fix intent classification, revamp monitoring page, tracking pixel via tunnel, WhatsApp open notification",
+      "author_name": "Your GitHub Username",
+      "score": 11,
+      "summary": "The commit introduces a new API route that handles intent classification and updates the monitoring page by tracking pixel via tunnel. It also includes features for WhatsApp open notifications.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/1d9935699e9d199814994d8881ac4d63520d0706",
+      "date": "2026-03-06 21:42:40.000000"
+    },
+    {
+      "message": "fix: unique emails per lead, Gemini 8s timeout, diverse fallback templates with insights, inbox monitor dotenv",
+      "author_name": "Your GitHub Username",
+      "score": 9,
+      "summary": "The code defines a utility function `generate_message` that generates an email message based on the lead's information. It uses the Gemini API to generate a unique email if available, and falls back to predefined templates with insights if Gemini fails or is not available. The function handles retries for Gemini API calls and provides logging for both successful and failed attempts.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/579b42fa2179f6c46935a60178e81ae53136758a",
+      "date": "2026-03-06 20:41:45.000000"
+    },
+    {
+      "message": "feat: real Gmail IMAP reply detection via inbox_monitor.py, auto-triggers ClawBot WhatsApp alerts",
+      "author_name": "Your GitHub Username",
+      "score": 9,
+      "summary": "The code defines a function `send_whatsapp` to send WhatsApp messages, handles email decoding, extracts sender addresses, classifies intents using keywords, sends alerts, records events, and publishes them to an SSE bus. The commit adds a new service for tracking Gmail replies.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/ae9e7e082931b5972193672462e2e3158271fa2a",
+      "date": "2026-03-06 19:56:37.000000"
+    },
+    {
+      "message": "fix: executor stops after first send_email, 8-node copilot DAG",
+      "author_name": "Your GitHub Username",
+      "score": 1,
+      "summary": "3 sentences",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/d8492d74d0f8cd53fa120cfb27d3719bfd97777f",
+      "date": "2026-03-06 19:31:23.000000"
+    },
+    {
+      "message": "fix: instant copilot workflow, single-email templates, animations, remove floating panel",
+      "author_name": "Your GitHub Username",
+      "score": 9,
+      "summary": "The code defines utility functions to generate and return a clean single-email workflow template instantly. The templates are designed to be simple and efficient, providing a quick response without requiring any LLM calls or complex workflows.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/de235836252a35abcbbb04499f724a5749095869",
+      "date": "2026-03-06 19:07:32.000000"
+    },
+    {
+      "message": "fix: replace copilot TEMPLATE_3STEP with single-email pipeline (root cause of 3x emails)",
+      "author_name": "Your GitHub Username",
+      "score": 11,
+      "summary": "This commit introduces an API route that handles the process of sending a single email, including filtering by blocklist domains, generating AI messages at different steps, and scheduling delays before sending. The code is structured to handle multiple conditions and delays efficiently.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/68ae488894a46078b876948d6173330d1546602c",
+      "date": "2026-03-06 18:52:58.000000"
+    },
+    {
+      "message": "fix: 6 critical issues - unique emails, single-send workflow, honest alerts, animations, remove floating panel",
+      "author_name": "Your GitHub Username",
+      "score": 4,
+      "summary": "The commit contains changes to configuration files such as package.json, yarn.lock, and a README file. These are essential for setting up the project environment.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/c0513ec29e9714c2b04fa56f4b80db166a6681e3",
+      "date": "2026-03-06 18:43:27.000000"
+    },
+    {
+      "message": "feat: interactive ClawBot + email tracking pixel + demo simulation triggers",
+      "author_name": "Your GitHub Username",
+      "score": 13,
+      "summary": "The code adds new endpoints to simulate email opens, replies, and positive intents for a live demo. It uses FastAPI to create RESTful APIs with SQLAlchemy for database operations. The `simulate_open` endpoint records an event in the database and triggers the ClawBot after two or more open events.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/51be06076c15393273005cbd11d3e17f3ac5859d",
+      "date": "2026-03-06 18:13:07.000000"
+    },
+    {
+      "message": "fix: wire real E2E pipeline - 8 critical fixes for leads, emails, whatsapp, SSE",
+      "author_name": "Your GitHub Username",
+      "score": 20,
+      "summary": "The code introduces a new feature for the E2E pipeline that includes critical fixes for leads, emails, WhatsApp, and SSE. It uses asyncio for better performance and demonstrates exceptional engineering by implementing real-time features with a novel algorithm.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/d6c22a4775c4b6de917ce9f61b110fd7d21cde93",
+      "date": "2026-03-06 17:31:53.000000"
+    },
+    {
+      "message": "wire: connect new frontend to backend APIs - copilot, preflight, launch, monitoring live data",
+      "author_name": "Your GitHub Username",
+      "score": 12,
+      "summary": "The code adds a new API route in the `app/dashboard/page.tsx` file to handle logic related to the dashboard page. It uses Next.js' `useEffect` hook to fetch and display leads data fetched from an API endpoint, and it includes components like `DashboardNavbar`, `LeadsFloatingPanel`, and `AgentSidebar`. The code is well-structured with clear separation of concerns.",
+      "url": "https://github.com/sahilm029/COHERENCE-26_Heavyweight/commit/47df8b49cce056c57d55717cc221fa88d5095532",
+      "date": "2026-03-06 16:57:11.000000"
+    }
+  ],
+  "final_review": "Heavyweight Team built a comprehensive fintech startup AI outreach tool, integrating multiple AI models and services such as Gemini, Groq, Sarvam, and others. They developed a React frontend with features like sliders, inputs, and buttons for agent setup, and introduced a new API endpoint for handling ClawBot alerts. The team also added features like Copilot for campaigns, Preflight checks, DAG animations, insight badges, and an autopsy feature. Their code quality was generally high, with scores ranging from 13 to 20, indicating strong technical implementation. They used Next.js for frontend development and MongoDB for database management. However, their project output compared unfavorably to what's expected in a 24-hour hackathon, as they spent significant time on setup and configuration rather than building actual features."
+}

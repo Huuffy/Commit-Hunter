@@ -1,0 +1,187 @@
+{
+  "team_name": "Freshers",
+  "commit_count": 5,
+  "additions": 23720,
+  "deletions": 709,
+  "churn_rate": 0.03,
+  "productivity_score": 2377.0,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    23720,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "samidha-13",
+      "commits": 5
+    }
+  ],
+  "top_files": [
+    {
+      "name": "package-lock.json",
+      "value": 10103
+    },
+    {
+      "name": "src/components/leads/LeadDetailPanel.jsx",
+      "value": 642
+    },
+    {
+      "name": "src/components/ui/sidebar.jsx",
+      "value": 626
+    },
+    {
+      "name": "src/components/leads/PersonalityBuilderModal.jsx",
+      "value": 563
+    },
+    {
+      "name": "src/pages/ClientLeads.jsx",
+      "value": 519
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 10587
+    },
+    {
+      "name": "src/pages",
+      "value": 4899
+    },
+    {
+      "name": "src/components/ui",
+      "value": 4002
+    },
+    {
+      "name": "src/components/leads",
+      "value": 1514
+    },
+    {
+      "name": "src/components/demo",
+      "value": 1169
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".jsx",
+      "value": 12813
+    },
+    {
+      "name": ".json",
+      "value": 10245
+    },
+    {
+      "name": ".js",
+      "value": 597
+    },
+    {
+      "name": "no_ext",
+      "value": 438
+    },
+    {
+      "name": ".css",
+      "value": 196
+    },
+    {
+      "name": ".md",
+      "value": 123
+    },
+    {
+      "name": ".html",
+      "value": 14
+    },
+    {
+      "name": ".ts",
+      "value": 3
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "add demo control sandbox",
+      "author_name": "samidha-13",
+      "score": 11,
+      "summary": "This code adds a new API route that handles the generation of B2B leads based on user input or uploaded CSV files. It includes form validation to ensure proper data entry before processing.",
+      "url": "https://github.com/dishasakaria/COHERENCE-26_FRESHERS/commit/fa292e1543d737494f3c9ced8b509fb8e6405aa3",
+      "date": "2026-03-06 23:01:20.000000"
+    },
+    {
+      "message": "feat: implement client onboarding flow, AI performance dashboard, and global portal header",
+      "author_name": "samidha-13",
+      "score": 11,
+      "summary": "The code adds new AI activity components for email, company research, reply analysis, proposal generation, and call script creation. It also introduces a new section on routing steps with profiles like Dominant, Influential, and Steady, each with their own conditions, models, tasks, costs, and badges.",
+      "url": "https://github.com/dishasakaria/COHERENCE-26_FRESHERS/commit/5ffa6569908975214226536cdca72093291494d9",
+      "date": "2026-03-06 20:36:59.000000"
+    },
+    {
+      "message": "Initialize README with project overview and setup\n\nAdded detailed project description, features, and setup instructions.",
+      "author_name": "samidha-13",
+      "score": 1,
+      "summary": "This is a new file that provides an introduction to the Empathy Engine project. It outlines what the platform does, its key features, and how to set it up locally.",
+      "url": "https://github.com/dishasakaria/COHERENCE-26_FRESHERS/commit/6a2d6482c66eedcbd4a02735cb306b4234f0e9d2",
+      "date": "2026-03-06 17:38:15.000000"
+    },
+    {
+      "message": "frontend",
+      "author_name": "samidha-13",
+      "score": 4,
+      "summary": "The commit contains only the removal of a README file.",
+      "url": "https://github.com/dishasakaria/COHERENCE-26_FRESHERS/commit/e8a09417dd6268ad927ce8390baf275dd61f245c",
+      "date": "2026-03-06 17:28:52.000000"
+    },
+    {
+      "message": "Initial project upload",
+      "author_name": "samidha-13",
+      "score": 14,
+      "summary": "The code adds a new API route in the src/components/leads directory to handle lead details. It includes functions to calculate the lead score and render various components like ScoreDisplay, DiscBadge, and ScoreBar.",
+      "url": "https://github.com/dishasakaria/COHERENCE-26_FRESHERS/commit/e7742d10f201719ee928a8d4e49152b1cc28eb88",
+      "date": "2026-03-06 17:26:10.000000"
+    }
+  ],
+  "final_review": "Freshers' team built an AI-driven Empathy Engine platform with React, Next.js for front-end development, MongoDB for database management, and Express for backend services. They started by setting up the project structure and API routes, before adding detailed features like lead scoring, AI-generated components, and B2B lead generation. The code quality varied; some commits were well-structured and focused on specific tasks, while others lacked clarity or functionality. The team's AI-generated code was identified in multiple commits, suggesting that some parts of the project might have been generated using AI tools. Overall, their output demonstrates a mix of basic setup and working features, with room for improvement in terms of both technical depth and code quality."
+}

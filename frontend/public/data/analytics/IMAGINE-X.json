@@ -1,0 +1,251 @@
+{
+  "team_name": "IMAGINE-X",
+  "commit_count": 9,
+  "additions": 22755,
+  "deletions": 2575,
+  "churn_rate": 0.11,
+  "productivity_score": 2284.5,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    1,
+    0
+  ],
+  "hourly_volume": [
+    22755,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Komalsalunkhe",
+      "commits": 9
+    }
+  ],
+  "top_files": [
+    {
+      "name": "OutreachAI/OutreachAI/package-lock.json",
+      "value": 9391
+    },
+    {
+      "name": "package-lock.json",
+      "value": 3588
+    },
+    {
+      "name": "OutreachAI/OutreachAI/src/pages/ExecutionPage.tsx",
+      "value": 1400
+    },
+    {
+      "name": "OutreachAI/OutreachAI/src/pages/InboxPage.tsx",
+      "value": 828
+    },
+    {
+      "name": "OutreachAI/OutreachAI/src/pages/WorkflowPage.tsx",
+      "value": 790
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "OutreachAI/OutreachAI",
+      "value": 10391
+    },
+    {
+      "name": "OutreachAI/OutreachAI/src/components/ui",
+      "value": 3954
+    },
+    {
+      "name": "OutreachAI/OutreachAI/src/pages",
+      "value": 3805
+    },
+    {
+      "name": "/",
+      "value": 3753
+    },
+    {
+      "name": "OutreachAI/OutreachAI/src/components/workflow",
+      "value": 499
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 13215
+    },
+    {
+      "name": ".tsx",
+      "value": 8907
+    },
+    {
+      "name": ".ts",
+      "value": 2082
+    },
+    {
+      "name": ".css",
+      "value": 324
+    },
+    {
+      "name": ".sql",
+      "value": 272
+    },
+    {
+      "name": ".md",
+      "value": 154
+    },
+    {
+      "name": ".mjs",
+      "value": 118
+    },
+    {
+      "name": "no_ext",
+      "value": 87
+    },
+    {
+      "name": ".html",
+      "value": 53
+    },
+    {
+      "name": ".js",
+      "value": 44
+    },
+    {
+      "name": ".jsx",
+      "value": 40
+    },
+    {
+      "name": ".txt",
+      "value": 14
+    },
+    {
+      "name": ".toml",
+      "value": 12
+    },
+    {
+      "name": ".csv",
+      "value": 7
+    },
+    {
+      "name": ".svg",
+      "value": 1
+    },
+    {
+      "name": ".lockb",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Add meeting link functionality to settings and inbox pages. Implement functions to get and set meeting links, ensuring they are included in follow-up messages when appropriate. Enhance user experience by displaying the meeting link in the reply text box and allowing users to save their meeting link in settings.",
+      "author_name": "Komalsalunkhe",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Komal265/COHERENCE-26_IMAGINE-X/commit/518a5eb7387a4b0324f8edffb738260609caa7fd",
+      "date": "2026-03-07 05:13:15.000000"
+    },
+    {
+      "message": "Enhance email follow-up functionality by adding reply tone filtering and random follow-up templates. Update inbox page to prevent sending follow-ups for negative tones and improve error handling during follow-up generation.",
+      "author_name": "Komalsalunkhe",
+      "score": 11,
+      "summary": "The commit adds a new function `pickRandomFollowUp` that generates random follow-up templates based on the lead's name and company. It also updates the `handleAnalyzeAndGenerate` function to check if the message reply tone is negative before sending a follow-up, improving error handling during follow-up generation.",
+      "url": "https://github.com/Komal265/COHERENCE-26_IMAGINE-X/commit/c12e308c696b06e533f0ff4a55b8b2cc355dd51a",
+      "date": "2026-03-07 03:06:40.000000"
+    },
+    {
+      "message": "Implement auto follow-up scheduling and enhance inbox functionality with pending follow-up tracking. Introduce polling for automatic follow-ups and improve message handling in the inbox and workflow pages.",
+      "author_name": "Komalsalunkhe",
+      "score": 11,
+      "summary": "The commit adds a new API route to fetch pending follow-up messages and implements auto-follow-up scheduling with real-time updates. It also enhances inbox functionality by tracking pending follow-ups and updating them in real-time.",
+      "url": "https://github.com/Komal265/COHERENCE-26_IMAGINE-X/commit/e8f833cc482e50075bb79180652aac5eacdacfeb",
+      "date": "2026-03-07 02:30:18.000000"
+    },
+    {
+      "message": "Add package overrides for @supabase/gotrue-js version in package.json",
+      "author_name": "Komalsalunkhe",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Komal265/COHERENCE-26_IMAGINE-X/commit/8c43f1c8174f546d2da5bfb75da523aba58b4668",
+      "date": "2026-03-07 01:30:10.000000"
+    },
+    {
+      "message": "Enhance email handling by adding tone classification, fetching replies from Gmail, and updating inbox message queries. Introduce new dependencies for email parsing and IMAP functionality.",
+      "author_name": "Komalsalunkhe",
+      "score": 12,
+      "summary": "The commit adds a new API endpoint `/api/fetch-replies` to handle requests from the frontend. This endpoint fetches any new lead replies from Gmail and updates the inbox message queries accordingly. The code includes necessary imports, function definitions, and error handling.",
+      "url": "https://github.com/Komal265/COHERENCE-26_IMAGINE-X/commit/3bd50f34d37c47c9bcc0ddcfcf050a1432b71a11",
+      "date": "2026-03-07 00:50:43.000000"
+    },
+    {
+      "message": "Add email sending functionality with Gmail integration and update environment configuration, and enhance UI components",
+      "author_name": "Komalsalunkhe",
+      "score": 14,
+      "summary": "The code added a new API route to send emails using Gmail, which is useful for outreach purposes. It also updated the environment configuration file to include necessary credentials for Gmail authentication.",
+      "url": "https://github.com/Komal265/COHERENCE-26_IMAGINE-X/commit/a2de4ff4427dd14822983ffea3d50c77375a4dc8",
+      "date": "2026-03-06 23:58:35.000000"
+    },
+    {
+      "message": "Implement dark mode support and enhance UI components with theme integration",
+      "author_name": "Komalsalunkhe",
+      "score": 9,
+      "summary": "The code adds a utility function that enhances UI components by integrating them with theme settings. This improves the overall quality and maintainability of the application.",
+      "url": "https://github.com/Komal265/COHERENCE-26_IMAGINE-X/commit/d0d1f0b836720fc009c670adb21128d6c4235901",
+      "date": "2026-03-06 17:11:36.000000"
+    },
+    {
+      "message": "lead ingested feature added",
+      "author_name": "Komalsalunkhe",
+      "score": 14,
+      "summary": "The commit adds a new API route `/api/lead-ingestion` that handles the ingestion of leads from various sources. It uses Supabase to store lead data, processes it based on company or industry, and assigns leads to clusters (IT, Healthcare, Ecommerce). The code includes functions for fetching leads and assigning them to clusters, as well as a flowing line animation for visual feedback.",
+      "url": "https://github.com/Komal265/COHERENCE-26_IMAGINE-X/commit/197b0e995e2645d33b2f0ac20eb6f6d5f5bb6e11",
+      "date": "2026-03-06 15:02:10.000000"
+    },
+    {
+      "message": "\"React Boilerplate\"",
+      "author_name": "Komalsalunkhe",
+      "score": 6,
+      "summary": "This commit creates a basic React application using Vite as the build tool. It includes essential files and configurations to set up a new project with React, including CSS styles, package.json for dependencies, and a simple HTML file.",
+      "url": "https://github.com/Komal265/COHERENCE-26_IMAGINE-X/commit/5ea94e79cfc581f6826510dd6383fff483a070ec",
+      "date": "2026-03-06 12:04:38.000000"
+    }
+  ],
+  "final_review": "Team 'IMAGINE-X' built an innovative lead management system using React, Vite, Supabase, Express, and Next.js. They started with setting up a basic React application and progressed to building complex features such as lead ingestion, clustering, email sending, and follow-up scheduling. The development pattern involved frequent commits, each focusing on specific functionalities like API routes, utility functions, and new endpoints. The code quality was generally high, with scores ranging from 7-14, indicating that they built working features rather than just setup/configurations. However, some commits appeared to be AI-generated, which could have been improved by ensuring genuine hand-written code. The standout commit was the one on handling lead ingestion and clustering, showcasing strong technical skills. There were no wasted commits, but the project lacked a comprehensive user interface (UI) that would fully utilize its features. Overall, while they built an impressive system with functional endpoints, it could benefit from more robust UI development to enhance usability and engagement."
+}

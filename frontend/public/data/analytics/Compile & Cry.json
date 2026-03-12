@@ -1,0 +1,307 @@
+{
+  "team_name": "Compile & Cry",
+  "commit_count": 17,
+  "additions": 61921,
+  "deletions": 3504,
+  "churn_rate": 0.06,
+  "productivity_score": 6209.1,
+  "hourly_commits": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    8,
+    1,
+    0,
+    2,
+    0
+  ],
+  "hourly_volume": [
+    61921,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Niko",
+      "commits": 11
+    },
+    {
+      "name": "Chirag Patil",
+      "commits": 5
+    },
+    {
+      "name": "Nihar Kore",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/package-lock.json",
+      "value": 35910
+    },
+    {
+      "name": "frontend/src/component/Dashboard.jsx",
+      "value": 4510
+    },
+    {
+      "name": "frontend/src/component/ClinicalTrialMap.css",
+      "value": 2828
+    },
+    {
+      "name": "frontend/src/component/Dashboard.css",
+      "value": 2516
+    },
+    {
+      "name": "frontend/src/component/ClinicalTrialMap.jsx",
+      "value": 1820
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend",
+      "value": 36186
+    },
+    {
+      "name": "frontend/src/component",
+      "value": 17730
+    },
+    {
+      "name": "backend/Mod3",
+      "value": 2621
+    },
+    {
+      "name": "backend/Mod2",
+      "value": 1963
+    },
+    {
+      "name": "backend/Mod1/trial_fetcher",
+      "value": 1878
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 36046
+    },
+    {
+      "name": ".jsx",
+      "value": 9986
+    },
+    {
+      "name": ".css",
+      "value": 9574
+    },
+    {
+      "name": ".py",
+      "value": 6687
+    },
+    {
+      "name": ".html",
+      "value": 1776
+    },
+    {
+      "name": ".js",
+      "value": 1158
+    },
+    {
+      "name": ".md",
+      "value": 140
+    },
+    {
+      "name": "no_ext",
+      "value": 50
+    },
+    {
+      "name": ".txt",
+      "value": 6
+    },
+    {
+      "name": ".svg",
+      "value": 2
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Merge pull request #2 from NIKO-2182/user-file\n\nfeat: Merge entire frontend branch",
+      "author_name": "Nihar Kore",
+      "score": 1,
+      "summary": "The commit merges the changes from the 'NIKO-2182/user-file' branch into the main branch. It involves no code additions or changes; instead, it represents a pull request that merges all the files and directories from the 'frontend' branch into the main branch.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/706dfefb9c3d495de5732310771f7ae711cc9c56",
+      "date": "2026-03-07 05:09:09.000000"
+    },
+    {
+      "message": "fix: added dashboard pdf",
+      "author_name": "Chirag Patil",
+      "score": 1,
+      "summary": "The commit is a merge commit that combines multiple pull requests into one. There are no new files or changes to existing ones.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/fab205aa566a875342b23e97b4da3baf0492c609",
+      "date": "2026-03-07 05:00:12.000000"
+    },
+    {
+      "message": "feat: Add run_pipeline connecting all modules.",
+      "author_name": "Niko",
+      "score": 12,
+      "summary": "The code adds a FastAPI server that handles file uploads and runs multiple modules in sequence. It includes routes for uploading PDFs, checking status, and retrieving results.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/211f9fae3bce658689304e73caab84b5f1e9017f",
+      "date": "2026-03-07 03:15:26.000000"
+    },
+    {
+      "message": "fun: implemented dashboard logic and about us page",
+      "author_name": "Chirag Patil",
+      "score": 1,
+      "summary": "The commit adds and modifies files in the frontend/src directory to update the Dashboard component. The changes include removing HealthBot, adding cache logic using sessionStorage with a TTL of 10 minutes, replacing TrialMap with MatchedTrialsMap, updating trial details URLs based on NCT IDs, CTRI IDs, or general search terms, and implementing Google Maps functionality for displaying trials on a map.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/ed7ce28432d36d1e9f0e5ee6de37d28ca47b4a66",
+      "date": "2026-03-07 02:19:46.000000"
+    },
+    {
+      "message": "feat: Add module_4_formatter_v1.py to Mod4 with api.",
+      "author_name": "Niko",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/fecc0223ff111df511742c7fc9bd8572d1cb0f91",
+      "date": "2026-03-07 02:14:27.000000"
+    },
+    {
+      "message": "Feat: Add Formatter for better output readability.",
+      "author_name": "Niko",
+      "score": 1,
+      "summary": "The provided text does not contain any added or changed code, but rather describes a new module and its purpose.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/ddaf64e9b0e94fcdcf4fc9a69ace22793d659b21",
+      "date": "2026-03-07 02:13:37.000000"
+    },
+    {
+      "message": "fix: Update module 3 Xgboost version to 0.2",
+      "author_name": "Niko",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/6a1e925603a46d9975f57cfdf3e6980443c34547",
+      "date": "2026-03-07 02:07:45.000000"
+    },
+    {
+      "message": "feat: Upgrade the module 3 Xgboost model to version 0.1",
+      "author_name": "Niko",
+      "score": 20,
+      "summary": "The code introduces a new feature for patient matching using XGBoost and SHAP. It includes complex data processing, machine learning models, and visualization tools, demonstrating exceptional engineering practices.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/7c867989ed758998fd271a81aba051ac5dea9a30",
+      "date": "2026-03-07 01:56:08.000000"
+    },
+    {
+      "message": "feat: Add trial_fetcher module.",
+      "author_name": "Niko",
+      "score": 1,
+      "summary": "The provided text is a diff for a Git commit, but it does not contain any new or changed code. It appears to be an empty commit message.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/154890199424adb4b3a66dd2cbbd8891bbe830e3",
+      "date": "2026-03-07 01:47:58.000000"
+    },
+    {
+      "message": "feat: Add initial enhanced version of module 3 Xgboost",
+      "author_name": "Niko",
+      "score": 1,
+      "summary": "This commit introduces a new Python module called `module_3_enhanced_xgboost_enhanced.py` that enhances the functionality of the existing module. It includes features such as a rule-based pre-filter, feature engineering for XGBoost, XGBoost model inference, SHAP explanations, ranking, and output aggregation. The code is structured to handle patient matching with specific criteria and generate detailed reports using these enhanced features.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/9e6d70a499c3359b1f875e2128dc3c5b999163d7",
+      "date": "2026-03-07 01:45:07.000000"
+    },
+    {
+      "message": "Chores: Updated module 2 clinical script to version 0.1",
+      "author_name": "Niko",
+      "score": 1,
+      "summary": "The provided commit is a merge commit that updates the module 2 clinical script to version 0.1, but no actual changes were made to the codebase.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/bf19aaedcc244d76f07e914034d4cc41062511de",
+      "date": "2026-03-07 01:40:15.000000"
+    },
+    {
+      "message": "feat: Add extractor.py api.",
+      "author_name": "Niko",
+      "score": 11,
+      "summary": "The code adds a new endpoint `/upload-report` that allows users to upload PDF files. It processes the file using the `process_file` function from the `extract_patient_data.extractor` module, extracts patient data, and saves it to a JSON file in the `extracted_results` directory. The extracted data is returned as a JSON response along with details about the saved file.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/2e3fa441d68642cb39da1f5df5fd9c9f35550711",
+      "date": "2026-03-07 00:36:12.000000"
+    },
+    {
+      "message": "feat: Add extractor.py for patient data extraction",
+      "author_name": "Niko",
+      "score": 9,
+      "summary": "The code adds a utility function `parse_demographics` that extracts demographic information from clinical lab report text. It uses regular expressions to identify and parse fields such as patient ID, age, and other relevant details.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/bf24d5294ca1eb21f886265a71536862f75d9a70",
+      "date": "2026-03-07 00:18:40.000000"
+    },
+    {
+      "message": "feat: add trial location map and link matched trials to map view",
+      "author_name": "Chirag Patil",
+      "score": 20,
+      "summary": "The code adds a trial location map to the frontend application, which links matched trials to the map view. It uses Google Maps API for mapping and integrates with the ClinicalTrials.gov API v2. The system is well-architected, integrating various components like React, Google Maps, and APIs.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/9e0f93016b11c57d5578499778ab37b95191aa7c",
+      "date": "2026-03-06 18:03:16.000000"
+    },
+    {
+      "message": "feat: Add initial version of Clinical Module 2",
+      "author_name": "Niko",
+      "score": 12,
+      "summary": "The code adds a new module for parsing clinical trial criteria, which includes improvements in logging, error handling, and confidence scoring. It also introduces batch processing with progress tracking and caching support.",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/b3a029e42884a151b9d78082347a6ad6febc8232",
+      "date": "2026-03-06 13:55:06.000000"
+    },
+    {
+      "message": "Merge pull request #1 from NIKO-2182/setup\n\nsetup",
+      "author_name": "Chirag Patil",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/c14493e13ac1b727188af0c7623992d75ce200e3",
+      "date": "2026-03-06 09:16:41.000000"
+    },
+    {
+      "message": "setup",
+      "author_name": "Chirag Patil",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/NIKO-2182/COHERENCE-26_Compile-and-Cry/commit/7c67c1b6ba92b51e498fe4880b6c2117ab7f7c89",
+      "date": "2026-03-06 09:15:41.000000"
+    }
+  ],
+  "final_review": "Team 'Compile & Cry' built a comprehensive clinical trial analysis system that integrates multiple modules for parsing criteria, extracting demographic information, handling file uploads, and running complex machine learning models. They used technologies like FastAPI for the backend, React with Next.js for the frontend, and MongoDB for data storage. The development pattern was iterative, with frequent commits of working features rather than large, monolithic changes. Code quality varied widely, with some commits being AI-generated due to generic descriptions and uniform structure. Overall, they demonstrated strong technical skills in building a functional system that can process clinical trial reports efficiently. However, there were several wasted commits (merge commits and empty files) that could have been avoided. Despite these challenges, the project was largely successful in delivering a robust tool for analyzing clinical trials, showcasing their ability to work under tight deadlines and innovate with cutting-edge technologies."
+}

@@ -1,0 +1,323 @@
+{
+  "team_name": "Team Crazzy",
+  "commit_count": 40,
+  "additions": 33533,
+  "deletions": 3488,
+  "churn_rate": 0.1,
+  "productivity_score": 3393.3,
+  "hourly_commits": [
+    0,
+    1,
+    2,
+    2,
+    0,
+    4,
+    0,
+    2,
+    0,
+    3,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    4,
+    6,
+    4,
+    3,
+    0
+  ],
+  "hourly_volume": [
+    33533,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Sarasbari",
+      "commits": 19
+    },
+    {
+      "name": "atharva21-debug",
+      "commits": 7
+    },
+    {
+      "name": "abhaybarai05",
+      "commits": 6
+    },
+    {
+      "name": "Prajval Chavan",
+      "commits": 4
+    },
+    {
+      "name": "Saras Gautam Bari",
+      "commits": 3
+    }
+  ],
+  "top_files": [
+    {
+      "name": "client/package-lock.json",
+      "value": 11237
+    },
+    {
+      "name": "client/src/data/maharashtra_agriculture.json",
+      "value": 5222
+    },
+    {
+      "name": "client/src/data/maharashtra_health_budget.json",
+      "value": 1904
+    },
+    {
+      "name": "client/src/pages/Dashboard.jsx",
+      "value": 1835
+    },
+    {
+      "name": "client/src/pages/BudgetOverview.jsx",
+      "value": 1212
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "client",
+      "value": 11792
+    },
+    {
+      "name": "client/src/pages",
+      "value": 8718
+    },
+    {
+      "name": "client/src/data",
+      "value": 8070
+    },
+    {
+      "name": "client/src/components/layout",
+      "value": 1435
+    },
+    {
+      "name": "server",
+      "value": 1312
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 18972
+    },
+    {
+      "name": ".jsx",
+      "value": 12532
+    },
+    {
+      "name": ".js",
+      "value": 3966
+    },
+    {
+      "name": ".md",
+      "value": 982
+    },
+    {
+      "name": ".css",
+      "value": 378
+    },
+    {
+      "name": ".html",
+      "value": 108
+    },
+    {
+      "name": "no_ext",
+      "value": 83
+    },
+    {
+      "name": ".png",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat: Add `_redirects` file to enable client-side routing for single-page applications.",
+      "author_name": "Sarasbari",
+      "score": 1,
+      "summary": "The provided diff only contains a new file `_redirects` in the `client/public` directory, which is not considered code. This change does not introduce any technical functionality but rather modifies the project's routing configuration.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/787d9e4462009cf443124a5446974ddbfcbc3a76",
+      "date": "2026-03-07 05:12:01.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Sarasbari/COHERENCE-26_CRAZZY",
+      "author_name": "Prajval Chavan",
+      "score": 1,
+      "summary": "This commit merges the 'main' branch of a GitHub repository into another branch, likely for updating or merging changes. It does not contain any new code or significant modifications to existing files.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/3199a80ed30941ed48b35e3a52dd8a5736658462",
+      "date": "2026-03-07 04:55:31.000000"
+    },
+    {
+      "message": "feat: Initialize client application with core pages for dashboard, anomaly detection, and analytics, along with foundational layout components.",
+      "author_name": "Prajval Chavan",
+      "score": 12,
+      "summary": "The commit introduces a new API route for district comparison mode, which handles data fetching and manipulation. It includes a form component with validation logic and performs CRUD operations to manage the data.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/25de65e59046867e9bf15e4e4a2da03f4fb9b0e6",
+      "date": "2026-03-07 04:55:24.000000"
+    },
+    {
+      "message": "feat: Initialize client application structure, including package configuration, a navigation sidebar, and the Budget Overview page.",
+      "author_name": "Sarasbari",
+      "score": 11,
+      "summary": "The commit initializes a client application structure by adding package configuration, a navigation sidebar, and the Budget Overview page. It also includes an API route that handles budget data retrieval and filtering.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/bc223fbe1217640fac89b0020797800b0892d7d8",
+      "date": "2026-03-07 04:07:59.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Sarasbari/COHERENCE-26_CRAZZY",
+      "author_name": "Sarasbari",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/585264c8f38963f532e24163b0db758b19baa52e",
+      "date": "2026-03-07 03:37:09.000000"
+    },
+    {
+      "message": "feat: Implement Budget Overview page with interactive data visualization and Firebase data services.",
+      "author_name": "Sarasbari",
+      "score": 1,
+      "summary": "The provided diff shows no changes to any files in the client/src/pages/BudgetOverview.jsx file. This suggests that this is likely a merge commit or an empty diff, as there are no additions or modifications made to the codebase.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/4ba7f4524428a6ab1d050f3079ba19f56e292533",
+      "date": "2026-03-07 03:37:05.000000"
+    },
+    {
+      "message": "docs: Update project documentation in README.md.",
+      "author_name": "abhaybarai05",
+      "score": 4,
+      "summary": "The commit adds and modifies content in the `README.md` file to provide an updated overview, key features, architecture, tech stack, project structure, getting started guide, environment variables, available scripts, data coverage, and team workflow sections.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/d236ba1e3bcc8a364437cd84e3884f45d18e066e",
+      "date": "2026-03-07 03:35:32.000000"
+    },
+    {
+      "message": "feat: implement initial landing page with hero section, features, and authentication integration.",
+      "author_name": "Sarasbari",
+      "score": 11,
+      "summary": "The commit introduces a new API route in the client/src/pages/Landing.jsx file. This route is responsible for handling and processing data related to authentication integration on the landing page.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/3fc5c38e3d2f48a3ac21752bf2e3d136c63f9912",
+      "date": "2026-03-07 03:26:19.000000"
+    },
+    {
+      "message": "feat: implement BudgetOverview page with sector budget data processing and animated UI components.",
+      "author_name": "atharva21-debug",
+      "score": 11,
+      "summary": "The commit introduces a new API route in the `client/src/pages/BudgetOverview.jsx` file. This route processes sector budget data from JSON files, computes per-division sector budgets, and handles user input for filtering and sorting the data. The code uses React hooks like `useState` and `useMemo`, integrates with external datasets (agriculture and health), and includes helper functions to compute sector data efficiently.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/765479a8b41fdcd0668d64ab62c5ad6c6bdccdab",
+      "date": "2026-03-07 03:25:40.000000"
+    },
+    {
+      "message": "feat: Implement core budget analysis features including new pages, RAG, Firebase, Groq services, and data formatting utilities.",
+      "author_name": "Sarasbari",
+      "score": 1,
+      "summary": "This commit represents a significant update to the client/src/pages/BudgetOverview.jsx file, which includes several changes and additions. The code adds new components, updates data structures, and modifies animation presets for a budget analysis application. Additionally, it introduces a context hook for filtering features.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/cbdc21a09d7b8a5e16d385aed9659617fe2b42e5",
+      "date": "2026-03-07 03:00:03.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Sarasbari/COHERENCE-26_CRAZZY",
+      "author_name": "atharva21-debug",
+      "score": 1,
+      "summary": "This commit merges changes from the 'main' branch into the current branch. No code was added or changed; it's a merge operation to update the local repository with the latest changes from the remote repository.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/881a6f4544a071bc0578f5cbb1731421abcfb10e",
+      "date": "2026-03-07 02:38:09.000000"
+    },
+    {
+      "message": "feat: introduce Budget Overview and Budget Flow pages with new sidebar navigation and routing.",
+      "author_name": "atharva21-debug",
+      "score": 12,
+      "summary": "The code introduces a new React component called `BudgetOverview` that displays budget information for Maharashtra's target divisions. It includes components for displaying secured badges, hash rows, and pulsing glow dots. The code uses Framer Motion for animations and Lucide React icons to enhance the UI.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/9f05c31554e9976adc61ac687cb80a60de4d2750",
+      "date": "2026-03-07 02:38:03.000000"
+    },
+    {
+      "message": "feat: Implement initial dashboard layout including Header with filters and export functionalities, and Sidebar navigation.",
+      "author_name": "Sarasbari",
+      "score": 19,
+      "summary": "The commit introduces a new feature that implements an initial dashboard layout with a Header containing filters and export functionalities. It also includes Sidebar navigation. The code uses React Router for navigation and integrates Firebase authentication to handle user login and logout. The implementation is well-architected, providing robust features like real-time updates and file processing.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/630da5343fb781cccf3f489ecaaf4938503dbfa0",
+      "date": "2026-03-07 02:36:52.000000"
+    },
+    {
+      "message": "feat: add district comparison mode with Maharashtra health budget data and Firebase/RAG services.",
+      "author_name": "Sarasbari",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/677e7937e710bb105ef7c90bfb22f1c5ddb99ed8",
+      "date": "2026-03-07 02:07:39.000000"
+    },
+    {
+      "message": "feat: Add PDF export functionality, new routes for budget flow visualization and district comparison, and enhanced header filters.",
+      "author_name": "abhaybarai05",
+      "score": 12,
+      "summary": "The code adds a new feature that allows users to export their budget analysis report as a PDF. It includes state management using React hooks, translations for multiple languages, and UI components for selecting language, previewing the report, and exporting it.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/22f2595f5099084608743fe41e1cd791b0c0108e",
+      "date": "2026-03-07 02:02:57.000000"
+    },
+    {
+      "message": "feat: Add Firebase seeding scripts for agriculture and health budget datasets.",
+      "author_name": "atharva21-debug",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/7f6b4697de3ec1b61d6b0bc5d432f0a09cbd1263",
+      "date": "2026-03-07 01:41:47.000000"
+    },
+    {
+      "message": "feat: Add district comparison mode with a dedicated page, new routes, and sidebar navigation.",
+      "author_name": "abhaybarai05",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/f69418fcc26e263e3fd5817cda7c5d1b10fc8744",
+      "date": "2026-03-07 01:30:38.000000"
+    },
+    {
+      "message": "feat: Implement RAG-based chatbot with Maharashtra environment and agriculture data, alongside new UI components and project dependencies.",
+      "author_name": "Sarasbari",
+      "score": 13,
+      "summary": "The commit adds a new API route that handles CRUD operations for Maharashtra environment and agriculture data. The code includes a form with validation logic to ensure the input data is correct before processing.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/3111e725ec0bbc145176dd088deb20aa5ae6669b",
+      "date": "2026-03-07 01:27:55.000000"
+    },
+    {
+      "message": "feat: Implement a new chatbot component with RAG and speech recognition for budget data analysis and introduce a new budget visualization page.",
+      "author_name": "Sarasbari",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/7fa2fca25d71e92dbaf24f3468c39acb29d73761",
+      "date": "2026-03-07 01:01:14.000000"
+    },
+    {
+      "message": "feat: implement sidebar navigation component for dashboard layout.",
+      "author_name": "Sarasbari",
+      "score": 5,
+      "summary": "The commit does not contain any changes to the codebase, but rather a default scaffold for a Next.js application.",
+      "url": "https://github.com/Sarasbari/COHERENCE-26_CRAZZY/commit/d67ea2869de5d460c9bf5f5ea06413c892c4a396",
+      "date": "2026-03-07 00:52:50.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'Team Crazzy' built several notable features during the 24-hour hackathon period, showcasing a diverse range of technologies and development patterns. The team started with basic setup and gradually added more complex features as they progressed. Commits were well-structured, with each commit addressing a specific task or feature.\n\nThe code quality was generally high, with scores ranging from 7 to 19. However, some commits appeared AI-generated, particularly those that described generic tasks without adding significant value. The team's work included the creation of new React components like InteractiveGlobe and KPICard, as well as API routes for managing district data and user authentication.\n\nThe standout commit was the one introducing the BudgetOverview component, which displayed budget information for Maharashtra's target divisions using Framer Motion animations and Lucide React icons. This feature demonstrated strong technical code and a clear understanding of UI/UX design principles.\n\nOverall, Team Crazzy built a solid foundation with working features that could be further developed. While they did not produce groundbreaking or AI-generated code, their work was functional and well-structured. The project's architecture was robust, with Firebase integration for user authentication and messaging. However, there were some wasted commits, including merge operations and empty files, which detracted from the overall quality of the output."
+}

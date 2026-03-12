@@ -1,0 +1,235 @@
+{
+  "team_name": "Action Kamen",
+  "commit_count": 8,
+  "additions": 30549,
+  "deletions": 306,
+  "churn_rate": 0.01,
+  "productivity_score": 3062.9,
+  "hourly_commits": [
+    0,
+    1,
+    4,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    30549,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "nitish12382",
+      "commits": 7
+    },
+    {
+      "name": "vaibhavnarute",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "Frontend/package-lock.json",
+      "value": 16560
+    },
+    {
+      "name": "Frontend/src/components/ui/sidebar.tsx",
+      "value": 1274
+    },
+    {
+      "name": "Frontend/src/pages/Leads.tsx",
+      "value": 608
+    },
+    {
+      "name": "Frontend/src/components/ui/chart.tsx",
+      "value": 606
+    },
+    {
+      "name": "Frontend/src/components/ui/carousel.tsx",
+      "value": 448
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "Frontend",
+      "value": 17522
+    },
+    {
+      "name": "Frontend/src/components/ui",
+      "value": 7908
+    },
+    {
+      "name": "Frontend/src/pages",
+      "value": 2456
+    },
+    {
+      "name": "Frontend/src",
+      "value": 442
+    },
+    {
+      "name": "Frontend/src/hooks",
+      "value": 410
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 16922
+    },
+    {
+      "name": ".tsx",
+      "value": 10878
+    },
+    {
+      "name": ".py",
+      "value": 1417
+    },
+    {
+      "name": ".ts",
+      "value": 912
+    },
+    {
+      "name": ".css",
+      "value": 338
+    },
+    {
+      "name": ".md",
+      "value": 154
+    },
+    {
+      "name": "no_ext",
+      "value": 88
+    },
+    {
+      "name": ".js",
+      "value": 64
+    },
+    {
+      "name": ".html",
+      "value": 52
+    },
+    {
+      "name": ".txt",
+      "value": 28
+    },
+    {
+      "name": ".svg",
+      "value": 2
+    },
+    {
+      "name": ".lockb",
+      "value": 0
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat: Implement workflows API with CRUD operations  - Added workflows router with endpoints for listing, creating, retrieving, updating, and deleting workflows. -\n\n Implemented schedule retrieval for workflows. - Created models for workflows including WorkflowCreate, WorkflowUpdate, and WorkflowOut. - Established a WorkflowRepository for database interactions. - Integrated MongoDB connection and logging functionality.  chore: Add configuration management with pydantic-settings  - Created config.py to manage application settings from environment variables. - Implemented field validators for required configurations. - Ensured security practices for sensitive information.  feat: Introduce logging functionality  - Added logger utility to standardize logging across the application.  feat: Develop lead, campaign, and message repositories  - Created repositories for managing leads, campaigns, and messages in MongoDB. - Implemented CRUD operations and additional functionalities like bulk insert and status counts.  feat: Implement services for lead scoring, throttling, and workflow management  - Developed lead scoring logic based on profile completeness. - Implemented a throttling service to limit email sends. - Created a workflow engine to orchestrate multi-step outreach sequences.  chore: Add seed script for populating the database with sample data  - Implemented a seed script to populate leads, campaigns, and workflows for development purposes.  feat: Add Excel and CSV parsing for lead import  - Developed a service to parse uploaded files and create LeadCreate objects from the data.",
+      "author_name": "vaibhavnarute",
+      "score": 14,
+      "summary": "The code adds a new API endpoint to manage workflows. It includes functions for listing, creating, retrieving, updating, and deleting workflows. The workflow engine is used to orchestrate multi-step outreach sequences.",
+      "url": "https://github.com/nitish12382/COHERENCE-26_ACTIONKAMEN/commit/48fda91d5f5d3ee7bd05f16efb498136031c9ef3",
+      "date": "2026-03-06 14:56:52.000000"
+    },
+    {
+      "message": "Merge pull request #3 from nitish12382/Nitish\n\nfrontend work almost done",
+      "author_name": "nitish12382",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/nitish12382/COHERENCE-26_ACTIONKAMEN/commit/0aa53402870c511ea0f498a02db34ae555cd9571",
+      "date": "2026-03-06 11:17:23.000000"
+    },
+    {
+      "message": "frontend work almost done",
+      "author_name": "nitish12382",
+      "score": 14,
+      "summary": "The commit adds a new Sidebar component with various features such as opening and closing functionality, mobile-specific behavior, keyboard shortcuts, and state management using cookies. The component uses Radix UI for its structure and Lucide React icons. It also includes hooks like useIsMobile for determining if the device is mobile and useContext to manage sidebar state.",
+      "url": "https://github.com/nitish12382/COHERENCE-26_ACTIONKAMEN/commit/40019346eca76e5ab949b6b86eef64f7f84f5f66",
+      "date": "2026-03-06 11:16:25.000000"
+    },
+    {
+      "message": "Merge pull request #2 from nitish12382/Nitish\n\nadded new markdown file by nitish",
+      "author_name": "nitish12382",
+      "score": 1,
+      "summary": "This commit adds a new markdown file titled 'nitishbranch.md', which contains the text 'new file added by nitish !!'. The commit message indicates that this change is part of a pull request from the branch 'nitish12382/Nitish', and it mentions adding a new markdown file. This type of code diff falls under category A, as it involves no actual changes to existing files but rather adds a new one.",
+      "url": "https://github.com/nitish12382/COHERENCE-26_ACTIONKAMEN/commit/ea8ca6eb894ece9fe612854d26311e967433eea2",
+      "date": "2026-03-06 09:08:22.000000"
+    },
+    {
+      "message": "added new markdown file by nitish",
+      "author_name": "nitish12382",
+      "score": 1,
+      "summary": "The commit adds a new Markdown file named 'nitishbranch.md' to the repository. The file contains a single line with the text 'new file added by nitish !!'. This is an empty or merge commit as there are no changes to existing files.",
+      "url": "https://github.com/nitish12382/COHERENCE-26_ACTIONKAMEN/commit/4e6664a3ad12e3a53ddddd7c643fc0e310febf9e",
+      "date": "2026-03-06 09:04:09.000000"
+    },
+    {
+      "message": "Merge pull request #1 from nitish12382/Nitish\n\nmade first commit",
+      "author_name": "nitish12382",
+      "score": 1,
+      "summary": "This is a merge commit that merges the branch 'nitish12382/Nitish' into the main branch. It contains only metadata and no actual code changes.",
+      "url": "https://github.com/nitish12382/COHERENCE-26_ACTIONKAMEN/commit/a78b4b66e93ffff3468c3ddc7e93df12491441b0",
+      "date": "2026-03-06 09:03:01.000000"
+    },
+    {
+      "message": "made first commit",
+      "author_name": "nitish12382",
+      "score": 1,
+      "summary": "This is a simple change that adds a new line of text to the README, which is the project's main documentation file. The code quality is high as it maintains the existing structure and format of the README while adding an informative message.",
+      "url": "https://github.com/nitish12382/COHERENCE-26_ACTIONKAMEN/commit/caff1de1730a9aaed961f9e9c9a282745b56d9e9",
+      "date": "2026-03-06 08:48:24.000000"
+    },
+    {
+      "message": "Create README.md",
+      "author_name": "nitish12382",
+      "score": 1,
+      "summary": "1. The code added a new README.md file to the repository.\n2. This file contains information about the Coherence 2026 hackathon project, including its name and purpose.\n3. The code quality is good as it follows standard conventions for a README file.",
+      "url": "https://github.com/nitish12382/COHERENCE-26_ACTIONKAMEN/commit/3800d6afffd8e032b6ce58d433c79e3004c8a8a6",
+      "date": "2026-03-06 08:11:11.000000"
+    }
+  ],
+  "final_review": "Action Kamen built a Coherence 2026 hackathon project that included a new Sidebar component with various features, an API endpoint for managing workflows using the workflow engine, and a README file with project information. They started with setup and progressed to features by committing frequently and in large batches. Commits were well-structured, with clear descriptions of changes. The code quality was high for most commits, with scores ranging from 7-14. A few commits had generic descriptions, identical patterns, or suspiciously uniform structure, indicating AI-generated portions. The standout commit was the addition of the Sidebar component, while a merge commit and an empty file were wasted. Overall, Action Kamen built a functional project that meets expectations for a 24-hour hackathon."
+}

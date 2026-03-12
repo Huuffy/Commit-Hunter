@@ -1,0 +1,343 @@
+{
+  "team_name": "npx create",
+  "commit_count": 74,
+  "additions": 95999,
+  "deletions": 1768,
+  "churn_rate": 0.02,
+  "productivity_score": 9673.9,
+  "hourly_commits": [
+    0,
+    0,
+    1,
+    0,
+    7,
+    5,
+    4,
+    4,
+    4,
+    3,
+    2,
+    4,
+    5,
+    4,
+    5,
+    5,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    5,
+    13
+  ],
+  "hourly_volume": [
+    95999,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "\u201c[firstname",
+      "commits": 53
+    },
+    {
+      "name": "flexykrn",
+      "commits": 21
+    }
+  ],
+  "top_files": [
+    {
+      "name": "backend/data/transactions.csv",
+      "value": 43005
+    },
+    {
+      "name": "backend/blockchain/package-lock.json",
+      "value": 8782
+    },
+    {
+      "name": "jhol-khol/package-lock.json",
+      "value": 7083
+    },
+    {
+      "name": "backend/data/scheme_disbursements.csv",
+      "value": 3601
+    },
+    {
+      "name": "backend/data/intelligence_alerts.csv",
+      "value": 3408
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "backend/data",
+      "value": 51835
+    },
+    {
+      "name": "backend/blockchain",
+      "value": 8850
+    },
+    {
+      "name": "jhol-khol",
+      "value": 7323
+    },
+    {
+      "name": "backend/routes",
+      "value": 7259
+    },
+    {
+      "name": "backend/models",
+      "value": 5760
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".csv",
+      "value": 51478
+    },
+    {
+      "name": ".json",
+      "value": 16157
+    },
+    {
+      "name": ".tsx",
+      "value": 12287
+    },
+    {
+      "name": ".py",
+      "value": 8047
+    },
+    {
+      "name": ".ipynb",
+      "value": 5564
+    },
+    {
+      "name": ".ts",
+      "value": 2048
+    },
+    {
+      "name": ".sol",
+      "value": 1176
+    },
+    {
+      "name": ".js",
+      "value": 476
+    },
+    {
+      "name": ".css",
+      "value": 218
+    },
+    {
+      "name": "no_ext",
+      "value": 121
+    },
+    {
+      "name": ".svg",
+      "value": 96
+    },
+    {
+      "name": ".md",
+      "value": 74
+    },
+    {
+      "name": ".mjs",
+      "value": 25
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".jpg",
+      "value": 0
+    },
+    {
+      "name": ".h5",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "fix: Replace Home link with Dashboard in navbar",
+      "author_name": "\u201c[firstname",
+      "score": 5,
+      "summary": "The code diff shows changes to the Navbar component of a Next.js application, but it does not add any new functionality or features. It simply updates the link text from 'Home' to 'Dashboard'. This is a default scaffold change rather than adding new components, logic, or services.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/4663c0c7f43a8f53cae8dbaa2946461a292bd886",
+      "date": "2026-03-07 15:06:00.000000"
+    },
+    {
+      "message": "fix: Add safety checks for numeric properties in schemes page",
+      "author_name": "\u201c[firstname",
+      "score": 1,
+      "summary": "This is a merge commit that combines multiple pull requests into one. It does not add or change any specific code.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/63dabd772e32481524a8517aebd24353d4c44254",
+      "date": "2026-03-07 15:05:00.000000"
+    },
+    {
+      "message": "feat: Create landing page with login CTA and remove direct access to dashboard",
+      "author_name": "\u201c[firstname",
+      "score": 11,
+      "summary": "The code adds an API route that handles user authentication using a login form. It also modifies the landing page to remove the direct link to the dashboard and instead redirects users to the login page.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/9190a2f499feb3638ae31d79ac2d92d860e1a207",
+      "date": "2026-03-07 15:00:00.000000"
+    },
+    {
+      "message": "chore: Add Python cache files to .gitignore",
+      "author_name": "\u201c[firstname",
+      "score": 4,
+      "summary": "The commit adds new lines to the .gitignore file to exclude specific Python-related directories and files, which helps in managing the repository more efficiently by ignoring unnecessary files.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/74dd74cc93d8ce63104ed1609445d50c8738e2c3",
+      "date": "2026-03-07 14:45:00.000000"
+    },
+    {
+      "message": "fix: Disable notification sound while keeping visual alerts",
+      "author_name": "\u201c[firstname",
+      "score": 1,
+      "summary": "This commit is a merge commit that combines multiple previous commits into one. It does not introduce any new code, only merges changes.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/637dbaddf343bf3fe182114d05f7c6c4280af50b",
+      "date": "2026-03-07 14:30:00.000000"
+    },
+    {
+      "message": "fix: Update schemes page to use correct API client and TypeScript types",
+      "author_name": "\u201c[firstname",
+      "score": 11,
+      "summary": "The code adds a new API route `/api/schemes` to fetch welfare scheme data from the backend. It also updates the `SchemesPage` component to use this new API client and TypeScript types for better type safety.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/760585da5f9f7da582f00f0ec59d5119d9facfca",
+      "date": "2026-03-07 14:00:00.000000"
+    },
+    {
+      "message": "feat: Enhance reallocation map with department info and scheme allocation details",
+      "author_name": "\u201c[firstname",
+      "score": 11,
+      "summary": "The code adds a new API endpoint that retrieves budget states and schemes from the server. It then maps these data into stateful components for displaying reallocation suggestions on a map, including department information and suggested schemes with their need amounts and utilization percentages.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/5b06f6e9aac5e38c5824eef366ac0fa01f8fe905",
+      "date": "2026-03-07 13:30:00.000000"
+    },
+    {
+      "message": "refactor: Redesign navbar with floating glassmorphic style and add blockchain link",
+      "author_name": "\u201c[firstname",
+      "score": 19,
+      "summary": "The code introduces a completely redesigned navbar with a floating glassmorphic style and adds a new 'Blockchain' link to the navigation menu. This design change enhances user experience by providing a modern and visually appealing interface, while the addition of blockchain-related functionality demonstrates exceptional engineering skills in integrating complex features into a production-grade application.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/478602e7c70ffc12d3d7b61004d014f304f94422",
+      "date": "2026-03-07 13:00:00.000000"
+    },
+    {
+      "message": "feat: Add blockchain explorer with block viewer and Merkle verification UI",
+      "author_name": "\u201c[firstname",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/fed981597b9840709ad3b1d7521ef39c212668ad",
+      "date": "2026-03-07 12:30:00.000000"
+    },
+    {
+      "message": "feat: Register blockchain ledger and Merkle proof API routers",
+      "author_name": "\u201c[firstname",
+      "score": 1,
+      "summary": "The provided code diff shows no changes to the existing files, indicating that this is a merge commit or an empty commit.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/1f7972dabdf40a9de79159b2ca26eb15b6f36f34",
+      "date": "2026-03-07 11:30:00.000000"
+    },
+    {
+      "message": "feat: Implement blockchain ledger and Merkle proof verification system",
+      "author_name": "\u201c[firstname",
+      "score": 9,
+      "summary": "The code adds a blockchain ledger and Merkle proof verification system to the backend. It includes functions for building transaction hashes, creating blocks, and initializing the ledger from a CSV file.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/27a1eb7e0ebaecd28929daf7c4e8b08ac75d5481",
+      "date": "2026-03-07 11:00:00.000000"
+    },
+    {
+      "message": "feat: Add backend synthetic data generation and CSV datasets",
+      "author_name": "\u201c[firstname",
+      "score": 1,
+      "summary": "The commit adds a new CSV file named 'vendors.csv' with data about various vendors, including their IDs, names, PAN hashes, categories, registration dates, and risk scores. The code does not add any new functionality or components; it simply creates a new file.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/50f5e2d3f4e39464e9cae2ab3ec69599fee05539",
+      "date": "2026-03-07 10:30:00.000000"
+    },
+    {
+      "message": "feat: Add full Solidity contract suite (MerkleRegistry, CommitmentRegistry, SlashingVault, MultiSigReallocation, AuditVRF)\n\n- MerkleRegistry: Ownable Merkle root store, BatchSubmitted/TransactionVerified events\n- CommitmentRegistry: commit-reveal anti-backdating for budget figures\n- SlashingVault: stake/7-day-timelock-withdraw/slash with treasury forwarding\n- MultiSigReallocation: EIP-712 typed-data 3-of-5 governance multi-sig\n- AuditVRF: Chainlink VRF v2.5 random batch audit selector\n- deploy_full.js: unified deploy script for all 6 contracts\n- Bump Solidity to 0.8.26 / EVM cancun for OZ v5.6 mcopy support\n- Install @chainlink/contracts@1.2.0",
+      "author_name": "flexykrn",
+      "score": 13,
+      "summary": "The code adds a new API endpoint for managing users, including creating, reading, updating, and deleting user records. It includes input validation to ensure the data is correct before processing.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/164fd5c87392c8c566d1b3788e9f5b4c680a6130",
+      "date": "2026-03-07 05:51:54.000000"
+    },
+    {
+      "message": "fix: Analytics pages and API type updates",
+      "author_name": "flexykrn",
+      "score": 4,
+      "summary": "The commit includes updates to configuration files such as `tsconfig.json` and `package-lock.json`, which are essential for managing TypeScript compilation and dependency versions.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/7e806a79fcb17a87eb2ea15db734b18c46fe5714",
+      "date": "2026-03-07 05:22:28.000000"
+    },
+    {
+      "message": "feat: Add /blockchain/rollup page - create batches, verify txns, auto-submit to Hoodi Etherscan",
+      "author_name": "flexykrn",
+      "score": 12,
+      "summary": "The code adds a new React component for the Rollup page in a Next.js application. It includes features for creating batches of transactions, verifying transaction hashes, and automatically submitting Merkle roots to an on-chain contract. The code uses hooks like `useState` and `useEffect` for managing state and side effects, and it leverages libraries like `framer-motion` for animations.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/cca8b21a7ab4c0fa6464d2a58da0368d7a67cf8e",
+      "date": "2026-03-07 05:22:27.000000"
+    },
+    {
+      "message": "feat: Blockchain explorer - Etherscan dashboard, live blocks/txns, Merkle proof + Hoodi link",
+      "author_name": "flexykrn",
+      "score": 16,
+      "summary": "The commit adds a new feature to the blockchain explorer application. It includes an Etherscan dashboard that displays recent blocks and transactions, as well as a live refresh every 30 seconds. The code uses React hooks like useState, useEffect, useCallback, and useRef to manage state and side effects. Additionally, it integrates with an API to fetch data from a local server.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/f8c39f37843ad6609dc731868f94c6d43a2efc55",
+      "date": "2026-03-07 05:22:27.000000"
+    },
+    {
+      "message": "feat: Auto-submit Merkle root to Hoodi MerkleRegistry on batch create (web3.py)",
+      "author_name": "flexykrn",
+      "score": 11,
+      "summary": "The code adds a new API endpoint that handles batch creation and submits the Merkle root along with individual proofs to the Hoodi MerkleRegistry using Web3.py. It includes logic to manage in-memory batches, hash transactions, and submit them to the registry.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/7a859f2c1e576d1db712eb506b1559817b9de7e4",
+      "date": "2026-03-07 05:22:27.000000"
+    },
+    {
+      "message": "feat: Add Solidity RollupBatch contract, Hardhat config, deploy + batch scripts",
+      "author_name": "flexykrn",
+      "score": 1,
+      "summary": "The commit is a merge commit that combines multiple smaller commits into one, resulting in an empty diff.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/8d2e208607ea94dfd06d08659b30179f5972719c",
+      "date": "2026-03-07 05:22:26.000000"
+    },
+    {
+      "message": "contractor pages",
+      "author_name": "\u201c[firstname",
+      "score": 18,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/260b625d759addf98908b78ee531d16019e425c7",
+      "date": "2026-03-07 02:19:01.000000"
+    },
+    {
+      "message": "timeline feature",
+      "author_name": "\u201c[firstname",
+      "score": 12,
+      "summary": "The code adds a React component that displays various stages of a project timeline, including contract signing, site preparation, foundation work, construction, finishing, and handover. It uses Next.js and Framer Motion libraries to create interactive and visually appealing components.",
+      "url": "https://github.com/flexykrn/COHERENCE-26_NPXCREATE/commit/70b2da20ae6e8d3381ce55ab0a7ccf2007315217",
+      "date": "2026-03-07 01:16:51.000000"
+    }
+  ],
+  "final_review": "The team built several complex systems including an AI-driven budget flow intelligence API, a blockchain explorer application, and a welfare scheme management system. They started with setup tasks such as installing dependencies and setting up the development environment before progressing to building features like user authentication, real-time data aggregation, and anomaly detection algorithms. The code quality varied significantly; some commits were well-structured and focused on adding new functionality, while others were more setup-oriented or included generic descriptions. AI-generated code was identified in multiple commits with similar patterns. Overall, the project demonstrated a mix of strengths and weaknesses. They built substantial systems that are functional but could benefit from further optimization. The team's output compared favorably to what's expected in a 24-hour hackathon, showcasing their ability to tackle complex problems within a short timeframe."
+}

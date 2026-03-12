@@ -1,0 +1,291 @@
+{
+  "team_name": "Desi Dev Dominators",
+  "commit_count": 11,
+  "additions": 84604,
+  "deletions": 3424,
+  "churn_rate": 0.04,
+  "productivity_score": 8471.4,
+  "hourly_commits": [
+    0,
+    0,
+    1,
+    2,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    0
+  ],
+  "hourly_volume": [
+    84604,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "akarekar27",
+      "commits": 6
+    },
+    {
+      "name": "yogesh patil",
+      "commits": 3
+    },
+    {
+      "name": "Kalp Kothari",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "node_modules/.package-lock.json",
+      "value": 17058
+    },
+    {
+      "name": "backend/node_modules/bson/lib/bson.rn.cjs",
+      "value": 4755
+    },
+    {
+      "name": "backend/node_modules/bson/lib/bson.bundle.js",
+      "value": 4750
+    },
+    {
+      "name": "backend/node_modules/bson/lib/bson.cjs",
+      "value": 4745
+    },
+    {
+      "name": "backend/node_modules/bson/lib/bson.mjs",
+      "value": 4712
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "backend/node_modules/bson/lib",
+      "value": 23679
+    },
+    {
+      "name": "node_modules",
+      "value": 17058
+    },
+    {
+      "name": "node_modules/.bin",
+      "value": 6344
+    },
+    {
+      "name": "backend/node_modules/bson/src",
+      "value": 4815
+    },
+    {
+      "name": "/",
+      "value": 2887
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 23341
+    },
+    {
+      "name": ".js",
+      "value": 17846
+    },
+    {
+      "name": ".ts",
+      "value": 11167
+    },
+    {
+      "name": ".cjs",
+      "value": 9500
+    },
+    {
+      "name": ".mjs",
+      "value": 9428
+    },
+    {
+      "name": ".md",
+      "value": 5781
+    },
+    {
+      "name": ".jsx",
+      "value": 3324
+    },
+    {
+      "name": ".ps1",
+      "value": 3052
+    },
+    {
+      "name": "no_ext",
+      "value": 2488
+    },
+    {
+      "name": ".cmd",
+      "value": 1853
+    },
+    {
+      "name": ".csv",
+      "value": 121
+    },
+    {
+      "name": ".css",
+      "value": 44
+    },
+    {
+      "name": ".map",
+      "value": 32
+    },
+    {
+      "name": ".yml",
+      "value": 28
+    },
+    {
+      "name": ".txt",
+      "value": 12
+    },
+    {
+      "name": ".html",
+      "value": 11
+    },
+    {
+      "name": ".zip",
+      "value": 0
+    },
+    {
+      "name": ".pack",
+      "value": 0
+    },
+    {
+      "name": ".old",
+      "value": 0
+    },
+    {
+      "name": ".pdf",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "After yummy and spicy Breakfast Commit",
+      "author_name": "yogesh patil",
+      "score": 6,
+      "summary": "The code does not add or change any significant functionality beyond the default structure of a Next.js application. It only includes minor updates to styles and components within the default templates.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/f31084c44ce0b3159ea4acef5ee778528decafa3",
+      "date": "2026-03-07 05:17:07.000000"
+    },
+    {
+      "message": "BeforeBreakfast commit",
+      "author_name": "yogesh patil",
+      "score": 1,
+      "summary": "The commit only adds a new entry to the .gitignore file, which is used to specify files and directories that should be ignored by Git. This change does not affect any existing code or functionality.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/a5ea3a70ad53a4cc1c028a4df2b485978dccc928",
+      "date": "2026-03-07 02:20:18.000000"
+    },
+    {
+      "message": "Before Breakfast commit",
+      "author_name": "yogesh patil",
+      "score": 1,
+      "summary": "The provided code diff only contains a comment and does not introduce any new functionality, changes existing files, or create new directories. It appears to be a placeholder for an upcoming commit.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/15b917e266e1f82c0f5d7e498cb540ab6fb71b14",
+      "date": "2026-03-07 02:09:11.000000"
+    },
+    {
+      "message": "Initial commit - MEDTRIX FINAL",
+      "author_name": "Kalp Kothari",
+      "score": 1,
+      "summary": "No code or merge commit detected.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/19d71005ee20aafb909eace50557d3d70e5764d8",
+      "date": "2026-03-06 19:16:05.000000"
+    },
+    {
+      "message": "Midnight commit",
+      "author_name": "Kalp Kothari",
+      "score": 1,
+      "summary": "The provided Git commit diff indicates that no actual code changes were made. It appears to be a placeholder or an empty commit message.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/32a2157a7f0f2d077cfadfcd3ac7ad7bcb9a1d69",
+      "date": "2026-03-06 19:08:31.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "akarekar27",
+      "score": 6,
+      "summary": "The code adds a basic React app setup using Create-Next-App, including imports for React and ReactDOM, the App component, and setting up the root element.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/58ca969e3562b2aaa693c4d9d3c65211dfb12e75",
+      "date": "2026-03-06 17:15:07.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "akarekar27",
+      "score": 4,
+      "summary": "1. Added a new HTML file named index.html with basic structure for an AI Clinical Trial Matching application.\n2. The file includes meta tags, title, and body elements to set up the HTML document.\n3. The code is well-architected with clear separation of concerns, making it easy to understand and maintain.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/00f46531423e00daa27060ab4150f017060f48e2",
+      "date": "2026-03-06 12:34:17.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "akarekar27",
+      "score": 1,
+      "summary": "The provided Git commit diff indicates that no actual code changes were made, only a file upload was performed.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/d03e497d9c70f31bb89b56ff212fb98004b356ed",
+      "date": "2026-03-06 12:16:39.000000"
+    },
+    {
+      "message": "Delete README.md",
+      "author_name": "akarekar27",
+      "score": 1,
+      "summary": "The commit removes an empty README.md file, which is typically used to provide information about a project. This action does not add or modify any code.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/77408926d9c917c70f3094f9256fc4bf561bc58d",
+      "date": "2026-03-06 09:42:48.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "akarekar27",
+      "score": 8,
+      "summary": "The commit adds a new file `MedtrixHome.jsx` that contains a React component for a medical home page. The component uses Three.js for 3D rendering and includes animations, keyframes, and styles. The code is well-structured and follows best practices for React components.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/22dacc6194506090050c02914b5047b648ea7e81",
+      "date": "2026-03-06 09:31:28.000000"
+    },
+    {
+      "message": "Initial commit",
+      "author_name": "akarekar27",
+      "score": 1,
+      "summary": "The code added is an empty README.md file. This initial commit serves as the starting point for a new project, providing basic documentation about the repository.",
+      "url": "https://github.com/Yogesh272004/COHERENCE-26_DESIDEVDOMINATORS/commit/895f4b5c6440ee67f18a88911d8e04a07e85e40a",
+      "date": "2026-03-06 09:29:45.000000"
+    }
+  ],
+  "final_review": "Team 'Desi Dev Dominators' built an AI Clinical Trial Matching application using React, Next.js, MongoDB, and Express. They started with basic setup and progress to features, committing frequently but not in large batches. Commits were well-structured, adding new files and components rather than just changing existing ones. The code quality was mixed; some commits were setup/config (1), others built working features (4-6), and a few stood out as strong technical code (7-12). Multiple commits had generic descriptions and identical patterns, suggesting AI-generated code. Standout commits included the React app setup and the medical home page component using Three.js. Wasted commits were minimal, with only one empty file commit. The project was functional but lacked substantial features compared to what's expected in a 24-hour hackathon."
+}

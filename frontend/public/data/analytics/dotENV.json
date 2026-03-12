@@ -1,0 +1,343 @@
+{
+  "team_name": "dotENV",
+  "commit_count": 78,
+  "additions": 107190,
+  "deletions": 17797,
+  "churn_rate": 0.17,
+  "productivity_score": 10797.0,
+  "hourly_commits": [
+    0,
+    0,
+    3,
+    1,
+    12,
+    5,
+    3,
+    7,
+    5,
+    7,
+    4,
+    4,
+    0,
+    3,
+    3,
+    2,
+    3,
+    0,
+    0,
+    0,
+    3,
+    7,
+    6,
+    0
+  ],
+  "hourly_volume": [
+    107190,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Krrish2310",
+      "commits": 24
+    },
+    {
+      "name": "Ashitosh Jadhav",
+      "commits": 24
+    },
+    {
+      "name": "CoderMak25",
+      "commits": 21
+    },
+    {
+      "name": "Parth Redij",
+      "commits": 7
+    },
+    {
+      "name": "Mayank Kamble",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "seed.json",
+      "value": 33349
+    },
+    {
+      "name": "server/package-lock.json",
+      "value": 20319
+    },
+    {
+      "name": "client/package-lock.json",
+      "value": 15522
+    },
+    {
+      "name": "client/src/index.css",
+      "value": 9309
+    },
+    {
+      "name": "server/src/services/executionEngine.js",
+      "value": 5607
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 35478
+    },
+    {
+      "name": "server",
+      "value": 20525
+    },
+    {
+      "name": "client",
+      "value": 15697
+    },
+    {
+      "name": "client/src/pages/workflow",
+      "value": 11409
+    },
+    {
+      "name": "client/src",
+      "value": 9576
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 69578
+    },
+    {
+      "name": ".js",
+      "value": 20182
+    },
+    {
+      "name": ".jsx",
+      "value": 19854
+    },
+    {
+      "name": ".css",
+      "value": 11520
+    },
+    {
+      "name": ".py",
+      "value": 1686
+    },
+    {
+      "name": ".md",
+      "value": 1513
+    },
+    {
+      "name": ".csv",
+      "value": 288
+    },
+    {
+      "name": ".example",
+      "value": 208
+    },
+    {
+      "name": "no_ext",
+      "value": 96
+    },
+    {
+      "name": ".html",
+      "value": 41
+    },
+    {
+      "name": ".yml",
+      "value": 21
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".db",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Merge branch 'main' of https://github.com/CoderMak25/COHERENCE-26_dotENV",
+      "author_name": "CoderMak25",
+      "score": 1,
+      "summary": "This commit is a merge operation that combines changes from the 'main' branch into the current branch. The addition of `leadScoringService.js` suggests that there was previously no such file in the repository, indicating that a new service or module has been introduced to handle lead scoring logic.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/ee31b2d0a61974df741389ac464d221e430d2d33",
+      "date": "2026-03-07 04:51:25.000000"
+    },
+    {
+      "message": "minor ui changes",
+      "author_name": "CoderMak25",
+      "score": 7,
+      "summary": "The commit adds and modifies CSS classes for message divs in the VoiceLogs component. It changes the background color and text color of user messages based on whether they are from a lead or AI assistant, and adjusts the font size and tracking of speaker names.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/52ee254f4b33eea4912e1132573c1d590807d4db",
+      "date": "2026-03-07 04:51:20.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/CoderMak25/COHERENCE-26_dotENV",
+      "author_name": "Krrish2310",
+      "score": 1,
+      "summary": "The commit merges the main branch from a GitHub repository, which likely involves updating dependencies or integrating new changes. This is a common practice in version control to keep codebases up-to-date and integrated.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/4b74f84aeaa20270acb7a16b1c25dc56c4b28506",
+      "date": "2026-03-07 04:50:53.000000"
+    },
+    {
+      "message": "Leads page bugs done",
+      "author_name": "Krrish2310",
+      "score": 11,
+      "summary": "The commit introduces a new API endpoint in the `leadScoringService.js` file. This endpoint calculates and returns a lead score based on static profile data and engagement events, adhering to a strict scoring system that prioritizes role, company size, and behavior scores.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/5801b9b4662fae123b3b14f91aac96ed268760a4",
+      "date": "2026-03-07 04:50:46.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/CoderMak25/COHERENCE-26_dotENV",
+      "author_name": "CoderMak25",
+      "score": 1,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/b34f840b77c21f01a1b2f9f78770882c096aff2a",
+      "date": "2026-03-07 04:35:08.000000"
+    },
+    {
+      "message": "workflow improved",
+      "author_name": "CoderMak25",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/0efa441d038c19e353a348404b539b8c29fec646",
+      "date": "2026-03-07 04:35:02.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/CoderMak25/COHERENCE-26_dotENV",
+      "author_name": "Ashitosh Jadhav",
+      "score": 1,
+      "summary": "This commit merges changes from the 'main' branch of a GitHub repository. It does not add or change any code, but rather combines the work done in the 'main' branch into this branch.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/15401364d35522f395158da0510dcca007a81f34",
+      "date": "2026-03-07 04:19:21.000000"
+    },
+    {
+      "message": "made throttle node",
+      "author_name": "Ashitosh Jadhav",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/8e63b45ddabe1506011656663ab20cd1b2d1f022",
+      "date": "2026-03-07 04:19:15.000000"
+    },
+    {
+      "message": "Leads page bugs done",
+      "author_name": "Krrish2310",
+      "score": 11,
+      "summary": "This commit adds a new API route in the Leads page component that handles importing leads from files. It also includes functionality to paginate through the list of leads, providing a more user-friendly experience.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/97034a1e3a164eaebfae87f5900d5dc109dc8c68",
+      "date": "2026-03-07 04:18:17.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/CoderMak25/COHERENCE-26_dotENV",
+      "author_name": "Ashitosh Jadhav",
+      "score": 1,
+      "summary": "This commit does not contain any new code or changes to existing files. It is simply merging the 'main' branch from an external repository into the local 'main' branch.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/b7b0a4ac8fa816013db7a38ff895d6cf84b30f6f",
+      "date": "2026-03-07 03:57:20.000000"
+    },
+    {
+      "message": "made folow up workflow",
+      "author_name": "Ashitosh Jadhav",
+      "score": 11,
+      "summary": "This commit introduces a new function `handleAiGenerate` within the `executionEngine.js` file. This function handles the generation of AI-generated outreach messages based on user-defined configurations and lead data. It includes features for handling custom prompts, determining prompt keys based on lead's outreach history, and sending log messages to track the process.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/225e335c6b2380786063af0de6a9c60ab87a7285",
+      "date": "2026-03-07 03:57:12.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/CoderMak25/COHERENCE-26_dotENV",
+      "author_name": "Krrish2310",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/ddd4de4bb28fc17ecd0666c61a68734228d65ea4",
+      "date": "2026-03-07 03:32:05.000000"
+    },
+    {
+      "message": "minor bugs fixed",
+      "author_name": "Krrish2310",
+      "score": 9,
+      "summary": "The code adds a utility function to detect speech in an audio stream using VAD. It includes logic to handle recording and silence detection with thresholds for volume and silence duration.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/d319b99eca2d1a8ba895e6c4e417e113f95421fa",
+      "date": "2026-03-07 03:31:51.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/CoderMak25/COHERENCE-26_dotENV",
+      "author_name": "Ashitosh Jadhav",
+      "score": 1,
+      "summary": "This commit merges the 'main' branch from a GitHub repository into the current branch. It does not contain any new code or changes to existing files.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/b6876e041579990db471da07a803dd59d1a8c72a",
+      "date": "2026-03-07 03:22:16.000000"
+    },
+    {
+      "message": "fixed telegrambot",
+      "author_name": "Ashitosh Jadhav",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/61d49e1eca71a784b311af4d15c973e10d8e84db",
+      "date": "2026-03-07 03:22:08.000000"
+    },
+    {
+      "message": "Fixed minor bugs of workflow",
+      "author_name": "CoderMak25",
+      "score": 11,
+      "summary": "The code adds a `SMART_FILTERS` array that defines different filters for lead statuses. It also updates the `filtered` variable to apply these filters when searching and selecting leads.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/ae91f10473f22548cdf92d89d85954609170de4a",
+      "date": "2026-03-07 03:21:12.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/CoderMak25/COHERENCE-26_dotENV",
+      "author_name": "Ashitosh Jadhav",
+      "score": 11,
+      "summary": "The code defines a function `pollForReplies` that checks for new replies in Gmail threads associated with leads. It uses the Gmail API to fetch messages and processes them based on lead status and email content.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/fc08701b8fadbc0ea433c894b99942f0c5a77184",
+      "date": "2026-03-06 23:26:43.000000"
+    },
+    {
+      "message": "some components fixed",
+      "author_name": "Ashitosh Jadhav",
+      "score": 11,
+      "summary": "The commit adds a new function `handleCondition` to process conditions in the execution engine. It also modifies the `getLeadValue` function to include additional fields like `ai_score`, `replied`, `email_opened`, and `email_clicked`. The code handles different types of nodes, such as conditions, ab_splits, wait_events, unsubscribe_check, and loops, by mapping specific source handles to fixed port indexes. This ensures that the graph is correctly built based on the node type and handle.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/4c443046a555c604f5e7d78affcbfd62f8666579",
+      "date": "2026-03-06 23:26:35.000000"
+    },
+    {
+      "message": "now the replys are working fine also the workflow fixed",
+      "author_name": "CoderMak25",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/13749361d0bde7ec0c59327754db8639cbab83f9",
+      "date": "2026-03-06 23:25:13.000000"
+    },
+    {
+      "message": "gmail api added and some changes for follow ups and reply",
+      "author_name": "CoderMak25",
+      "score": 14,
+      "summary": "The code adds an API endpoint to handle voice interactions, allowing users to record and process voice messages. It includes components for recording audio, processing it using a speech recognition library, and sending the processed data to the backend.",
+      "url": "https://github.com/CoderMak25/COHERENCE-26_dotENV/commit/630f3c79c2f17c5abed769bc0f5db98d26f04ccf",
+      "date": "2026-03-06 22:20:10.000000"
+    }
+  ],
+  "final_review": "Hackathon participants built a comprehensive system for lead scoring, routing, and execution of workflows using React, Next.js, MongoDB, Express, and Node.js technologies. They started with setting up the project structure and progressed to building working features, refactoring code where necessary, and ensuring high code quality through well-structured commits. The AI-generated portion of their work appears in some commits due to the nature of the hackathon setup, which involved generating multiple similar commits for demonstration purposes. Key strengths include the robust lead scoring logic and efficient workflow execution engine. However, there were some wasted commits, such as merge commits and empty files, which could be improved by focusing on adding meaningful features and refactoring existing code. The project was functional but lacked substantial depth due to the time constraint of a 24-hour hackathon. Overall, their output demonstrated solid technical skills but fell short of what's expected in a longer-term development effort."
+}

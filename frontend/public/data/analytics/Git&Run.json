@@ -1,0 +1,359 @@
+{
+  "team_name": "Git&Run",
+  "commit_count": 63,
+  "additions": 229072,
+  "deletions": 70341,
+  "churn_rate": 0.31,
+  "productivity_score": 22970.2,
+  "hourly_commits": [
+    0,
+    1,
+    2,
+    4,
+    0,
+    6,
+    2,
+    3,
+    4,
+    2,
+    0,
+    8,
+    2,
+    0,
+    3,
+    8,
+    2,
+    6,
+    4,
+    0,
+    0,
+    5,
+    1,
+    0
+  ],
+  "hourly_volume": [
+    229072,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "AbhayPadgaonkar",
+      "commits": 24
+    },
+    {
+      "name": "Sahil055",
+      "commits": 17
+    },
+    {
+      "name": "Sejal Mukane",
+      "commits": 17
+    },
+    {
+      "name": "Rutuja Palye",
+      "commits": 4
+    },
+    {
+      "name": "Sahil Mhapsekar",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "backend/indian_gov_fund_flows_40000.csv",
+      "value": 80002
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 79926
+    },
+    {
+      "name": "frontend/pnpm-lock.yaml",
+      "value": 54829
+    },
+    {
+      "name": "node_modules/@google/generative-ai/dist/index.js",
+      "value": 3060
+    },
+    {
+      "name": "node_modules/@google/generative-ai/dist/index.mjs",
+      "value": 3040
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend",
+      "value": 135005
+    },
+    {
+      "name": "backend",
+      "value": 89165
+    },
+    {
+      "name": "frontend/components/ui",
+      "value": 13374
+    },
+    {
+      "name": "node_modules/@google/generative-ai/dist",
+      "value": 8916
+    },
+    {
+      "name": "node_modules/@google/generative-ai/dist/server",
+      "value": 5100
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 81514
+    },
+    {
+      "name": ".csv",
+      "value": 80002
+    },
+    {
+      "name": ".yaml",
+      "value": 54838
+    },
+    {
+      "name": ".tsx",
+      "value": 29352
+    },
+    {
+      "name": ".py",
+      "value": 25386
+    },
+    {
+      "name": ".ts",
+      "value": 14648
+    },
+    {
+      "name": ".js",
+      "value": 4880
+    },
+    {
+      "name": ".mjs",
+      "value": 4735
+    },
+    {
+      "name": ".md",
+      "value": 2982
+    },
+    {
+      "name": "no_ext",
+      "value": 517
+    },
+    {
+      "name": ".css",
+      "value": 465
+    },
+    {
+      "name": ".txt",
+      "value": 71
+    },
+    {
+      "name": ".svg",
+      "value": 15
+    },
+    {
+      "name": ".map",
+      "value": 8
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    },
+    {
+      "name": ".pkl",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "added reallocation logic",
+      "author_name": "Sejal Mukane",
+      "score": 13,
+      "summary": "The code adds a new feature for reallocating funds between different schemes. It includes components for displaying underutilized and high-demand schemes, allowing users to select sources and targets, enter reallocation amounts, and submit the form. The code also handles loading dummy data for testing purposes.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/63aa26b5f86821d0e5c4c73accd5db7e74d7f822",
+      "date": "2026-03-07 05:13:50.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun",
+      "author_name": "Sejal Mukane",
+      "score": 1,
+      "summary": "The code diff shows that there were no changes made to any files in the frontend/app/auth/login directory. The commit message indicates that it merged changes from the 'main' branch, which suggests this might have been an automated process without manual intervention.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/9bf3f50e81e76e51ee2c003074539cac00d01f9d",
+      "date": "2026-03-07 04:06:23.000000"
+    },
+    {
+      "message": "integrated with the databases",
+      "author_name": "Sejal Mukane",
+      "score": 14,
+      "summary": "The code adds new API routes for creating and retrieving schemes and anomalies, as well as a form for creating fund flows. It also includes basic validation and loading states.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/963c2ea95b3f0b6a1c0b264141e1bc4b6578c414",
+      "date": "2026-03-07 04:05:10.000000"
+    },
+    {
+      "message": "Dashboard and db configuration",
+      "author_name": "Sahil055",
+      "score": 1,
+      "summary": "This is a merge commit that combines multiple previous commits into a single one. It does not contain any new files or changes to existing ones.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/d596b46348cf9511344256bdba7a8e53ab36b553",
+      "date": "2026-03-07 03:44:15.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun",
+      "author_name": "Sahil055",
+      "score": 1,
+      "summary": "This commit merges the 'main' branch from the specified GitHub repository into the current branch. There are no changes to the codebase, and it's a standard merge operation.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/9c608a93d4d15ea199ccc20ba690176b37647659",
+      "date": "2026-03-07 03:42:56.000000"
+    },
+    {
+      "message": "Dashboard and db configuration",
+      "author_name": "Sahil055",
+      "score": 1,
+      "summary": "The commit message indicates that it's a 'Dashboard and db configuration' update, but the actual code diff shows no changes. This could be due to a merge commit or an empty commit.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/f730a12b82f6a505915a21f00a25285e54795a40",
+      "date": "2026-03-07 03:41:43.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun",
+      "author_name": "AbhayPadgaonkar",
+      "score": 12,
+      "summary": "The commit adds an API route for handling user login using Firebase authentication. It includes a form component that validates email and password inputs before attempting to log in. The code also handles loading states, error messages, and session restoration if the user wants to continue their session from a previous visit.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/95455f7da6301dff4bb91e622bb14c0d83876651",
+      "date": "2026-03-07 01:27:08.000000"
+    },
+    {
+      "message": "Explainable y and analytics modules  layer implemented for anom",
+      "author_name": "AbhayPadgaonkar",
+      "score": 11,
+      "summary": "The code adds an API endpoint to generate text using the Google Gemini model. It uses the `google.generativeai` library to interact with the Gemini API and handles user prompts, system messages, temperature, and maximum tokens.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/4eef811a759b7a9b461dd21257bd0c730e9cc367",
+      "date": "2026-03-07 01:26:28.000000"
+    },
+    {
+      "message": "analytics and anomaly routes tested and fixed",
+      "author_name": "AbhayPadgaonkar",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/ae6b4ca2ae5b2953a815141dc29c8d138f829ce9",
+      "date": "2026-03-07 01:25:44.000000"
+    },
+    {
+      "message": "metamask",
+      "author_name": "Rutuja Palye",
+      "score": 12,
+      "summary": "The code adds a new API route for handling user login. It includes a form with email and password fields, basic input validation, and logic to handle the sign-in process using Firebase Authentication. The code also sets up state management for loading, error messages, and authentication steps.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/f79d223cabd11f3507df2db9144af3f5e264cfbc",
+      "date": "2026-03-07 01:20:40.000000"
+    },
+    {
+      "message": "prediction model",
+      "author_name": "Rutuja Palye",
+      "score": 1,
+      "summary": "The commit message indicates that it is a 'prediction model', which suggests that no new code was added or changed. The code diff shows only whitespace and file structure changes, indicating a merge operation.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/aa1f3467a90bcc12ac2d42ced5410f917b1cfccb",
+      "date": "2026-03-07 00:19:32.000000"
+    },
+    {
+      "message": "LLM module integration",
+      "author_name": "AbhayPadgaonkar",
+      "score": 13,
+      "summary": "The code adds API routes for interacting with various LLM components such as anomaly explanation, budget QA, insight summarization, and more. Each route handles requests to perform specific tasks related to these functionalities.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/a1f08cedffefb0454fd8c96040a8331b99c225fa",
+      "date": "2026-03-07 00:04:55.000000"
+    },
+    {
+      "message": "update",
+      "author_name": "Sejal Mukane",
+      "score": 1,
+      "summary": "The commit appears to be a merge commit or an empty diff, as there are no lines of code added or changed.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/52b35283edb835f93fae4e6c3484d78ca630aee7",
+      "date": "2026-03-06 23:59:56.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun",
+      "author_name": "Sejal Mukane",
+      "score": 1,
+      "summary": "This is a merge commit that combines changes from the 'main' branch into the current branch. It does not add or change any code in the frontend/app/rti/page.tsx file.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/da801a74e5f03888473ce064ba8e1e1591692a47",
+      "date": "2026-03-06 23:59:41.000000"
+    },
+    {
+      "message": "integrating",
+      "author_name": "Sejal Mukane",
+      "score": 13,
+      "summary": "The commit adds a new API route `/api/nodal_agency_routes.py` that handles the logic for flagging an agency. The function `flag_agency` is defined to handle POST requests and includes fields like `agency_id`, `flagged_by`, and `message`. This code is well-architected, with clear separation of concerns.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/2bd34dba99b60662a26922380dfefe71e39c3b42",
+      "date": "2026-03-06 23:47:08.000000"
+    },
+    {
+      "message": "prediction model",
+      "author_name": "Rutuja Palye",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/ffa2c0c54b5b377cc0ae7ead4e6a023c4c5503c7",
+      "date": "2026-03-06 23:37:51.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun",
+      "author_name": "Sahil055",
+      "score": 1,
+      "summary": "This code diff is a merge commit that combines changes from another branch ('main') into the current branch. It does not add or change any specific files, but rather serves as a record of merging two branches together.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/0ebdc224fcd1b45cde7bdb26fbdf61f6b5916905",
+      "date": "2026-03-06 23:10:39.000000"
+    },
+    {
+      "message": "Improved Chatbot",
+      "author_name": "Sahil055",
+      "score": 1,
+      "summary": "The commit appears to be a merge commit, which is used in Git when multiple branches are merged into one. This commit does not introduce any new files or changes to existing ones.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/d6db7115890de8a7144cdf8d36daa6df1d6fe732",
+      "date": "2026-03-06 23:09:09.000000"
+    },
+    {
+      "message": "anomalies prediction",
+      "author_name": "AbhayPadgaonkar",
+      "score": 1,
+      "summary": "The provided diff shows an empty file, indicating that no changes were made to the `push_anomalies.py` script.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/360ebca92ca20160b65e1872d333b93bbb76ab26",
+      "date": "2026-03-06 22:24:26.000000"
+    },
+    {
+      "message": "Analytics with role based access",
+      "author_name": "AbhayPadgaonkar",
+      "score": 12,
+      "summary": "The code adds new classes, methods, and functionality to analyze data with hierarchical aggregation. It includes static methods for aggregating financial metrics, categorizing by status, and getting recent activities. The `HierarchicalAnalyzer` class is responsible for these operations, enhancing the analytics service's capabilities.",
+      "url": "https://github.com/AbhayPadgaonkar/COHERENCE-26_GitAndRun/commit/b9225f569c8bdea340aba5c1125af05d1a9ab987",
+      "date": "2026-03-06 22:19:48.000000"
+    }
+  ],
+  "final_review": "Git&Run built an innovative platform with features including Next.js frontend, FastAPI backend for handling HTTP requests, Firebase integration for authentication and Firestore database, and an API for user registration and login. The team started with setting up the project structure and dependencies before progressing to adding new functionalities like anomaly detection, fund flow tracking, and reallocation of funds between schemes. They committed frequently but often in large batches, leading to some messy code. The code quality varied; some commits were well-structured and added meaningful features, while others were more setup-oriented or AI-generated. The standout commit was the addition of Firebase services for authentication and Firestore integration. However, there were several wasted commits, including merge commits and empty files that did not add any new functionality. Overall, Git&Run demonstrated a solid understanding of Next.js and FastAPI but struggled with code quality and efficiency. Their project was functional but lacked substantial features that could have made it more impactful in a 24-hour hackathon."
+}

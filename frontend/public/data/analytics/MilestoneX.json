@@ -1,0 +1,319 @@
+{
+  "team_name": "MilestoneX",
+  "commit_count": 14,
+  "additions": 91710,
+  "deletions": 13919,
+  "churn_rate": 0.15,
+  "productivity_score": 9185.0,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    2,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    91710,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Saiesh0007",
+      "commits": 14
+    }
+  ],
+  "top_files": [
+    {
+      "name": "backend/package-lock.json",
+      "value": 28482
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 20888
+    },
+    {
+      "name": "package-lock.json",
+      "value": 8383
+    },
+    {
+      "name": "data/clinical_trials_dataset.csv",
+      "value": 2001
+    },
+    {
+      "name": "data/patients_dataset.csv",
+      "value": 2001
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "backend",
+      "value": 30037
+    },
+    {
+      "name": "frontend",
+      "value": 21464
+    },
+    {
+      "name": "/",
+      "value": 10101
+    },
+    {
+      "name": "data",
+      "value": 4010
+    },
+    {
+      "name": "src/components/ui",
+      "value": 3954
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 58399
+    },
+    {
+      "name": ".tsx",
+      "value": 14919
+    },
+    {
+      "name": ".ts",
+      "value": 6848
+    },
+    {
+      "name": ".py",
+      "value": 6426
+    },
+    {
+      "name": ".js",
+      "value": 6236
+    },
+    {
+      "name": ".jsx",
+      "value": 4462
+    },
+    {
+      "name": ".csv",
+      "value": 4002
+    },
+    {
+      "name": ".log",
+      "value": 1811
+    },
+    {
+      "name": ".lock",
+      "value": 1226
+    },
+    {
+      "name": ".css",
+      "value": 475
+    },
+    {
+      "name": "no_ext",
+      "value": 403
+    },
+    {
+      "name": ".map",
+      "value": 160
+    },
+    {
+      "name": ".txt",
+      "value": 146
+    },
+    {
+      "name": ".html",
+      "value": 57
+    },
+    {
+      "name": ".md",
+      "value": 32
+    },
+    {
+      "name": ".mjs",
+      "value": 24
+    },
+    {
+      "name": ".svg",
+      "value": 3
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".woff",
+      "value": 0
+    },
+    {
+      "name": ".db",
+      "value": 0
+    },
+    {
+      "name": ".lockb",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Final Commit",
+      "author_name": "Saiesh0007",
+      "score": 12,
+      "summary": "The commit adds a CSV file named 'clinical_trials_dataset.csv' which contains a database schema with columns for trial ID, condition, age minimum and maximum, HbA1c minimum, blood pressure minimum, exclusion criteria, and location. This is a simple utility function that defines the structure of the database table.",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/514c6c432e1e255c3eaa18629f67c4111c6d9415",
+      "date": "2026-03-07 03:57:39.000000"
+    },
+    {
+      "message": "Venv commit changes",
+      "author_name": "Saiesh0007",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/fb2bfdb0bda915e377b4915d53aab91cb1c8ea21",
+      "date": "2026-03-07 02:30:50.000000"
+    },
+    {
+      "message": "Login Form fix",
+      "author_name": "Saiesh0007",
+      "score": 11,
+      "summary": "The commit adds a new log entry to the MongoDB connection and server startup in the backend, indicating successful connection by the ARS service. Additionally, it logs the server running on port 5000 with the development environment.",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/09029d4e8f8652acffeed908d860611c027a6d2f",
+      "date": "2026-03-06 21:15:20.000000"
+    },
+    {
+      "message": "Update Commit",
+      "author_name": "Saiesh0007",
+      "score": 14,
+      "summary": "This code adds new components, hooks, and services related to patient management. It includes parsing medical notes, handling form submissions, and updating the UI based on patient statuses.",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/7449f3f11079a1c8761e83d53e4ea5b1d4860389",
+      "date": "2026-03-06 20:43:00.000000"
+    },
+    {
+      "message": "Delete frontend directory",
+      "author_name": "Saiesh0007",
+      "score": 1,
+      "summary": "The commit deletes the entire `frontend` directory, which likely contained the source code for a React application. This change would typically be made to remove an old or unused front-end component or project.",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/56f1b7da174ef05719fca21fac813dfb1cd021a8",
+      "date": "2026-03-06 20:33:18.000000"
+    },
+    {
+      "message": "Delete backend directory",
+      "author_name": "Saiesh0007",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/652de355128dc7d00113566512ec625dd59a36a7",
+      "date": "2026-03-06 20:33:07.000000"
+    },
+    {
+      "message": "Delete ai-service directory",
+      "author_name": "Saiesh0007",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/27c159139448e622446460366de345e9d6e3db33",
+      "date": "2026-03-06 20:32:55.000000"
+    },
+    {
+      "message": "Frontend UI update",
+      "author_name": "Saiesh0007",
+      "score": 14,
+      "summary": "The code adds a new React component called Register.jsx, which includes state management for user input fields and handles form submission. It uses React hooks like useState for managing local state and useNavigate for navigation after successful registration.",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/bc27442567f05dd0ccc5bb71e691dbf612094b6b",
+      "date": "2026-03-06 17:33:40.000000"
+    },
+    {
+      "message": "Frontend Files Update",
+      "author_name": "Saiesh0007",
+      "score": 1,
+      "summary": "The commit appears to be a merge commit or an empty diff, with no actual changes to the frontend files.",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/f0bd78aa2728280a77f80895ddcbb79e6b3eefb4",
+      "date": "2026-03-06 15:05:53.000000"
+    },
+    {
+      "message": "test files update",
+      "author_name": "Saiesh0007",
+      "score": 14,
+      "summary": "The code diff shows the addition of two new files: `authController.js` and `middleware/authMiddleware.js`. These files contain the logic for handling user registration and login, including password hashing and JWT token generation. The code is well-structured and follows best practices for secure API development.",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/f7e5001bbd7c688ecfbbef46c98bde2ad19cb9fd",
+      "date": "2026-03-06 13:11:41.000000"
+    },
+    {
+      "message": "Small Change in backend file",
+      "author_name": "Saiesh0007",
+      "score": 4,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/b921984d49b7c35998d547f368503ee70f016dcb",
+      "date": "2026-03-06 12:33:00.000000"
+    },
+    {
+      "message": "Updated Files",
+      "author_name": "Saiesh0007",
+      "score": 18,
+      "summary": "['The commit adds new files such as `ai-service/trial_matcher.py`, `backend/server.js`, `ai-service/main.py`, and `backend/middleware/authMiddleware.js` to the project.', \"These files contain code that implements a clinical trial matching service using FastAPI, Sentence Transformers for text embedding, and Scikit-learn's cosine similarity for comparing patient descriptions with clinical trials' descriptions.\", 'The architecture is well-designed, separating concerns between API routes, database c",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/d84e12a83f186cf54310d12875bea1e5351445fa",
+      "date": "2026-03-06 12:26:10.000000"
+    },
+    {
+      "message": "Deleted a file",
+      "author_name": "Saiesh0007",
+      "score": 1,
+      "summary": "The commit is a deletion of the '.env' file, which contains configuration settings for the application. This action removes sensitive data and configuration details from the repository.",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/5856a3df165d83eb38998f1430189dbb378b0c3b",
+      "date": "2026-03-06 11:36:00.000000"
+    },
+    {
+      "message": "first commit",
+      "author_name": "Saiesh0007",
+      "score": 14,
+      "summary": "The code adds two API routes: `register` and `login`. The `register` route creates a new user if they do not already exist, hashes the password, and returns the user details. The `login` route checks the credentials, generates a JWT token, and returns the token along with the user details.",
+      "url": "https://github.com/Saiesh0007/COHERENCE-26_MilestoneX/commit/a23652c8a3f9aa2676996e6e0acf3e13f81636cf",
+      "date": "2026-03-06 11:34:42.000000"
+    }
+  ],
+  "final_review": "Team 'MilestoneX' built a comprehensive clinical trial matching system using FastAPI, leveraging Sentence Transformers for text embedding and Scikit-learn's cosine similarity for comparison between patient descriptions and clinical trials. The project architecture is well-designed, separating concerns between API routes, database connections, and middleware.\n\nThe development pattern involved frequent commits with clear, well-structured descriptions of each feature or change. However, some commits were marked as auto-analyzed, indicating that the code was likely generated by an AI tool. This suggests a blend of human and automated contributions to the project.\n\nCode quality assessment reveals mixed results. While there are several high-scored commits (13+), many low-scored commits (1-6) indicate setup or configuration work rather than substantial features. The use of AI-generated code is evident in some commits, suggesting that a portion of the development process was automated.\n\nStrengths include the robust implementation of the clinical trial matching service and the integration of AI for text embedding and similarity analysis. However, there are areas for improvement, particularly in terms of error handling, security measures, and user interface design. The project is functional but lacks polish and scalability, which could be addressed through further development.\n\nOverall, Team 'MilestoneX' demonstrated a solid understanding of the technologies involved and built a robust system that meets the requirements of a 24-hour hackathon. While there are areas for improvement, their work shows promise in creating a practical clinical trial matching application."
+}

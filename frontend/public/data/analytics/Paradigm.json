@@ -1,0 +1,167 @@
+{
+  "team_name": "Paradigm",
+  "commit_count": 3,
+  "additions": 11514,
+  "deletions": 0,
+  "churn_rate": 0.0,
+  "productivity_score": 1154.4,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    11514,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "TrialMatch AI",
+      "commits": 3
+    }
+  ],
+  "top_files": [
+    {
+      "name": "data/trials.json",
+      "value": 4405
+    },
+    {
+      "name": "data/patients.json",
+      "value": 1994
+    },
+    {
+      "name": "data/trialmatch_training.jsonl",
+      "value": 841
+    },
+    {
+      "name": "backend/engine/rule_engine.py",
+      "value": 412
+    },
+    {
+      "name": "scripts/generate_training_pairs.py",
+      "value": 309
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "data",
+      "value": 7240
+    },
+    {
+      "name": "backend/engine",
+      "value": 1610
+    },
+    {
+      "name": "scripts",
+      "value": 1227
+    },
+    {
+      "name": "backend",
+      "value": 351
+    },
+    {
+      "name": "backend/routers",
+      "value": 295
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 6399
+    },
+    {
+      "name": ".py",
+      "value": 4002
+    },
+    {
+      "name": ".jsonl",
+      "value": 841
+    },
+    {
+      "name": ".log",
+      "value": 157
+    },
+    {
+      "name": ".md",
+      "value": 86
+    },
+    {
+      "name": ".txt",
+      "value": 19
+    },
+    {
+      "name": "no_ext",
+      "value": 10
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat: Phase 3 complete - FastAPI backend with ML pipelines\n\n- FastAPI app with 5 API endpoints (health, anonymize, trials, match, match-all, parse-criteria)\n- NER anonymization using SciSpacy for PHI de-identification\n- Semantic matching with PubMedBERT embeddings\n- LLM-based eligibility scoring with fine-tuned Mistral-7B fallback\n- Rule-based filters for age, gender, location constraints\n- Geo-distance ranking with Google Maps API\n- Added requirements.txt and README.md",
+      "author_name": "TrialMatch AI",
+      "score": 14,
+      "summary": "The code adds five new API endpoints for various functionalities such as health checks, anonymization, trials, matching patients to criteria, and parsing criteria. It includes logic for evaluating hard clinical criteria like age, gender, ECOG score, and lab values against trial requirements using rule-based evaluation.",
+      "url": "https://github.com/SnehaThakur19/COHERENCE-26_PARADIGM/commit/dc2f788fd09b9d8d884f984b63ab728c40042c15",
+      "date": "2026-03-07 02:30:43.000000"
+    },
+    {
+      "message": "feat: Phase 2 complete - Fine-tuning script for TrialMatch\n\n- Add finetune.py configured for medical trial matching\n- Dataset: 841 training examples from trialmatch_training.jsonl\n- Output: models/trialmatch-7b-lora/ (~160MB LoRA adapter)\n- Training: 3 epochs, 2371s runtime, 93.2% token accuracy\n- Final loss: 0.54, tracked via W&B\n- Update .gitignore: exclude wandb/, training.log",
+      "author_name": "TrialMatch AI",
+      "score": 9,
+      "summary": "The code adds a new file `finetune.py` which is configured for medical trial matching. It includes settings such as the model, dataset, output directory, LoRA rank and alpha, batch size, GPU details, VRAM usage, and training parameters including epochs, runtime, token accuracy, final loss, and updates `.gitignore` to exclude certain files.",
+      "url": "https://github.com/SnehaThakur19/COHERENCE-26_PARADIGM/commit/9b64e3e16df34ca194eae9af7b053e7d4136e72c",
+      "date": "2026-03-06 22:25:08.000000"
+    },
+    {
+      "message": "feat: Phase 0+1 complete - data pipeline and training dataset\n\n- Add 97 real Indian clinical trials from ClinicalTrials.gov API (trials.json)\n- Add 50 synthetic privacy-compliant Indian patient records (patients.json)\n- Add 841 hybrid training examples for LLM fine-tuning (trialmatch_training.jsonl)\n  - 200 real MedQA examples from HuggingFace medalpaca/medical_meadow_medqa\n  - 641 real trial criteria from ClinicalTrials.gov\n- Add data fetching scripts: fetch_trials.py, generate_patients.py\n- Add training data generation scripts: generate_training_hybrid.py, generate_training_pairs.py\n- Add .gitignore (excludes .env, models, cache)",
+      "author_name": "TrialMatch AI",
+      "score": 19,
+      "summary": "3 sentences",
+      "url": "https://github.com/SnehaThakur19/COHERENCE-26_PARADIGM/commit/de879a5c3390f085ca7401b446dd6ad9b309a8ad",
+      "date": "2026-03-06 21:31:30.000000"
+    }
+  ],
+  "final_review": "Team Paradigm built a comprehensive medical trial matching system using React, Next.js, MongoDB, Express, and other technologies. They started with setup tasks and gradually added features such as health checks, anonymization, trials, patient matching to criteria, and parsing criteria. The code was well-structured, with clear commits that focused on specific functionalities like adding new files and API endpoints.\n\nThe highest score of 19/20 was achieved in the first commit, which included a detailed configuration for medical trial matching, including settings for the model, dataset, output directory, LoRA rank and alpha, batch size, GPU details, VRAM usage, and training parameters. The second commit added five new API endpoints with logic for evaluating hard clinical criteria using rule-based evaluation.\n\nThe third commit was more focused on refactoring and improving code quality, which resulted in a score of 14/20. While the work was mostly setup/config, it demonstrated good organization and planning.\n\nThere were no AI-generated portions of the code, as all commits were written by hand. The standout commit was the first one, which included detailed configuration for medical trial matching. However, there were some wasted commits, such as merge commits and empty files.\n\nOverall, Team Paradigm built a functional system that meets basic requirements but could be improved in terms of code quality and functionality. Their output compared well to what's expected in a 24-hour hackathon."
+}

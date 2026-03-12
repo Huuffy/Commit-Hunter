@@ -1,6 +1,6 @@
 {
-  "is_active": true,
-  "event_start_time": "2026-02-14 21:49:26.773720",
-  "event_end_time": null,
+  "is_active": false,
+  "event_start_time": "2026-03-06 06:30:00.000000",
+  "event_end_time": "2026-03-07 06:10:06.866993",
   "static_mode": true
 }

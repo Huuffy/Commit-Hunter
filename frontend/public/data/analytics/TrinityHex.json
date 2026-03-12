@@ -1,0 +1,259 @@
+{
+  "team_name": "TrinityHex",
+  "commit_count": 10,
+  "additions": 101768,
+  "deletions": 627,
+  "churn_rate": 0.01,
+  "productivity_score": 10186.8,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    101768,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Hackathon Developer",
+      "commits": 10
+    }
+  ],
+  "top_files": [
+    {
+      "name": "python-api/data/real_patients.json",
+      "value": 76000
+    },
+    {
+      "name": "backend/package-lock.json",
+      "value": 7038
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 4495
+    },
+    {
+      "name": "python-api/data/ingestion_audit.json",
+      "value": 2102
+    },
+    {
+      "name": "python-api/app.py",
+      "value": 1312
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "python-api/data",
+      "value": 78719
+    },
+    {
+      "name": "backend",
+      "value": 7122
+    },
+    {
+      "name": "frontend",
+      "value": 4764
+    },
+    {
+      "name": "frontend/src/components",
+      "value": 3718
+    },
+    {
+      "name": "python-api/models",
+      "value": 3157
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 90839
+    },
+    {
+      "name": ".py",
+      "value": 5268
+    },
+    {
+      "name": ".tsx",
+      "value": 3785
+    },
+    {
+      "name": ".md",
+      "value": 1404
+    },
+    {
+      "name": ".css",
+      "value": 586
+    },
+    {
+      "name": "no_ext",
+      "value": 158
+    },
+    {
+      "name": ".ts",
+      "value": 101
+    },
+    {
+      "name": ".yml",
+      "value": 83
+    },
+    {
+      "name": ".js",
+      "value": 49
+    },
+    {
+      "name": ".txt",
+      "value": 38
+    },
+    {
+      "name": ".bat",
+      "value": 35
+    },
+    {
+      "name": ".example",
+      "value": 26
+    },
+    {
+      "name": ".html",
+      "value": 15
+    },
+    {
+      "name": ".csv",
+      "value": 6
+    },
+    {
+      "name": ".svg",
+      "value": 2
+    },
+    {
+      "name": ".pkl",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "refactor: Rename project to TrialMaxxAI\n\n- Updated navbar logo: 'Clinical Trial Matcher' -> 'TrialMaxxAI'\n- Updated browser tab title in index.html\n- Updated all page hero titles (Dashboard, Patient Matcher, Trial Explorer, Trial Management)\n- Updated README.md headline and overview section\n- Updated HACKATHON.md project name\n- Updated DEMO.md demonstration script title\n- Updated start-demo.bat launch messages\n- Updated frontend/package.json name field to 'trialmaxxai'\n- Corrected trial count (5 -> 12) and accuracy (85% -> 98%) in README",
+      "author_name": "Hackathon Developer",
+      "score": 20,
+      "summary": "The code refactor significantly enhances the project's architecture and functionality, introducing a new name, improving UI elements, updating documentation, and refactoring to improve performance and scalability. The use of AI-powered algorithms for clinical trial matching demonstrates exceptional engineering skills and potential for real-world impact.",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/b9af3b0fcb28a24435c86ea281b479f2840cf2b6",
+      "date": "2026-03-07 03:57:11.000000"
+    },
+    {
+      "message": "feat: Major ML enhancements - XGBoost, NLP embeddings, trial management, and UI improvements\n\n\ud83e\udd16 Machine Learning Improvements:\n- Installed XGBoost 3.2.0 for gradient boosting (replacing RandomForest)\n- Added sentence-transformers for NLP semantic embeddings (all-MiniLM-L6-v2)\n- Created embedding_extractor.py for trial description semantic analysis\n- Implemented semantic_similarity feature (cosine similarity between patient/trial embeddings)\n- Fine-tuned model with 250 Synthea patients achieving 98.0% accuracy (up from 96.3%)\n- Improved precision to 97.5% and recall to 96.3% (F1: 96.9%)\n- Created train_model.py for automated retraining pipeline with real patient data\n- Model now auto-loads trained_model.pkl on Flask startup with performance metrics\n\n\ud83d\udcca Training Pipeline:\n- Generates 2,534 labeled examples from Synthea patients \u00d7 clinical trials\n- Balanced class distribution (31.5% positive matches)\n- Train/validation split with stratification\n- Saves model with metrics to trained_model.pkl and trained_model_metrics.json\n- Feature importance analysis shows age_in_range (52.8%) as top predictor\n\n\ud83c\udfe5 Trial Management System:\n- Added full CRUD interface for clinical trials at /manage-trials route\n- New TrialManagement.tsx component with create/edit/delete functionality\n- Backend /api/v2/trials endpoint (GET, POST, PUT, DELETE)\n- Form validation for required fields (NCT ID, title, phase, sponsor, location, criteria)\n- Real-time trial list updates with professional UI\n- Added 'Manage Trials' navigation link with Settings icon\n\n\ud83c\udfa8 UI/UX Improvements:\n- Redesigned Patient Matcher tab with spacious, professional layout\n- Increased max-width from 860px to 1400px for better breathing room\n- Enhanced card padding (1.5rem-2.5rem) and section gaps (2rem)\n- Improved trial result cards with better typography and spacing\n- Better visual hierarchy with larger badges, clearer labels\n- Responsive grid layout (lg:grid-cols-2) for input/results sections\n- Updated 'How It Works' section with improved spacing and icons\n- Global CSS improvements for consistent spacing across all components\n\n\ud83c\udf0d Geocoding Enhancements:\n- Real-world Nominatim (OpenStreetMap) API integration\n- Dynamic geocoding for patient and trial site locations\n- Persistent geocode_cache.json to minimize API calls\n- Haversine distance calculation for accurate mileage\n- No API key required (free OpenStreetMap service)\n\n\ud83d\udcc1 Files Added:\n- python-api/models/embedding_extractor.py (NLP embedding extraction)\n- python-api/train_model.py (ML training pipeline)\n- python-api/models/trained_model.pkl (fine-tuned XGBoost model)\n- python-api/models/trained_model_metrics.json (model performance metrics)\n- frontend/src/components/TrialManagement.tsx (trial CRUD interface)\n\n\ud83d\udcdd Files Modified:\n- python-api/models/matching_engine.py (added embedding support, model loading)\n- python-api/app.py (added /api/v2/trials CRUD endpoints)\n- frontend/src/App.tsx (added /manage-trials route)\n- frontend/src/components/AppNavigation.tsx (added Manage Trials link)\n- frontend/src/components/AppPatientMatcher.tsx (improved spacing and layout)\n- frontend/src/index.css (global spacing improvements)\n- python-api/data/geocode_cache.json (cached geocoding results)\n\n\ud83c\udfaf Impact:\n- ML model accuracy improved from 96.3% to 98.0%\n- Precision improved from 93.9% to 97.5%\n- Recall improved from 91.2% to 96.3%\n- Production-ready ML system with real Synthea patient training data\n- Professional, spacious UI suitable for hackathon demonstration\n- Complete trial management workflow for dynamic trial updates",
+      "author_name": "Hackathon Developer",
+      "score": 13,
+      "summary": "The code adds a new `/manage-trials` route to handle CRUD operations for clinical trials. It also updates the `AppPatientMatcher.tsx` component to include a new section for trial management with features like creating, editing, and deleting trials.",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/f010df619e611c99abd104b3a21bc1dd0093b129",
+      "date": "2026-03-07 00:32:37.000000"
+    },
+    {
+      "message": "feat: Replace hardcoded coordinates with real-world geocoding API\n\n- Created geocoding.py module using Nominatim (OpenStreetMap) API\n  * geocode_location() - converts any address to lat/lon coordinates\n  * haversine_distance() - calculates distance between coordinates\n  * Automatic caching to geocode_cache.json to minimize API calls\n  * Respects Nominatim usage policy (1 req/sec, User-Agent header)\n  * No API key required (free OpenStreetMap service)\n\n- Updated /api/v2/nearby-trials endpoint:\n  * Removed hardcoded CITY_COORDS dictionary\n  * Now geocodes patient location dynamically from city/state/region\n  * Geocodes all trial sites in real-time\n  * Works with any address format (city, state, full address)\n  * Returns 'geocoding: nominatim' in response\n\n- Benefits:\n  * No longer limited to ~40 hardcoded US cities\n  * Supports international locations (currently filtered to US)\n  * Accurate real-world coordinates from OpenStreetMap\n  * Persistent cache reduces API calls on repeated requests\n  * Scalable to thousands of unique locations\n\nTested with:\n- Boston, Massachusetts -> (42.3588336, -71.0578303)\n- Greenfield, Massachusetts -> (42.5876342, -72.6002068)\n- All 12 trial sites geocoded successfully\n- Cache stores ~30 locations after initial requests",
+      "author_name": "Hackathon Developer",
+      "score": 11,
+      "summary": "This commit introduces a new API endpoint `/api/v2/nearby-trials` that calculates distances between patients and trial sites based on real-world geocoding. It uses the Nominatim/OpenStreetMap API to convert addresses to coordinates, which allows for more accurate location-based searches.",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/5062ddafc2b65d425198db1065390148f7f78606",
+      "date": "2026-03-06 22:25:33.000000"
+    },
+    {
+      "message": "fix: Allow all CORS origins for dev/preview compatibility",
+      "author_name": "Hackathon Developer",
+      "score": 11,
+      "summary": "The commit adds a new line to the Flask app configuration, enabling CORS for all origins. This is useful for development and preview environments where multiple frontend applications might be connected.",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/c2d6c1d4398cf26fdb7a46807173861f2e282bfd",
+      "date": "2026-03-06 22:17:05.000000"
+    },
+    {
+      "message": "feat: Add 100-mile radius geographic proximity filter with interactive map view\n\nBackend:\n- Expanded trial dataset from 5 to 12 trials with specific US city locations\n  (Diabetes, Breast Cancer, Alzheimer's, Asthma, Cardiovascular, Sickle Cell,\n   CKD, Lung Cancer, Chronic Pain, Lymphoma, Obesity, Melanoma)\n- Added /api/v2/nearby-trials endpoint with:\n  * Configurable radius_miles parameter (default 100)\n  * Patient-to-trial-site haversine distance calculation\n  * State-to-city mapping for patients without explicit city data\n  * Per-trial nearest site with lat/lon coordinates\n  * Summary stats (e.g. '3 of 12 trials have nearby sites')\n- Re-ingested 250 patients against expanded 12-trial dataset\n\nFrontend:\n- Created NearbyTrialsMap component with:\n  * Canvas-rendered geographic map visualization\n  * Patient location (blue dot) with radius circle (dashed)\n  * Nearby trial sites (green) vs distant sites (gray)\n  * Distance labels on connection lines\n  * Interactive radius selector (50/100/150/250/500 miles)\n  * Summary banner showing 'X of 12 trials have nearby sites'\n  * Nearest site callout with distance in miles\n  * Expandable trial list (nearby only or all trials)\n  * Legend with color-coded markers\n- Integrated NearbyTrialsMap into Dashboard, synced with patient selection\n- Updated hero text to reflect 12 trials and geographic filtering",
+      "author_name": "Hackathon Developer",
+      "score": 1,
+      "summary": "This is a merge commit that combines multiple changes into one, likely to simplify the process of merging different branches. There are no new files or modifications made in this commit.",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/c29c5bf8c72a80fb94d8bbf7168583be2b09b81e",
+      "date": "2026-03-06 22:13:55.000000"
+    },
+    {
+      "message": "docs: Add hackathon-ready repository enhancements\n\n- Added LICENSE (MIT)\n- Added CONTRIBUTING.md with contribution guidelines\n- Added DEMO.md with comprehensive demonstration script\n- Added HACKATHON.md with project submission details\n- Added GitHub templates:\n  * Pull request template\n  * Bug report issue template\n  * Feature request issue template\n- Added CI/CD workflow for automated testing\n- Added start-demo.bat for quick Windows setup\n- Enhanced README with badges and hackathon branding\n- Updated patient count from 50 to 250 in documentation\n\nRepository is now hackathon demonstration ready with:\n- Professional documentation\n- Clear contribution guidelines\n- Automated CI/CD pipeline\n- Quick-start demo scripts\n- Comprehensive project showcase",
+      "author_name": "Hackathon Developer",
+      "score": 1,
+      "summary": "The code diff includes additions such as LICENSE, CONTRIBUTING.md, DEMO.md, HACKATHON.md, GitHub templates, CI/CD workflow, start-demo.bat, enhanced README with badges and branding, and updated patient count. These changes significantly improve the repository's readiness for hackathon submissions.",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/b66735c8f13c399ea28abf5b92160bebc4dcf393",
+      "date": "2026-03-06 18:16:36.000000"
+    },
+    {
+      "message": "feat: Production-ready clinical trial matching platform with 250 real patients\n\n- Implemented 5-layer AI pipeline for clinical trial matching\n  * Layer 1: FHIR R4/STU3 data ingestion with PII anonymization\n  * Layer 2: NLP-based eligibility criteria parsing (spaCy + BioBERT + regex)\n  * Layer 3: Dual-mode matching engine (60% rule-based + 40% XGBoost ML)\n  * Layer 4: Explainable AI with SHAP, confidence tiers, geographic distance\n  * Layer 5: Production-ready React dashboard with real-time matching\n\nBackend (Python/Flask):\n- Added FHIR parser for Patient, Condition, Medication, Observation resources\n- Implemented enhanced anonymizer with Presidio + rule-based PII stripping\n- Created NLP criteria parser with regex heuristics for age, labs, diagnoses\n- Built dual-mode matching engine with rule engine + XGBoost ML scorer\n- Added ranking module with SHAP explanations and confidence tiers\n- Expanded CORS to support multiple Vite ports (5173-5175)\n- Added v2 API endpoints: /patients, /demo-match, /parse-criteria, /match, /upload-and-match\n- Ingested 250 real anonymized patients from Synthea FHIR dataset\n\nFrontend (React/TypeScript):\n- Transformed Dashboard from demo to production-ready UI\n- Added patient selection dropdown (250 patients available)\n- Updated statistics cards with real patient/trial counts\n- Enhanced match results with score breakdowns, confidence tiers, explanations\n- Updated Trial Explorer with geography filters, JSON export, NLP parsing\n- Updated Patient Matcher to use v2 endpoints\n- Updated FileUpload component for v2 API integration\n- Removed all 'demo' language, replaced with production terminology\n\nData:\n- 250 real anonymized patients with comprehensive medical histories\n- Match quality: 14% HIGH (\u226570%), 64% MEDIUM (40-70%), 22% LOW (<40%)\n- Age diversity: pediatric to 80+ years\n- Condition variety: diabetes, cardiovascular, cancer, Alzheimer's, asthma\n- 5 clinical trials with structured eligibility criteria\n\nDocumentation:\n- Comprehensive README with architecture diagrams\n- API endpoint reference\n- Quick start guide\n- Production deployment instructions\n- Privacy & security documentation",
+      "author_name": "Hackathon Developer",
+      "score": 20,
+      "summary": "The code adds a new feature to anonymize patient data and implement an AI pipeline for clinical trial matching. It includes backend enhancements such as FHIR parser, enhanced anonymizer, NLP criteria parser, dual-mode matching engine, ranking module, and API endpoints. The frontend is transformed from a demo to a production-ready UI with features like patient selection dropdown, updated statistics cards, match results breakdowns, and file upload integration.",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/e3d7cd4e58436dcc8b8ab71c0296edcdd08d01e1",
+      "date": "2026-03-06 18:04:14.000000"
+    },
+    {
+      "message": "feat(frontend): redesign app UI with shared navigation\n\n- replace the old React shell with the new clinical-trial themed layout\n\n- add redesigned dashboard, patient matcher, and trial explorer pages\n\n- introduce a shared sticky navbar and global design system styles\n\n- restyle the upload flow to match the new frontend experience",
+      "author_name": "Hackathon Developer",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/6e07f2351d80808f4a3b58716be42d4c185f59ea",
+      "date": "2026-03-06 16:01:42.000000"
+    },
+    {
+      "message": "feat: Add comprehensive file upload functionality for patient data\n\n\ud83d\udd04 New File Upload Features:\n- JSON/CSV file upload with drag-and-drop interface\n- Smart CSV parsing with automatic column mapping\n- Batch patient processing and anonymization\n- Upload-and-match workflow for immediate trial matching\n- File validation and error handling (16MB limit)\n\n\ud83d\udcc1 API Endpoints Added:\n- POST /api/upload-patients - Process patient files\n- POST /api/upload-and-match - Upload and immediately match\n\n\ud83c\udfa8 Frontend Enhancements:\n- FileUpload component with modern UI\n- Tab-based interface (Manual Input vs File Upload)\n- Real-time upload progress and validation\n- Support for both JSON and CSV formats\n\n\ud83e\uddea Testing:\n- Sample CSV file with 5 patients\n- Comprehensive test suite for file upload\n- End-to-end validation of upload workflow\n- All tests passing with 88% match accuracy\n\nReady for enhanced hackathon demo with file upload capabilities!",
+      "author_name": "Hackathon Developer",
+      "score": 12,
+      "summary": "The commit adds new routes (`POST /api/upload-patients` and `POST /api/upload-and-match`) to handle file uploads. It includes smart CSV parsing, automatic column mapping, batch processing, anonymization, and an upload-and-match workflow. The code is well-documented and follows best practices for handling file uploads in a Flask application.",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/ad099d98d05d1804c0c949a1f3a92928a7ebdc80",
+      "date": "2026-03-06 10:40:25.000000"
+    },
+    {
+      "message": "feat: Complete AI-Powered Clinical Trial Matching Engine for Hackathon\n\n\ud83c\udfe5 Healthcare Innovation Challenge Solution\n- AI-powered patient-trial matching with explainable results\n- Advanced anonymization preserving clinical relevance\n- ML-based eligibility scoring with confidence metrics\n- Modern React dashboard with real-time matching\n- Comprehensive API with Flask backend\n\n\u2728 Key Features:\n- Patient data anonymization (hash-based, HIPAA-ready)\n- Rule-based + ML matching algorithms\n- Explainable AI with detailed reasoning\n- Geographic filtering and location mapping\n- Sample datasets (4 patients, 5 trials)\n- Interactive web interface with Tailwind CSS\n\n\ud83d\udd27 Technical Stack:\n- Frontend: React + TypeScript + Vite + Tailwind CSS\n- Backend: Python Flask + scikit-learn + pandas\n- AI/ML: TF-IDF vectorization, Random Forest classification\n- Data: JSON sample datasets with realistic medical scenarios\n\n\ud83e\uddea Fully Tested:\n- All API endpoints working (health, anonymization, matching)\n- End-to-end patient-trial matching pipeline\n- Error handling for null values and edge cases\n- Browser-ready with live demo capabilities\n\nReady for hackathon presentation and further development!",
+      "author_name": "Hackathon Developer",
+      "score": 14,
+      "summary": "The code adds a new class `ClinicalTrialMatcher` with methods to parse eligibility criteria, perform TF-IDF vectorization and cosine similarity calculations, train a Random Forest classifier, and handle NLP tasks using spaCy. It also includes methods for patient data anonymization, rule-based matching, and ML-based eligibility scoring.",
+      "url": "https://github.com/AquaVanny/COHERENCE-26_TrinityHex/commit/7d2a4d86f6d64fd5c34d46996681bbb67f783dfd",
+      "date": "2026-03-06 09:38:54.000000"
+    }
+  ],
+  "final_review": "TrinityHex built a comprehensive clinical trial matching system with features like eligibility scoring, patient data anonymization, AI-powered matching algorithms, and real-world geocoding for location-based searches. The development pattern involved frequent commits with well-structured changes that progressively added new functionalities. While the initial setup was thorough, some commits were generic or repetitive, suggesting potential AI-generated code. Key strengths included a robust AI pipeline for clinical trial matching and an enhanced user interface with features like patient selection dropdowns and updated statistics cards. However, the project could benefit from more detailed documentation and performance optimizations. The final output demonstrated substantial progress in creating a functional system that aligns well with expected hackathon outcomes."
+}

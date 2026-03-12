@@ -1,0 +1,299 @@
+{
+  "team_name": "Lost_where",
+  "commit_count": 11,
+  "additions": 38535,
+  "deletions": 689,
+  "churn_rate": 0.02,
+  "productivity_score": 3864.5,
+  "hourly_commits": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    6,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    38535,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Pranali Chitre",
+      "commits": 7
+    },
+    {
+      "name": "SahilS1903",
+      "commits": 3
+    },
+    {
+      "name": "Sahil",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/package-lock.json",
+      "value": 8879
+    },
+    {
+      "name": "package-lock.json",
+      "value": 8675
+    },
+    {
+      "name": "bun.lock",
+      "value": 1304
+    },
+    {
+      "name": "frontend/bun.lock",
+      "value": 1304
+    },
+    {
+      "name": "frontend/src/pages/WorkflowBuilder.tsx",
+      "value": 1169
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 12215
+    },
+    {
+      "name": "frontend",
+      "value": 10639
+    },
+    {
+      "name": "backend",
+      "value": 4737
+    },
+    {
+      "name": "frontend/src/components/ui",
+      "value": 3954
+    },
+    {
+      "name": "frontend/src/pages",
+      "value": 2486
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 17978
+    },
+    {
+      "name": ".tsx",
+      "value": 7231
+    },
+    {
+      "name": ".js",
+      "value": 6837
+    },
+    {
+      "name": ".md",
+      "value": 2663
+    },
+    {
+      "name": ".lock",
+      "value": 2608
+    },
+    {
+      "name": ".ts",
+      "value": 609
+    },
+    {
+      "name": ".sh",
+      "value": 400
+    },
+    {
+      "name": ".css",
+      "value": 376
+    },
+    {
+      "name": ".sql",
+      "value": 163
+    },
+    {
+      "name": ".prisma",
+      "value": 163
+    },
+    {
+      "name": "no_ext",
+      "value": 90
+    },
+    {
+      "name": ".html",
+      "value": 32
+    },
+    {
+      "name": ".example",
+      "value": 25
+    },
+    {
+      "name": ".csv",
+      "value": 20
+    },
+    {
+      "name": ".txt",
+      "value": 15
+    },
+    {
+      "name": ".log",
+      "value": 8
+    },
+    {
+      "name": ".toml",
+      "value": 3
+    },
+    {
+      "name": ".tsbuildinfo",
+      "value": 2
+    },
+    {
+      "name": ".svg",
+      "value": 1
+    },
+    {
+      "name": ".lockb",
+      "value": 0
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".xlsx",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "full",
+      "author_name": "SahilS1903",
+      "score": 1,
+      "summary": "The commit does not contain any added or changed lines of code. It is likely a merge commit or an empty diff.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/650e5c64711b0f865e1a3098a6a67600e5e6a6b4",
+      "date": "2026-03-07 04:17:46.000000"
+    },
+    {
+      "message": "partial integration",
+      "author_name": "SahilS1903",
+      "score": 1,
+      "summary": "The developer added additional imports, updated component dependencies, and made minor changes to the initialNodes and initialEdges arrays. These updates aim to enhance the functionality and layout of the workflow builder interface.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/f2da48e5680f11c38b757e4ab40eb3c569262e14",
+      "date": "2026-03-07 01:22:58.000000"
+    },
+    {
+      "message": "partial integration",
+      "author_name": "SahilS1903",
+      "score": 14,
+      "summary": "The code adds a new functional component named `LeadTracker` which is responsible for rendering the main page of the Lead management system. It uses React hooks such as `useState`, `useRef`, `useEffect`, and `useQueryClient` from `@tanstack/react-query`. The component fetches workflows data using the `useQuery` hook, manages lead state with useState, handles file uploads and preview using refs and state variables, implements pagination for lead list, and provides various UI elements like badges,",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/febf86488d4fac735e425e1a2aa6c619883d9c7e",
+      "date": "2026-03-06 19:46:04.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "Pranali Chitre",
+      "score": 7,
+      "summary": "The code adds a CSS file that imports Google fonts and sets up Tailwind CSS base styles. It also includes custom styles for elements like headings, cards, and status indicators.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/888c35e6f102b4d2b3e2bea7f862468c17a5f942",
+      "date": "2026-03-06 12:52:51.000000"
+    },
+    {
+      "message": "Add initial styles for App component",
+      "author_name": "Pranali Chitre",
+      "score": 7,
+      "summary": "The code added CSS styles to the root element of the application, including hover effects and animations. These styles are used to style the logo and card components.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/8c2256537fc0c0a3a1782a3c7482e4dea08614d2",
+      "date": "2026-03-06 12:52:29.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "Pranali Chitre",
+      "score": 1,
+      "summary": "This commit adds a new file named `README.md` to the repository, which contains an overview of the COHERENCE-26_Lost_Where platform. The README provides information on the AI-powered intelligent outreach workflow automation engine, including its features and architecture.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/7494cc8cb997242acb2a710fa97ed56cc29d1c0e",
+      "date": "2026-03-06 12:51:22.000000"
+    },
+    {
+      "message": "Delete Coherence",
+      "author_name": "Pranali Chitre",
+      "score": 1,
+      "summary": "The code diff shows that the file 'Coherence' has been deleted. This is indicated by the line '-HI' which was removed and the addition of an empty line at the top of the file.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/6709a93025333b5942e9b39051df346a9c6f9b2c",
+      "date": "2026-03-06 12:50:35.000000"
+    },
+    {
+      "message": "Update Coherence",
+      "author_name": "Pranali Chitre",
+      "score": 1,
+      "summary": "The code was added or changed by deleting the entire file. This is indicated by the presence of a minus sign (-) before the line and no plus sign (+). The commit message states 'Update Coherence', which suggests this might be part of a larger project where files have been updated or deleted as part of version control operations.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/6332d0ae29b475ad38f5e52dce32bc22d784ddae",
+      "date": "2026-03-06 12:50:18.000000"
+    },
+    {
+      "message": "Create Coherence",
+      "author_name": "Pranali Chitre",
+      "score": 1,
+      "summary": "The code diff shows the creation of an empty file named 'Coherence'. This commit appears to be adding a new file to the repository without any specific content or functionality. The file is likely intended for future use, possibly as part of a larger project or system.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/505ae303d95e0cd47f420d0abe9beddf7edc0f4e",
+      "date": "2026-03-06 12:49:24.000000"
+    },
+    {
+      "message": "Update README.md",
+      "author_name": "Pranali Chitre",
+      "score": 1,
+      "summary": "This is a merge commit that only contains changes to the README.md file, which is used for project documentation. The commit does not add or remove any code, but rather modifies the existing text in the file.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/1938c14af47f87b866310b0c0bb18b7835dd3055",
+      "date": "2026-03-06 09:44:03.000000"
+    },
+    {
+      "message": "first commit",
+      "author_name": "Sahil",
+      "score": 1,
+      "summary": "The code adds a new README.md file with the title 'COHERENCE-26_Lost_Where'. It also includes a message for the first commit.",
+      "url": "https://github.com/SahilS1903/COHERENCE-26_Lost_Where/commit/a7d23b363972d2e384f752b95e0c6a7cd2592ec4",
+      "date": "2026-03-06 07:06:50.000000"
+    }
+  ],
+  "final_review": "Lost_where built an AI-powered intelligent outreach workflow automation engine using React, Next.js, MongoDB, Express, and Tailwind CSS. They started with project setup and progress to features, committing frequently but in large batches. Commits were well-structured, with clear descriptions of the changes made. Code quality was mid-range, with strong technical code for some commits and basic work for others. Generic descriptions and uniform structure indicated that some portions of the code may have been AI-generated. The team had standout commits such as adding CSS styles to components and creating a new file named 'Coherence'. However, they also wasted commits like merge commits and empty files. Overall, Lost_where built a functional platform with working features but could improve their code quality and efficiency in future hackathons."
+}

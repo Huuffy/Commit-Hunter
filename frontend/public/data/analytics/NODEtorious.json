@@ -1,0 +1,367 @@
+{
+  "team_name": "NODEtorious",
+  "commit_count": 80,
+  "additions": 66104,
+  "deletions": 19790,
+  "churn_rate": 0.3,
+  "productivity_score": 6690.4,
+  "hourly_commits": [
+    2,
+    2,
+    3,
+    7,
+    1,
+    2,
+    3,
+    3,
+    5,
+    5,
+    4,
+    0,
+    3,
+    6,
+    9,
+    2,
+    2,
+    3,
+    0,
+    2,
+    6,
+    3,
+    6,
+    1
+  ],
+  "hourly_volume": [
+    66104,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Pallav Deshmukh",
+      "commits": 29
+    },
+    {
+      "name": "VeDaNsH-D",
+      "commits": 21
+    },
+    {
+      "name": "Nisarg",
+      "commits": 18
+    },
+    {
+      "name": "AG2105",
+      "commits": 10
+    },
+    {
+      "name": "Vedansh Dubey",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "ML/send_time_dataset.csv",
+      "value": 15003
+    },
+    {
+      "name": "ML/lead_scoring_dataset.csv",
+      "value": 9009
+    },
+    {
+      "name": "Frontend/package-lock.json",
+      "value": 8440
+    },
+    {
+      "name": "Frontend/src/pages/WorkflowBuilder.jsx",
+      "value": 7486
+    },
+    {
+      "name": "Backend/package-lock.json",
+      "value": 3635
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "ML",
+      "value": 32619
+    },
+    {
+      "name": "Frontend/src/pages",
+      "value": 16231
+    },
+    {
+      "name": "Frontend",
+      "value": 8820
+    },
+    {
+      "name": "Frontend/src/components",
+      "value": 6640
+    },
+    {
+      "name": "Extension",
+      "value": 5722
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".csv",
+      "value": 24944
+    },
+    {
+      "name": ".jsx",
+      "value": 20833
+    },
+    {
+      "name": ".json",
+      "value": 12338
+    },
+    {
+      "name": ".js",
+      "value": 11546
+    },
+    {
+      "name": ".py",
+      "value": 7889
+    },
+    {
+      "name": ".css",
+      "value": 4812
+    },
+    {
+      "name": ".svg",
+      "value": 1683
+    },
+    {
+      "name": ".md",
+      "value": 864
+    },
+    {
+      "name": ".html",
+      "value": 745
+    },
+    {
+      "name": "no_ext",
+      "value": 183
+    },
+    {
+      "name": ".bak",
+      "value": 55
+    },
+    {
+      "name": ".example",
+      "value": 2
+    },
+    {
+      "name": ".pkl",
+      "value": 0
+    },
+    {
+      "name": ".zip",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    },
+    {
+      "name": ".rdb",
+      "value": 0
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".webp",
+      "value": 0
+    },
+    {
+      "name": ".mp4",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "frontend changes",
+      "author_name": "Nisarg",
+      "score": 20,
+      "summary": "The code introduces a complex feature that involves generating a dynamic video with various visual effects and animations. The use of advanced mathematical functions like sine and cosine for gradients and the creation of intricate shapes and lines adds to the overall complexity. The implementation is well-architected, with clear separation of concerns and efficient resource management.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/8530bf488c5390eea5c6c16d4982b4f4ab93bf54",
+      "date": "2026-03-07 05:55:33.000000"
+    },
+    {
+      "message": "Cursor to distinguish multiple users in workflow",
+      "author_name": "VeDaNsH-D",
+      "score": 7,
+      "summary": "The code adds new styles and imports Google Fonts, updating variables for colors and gradients. It also modifies the body's background and font family.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/f9ae85120b3d2ecd14086957c7d4d2329d3890a2",
+      "date": "2026-03-07 04:53:44.000000"
+    },
+    {
+      "message": "Cursor to distinguish multiple users in workflow",
+      "author_name": "VeDaNsH-D",
+      "score": 11,
+      "summary": "The commit adds a CursorOverlay component that displays cursors for multiple users in the workflow. This is achieved by using the useViewport hook from reactflow to get the viewport's position and zoom level, then mapping over an array of collaborators' data to render SVGs representing their cursors at the correct positions.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/5fd4eaa0d9d2ba5b12be1ed4ca1f6a878411889a",
+      "date": "2026-03-07 04:53:15.000000"
+    },
+    {
+      "message": "Extension UI updated",
+      "author_name": "Pallav Deshmukh",
+      "score": 7,
+      "summary": "The commit modifies the `popup.html` file to include SVG icons in place of text for the tabs, improving the user interface. This change enhances both aesthetics and usability by making the buttons more visually distinct and accessible.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/17ed496f28cfb46bf545ba00b9e7c6685c693f53",
+      "date": "2026-03-07 04:46:15.000000"
+    },
+    {
+      "message": "Extension UI updated",
+      "author_name": "Pallav Deshmukh",
+      "score": 7,
+      "summary": "The commit updates the styles.css file to include a new dark glassmorphic theme for the Scout extension. It changes the font, background colors, and adds a noise overlay to enhance the visual appeal of the extension's landing page.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/e72d6f0314d35ebe8b88989779c0fc534a19faef",
+      "date": "2026-03-07 04:43:18.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious",
+      "author_name": "Pallav Deshmukh",
+      "score": 1,
+      "summary": "This is a merge commit that brings in changes from another branch without making any modifications to the existing files. It's used for keeping the main branch up-to-date with other developments.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/619c3d35e9f7b4cfd077f086fae20c9e4d084b5f",
+      "date": "2026-03-07 04:33:27.000000"
+    },
+    {
+      "message": "add voice routes, update analytics/lead/workflow controllers, telegram bot, vector service, chatbot and workflow builder UI",
+      "author_name": "Pallav Deshmukh",
+      "score": 14,
+      "summary": "The code adds new API routes to handle lead workflows and send follow-up emails. It includes functions to fetch leads from an API, count documents in a MongoDB collection, and send emails via another API endpoint.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/c3c24391f2ef6b550e3ee793063b01f8d2ffdd9c",
+      "date": "2026-03-07 04:33:13.000000"
+    },
+    {
+      "message": "Rebrand extension text to Scout",
+      "author_name": "Nisarg",
+      "score": 1,
+      "summary": "The commit renames 'AuraReach' to 'Scout' across various files, including popup.js, popup.html, and manifest.json. The changes are minor UI tweaks and rebranding of text within the extension.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/31db0ba328f394cae5bc02055d9c5759dd183ca0",
+      "date": "2026-03-07 03:48:12.000000"
+    },
+    {
+      "message": "landing",
+      "author_name": "Nisarg",
+      "score": 18,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/5afd320edbb1a6fe95f0bff7295c1dfa04254c4e",
+      "date": "2026-03-07 03:44:37.000000"
+    },
+    {
+      "message": "Updated css of frontend",
+      "author_name": "VeDaNsH-D",
+      "score": 9,
+      "summary": "The commit adds and modifies CSS files in the frontend directory. The code changes the styles of various components to improve their appearance or functionality.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/b6a0927afdc9cf6ce10bcdc8e592a31a42ebd554",
+      "date": "2026-03-07 03:43:37.000000"
+    },
+    {
+      "message": "changes landing",
+      "author_name": "Nisarg",
+      "score": 18,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/9fb77d880be0536fe7b10c9810d1ca6a285c91ce",
+      "date": "2026-03-07 03:19:57.000000"
+    },
+    {
+      "message": "dashboard ui updated",
+      "author_name": "Pallav Deshmukh",
+      "score": 19,
+      "summary": "The code adds support for additional icons from the Lucide React library, modifies component styling, and enhances the overall user interface of the dashboard. The changes are significant enough to warrant a high-quality code review.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/421f43af53f824b3b43596bff20dd760279d52cd",
+      "date": "2026-03-07 03:16:21.000000"
+    },
+    {
+      "message": "send time changes on ui",
+      "author_name": "AG2105",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/4f831971968373101103d24c29771ea96200832b",
+      "date": "2026-03-07 02:53:11.000000"
+    },
+    {
+      "message": "email feedback loop",
+      "author_name": "Pallav Deshmukh",
+      "score": 10,
+      "summary": "The code adds a new service called 'ReplyTracker' that uses the Imap library to connect to an email server and fetch incoming messages. It then processes these messages by checking if they are replies to previously sent outreach emails, updating lead statuses accordingly, and sending AI-generated follow-ups using the llmService.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/c8c48d0ff10f1dc2f1f04fbe94b07962c5e500f8",
+      "date": "2026-03-07 02:51:07.000000"
+    },
+    {
+      "message": "send time model otimized",
+      "author_name": "AG2105",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/06b046464cfe40d944e5fddc9974d5cfa89952cb",
+      "date": "2026-03-07 02:44:49.000000"
+    },
+    {
+      "message": "send time model optimized",
+      "author_name": "AG2105",
+      "score": 17,
+      "summary": "The commit appears to be a merge or optimization of a time model for a machine learning system. It likely includes changes to the `scored_leads.csv` file and associated codebase.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/8849c24ba6ad617ab13719ac5c084e589026437b",
+      "date": "2026-03-07 02:43:05.000000"
+    },
+    {
+      "message": "Updated landing page",
+      "author_name": "VeDaNsH-D",
+      "score": 11,
+      "summary": "The code adds a new POST endpoint `/api/messages/reply` to handle lead replies. It checks if the required fields are provided, finds the lead by ID or email, updates the lead's status and score, and optionally sends an acknowledgment email. The code is well-structured and follows best practices for API development.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/e86ca06de2a962274173a42719b48daaa25d4a81",
+      "date": "2026-03-07 02:10:22.000000"
+    },
+    {
+      "message": "leads dashboard sequencing improved",
+      "author_name": "AG2105",
+      "score": 1,
+      "summary": "The commit message indicates that the code diff is empty and only contains a change to the README file. This suggests that the commit was likely a merge commit or an update to the README without any changes to the actual codebase.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/8e3c94deee808c1ad1b36bcb8efaf6f51c3945cc",
+      "date": "2026-03-07 01:48:22.000000"
+    },
+    {
+      "message": "landing page",
+      "author_name": "Pallav Deshmukh",
+      "score": 19,
+      "summary": "The code introduces a complex feature with real-time processing and file processing. It includes a new component for displaying workflow nodes and paths, which involves creating custom functions to calculate node positions and edges. The use of curve tension ensures that links stay connected even if positions shift. Additionally, the code uses gradient tones and shadows for visual effects, enhancing the user interface.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/ed368334a7871f2fed92d357d17975d7f0bf1500",
+      "date": "2026-03-07 00:09:08.000000"
+    },
+    {
+      "message": "telegram bot",
+      "author_name": "Pallav Deshmukh",
+      "score": 11,
+      "summary": "The code adds a Telegram bot using the `node-telegram-bot-api` library. It includes routes to manage leads, display their summary, list those who have replied, and send emails to specific leads. The bot is configured to fetch data from an API endpoint at `http://localhost:8000/api`. The code uses Axios for HTTP requests and handles commands like `/start`, `/leads`, `/replied`, and `/email <leadId>`. It also includes basic error handling and logging.",
+      "url": "https://github.com/VeDaNsH-D/COHERENCE-26_NODEtorious/commit/76eb110a4d9f41f5edbadc63f5ffa76ff05e6455",
+      "date": "2026-03-07 00:07:28.000000"
+    }
+  ],
+  "final_review": "This project appears to have been built using React for the frontend, Next.js for server-side rendering, MongoDB for database storage, Express for backend API handling, and Node.js for runtime execution. The development pattern suggests a focus on setup and progress to features, with frequent commits that are generally well-structured but not always refactored. The code quality varies widely, with some commits having high scores (13+) indicating strong technical writing, while others have low scores (1-6) suggesting mostly setup or configuration work.\n\nAI-generated code is evident in multiple commits, particularly those with generic descriptions and identical patterns. This suggests that the project may have been partially automated or generated using AI tools. The standout commit is \"Export Leads CSV,\" which adds a new API route to retrieve and export leads from the database as a CSV file. However, this commit also has a low score, indicating that it primarily focuses on setup rather than building strong technical features.\n\nOverall, the project seems to be functional but lacks substantial innovation or depth in terms of technical complexity. The use of AI-generated code suggests that some aspects of the project may have been automated, which could limit its overall quality and potential for future development."
+}

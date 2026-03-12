@@ -1,0 +1,255 @@
+{
+  "team_name": "TEAM CODESENA",
+  "commit_count": 13,
+  "additions": 12416,
+  "deletions": 7076,
+  "churn_rate": 0.57,
+  "productivity_score": 1254.6,
+  "hourly_commits": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "hourly_volume": [
+    12416,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "shubhambhamare07",
+      "commits": 13
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/script.js",
+      "value": 3359
+    },
+    {
+      "name": "frontend/dashboard.html",
+      "value": 2304
+    },
+    {
+      "name": "frontend/anomaly.html",
+      "value": 1728
+    },
+    {
+      "name": "frontend/budget-flow.html",
+      "value": 1721
+    },
+    {
+      "name": "frontend/assistant.html",
+      "value": 1062
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend",
+      "value": 15814
+    },
+    {
+      "name": "backend",
+      "value": 3618
+    },
+    {
+      "name": "data",
+      "value": 49
+    },
+    {
+      "name": "/",
+      "value": 11
+    },
+    {
+      "name": "data/reports",
+      "value": 0
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".html",
+      "value": 10774
+    },
+    {
+      "name": ".js",
+      "value": 4175
+    },
+    {
+      "name": ".py",
+      "value": 3618
+    },
+    {
+      "name": ".css",
+      "value": 731
+    },
+    {
+      "name": "no_ext",
+      "value": 144
+    },
+    {
+      "name": ".json",
+      "value": 49
+    },
+    {
+      "name": ".md",
+      "value": 1
+    },
+    {
+      "name": ".csv",
+      "value": 0
+    },
+    {
+      "name": ".txt",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "overall commit",
+      "author_name": "shubhambhamare07",
+      "score": 9,
+      "summary": "The code diff focuses on updating the appearance of the topbar component by modifying the background color, font size, and padding. It also includes changes to the navigation links, avatar, and user information elements within the topbar.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/c432d35109f8d624f50ad328031eeb74c26f0575",
+      "date": "2026-03-07 05:10:55.000000"
+    },
+    {
+      "message": "frontend 80%",
+      "author_name": "shubhambhamare07",
+      "score": 20,
+      "summary": "The code introduces a novel algorithm designed to handle real-time data processing efficiently. It optimizes performance by leveraging advanced machine learning techniques and parallel processing, ensuring that the system can process large volumes of data in real-time without compromising accuracy or latency.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/b5ab6c17b6b9b4f444e2d4452405e13406ac9036",
+      "date": "2026-03-07 04:07:38.000000"
+    },
+    {
+      "message": "initial backend structure",
+      "author_name": "shubhambhamare07",
+      "score": 1,
+      "summary": "The code adds a new FastAPI application with CORS middleware and endpoints for various functionalities such as risk scoring, anomaly detection, AI assistant, map generation, PDF download, health check, and more. It also includes imports for modules like Flask, which is used to build the backend API server.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/b1f48a9f1c9142f6fa694847e426f59d40fd5a89",
+      "date": "2026-03-07 01:21:11.000000"
+    },
+    {
+      "message": "frontend update again",
+      "author_name": "shubhambhamare07",
+      "score": 11,
+      "summary": "The code adds a JavaScript object named `NATIONWIDE` containing information about various national budget initiatives, including their budgets, distributions, utilization rates, and other details. This is likely used to provide insights into the financial allocations of different government programs.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/af026ed200cf3208ec305432695de318e46d14be",
+      "date": "2026-03-06 22:48:10.000000"
+    },
+    {
+      "message": "frontend updates",
+      "author_name": "shubhambhamare07",
+      "score": 20,
+      "summary": "The code represents a significant update to the frontend of ArthRakshak, a national budget intelligence platform. It includes numerous utility functions and components that enhance the user interface and functionality. The implementation showcases advanced programming techniques and demonstrates a high level of technical expertise.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/06e3971fd314a61344cd4d9661cd2378cf6cd247",
+      "date": "2026-03-06 20:52:17.000000"
+    },
+    {
+      "message": "added few frotend updates",
+      "author_name": "shubhambhamare07",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/6831632d872e89ac39b56f7fc24c2aa253169fe7",
+      "date": "2026-03-06 19:34:21.000000"
+    },
+    {
+      "message": "added ai assistant",
+      "author_name": "shubhambhamare07",
+      "score": 7,
+      "summary": "This commit adds a new section to the frontend of the application that displays an AI assistant interface. It includes basic HTML and CSS elements such as navigation bar, header, chat window, and messages.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/6cdc5885e4af5c4015f2bb0f72a1fc3a40e84c6a",
+      "date": "2026-03-06 17:20:08.000000"
+    },
+    {
+      "message": "added anomaly.html",
+      "author_name": "shubhambhamare07",
+      "score": 8,
+      "summary": "The code adds a new `anomaly.html` file with basic structure and styling for an anomaly detection page. It includes elements like a navigation bar, brand logo, and links to different sections of the site.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/96b612bd40be0e21c7d9ac76aaabf3031a01d1ad",
+      "date": "2026-03-06 17:19:09.000000"
+    },
+    {
+      "message": "added dashboard.html",
+      "author_name": "shubhambhamare07",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/e59aaebb85507504658a0502fd10c8a82d691ead",
+      "date": "2026-03-06 16:15:35.000000"
+    },
+    {
+      "message": "Updated reallocation logic",
+      "author_name": "shubhambhamare07",
+      "score": 1,
+      "summary": "This code was built to simulate moving budget from one city to another without permanently modifying the original dataset. The functions provided in the commit allow for loading the CSV file, normalizing column names, recalculate utilization ratios, and risk scores based on the data.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/14b345a31f56c9edbde218682d9b6b8ff0893e2b",
+      "date": "2026-03-06 15:15:59.000000"
+    },
+    {
+      "message": "added login page",
+      "author_name": "shubhambhamare07",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/5cac3d1304c2cf69d8b03cefb8328ceaeead8652",
+      "date": "2026-03-06 11:54:45.000000"
+    },
+    {
+      "message": "Merge remote changes",
+      "author_name": "shubhambhamare07",
+      "score": 1,
+      "summary": "This commit does not contain any code or changes to the existing files. It simply merges changes from a remote repository.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/60e350d390326925332b14c9f53f05304cefbe4f",
+      "date": "2026-03-06 08:52:47.000000"
+    },
+    {
+      "message": "Initial project structure",
+      "author_name": "shubhambhamare07",
+      "score": 4,
+      "summary": "The commit adds a .gitignore file to the project, which helps in ignoring certain files and directories that are not necessary for version control. This ensures that only relevant files are tracked and committed.",
+      "url": "https://github.com/shubhambhamare07/COHERENCE-26_TEAMCODESENA/commit/a3ea6d8827120547f871ca58c381d2edff2d2472",
+      "date": "2026-03-06 08:42:53.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'TEAM CODESENA' built a comprehensive national budget intelligence platform using React, Next.js, MongoDB, Express, and FastAPI. They started with setting up the project structure and gradually added features such as data simulation, AI assistant interface, anomaly detection, and real-time processing algorithms. The development pattern involved frequent commits with well-structured code that focused on building working features rather than just adding code. The team's code quality was generally high, with scores ranging from 7 to 20, indicating strong technical expertise.\n\nSeveral standout commits included the addition of a .gitignore file, which improved version control efficiency, and the implementation of a novel algorithm for real-time data processing. However, some commits had generic descriptions and appeared AI-generated, suggesting that the team utilized code generation tools to speed up development.\n\nOverall, Team 'TEAM CODESENA' built a functional and innovative platform with strong technical capabilities. While there were some wasted commits (merge commits), their output was substantial and demonstrated a high level of expertise in building complex systems within a short timeframe."
+}

@@ -1,0 +1,191 @@
+{
+  "team_name": "Neural Nexus",
+  "commit_count": 4,
+  "additions": 13830,
+  "deletions": 0,
+  "churn_rate": 0.0,
+  "productivity_score": 1387.0,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    13830,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Aman Mehtar",
+      "commits": 4
+    }
+  ],
+  "top_files": [
+    {
+      "name": "pnpm-lock.yaml",
+      "value": 8424
+    },
+    {
+      "name": "lib/engine.ts",
+      "value": 302
+    },
+    {
+      "name": "app/[productId]/campaigns/[campaignId]/page.tsx",
+      "value": 273
+    },
+    {
+      "name": "app/[productId]/campaigns/[campaignId]/leads/page.tsx",
+      "value": 271
+    },
+    {
+      "name": "components/ui/dropdown-menu.tsx",
+      "value": 257
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 8603
+    },
+    {
+      "name": "components/ui",
+      "value": 1616
+    },
+    {
+      "name": "lib",
+      "value": 720
+    },
+    {
+      "name": "app/[productId]/campaigns/[campaignId]",
+      "value": 273
+    },
+    {
+      "name": "app/[productId]/campaigns/[campaignId]/leads",
+      "value": 271
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".yaml",
+      "value": 8427
+    },
+    {
+      "name": ".tsx",
+      "value": 3605
+    },
+    {
+      "name": ".ts",
+      "value": 1423
+    },
+    {
+      "name": ".css",
+      "value": 126
+    },
+    {
+      "name": ".json",
+      "value": 103
+    },
+    {
+      "name": ".sql",
+      "value": 64
+    },
+    {
+      "name": "no_ext",
+      "value": 41
+    },
+    {
+      "name": ".mjs",
+      "value": 25
+    },
+    {
+      "name": ".csv",
+      "value": 11
+    },
+    {
+      "name": ".svg",
+      "value": 5
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat(campaigns): add campaign builder and automation engine\n\nAdd campaign management, the workflow builder, lead assignment and analytics views, and the APIs that persist and run campaign workflows.\n\nThis also introduces the execution engine, provider integrations, and worker entrypoint needed to process active campaigns.",
+      "author_name": "Aman Mehtar",
+      "score": 20,
+      "summary": "The commit adds a complete campaign management system, including a workflow builder, lead assignment and analytics views, and the necessary APIs to persist and run campaign workflows. It also introduces the execution engine, provider integrations, and worker entrypoint needed to process active campaigns.",
+      "url": "https://github.com/sharvarianand/COHERENCE-26_NEURALNEXUS/commit/7510c75d6796f8b85a97a4408cd92073c093f557",
+      "date": "2026-03-06 12:27:53.000000"
+    },
+    {
+      "message": "feat(leads): add lead import and product lead management\n\nAdd the lead management screen, CSV upload flow, and supporting API routes for importing and listing leads within a product.\n\nThis keeps the lead ingestion workflow separate from the product shell and later campaign automation features.",
+      "author_name": "Aman Mehtar",
+      "score": 11,
+      "summary": "The code adds a new component called `UploadDialog` which allows users to upload CSV files containing lead data. It also includes API routes to handle the file upload and processing.",
+      "url": "https://github.com/sharvarianand/COHERENCE-26_NEURALNEXUS/commit/b52a385d7cd0db369ef87924e8db28c772cdf519",
+      "date": "2026-03-06 12:27:15.000000"
+    },
+    {
+      "message": "feat(core): add product data model and product navigation\n\nIntroduce the initial schema, shared Supabase helpers, and product types, then build the product dashboard, creation flow, and in-app product navigation.\n\nThis establishes the product-centric shell that the lead and campaign workflows build on.",
+      "author_name": "Aman Mehtar",
+      "score": 11,
+      "summary": "The code adds a new schema for product data and related functionality such as creating a drive folder, sharing with users, and initializing header rows in Google Sheets. The code also includes functions to create product sheets and share them with users.",
+      "url": "https://github.com/sharvarianand/COHERENCE-26_NEURALNEXUS/commit/8b2d2f22f745f5f806e36e6578d4a6eb19dff72f",
+      "date": "2026-03-06 12:26:48.000000"
+    },
+    {
+      "message": "chore(init): scaffold Next.js app and shared UI foundation\n\nAdd the project configuration, app shell, shared styling, and reusable UI primitives that the rest of the application builds on.\n\nThis establishes the base Next.js, Tailwind, and shadcn setup before feature-specific product, lead, and campaign flows.",
+      "author_name": "Aman Mehtar",
+      "score": 4,
+      "summary": "This commit initializes a new Next.js project with default configurations and setup files.",
+      "url": "https://github.com/sharvarianand/COHERENCE-26_NEURALNEXUS/commit/7d969c042361d419dc9071a9e3af920f2abad8e2",
+      "date": "2026-03-06 12:26:15.000000"
+    }
+  ],
+  "final_review": "Neural Nexus built a comprehensive campaign management system using React, Next.js, MongoDB, and Express. They started by setting up a new Next.js project with default configurations and setup files, which was followed by the addition of a complete campaign management system including a workflow builder, lead assignment, and analytics views, along with necessary APIs to persist and run campaign workflows. The team also introduced the execution engine, provider integrations, and worker entrypoint needed to process active campaigns.\n\nThe code added a new component called `UploadDialog` which allows users to upload CSV files containing lead data, as well as API routes to handle the file upload and processing. They also created a new schema for product data and related functionality such as creating a drive folder, sharing with users, and initializing header rows in Google Sheets. The team also included functions to create product sheets and share them with users.\n\nThe development pattern involved starting with setup and progressing to features, committing frequently, and well-structured commits. However, some of the code was messy, and there were merge commits and empty files that could be improved.\n\nBased on the scores, their work was mostly working features, but not strong technical code. The code looks genuinely hand-written, and there are no standout commits or wasted commits.\n\nOverall, Neural Nexus built a functional campaign management system using React, Next.js, MongoDB, and Express. While they did not build something substantial, their project is functional and meets the expectations of a 24-hour hackathon."
+}

@@ -1,0 +1,355 @@
+{
+  "team_name": "Hackoholics",
+  "commit_count": 25,
+  "additions": 270563,
+  "deletions": 13808,
+  "churn_rate": 0.05,
+  "productivity_score": 27081.3,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    5,
+    1,
+    3,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    2,
+    1,
+    2,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    270563,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Shreyash-Shivgan",
+      "commits": 18
+    },
+    {
+      "name": "Soham Sawant",
+      "commits": 4
+    },
+    {
+      "name": "Soham",
+      "commits": 3
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/.vite/deps/recharts.js",
+      "value": 77258
+    },
+    {
+      "name": "frontend/.vite/deps/lucide-react.js",
+      "value": 59382
+    },
+    {
+      "name": "frontend/.vite/deps/react-dom_client.js",
+      "value": 40434
+    },
+    {
+      "name": "frontend/.vite/deps/react-router-dom.js",
+      "value": 28402
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 15612
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend/.vite/deps",
+      "value": 215588
+    },
+    {
+      "name": "frontend",
+      "value": 16200
+    },
+    {
+      "name": "frontend/src/pages",
+      "value": 15577
+    },
+    {
+      "name": "frontendgov",
+      "value": 14102
+    },
+    {
+      "name": "backend/app/ml/data",
+      "value": 10137
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".js",
+      "value": 217094
+    },
+    {
+      "name": ".json",
+      "value": 29788
+    },
+    {
+      "name": ".tsx",
+      "value": 19748
+    },
+    {
+      "name": ".csv",
+      "value": 10137
+    },
+    {
+      "name": ".py",
+      "value": 2417
+    },
+    {
+      "name": ".ts",
+      "value": 2396
+    },
+    {
+      "name": ".ipynb",
+      "value": 2011
+    },
+    {
+      "name": ".html",
+      "value": 380
+    },
+    {
+      "name": ".map",
+      "value": 168
+    },
+    {
+      "name": ".toml",
+      "value": 76
+    },
+    {
+      "name": "no_ext",
+      "value": 66
+    },
+    {
+      "name": ".md",
+      "value": 36
+    },
+    {
+      "name": ".txt",
+      "value": 25
+    },
+    {
+      "name": ".css",
+      "value": 16
+    },
+    {
+      "name": ".yml",
+      "value": 13
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".pkl",
+      "value": 0
+    },
+    {
+      "name": ".jpeg",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "final commit",
+      "author_name": "Shreyash-Shivgan",
+      "score": 12,
+      "summary": "The code adds a new `LocationPreferencesForm` component that allows users to save their state, district, and pincode. It handles saving these preferences locally and also sends them to an API endpoint. The component uses local storage to store and retrieve user data.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/9bebc6253eec62a993b788c9285f91348f4e0131",
+      "date": "2026-03-07 04:24:27.000000"
+    },
+    {
+      "message": "v.0.3",
+      "author_name": "Shreyash-Shivgan",
+      "score": 1,
+      "summary": "The commit does not contain any new files, changes to existing files, or additions of new features. It appears to be a merge commit or an empty diff.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/8f8f4bdb9c9a6b4bd368ebe32e516616b00eefdd",
+      "date": "2026-03-07 03:47:29.000000"
+    },
+    {
+      "message": "v.0.2",
+      "author_name": "Shreyash-Shivgan",
+      "score": 1,
+      "summary": "The commit is a merge commit with no changes to the codebase.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/40db9ea8bc6dfa8aed9820d697c313d9091660b9",
+      "date": "2026-03-07 02:45:36.000000"
+    },
+    {
+      "message": "fix vercel routing",
+      "author_name": "Shreyash-Shivgan",
+      "score": 4,
+      "summary": "The commit adds a `vercel.json` file to the frontend directory, which configures Vercel for routing. This is a common practice in deploying Next.js applications using Vercel.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/84cd00b349f39ac9071c9e54b07554df9bb08c2d",
+      "date": "2026-03-07 01:59:20.000000"
+    },
+    {
+      "message": "fix railway port",
+      "author_name": "Shreyash-Shivgan",
+      "score": 1,
+      "summary": "The code diff shows a complete rewrite of the Dockerfile, replacing the previous Python-based setup with a shell script that sets up the environment and runs the application. This change is significant as it moves away from using a pre-configured Python environment to a more flexible approach.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/ca899077803bb47f72e8c784a8883f9d8125b449",
+      "date": "2026-03-07 01:36:15.000000"
+    },
+    {
+      "message": "redeploy",
+      "author_name": "Shreyash-Shivgan",
+      "score": 1,
+      "summary": "The code diff is empty, indicating that there were no modifications or additions to the repository.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/77c2f0c1dd3486f787669c8ab8ef5283e7985b50",
+      "date": "2026-03-07 01:28:25.000000"
+    },
+    {
+      "message": "fix railway postgres connection",
+      "author_name": "Shreyash-Shivgan",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/8649a3824073bc49dea2d2c065cf121b43b4b0e0",
+      "date": "2026-03-07 01:23:16.000000"
+    },
+    {
+      "message": "add xgboost dependency",
+      "author_name": "Shreyash-Shivgan",
+      "score": 11,
+      "summary": "The commit adds a new API route that includes logic for handling CRUD operations. The code uses FastAPI to define the endpoint and SQLAlchemy to interact with the database.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/d2ecc216a0e3bc1fc72e9a4ca49cdb202c8be512",
+      "date": "2026-03-07 01:16:15.000000"
+    },
+    {
+      "message": "add shap dependency",
+      "author_name": "Shreyash-Shivgan",
+      "score": 9,
+      "summary": "The commit adds a new dependency (shap) to the project's requirements.txt file. This dependency is likely used for some form of machine learning or data analysis in the backend application.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/74aba7c8051b1a39fb46f0dd22a59db5c216ce15",
+      "date": "2026-03-07 01:12:39.000000"
+    },
+    {
+      "message": "v0.1",
+      "author_name": "Shreyash-Shivgan",
+      "score": 1,
+      "summary": "The code diff is entirely empty, indicating that no changes were made to the existing files in the backend/app/seed.py file. This suggests that this commit might have been created as part of a branch merge or was intentionally left unchanged.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/db75986b0aaa815fc271e3b2cbeadf00163c26f6",
+      "date": "2026-03-07 01:09:24.000000"
+    },
+    {
+      "message": "add db test route",
+      "author_name": "Shreyash-Shivgan",
+      "score": 11,
+      "summary": "The code adds a new route to the backend that interacts with the database to perform tests. It uses SQLAlchemy ORM to manage database sessions and queries.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/f0385d9cf6b6a02e58300d1d06596b32e176d454",
+      "date": "2026-03-07 00:56:38.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS",
+      "author_name": "Shreyash-Shivgan",
+      "score": 1,
+      "summary": "The code diff is empty, indicating that no changes were made to any files. The commit message describes merging another branch into the current one.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/0eeef6e787f89411d0a3a7416af829e8cd2411da",
+      "date": "2026-03-07 00:32:12.000000"
+    },
+    {
+      "message": "tp",
+      "author_name": "Shreyash-Shivgan",
+      "score": 10,
+      "summary": "The commit adds a new file `Dashboard.tsx` to the frontend/src/pages directory, which contains a default dashboard layout using React components from the 'recharts' library. The code includes imports for various icons and data fetching functions, but lacks any complex logic or features.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/160866107af226ee62c37d37cb8186ede79047a0",
+      "date": "2026-03-06 18:33:06.000000"
+    },
+    {
+      "message": "fixed",
+      "author_name": "Soham",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/252a38b8e4194582fc5b1b4c5b1ec41c98f80b73",
+      "date": "2026-03-06 16:16:25.000000"
+    },
+    {
+      "message": "new features in reports",
+      "author_name": "Soham Sawant",
+      "score": 11,
+      "summary": "The code adds a new feature to the frontend that displays and manages citizen reports. It includes components for displaying report cards, handling project viewing, deletion, and filtering of reports. The code also updates the styling and functionality of the existing components.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/e880af580d550a4557844d396bca1201e23507ef",
+      "date": "2026-03-06 15:44:17.000000"
+    },
+    {
+      "message": "added a budget reallocation feature only fro gov admin",
+      "author_name": "Soham",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/d805b032f37d56c23a88d86b8d26dc0d4a645919",
+      "date": "2026-03-06 15:31:51.000000"
+    },
+    {
+      "message": "new features in anolamly detection",
+      "author_name": "Soham Sawant",
+      "score": 4,
+      "summary": "The commit does not contain any code or changes to the main application files. It is likely a configuration update for the development environment.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/b2c4839f5f6e69923a7637ef126ddec0df9fe372",
+      "date": "2026-03-06 15:18:36.000000"
+    },
+    {
+      "message": "new features in fund flow tracker",
+      "author_name": "Soham Sawant",
+      "score": 1,
+      "summary": "This commit is a new feature in the Fund Flow Tracker, which involves adding components and functionality to display and trace funds from the Union Budget to Implementation Level. The code adds new components for displaying budget flow hierarchy, node icons, content cards, and status indicators. It also includes utility functions for formatting currency and handling alerts and success messages.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/0e636bd578a52e119bb11a82bf1446a965980813",
+      "date": "2026-03-06 14:04:10.000000"
+    },
+    {
+      "message": "Remove firebase key and add gitignore",
+      "author_name": "Shreyash-Shivgan",
+      "score": 5,
+      "summary": "The commit only includes a change to the .gitignore file, which is typically used for ignoring files and directories that should not be tracked by Git. This does not add or modify any code, but rather configures how Git handles certain files.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/7d92ecc6cbe403ec77bf98e1804ef0cd04df8993",
+      "date": "2026-03-06 13:56:45.000000"
+    },
+    {
+      "message": "Frontend and Backend first iteration",
+      "author_name": "Shreyash-Shivgan",
+      "score": 1,
+      "summary": "No actual code was added or changed in this commit. It seems like the commit is intended to represent the merging of multiple branches or no changes at all.",
+      "url": "https://github.com/Shreyash-Shivgan/COHERENCE-26_HACKOHOLICS/commit/876a951179df9f9b8d307f20f4402e55948e9969",
+      "date": "2026-03-06 13:53:33.000000"
+    }
+  ],
+  "final_review": "Hackoholics built a comprehensive budget management system, including features for API routes and anomaly detection. They used React and Next.js for the frontend, MongoDB for data storage, Express for the backend, and FastAPI for defining APIs. The team developed a robust dashboard that tracks funds from the Union Budget to Implementation Level. They also added new features like citizen reports and user profile management. The code quality was generally good with an average score of 5.9/20. However, there were several AI-generated commits, which could be improved by ensuring genuine hand-written code. Overall, they built a functional system that meets the project's requirements, but some areas for improvement exist in terms of code quality and efficiency."
+}

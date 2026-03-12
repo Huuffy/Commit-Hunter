@@ -1,0 +1,335 @@
+{
+  "team_name": "ZeroOne",
+  "commit_count": 84,
+  "additions": 80326,
+  "deletions": 21991,
+  "churn_rate": 0.27,
+  "productivity_score": 8116.6,
+  "hourly_commits": [
+    4,
+    0,
+    5,
+    0,
+    0,
+    0,
+    3,
+    3,
+    3,
+    2,
+    1,
+    6,
+    6,
+    10,
+    5,
+    2,
+    9,
+    9,
+    3,
+    1,
+    1,
+    7,
+    3,
+    1
+  ],
+  "hourly_volume": [
+    80326,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Karan",
+      "commits": 46
+    },
+    {
+      "name": "Kaushik Gautam",
+      "commits": 28
+    },
+    {
+      "name": "Jidnyasa Patil",
+      "commits": 6
+    },
+    {
+      "name": "Aryan Khot",
+      "commits": 4
+    }
+  ],
+  "top_files": [
+    {
+      "name": "Backend/node_modules/.package-lock.json",
+      "value": 10161
+    },
+    {
+      "name": "Frontend/package-lock.json",
+      "value": 9404
+    },
+    {
+      "name": "Backend/package-lock.json",
+      "value": 7044
+    },
+    {
+      "name": "Frontend/src/pages/clinic/PostTrial.jsx",
+      "value": 2924
+    },
+    {
+      "name": "Frontend/src/theme.js",
+      "value": 2610
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "Backend/node_modules",
+      "value": 10161
+    },
+    {
+      "name": "Frontend",
+      "value": 10000
+    },
+    {
+      "name": "Frontend/src/components/patient",
+      "value": 9159
+    },
+    {
+      "name": "Frontend/src/pages/clinic",
+      "value": 8232
+    },
+    {
+      "name": "Backend",
+      "value": 7755
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".jsx",
+      "value": 51248
+    },
+    {
+      "name": ".json",
+      "value": 30001
+    },
+    {
+      "name": ".js",
+      "value": 13012
+    },
+    {
+      "name": ".md",
+      "value": 5698
+    },
+    {
+      "name": ".css",
+      "value": 1130
+    },
+    {
+      "name": "no_ext",
+      "value": 433
+    },
+    {
+      "name": ".ts",
+      "value": 360
+    },
+    {
+      "name": ".sql",
+      "value": 243
+    },
+    {
+      "name": ".html",
+      "value": 186
+    },
+    {
+      "name": ".svg",
+      "value": 6
+    },
+    {
+      "name": ".png",
+      "value": 0
+    },
+    {
+      "name": ".traineddata",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat: increase general API rate limit to 1000 requests per 15 minutes",
+      "author_name": "Karan",
+      "score": 11,
+      "summary": "The commit adds a new rate limiter middleware to the Backend/src/middlewares directory. This middleware is used to limit the number of requests made to general API endpoints within a specified time window, which in this case is 15 minutes. The maximum number of allowed requests during this period has been increased from 100 to 1000.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/2c785d8f6d48d9811185220bef43243824ab4b21",
+      "date": "2026-03-07 05:54:32.000000"
+    },
+    {
+      "message": "feat: update README with project overview, features, and tech stack details",
+      "author_name": "Karan",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/70315e5ca6a1466b67639a38593af25ca8f141d4",
+      "date": "2026-03-07 05:25:50.000000"
+    },
+    {
+      "message": "feat: implement AI analysis loading screen with progress tracking for clinical trial matching",
+      "author_name": "Karan",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/980cac9d25587993fb451981bd37ebd0a4f88f9d",
+      "date": "2026-03-07 04:44:10.000000"
+    },
+    {
+      "message": "feat: add patient self-application and application viewing endpoints",
+      "author_name": "Karan",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/a7acc97fe09356d2784dc9e36bede2aef6473301",
+      "date": "2026-03-07 04:33:34.000000"
+    },
+    {
+      "message": "feat: add weekly trends skeleton and summary stats to dashboard",
+      "author_name": "Karan",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/7f675afe39d7c4ccf92e6cf0745d3b01a8558845",
+      "date": "2026-03-07 04:26:34.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Karangupta97/COHERENCE-26_ZeroOne",
+      "author_name": "Karan",
+      "score": 1,
+      "summary": "The provided code diff shows a merge commit from the 'main' branch of a GitHub repository. It does not include any new or changed files or code.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/e49dc17ba66b08c46d45103b9b080f4098acbffb",
+      "date": "2026-03-07 04:04:59.000000"
+    },
+    {
+      "message": "feat: enhance medical report processing with OCR and AI extraction, add new dependencies",
+      "author_name": "Karan",
+      "score": 11,
+      "summary": "The commit adds functionality to extract structured patient medical information from both OCR-extracted text and medical report files using Groq LLMs. The code includes a function to parse Groq responses, two main functions for OCR text extraction and vision-based medical data extraction, and a minimum character threshold for OCR text to be considered useful.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/ec3fc475f216e10f8f4c4dee6ff54cdf233eca9a",
+      "date": "2026-03-07 04:04:54.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Karangupta97/COHERENCE-26_ZeroOne",
+      "author_name": "Kaushik Gautam",
+      "score": 9,
+      "summary": "The code adds a utility function that calculates the compatibility score of a patient with a clinical trial based on certain criteria. It filters reasons for passing or failing and constructs a message indicating whether the patient is a strong match, partial match, or low match with the trial.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/aeb37af938781d3442ae44aace10762bd02efb15",
+      "date": "2026-03-07 03:45:44.000000"
+    },
+    {
+      "message": "Use PNG logo and adjust entrance animations\n\nReplace various gradient/DnaIcon logo marks with a unified /logo.png (auth pages, sidebars, header, loader) and update index.html to use the PNG favicon; public/logo.png updated. Refactor framer-motion usage by replacing the shared fadeUp shorthand with explicit initial/animate objects, add mounted/hasAnimated state (useEffect/useRef) to avoid re-triggering entrance animations, and simplify some list item wrappers to plain divs to reduce unwanted animation behavior.",
+      "author_name": "Kaushik Gautam",
+      "score": 1,
+      "summary": "3 sentences",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/9a31211f24c80a64d39d9bd9c087b46cb00690cc",
+      "date": "2026-03-07 03:45:37.000000"
+    },
+    {
+      "message": "Switch env to local development settings\n\nUpdate Backend and Frontend environment files for local development: Backend CORS_ORIGIN changed from the production frontend URL to http://localhost:5173 (production origin commented out), and a GROQ_API_KEY environment variable was added. Frontend VITE_API_URL was switched from the remote API URL to http://localhost:5000 (original URL commented out). Sensitive values are not reproduced here.",
+      "author_name": "Karan",
+      "score": 5,
+      "summary": "The commit does not introduce any new code or changes to the existing files. It only updates environment variables in two configuration files, Backend/.env and Frontend/.env. These updates are part of setting up local development environments for both the backend and frontend services.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/e83c1a15dc0640fe6437ed1b7e0dcc07192cd194",
+      "date": "2026-03-07 03:44:20.000000"
+    },
+    {
+      "message": "feat: integrate Groq SDK for AI chat and report extraction, add AI match explanation",
+      "author_name": "Karan",
+      "score": 11,
+      "summary": "The code adds a new section to the 'AddClinicalTrialDetails' component that displays an AI-generated explanation for patient compatibility with a clinical trial. This is achieved by filtering reasons based on whether they passed or failed and then constructing a message based on the trial's score.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/c882dcf41070d6fe21c23bd5ef576548a5c813da",
+      "date": "2026-03-07 03:38:47.000000"
+    },
+    {
+      "message": "feat: add backend environment configuration and clinical trial chatbot functionality\n\n- Created .env file for backend configuration including MongoDB, JWT, and Cloudflare R2 settings.\n- Implemented chatController to handle patient inquiries using Google Gemini AI for clinical trial matching.\n- Added chat routes for patient-only access to the chatbot.\n- Seeded clinical trial data into the database from JSON files.\n- Introduced patient dataset for testing and development purposes.",
+      "author_name": "Karan",
+      "score": 13,
+      "summary": "The code added a new component `AddClinicalTrialDetails` with features such as form validation, fetching trial matches, and handling user interactions. The backend configuration was updated to include JWT authentication and Cloudflare R2 settings. The chatbot functionality was implemented using Google Gemini AI for clinical trial matching.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/ad557b370d54a8f57ea6c9b49b5f4311b338186b",
+      "date": "2026-03-07 02:57:21.000000"
+    },
+    {
+      "message": "Add trial matching API & charting UI\n\nIntroduce a patient-to-trial matching feature and add charting components/UI updates.\n\nBackend: add matching service, controller, and routes (getMyMatches, getMatchesByAnonymizedId) and wire routes into Server.js. Implement a scoring-based matching algorithm (exclusions, condition/age/biomarker/location weights) that merges Patient and ClinicalTrialDetails, ranks trials and returns reasons/eligibility. Also update Gemini usage to gemini-2.0-flash and convert testGemini to CommonJS imports.\n\nFrontend: rename branding from \"CureMatch\" to \"CuraMatch\" across auth pages and placeholders. Add ApexCharts (apexcharts + react-apexcharts) to package.json/lock and replace custom breakdown visuals with reusable chart components: CandidateBreakdown (Apex bar), EnrollmentScore (radial chart), and a new EnrollmentFunnelChart. Various UI/spacing/font refinements to match new charting components.\n\nMisc: package dependency updates to support charting. These changes enable secure matching endpoints and improved clinic dashboard visualizations.",
+      "author_name": "Karan",
+      "score": 13,
+      "summary": "The commit adds a new API route for patient-to-trial matching and updates the frontend to include charting components. It also includes changes to the backend service and routing, as well as UI/UX improvements.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/4458a03adf2e879ba9d921f21a18ec181bb20b2b",
+      "date": "2026-03-07 02:11:59.000000"
+    },
+    {
+      "message": "chore: remove .env and node_modules from tracking",
+      "author_name": "Karan",
+      "score": 1,
+      "summary": "The code diff shows changes to the `.env` and `node_modules` directories. These files are no longer tracked by Git, meaning they will not be included in future commits or backups.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/3a5b351604aaececf306089a95381f3849d0373c",
+      "date": "2026-03-07 01:08:29.000000"
+    },
+    {
+      "message": "feat: add rewrite rule for non-API routes to serve index.html",
+      "author_name": "Karan",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/f6605f50662c20c6bb4a3846f2dc2809acc32090",
+      "date": "2026-03-07 01:07:34.000000"
+    },
+    {
+      "message": "feat: update CORS_ORIGIN for production and add frontend environment configuration",
+      "author_name": "Karan",
+      "score": 1,
+      "summary": "The provided diff does not contain any changes to the source code. It only contains updates to configuration files and environment variables, which are typically handled by version control systems like Git.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/252876fd39337c4d8157d9b49a3c09dd9461f4eb",
+      "date": "2026-03-07 00:41:29.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Karangupta97/COHERENCE-26_ZeroOne",
+      "author_name": "Kaushik Gautam",
+      "score": 1,
+      "summary": "The commit message states that it merges the 'main' branch of a GitHub repository. This is a merge operation rather than adding or changing any actual code.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/ac83ddace5758f58cfebc6489c2f0408589987a0",
+      "date": "2026-03-07 00:26:11.000000"
+    },
+    {
+      "message": "feat: Establish initial application routing, ClinicLayout, and introduce page and dashboard skeleton loaders.",
+      "author_name": "Kaushik Gautam",
+      "score": 1,
+      "summary": "The code introduces a new React component called `ClinicDashboardSkeleton` that uses shimmer animations to create a visually appealing placeholder while data is being loaded. It includes functions like `Bone` and `CardSkeleton` to render individual elements and cards with shimmer effects, respectively. This helps in providing an initial loading state for the clinic dashboard without any clutter.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/85a8ff887b425f328e97434192b72679464d952d",
+      "date": "2026-03-07 00:26:07.000000"
+    },
+    {
+      "message": "feat: remove ethnicity field from AddClinicalTrialDetails component",
+      "author_name": "Karan",
+      "score": 11,
+      "summary": "The code diff shows changes to the `AddClinicalTrialDetails` component by removing the `ethnicity` field from the form and its associated input element. This change is part of a feature that removes the ethnicity field from the clinical trial details form.",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/6ba57b43bea37aa7677724541697e76efff0514d",
+      "date": "2026-03-07 00:25:44.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Karangupta97/COHERENCE-26_ZeroOne",
+      "author_name": "Kaushik Gautam",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Karangupta97/COHERENCE-26_ZeroOne/commit/8760e1502da04bc3ca6edab371a535e1f1c8b6b7",
+      "date": "2026-03-07 00:15:09.000000"
+    }
+  ],
+  "final_review": "The team built a comprehensive clinical trial management system using Next.js for the frontend, Express for the backend, MongoDB for data storage, and Apollo Client for API interactions. They started with setting up the development environment and progressed to building features like user authentication, profile management, trial creation, and patient-to-trial matching. Commits were well-structured, with each commit addressing a specific feature or improving existing ones. The code quality was generally high, with scores ranging from 13 to 15, indicating strong technical work. While there were no AI-generated portions in the commits, the team showed proficiency in handling complex backend logic and user interactions. Overall, they built a functional and robust system that could be further developed into a full-fledged clinical trial management platform."
+}

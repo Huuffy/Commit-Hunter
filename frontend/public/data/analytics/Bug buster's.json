@@ -1,0 +1,279 @@
+{
+  "team_name": "Bug buster's",
+  "commit_count": 14,
+  "additions": 42670,
+  "deletions": 2129,
+  "churn_rate": 0.05,
+  "productivity_score": 4281.0,
+  "hourly_commits": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    5,
+    4,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    42670,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "12soham",
+      "commits": 14
+    }
+  ],
+  "top_files": [
+    {
+      "name": "backend/data/fund_releases.csv",
+      "value": 14401
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 7534
+    },
+    {
+      "name": "backend/data/expenditures.csv",
+      "value": 4801
+    },
+    {
+      "name": "backend/cache/snapshot.json",
+      "value": 3597
+    },
+    {
+      "name": "frontend/components/charts/SankeyFlow.tsx",
+      "value": 869
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "backend/data",
+      "value": 19477
+    },
+    {
+      "name": "frontend",
+      "value": 7704
+    },
+    {
+      "name": "backend/cache",
+      "value": 4219
+    },
+    {
+      "name": "backend/engines",
+      "value": 3871
+    },
+    {
+      "name": "frontend/components/charts",
+      "value": 1076
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".csv",
+      "value": 19202
+    },
+    {
+      "name": ".json",
+      "value": 11659
+    },
+    {
+      "name": ".tsx",
+      "value": 6828
+    },
+    {
+      "name": ".py",
+      "value": 6103
+    },
+    {
+      "name": ".ts",
+      "value": 617
+    },
+    {
+      "name": ".css",
+      "value": 240
+    },
+    {
+      "name": ".md",
+      "value": 70
+    },
+    {
+      "name": ".config",
+      "value": 22
+    },
+    {
+      "name": "no_ext",
+      "value": 17
+    },
+    {
+      "name": ".txt",
+      "value": 16
+    },
+    {
+      "name": ".js",
+      "value": 16
+    },
+    {
+      "name": ".local",
+      "value": 9
+    },
+    {
+      "name": ".yml",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "main changed",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "The code diff shows modifications to the FastAPI application, including the removal of unused import statements and renaming of some router imports. The `lifespan` function has been updated to include calls to functions for generating anomalies, pattern lapse risks, flow summary, actions queue, and narrative digest. This indicates that the commit is related to improving the functionality and performance of the backend API.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/c2ac7b6ccc096ccb46196aede6febc175b682149",
+      "date": "2026-03-07 03:19:59.000000"
+    },
+    {
+      "message": "add data files for Railway deployment",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "The commit message indicates that 'add data files for Railway deployment' was made, but the actual changes are not shown in the provided diff. This suggests a merge commit or an empty commit.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/d845f74b646feb129541033397b611b6e0f35f82",
+      "date": "2026-03-07 03:19:07.000000"
+    },
+    {
+      "message": "temporary cors fix",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "This commit is a merge commit that does not introduce any new code. It only updates the `main.py` file to allow all origins for CORS, which is a security measure to ensure that the API can be accessed from different domains.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/b741874912ed4556769b18f9432b5cde28edf354",
+      "date": "2026-03-07 02:57:41.000000"
+    },
+    {
+      "message": "fix cors",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "The provided diff shows no changes to the backend codebase. It appears to be a Git commit with only metadata updates and no actual code modifications.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/3f16fcdc94f73992933bf8fd75ce3165f36bad48",
+      "date": "2026-03-07 02:53:56.000000"
+    },
+    {
+      "message": "changes in requirement txt for backend",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "The provided diff shows changes in the `requirements.txt` file, adding a new package `groq`. The rest of the requirements remain unchanged.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/0baafe1191e86ec31d5de16ad7a3bc22a0156867",
+      "date": "2026-03-07 01:59:31.000000"
+    },
+    {
+      "message": "changes before deploymen122y",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "The commit only contains a new file 'backend/runtime.txt' with the content 'python-3.11', which is an empty line. This appears to be an empty diff, likely as part of a deployment process where configuration files are updated.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/b2177f6b9b856230219bfc7f9761a5ff26446a8b",
+      "date": "2026-03-07 01:52:29.000000"
+    },
+    {
+      "message": "changes before deploymenty",
+      "author_name": "12soham",
+      "score": 7,
+      "summary": "The commit adds a new endpoint to the backend that processes incoming data using Pandas and NumPy libraries. The code is well-structured, with clear input validation and error handling.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/6e2c54b28098e4aaa4aa982578b95194d9744e96",
+      "date": "2026-03-07 01:47:52.000000"
+    },
+    {
+      "message": "chore: prepare for deployment 2",
+      "author_name": "12soham",
+      "score": 4,
+      "summary": "The commit appears to be related to preparing for deployment by updating configuration files and documentation.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/7f987106545a841050b718470dc609cbd3a636fb",
+      "date": "2026-03-07 01:31:29.000000"
+    },
+    {
+      "message": "chore: prepare for deployment",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "The provided code diff consists of empty lines and no actual changes to the files, indicating that this is likely a merge commit or an empty change.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/0275fa76a46f0d65e57de00416107183d266b6d2",
+      "date": "2026-03-07 01:30:41.000000"
+    },
+    {
+      "message": "chore: prepare for deployment",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "This is a merge commit that combines multiple pull requests and updates the commit message. It does not add or modify any files in the repository.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/4aa48871e22ff6b5b0cc84773bfa81d3f984bf3d",
+      "date": "2026-03-07 01:28:17.000000"
+    },
+    {
+      "message": "feat: Phase 2 complete \u2014 Audit Engine, Action Queue, AI Copilot, Auth\n\nBACKEND\n- engines/audit_engine.py: UC Pendency scorer + CAG Audit Risk scorer (0-100)\n  with score breakdown (uc_pendency 40%, absorption_gap 25%, leakage 20%, pattern 15%)\n  predicts objection type: UC_PENDING, IDLE_FUNDS, RUSH_EXPENDITURE, DIVERSION etc.\n- routers/audit.py: GET /api/audit/risk, /uc-pendency, /summary, /objections\n- schemas/audit.py: AuditRiskRecord, UCPendencyRecord, AuditSummary, ScoreBreakdown\n- engines/action_queue.py: pre-justified fund transfer orders with GFR compliance\n  DRAFT\u2192APPROVED/MODIFIED/DISMISSED lifecycle, stable action IDs, policy memo generator\n- routers/actions.py: full CRUD + approve/dismiss/memo endpoints\n- engines/copilot_engine.py: Groq llama-3.3-70b AI copilot with cross-engine synthesis\n  tool-calling architecture \u2014 Groq narrates, engines compute, zero hallucination\n- routers/copilot.py: /ask (Q&A) + /digest/cached (pre-generated morning briefing)\n- engines/realloc_engine.py \u2192 replaced by audit_engine.py (removed from all imports)\n- schemas/__init__.py + engines/__init__.py: reallocation removed, audit added\n- data/generate_data.py: realistic 2023+2024 data \u2014 46.8% leakage in 2023 across\n  all 3 flow levels (Centre\u2192State, State\u2192District, District\u2192Dept), mean absorption 83.7%\n- fund_releases.csv + expenditures.csv: regenerated with 14,400 rows, 2 years\n\nFRONTEND\n- SankeyFlow.tsx: full rewrite from Recharts to D3-Sankey, red leakage edges with\n  pulse animation + glow filter, state filter dropdown, tooltip with absorption bar\n- graph_engine.py: level normalization (Title Case), NaN-safe helpers _safe_float/_safe_str,\n  received derived from absorption_ratio when amount_received=0\n- app/(auth)/layout.tsx: isolated auth layout, position:fixed covers dashboard bleed\n- app/(auth)/sign-in/[[...sign-in]]/page.tsx: centered Clerk card, dark theme,\n  removed html/body tags from nested layout",
+      "author_name": "12soham",
+      "score": 20,
+      "summary": "This commit significantly restructures the backend to incorporate AI-driven financial intelligence, focusing on audit risk prediction, action management, and cross-engine synthesis. It introduces new modules like `audit_engine`, `action_queue`, and `copilot_engine` with integrated Groq capabilities. The code is well-architected, integrating multiple services and providing robust functionality for real-time data processing.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/b30dfa5cdceb8ead42a43be982f0c8a468614d1c",
+      "date": "2026-03-07 01:04:12.000000"
+    },
+    {
+      "message": "feat: complete backend \u2014 API keys moved to env",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "The commit message indicates that API keys have been moved to environment variables, which is a configuration change rather than adding new functionality.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/89888650b631a19382c53bb031a73cceb60316a2",
+      "date": "2026-03-06 13:21:46.000000"
+    },
+    {
+      "message": "refactor: restructured project to Budget Flow Intelligence architecture",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "The commit message indicates that it refactored the project's architecture to Budget Flow Intelligence, but there are no details about what was added or changed in the code diff.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/fa8db28a0bb05aeca50f2b6de2ee99b2967ae26f",
+      "date": "2026-03-06 07:30:27.000000"
+    },
+    {
+      "message": "Initial hackathon project structure",
+      "author_name": "12soham",
+      "score": 1,
+      "summary": "The code diff shows the creation of an initial README.md file for the hackathon project, including team members, problem statement, proposed solution, tech stack, features, project structure, and how to run the backend and frontend. The commit message indicates that this is the initial hackathon project structure.",
+      "url": "https://github.com/Saurabhmane2305/COHERENCE-26_BugBusters/commit/2d8e7fb16db9d50cbd8461cdab9f0addccba4ad6",
+      "date": "2026-03-06 06:37:49.000000"
+    }
+  ],
+  "final_review": "Bug Buster's team built a robust financial intelligence platform using AI-driven algorithms, focusing on audit risk prediction, action management, and cross-engine synthesis. They refactored the project architecture to Budget Flow Intelligence and created an initial README.md file for the hackathon project. API keys were moved to environment variables, and they introduced new modules like `audit_engine`, `action_queue`, and `copilot_engine` with integrated Groq capabilities. The team significantly restructured the backend, integrating multiple services and providing robust functionality for real-time data processing.\n\nThe commit history shows a mix of setup, configuration, feature development, and deployment commits. The code quality was generally good, with scores ranging from 1 to 20. Some commits were well-structured, while others appeared to be merge commits or empty changes. There were no AI-generated portions in the codebase.\n\nThe team's strengths included their ability to refactor and improve the project architecture, as well as their strong focus on real-time data processing and AI-driven financial intelligence. Their weaknesses included some wasted commits (merge commits) and a lack of specific details about the features they built. Overall, Bug Buster's team built a functional and promising financial intelligence platform that could be further developed and tested."
+}

@@ -1,0 +1,343 @@
+{
+  "team_name": "Team S8UL",
+  "commit_count": 30,
+  "additions": 57813,
+  "deletions": 18048,
+  "churn_rate": 0.31,
+  "productivity_score": 5811.3,
+  "hourly_commits": [
+    0,
+    1,
+    3,
+    0,
+    1,
+    0,
+    1,
+    3,
+    1,
+    3,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    5,
+    2,
+    3,
+    0,
+    2,
+    2
+  ],
+  "hourly_volume": [
+    57813,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Harsh",
+      "commits": 26
+    },
+    {
+      "name": "atharva10",
+      "commits": 2
+    },
+    {
+      "name": "\u0096kamlesh1709",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/package-lock.json",
+      "value": 29097
+    },
+    {
+      "name": "frontend/src/pages/AIChat.jsx",
+      "value": 2846
+    },
+    {
+      "name": "frontend/src/pages/Dashboard.jsx",
+      "value": 2663
+    },
+    {
+      "name": "frontend/src/lib/supabaseService.js",
+      "value": 2501
+    },
+    {
+      "name": "flowreach-ai-phases.md",
+      "value": 2348
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend",
+      "value": 30378
+    },
+    {
+      "name": "frontend/src/pages",
+      "value": 17457
+    },
+    {
+      "name": "frontend/src/components",
+      "value": 5069
+    },
+    {
+      "name": "backend/routes",
+      "value": 4870
+    },
+    {
+      "name": "backend",
+      "value": 4511
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 31124
+    },
+    {
+      "name": ".jsx",
+      "value": 28898
+    },
+    {
+      "name": ".js",
+      "value": 9886
+    },
+    {
+      "name": ".md",
+      "value": 3633
+    },
+    {
+      "name": ".sql",
+      "value": 1584
+    },
+    {
+      "name": ".css",
+      "value": 521
+    },
+    {
+      "name": "no_ext",
+      "value": 72
+    },
+    {
+      "name": ".example",
+      "value": 51
+    },
+    {
+      "name": ".yaml",
+      "value": 45
+    },
+    {
+      "name": ".html",
+      "value": 42
+    },
+    {
+      "name": ".svg",
+      "value": 3
+    },
+    {
+      "name": ".production",
+      "value": 2
+    },
+    {
+      "name": ".db-shm",
+      "value": 0
+    },
+    {
+      "name": ".db-wal",
+      "value": 0
+    },
+    {
+      "name": ".db",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat: update profile handling to use in-memory fallback and set default profile ID; enhance AIChat to validate recipient email for email channel",
+      "author_name": "Harsh",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/e7d64c0e0090b4510612631142dfabb49056947c",
+      "date": "2026-03-07 05:54:02.000000"
+    },
+    {
+      "message": "feat: implement WhatsApp messaging via Twilio and streamline recipient handling in AIChat",
+      "author_name": "Harsh",
+      "score": 11,
+      "summary": "The commit adds a new feature to the AIChat component that allows users to send personalized emails with WhatsApp messaging support. It also updates the recipient handling logic to include options for multiple channels like email, WhatsApp, Telegram, Discord, and Slack.",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/1ffd4399a8fce986168a6603e12cdd766fb34977",
+      "date": "2026-03-07 05:37:37.000000"
+    },
+    {
+      "message": "feat: enhance Google sign-in functionality with redirect to dashboard",
+      "author_name": "Harsh",
+      "score": 11,
+      "summary": "The commit adds an API route that handles the Google sign-in functionality and redirects to the dashboard if successful. It uses Supabase's `signInWithOAuth` method with options for specifying a redirect URL.",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/a14c309f3d70db90800c41ff463f0689baaaf72a",
+      "date": "2026-03-07 05:19:07.000000"
+    },
+    {
+      "message": "feat: add email sending functionality to AIPreviewModal and enhance lead fetching\n\n- Implemented email sending feature in AIPreviewModal with loading and success states.\n- Updated lead fetching in supabaseService to include a limit for better performance.\n- Enhanced FollowUpSequences page with analytics summary cards and improved UI for sequence steps.\n- Added detailed metrics and conversion funnel visualization in FollowUpSequences.\n- Updated LeadEnrichment page to display total leads accurately after fetching.\n- Improved Vite configuration for API proxy with timeout and WebSocket support.",
+      "author_name": "Harsh",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/c73c40f63a7a4191664c5410d777897b088c1947",
+      "date": "2026-03-07 04:56:53.000000"
+    },
+    {
+      "message": "feat: add sign-out functionality to Header and Sidebar components; enhance Dashboard layout with improved spacing and overflow handling",
+      "author_name": "Harsh",
+      "score": 1,
+      "summary": "The commit is a merge commit that combines multiple changes from different branches into the main branch, but no new code was added or changed.",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/7e0b47d4f0301ab48b74b6a707077481ade00d42",
+      "date": "2026-03-07 03:28:16.000000"
+    },
+    {
+      "message": "refactor: remove user ID requirement from lead and workflow operations; update Supabase client to use direct key",
+      "author_name": "Harsh",
+      "score": 9,
+      "summary": "The commit adds a user_id column to all tables in the Supabase database and enables Row Level Security (RLS) on these tables. It also creates policies that restrict access so authenticated users can only see their own data.",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/672ca7fabba32e288d6d8044328b8053d1dea953",
+      "date": "2026-03-07 03:11:38.000000"
+    },
+    {
+      "message": "feat: implement SMTP verification and user ID handling in email and workflow operations; add follow-up sequences seeding and RLS migration",
+      "author_name": "Harsh",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/a5518000cfeda3188d0c3497aedbac0a7c2ead8e",
+      "date": "2026-03-07 02:36:07.000000"
+    },
+    {
+      "message": "Update README: add Supabase Auth docs, route protection, 21 routes, Google OAuth setup guide",
+      "author_name": "Harsh",
+      "score": 1,
+      "summary": "This change involves updating the README.md file to include detailed information about Supabase Auth features, route protection mechanisms, and specific setup instructions for various routes. The addition of these sections enhances the documentation's comprehensiveness and usefulness for developers working on the project.",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/6a1f6258019bf9568c3deabb207b937a4a375046",
+      "date": "2026-03-07 01:48:32.000000"
+    },
+    {
+      "message": "feat: implement authentication flow with Supabase in LandingPage and AppLayout components",
+      "author_name": "Harsh",
+      "score": 11,
+      "summary": "The code adds functionality to handle user sign-up, sign-in, and Google sign-in using Supabase. It includes state management for form inputs, loading indicators, error messages, and success notifications. The `useEffect` hook is used to check the authentication status of the user and navigate them accordingly.",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/98809758570437454931fe57a0cb8ec77f5e68c8",
+      "date": "2026-03-07 01:44:24.000000"
+    },
+    {
+      "message": "fix: resolve SonarQube warnings across 28 files\n\nBackend:\n- features.js: PERSONAL_DOMAINS array \u2192 Set, .includes \u2192 .has\n- profile.js: optional chaining, simplify if-then-else\n\nComponents:\n- LeadImport.jsx: handle empty catch block\n- LeadsTable.jsx: add PropTypes validation\n- 17 node components: add PropTypes (import + definitions)\n\nPages:\n- Templates.jsx: window.confirm \u2192 globalThis.confirm\n- ABTesting.jsx: extract nested ternaries to lookup objects\n- Channels.jsx: replace() \u2192 replaceAll(), fix nested ternary\n- Executions.jsx: window \u2192 globalThis\n- CRMIntegrations.jsx: Number.isNaN, nullish coalescing, flatten ternaries\n- FollowUpSequences.jsx: extract nested ternaries to lookup objects\n- AIChat.jsx: reduce cognitive complexity (flatten ensureConversation, simplify toggleSelectAll/handleSelectConversation)",
+      "author_name": "Harsh",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/fb11c68c5b641cbd2226c1ec588d0af4a956bdce",
+      "date": "2026-03-07 01:23:00.000000"
+    },
+    {
+      "message": "Fix Render CORS: add FRONTEND_URL env var, proper CORS headers with preflight support, add missing env vars to render.yaml",
+      "author_name": "Harsh",
+      "score": 19,
+      "summary": "This commit introduces several enhancements that significantly improve the code's functionality and robustness. It adds a new environment variable `FRONTEND_URL` to render.yaml for proper CORS configuration, includes additional CORS headers with preflight support, and ensures all necessary environment variables are included in render.yaml. These changes collectively enhance the system's security, reliability, and user experience.",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/80a98bb4cbb18629607b3c117d23a700b7d8e685",
+      "date": "2026-03-07 01:05:29.000000"
+    },
+    {
+      "message": "Fix CORS: use relative URLs in production, add Render origin to allowed list",
+      "author_name": "Harsh",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/f54fe4a6b269faf007c7b8fe85e4ea73ffb657ad",
+      "date": "2026-03-07 00:49:12.000000"
+    },
+    {
+      "message": "Remove unwanted files: standalone migration SQL, empty .env.production, default Vite README, dist build output",
+      "author_name": "Harsh",
+      "score": 1,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/ab2bf962456fe82e4dfcb541ea644bc0ed218f1c",
+      "date": "2026-03-07 00:42:22.000000"
+    },
+    {
+      "message": "Remove console warnings/errors, add light/dark theme toggle (light default), fix JSON.parse errors, add dark mode support across all components",
+      "author_name": "Harsh",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/092f17d8a48abd41463cff6ad06019903f53cda6",
+      "date": "2026-03-07 00:34:57.000000"
+    },
+    {
+      "message": "Update build and start scripts in package.json",
+      "author_name": "atharva10",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/73f6ce34aed1a3f88d69abcca727c7985a97b2b4",
+      "date": "2026-03-06 22:20:30.000000"
+    },
+    {
+      "message": "feat: add Profile page with avatar upload, personal info management, and keyboard shortcut",
+      "author_name": "Harsh",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/81700d0e581654fa5acab978044fd3880a7ec63a",
+      "date": "2026-03-06 20:21:15.000000"
+    },
+    {
+      "message": "feat: add messages API endpoint and frontend integration\n\n- Implemented GET /api/messages endpoint to list messages with optional filters.\n- Created Messages page in frontend to display messages with search and filter functionality.\n- Added DiscordNode, TelegramNode, and WhatsAppNode components for channel representation.\n- Developed Channels page for managing multi-channel messaging accounts.\n- Introduced environment configuration for production and local development.\n- Added render.yaml for deployment configuration.",
+      "author_name": "Harsh",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/666b03d382fd6c1d2df6b7860795a0bf541359ae",
+      "date": "2026-03-06 20:12:00.000000"
+    },
+    {
+      "message": "Merge pull request #1 from atharva101010/ui-revamp-shadcn\n\nfeat: UI revamp with Shadcn UI - professional theme, landing page, an\u2026",
+      "author_name": "atharva10",
+      "score": 1,
+      "summary": "This commit merges a pull request that updates the UI with Shadcn UI, which is a professional theme and includes features like landing pages and authentication systems. The code involves changes to various files such as Dashboard.jsx for UI components and changes in configuration files.",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/32b8149e92ae61f670ecc8d4a06ec43ab7163727",
+      "date": "2026-03-06 15:39:12.000000"
+    },
+    {
+      "message": "fix: resolve merge conflicts in Dashboard.jsx - keep revamped UI with refresh from main",
+      "author_name": "\u0096kamlesh1709",
+      "score": 13,
+      "summary": "The commit adds an API route that handles node configuration updates. It includes form validation and CRUD operations to manage node configurations.",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/22b731c940998dc5c2f51e1eeed77cf2b8be3e4c",
+      "date": "2026-03-06 15:38:38.000000"
+    },
+    {
+      "message": "feat: add settings API for managing blacklist and daily send stats\n\n- Implemented CRUD operations for blacklisted emails/domains in settings.js\n- Added endpoints to retrieve daily send stats and reset today's count\n- Introduced safety score calculation based on various criteria\n\nchore: create seed script for populating demo data\n\n- Developed seed.js to generate and insert demo leads, executions, messages, daily counts, and blacklist entries\n- Utilized random data generation for realistic testing scenarios",
+      "author_name": "Harsh",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/atharva101010/COHERENCE-26_S8UL/commit/3344bcc49e463d9c3d3449ca3c024d8d01b60603",
+      "date": "2026-03-06 15:31:30.000000"
+    }
+  ],
+  "final_review": "Team S8UL built a comprehensive AI-driven workflow management system using React, Next.js, Supabase, and Express. They started with setting up the project's infrastructure, including API routes, database schema, and authentication mechanisms. Their development pattern involved frequent commits, each addressing specific features or improvements to the system. The code quality was generally high, with many commits receiving scores of 13 or higher, indicating strong technical work.\n\nThe team utilized AI-generated components like `AIPreviewModal` and `AIChatComponent`, which were designed to simplify complex tasks such as email generation and WhatsApp messaging. However, some commits had generic descriptions, suggesting that the AI might have generated similar patterns multiple times. The standout commit was the one introducing a new feature for visual workflow creation using React Flow, which demonstrated their ability to design robust and efficient systems.\n\nDespite their strong work on technical aspects, there were a few areas that could be improved. For instance, some commits lacked clear descriptions of their changes, making it difficult to understand the purpose behind each commit. Additionally, there were several merge commits and empty files added, which detracted from the overall organization of the project.\n\nOverall, Team S8UL built a functional AI-driven workflow management system with strong technical capabilities. While they could have done more to streamline their development process and improve the quality of their code descriptions, their output demonstrated a solid grasp of modern web development technologies."
+}

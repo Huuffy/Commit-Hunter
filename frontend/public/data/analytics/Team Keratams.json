@@ -1,0 +1,307 @@
+{
+  "team_name": "Team Keratams",
+  "commit_count": 41,
+  "additions": 3506,
+  "deletions": 621,
+  "churn_rate": 0.18,
+  "productivity_score": 391.6,
+  "hourly_commits": [
+    0,
+    0,
+    1,
+    11,
+    11,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    0
+  ],
+  "hourly_volume": [
+    3506,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Harshitha",
+      "commits": 41
+    }
+  ],
+  "top_files": [
+    {
+      "name": "package-lock.json",
+      "value": 2774
+    },
+    {
+      "name": "main.py",
+      "value": 724
+    },
+    {
+      "name": "patients.csv",
+      "value": 118
+    },
+    {
+      "name": "recommendor.py",
+      "value": 72
+    },
+    {
+      "name": "chatbot.py",
+      "value": 68
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 4117
+    },
+    {
+      "name": "clinical-trial-twin-ai",
+      "value": 3
+    },
+    {
+      "name": "clinical-trial-twin-ai/clinical-trial-twin-ai",
+      "value": 2
+    },
+    {
+      "name": "clinical-trial-twin-ai/clinical-trial-twin-ai/clinical-trial-twin-ai/clinical-trial-twin-ai/clinical-trial-twin-ai",
+      "value": 2
+    },
+    {
+      "name": "clinical-trial-twin-ai/clinical-trial-twin-ai/clinical-trial-twin-ai/clinical-trial-twin-ai",
+      "value": 2
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 2808
+    },
+    {
+      "name": ".py",
+      "value": 1128
+    },
+    {
+      "name": ".csv",
+      "value": 118
+    },
+    {
+      "name": ".txt",
+      "value": 50
+    },
+    {
+      "name": ".html",
+      "value": 16
+    },
+    {
+      "name": ".md",
+      "value": 4
+    },
+    {
+      "name": "no_ext",
+      "value": 3
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Delete Patients.csv.txt",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The commit deletes a CSV file named Patients.csv.txt, which likely contained patient data. This action is typically used to remove unnecessary files or update the structure of a project.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/3daeb0b587bddbb22559808593a000cc0bed1b29",
+      "date": "2026-03-07 05:07:00.000000"
+    },
+    {
+      "message": "Delete chatbot.py",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The commit removes the file `chatbot.py`, which contains a function to recommend trials based on patient descriptions using sentence embeddings. The code was not added or changed; it was removed entirely.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/db1784a0e49e9b950e940cc99405fe341119c086",
+      "date": "2026-03-07 05:06:48.000000"
+    },
+    {
+      "message": "Delete eligibility.cpython-313.pyc",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The commit message indicates that a file named 'eligibility.cpython-313.pyc' has been removed from the repository. This file is likely a compiled Python bytecode file, which can be safely deleted as it's no longer needed since the original source code (likely in .py format) has been updated or removed.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/745a29b50442641bcf63403ff0ef5937d5f11280",
+      "date": "2026-03-07 05:06:33.000000"
+    },
+    {
+      "message": "Delete eligibility.py",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "This change removes the code for a class that processed patient data in a digital health application. The code was likely used to generate profiles of patients based on their demographic and medical information.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/7b159bda0d02f6253db0a3031c6078be2d6569a0",
+      "date": "2026-03-07 05:06:17.000000"
+    },
+    {
+      "message": "Delete explainer.cpython-313.pyc",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "This commit removes an outdated Python bytecode cache file, which is no longer needed. This action ensures that the latest code and dependencies are used by the system.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/72584892cfd475a35d48690a68914e0a27f26de6",
+      "date": "2026-03-07 05:06:02.000000"
+    },
+    {
+      "message": "Delete explainer.py",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The commit deletes the explainer.py file, which appears to have been a utility function for explaining trial eligibility based on patient information and trial details.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/8b20361551c3917255ed90b036936d07c712e3a9",
+      "date": "2026-03-07 05:05:49.000000"
+    },
+    {
+      "message": "Delete init.py",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The commit removes the 'init.py' file, which is typically used in Python projects to initialize settings or configurations. This change does not affect the overall structure of the project and can be considered a minor cleanup.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/63ef47f5bd453a5e444f5334756eb37986906d76",
+      "date": "2026-03-07 05:05:28.000000"
+    },
+    {
+      "message": "Delete main.cpython-313.pyc",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "This change removes an intermediate file that is typically generated during the compilation of Python scripts. It's part of the build process and is not necessary for running the application.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/8c5b9bf863b2101bed8332ad9b41cfa146f2761a",
+      "date": "2026-03-07 05:05:09.000000"
+    },
+    {
+      "message": "Delete recommendor.cpython-313.pyc",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The commit message indicates that the file `recommendor.cpython-313.pyc` was deleted. This is likely part of a cleanup process to remove unnecessary files or optimize code storage.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/7b47eedc9e11420b1a64e1f382a0c57b6e78a291",
+      "date": "2026-03-07 05:04:53.000000"
+    },
+    {
+      "message": "Delete recommendor.py",
+      "author_name": "Harshitha",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/a1318b63c126e408409c4e475f241ff3fcdef7dd",
+      "date": "2026-03-07 05:04:40.000000"
+    },
+    {
+      "message": "Delete twin.cpython-313.pyc",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The code diff shows that a single Git commit has been made, which deletes the 'twin.cpython-313.pyc' file. This indicates that the commit was likely related to cleaning up or optimizing the project's build artifacts.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/330b9af61a10bfd1fd0da2e29b66477a4c40be06",
+      "date": "2026-03-07 05:04:13.000000"
+    },
+    {
+      "message": "Delete twin.py",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The code diff shows the deletion of the twin.py file, which contained a class DigitalTwin with methods to calculate age and generate a profile based on patient data. This indicates that the functionality related to processing patient data was removed or replaced.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/d0e141db040c02f1f3c0be5d08ba07118bc88e0b",
+      "date": "2026-03-07 05:04:00.000000"
+    },
+    {
+      "message": "Delete twin_generator.py",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The code diff shows the deletion of the `twin_generator.py` file, which contained functions to generate and return twin data based on various conditions and genders. This indicates that the functionality related to generating twin data was removed from the project.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/36e077769e796aa8ebd8db9f40337949bc7fd1cd",
+      "date": "2026-03-07 05:03:43.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The commit is a merge commit that combines multiple changes into one, but there are no actual changes to the codebase.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/c3212a3a18b490e8a047f6655e4ccd4a1b32af69",
+      "date": "2026-03-07 05:03:08.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The provided content is a list of patient records in CSV format, with no actual code changes.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/971180364a574ca10f75f6435ab9309590ff8461",
+      "date": "2026-03-07 04:58:41.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "Harshitha",
+      "score": 11,
+      "summary": "The code defines a function `recommend_trials` that takes a patient description and a list of trial data. It uses the SentenceTransformer model to encode the patient's description and all trial conditions into vectors, then calculates the cosine similarity between them. The results are sorted in descending order based on similarity scores, and the top 10 most similar trials are returned.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/4c68105122425faff39010768ef3e99ea514e51b",
+      "date": "2026-03-06 15:13:41.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "Harshitha",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/397ffb48697912fca1e672ae50f3daebe436ecdc",
+      "date": "2026-03-06 15:12:25.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "This commit appears to be a merge commit, which typically occurs when multiple branches are merged into one. It does not introduce any new code or changes to existing files.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/a1a8ccea337e7ce29798bc44dcb4111774a3e75e",
+      "date": "2026-03-06 15:11:18.000000"
+    },
+    {
+      "message": "Create main.py",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The commit adds an empty Python file named `main.py` to the repository. This file is likely intended for future use, such as serving as the entry point of a Python application or module.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/71b749ecef35b34cabcc998441f3f4bcd2b0b1ab",
+      "date": "2026-03-06 11:11:51.000000"
+    },
+    {
+      "message": "Create README.md",
+      "author_name": "Harshitha",
+      "score": 1,
+      "summary": "The code diff shows the creation of a new file, 'README.md', which is an empty text document. This serves as a placeholder for documentation and information about the project.",
+      "url": "https://github.com/harshikimmi18/COHERENCE-26_KERATAMS/commit/cbb7117346bd9b76bcd45cde0911894cfe82656c",
+      "date": "2026-03-06 11:09:09.000000"
+    }
+  ],
+  "final_review": "Team 'Team Keratams' built an AI-driven clinical trial eligibility dashboard using Streamlit, a web application framework for Python. They started with setting up the project structure by adding a `main.py` file and removing unnecessary files like `requirements.txt`. The development pattern was characterized by frequent commits but with some messy or repetitive patterns in commit messages, indicating initial setup rather than focused feature development.\n\nThe code quality assessment revealed that while they made several commits, most of them were either setup-related or contained generic descriptions. Scores ranged from 1 to 6, suggesting a mix of basic configuration and minimal functional features. There was one standout commit (score 11) where they implemented a function to recommend clinical trials based on patient descriptions using sentence embeddings.\n\nThe project did not contain any AI-generated code but showed signs of repetitive patterns in commit messages. The overall output was functional, providing a dashboard with metrics and charts related to clinical trial eligibility. However, the lack of substantial new features or improvements suggests that the team may have focused more on setting up the environment rather than building robust functionality within the 24-hour timeframe."
+}

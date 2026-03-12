@@ -1,0 +1,351 @@
+{
+  "team_name": "Meticura",
+  "commit_count": 37,
+  "additions": 171846,
+  "deletions": 9731,
+  "churn_rate": 0.06,
+  "productivity_score": 17221.6,
+  "hourly_commits": [
+    0,
+    2,
+    8,
+    4,
+    2,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    2,
+    2,
+    1,
+    4,
+    0
+  ],
+  "hourly_volume": [
+    171846,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Vishal-43",
+      "commits": 27
+    },
+    {
+      "name": "lokeshkonka",
+      "commits": 10
+    }
+  ],
+  "top_files": [
+    {
+      "name": "Backend/ml/output/transactions.csv",
+      "value": 121026
+    },
+    {
+      "name": "Frontend/package-lock.json",
+      "value": 7504
+    },
+    {
+      "name": "Backend/ml/artifacts/lapse_predictions.json",
+      "value": 5502
+    },
+    {
+      "name": "Backend/logs/budget_watchdog.log",
+      "value": 2249
+    },
+    {
+      "name": "Frontend/bun.lock",
+      "value": 1447
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "Backend/ml/output",
+      "value": 123603
+    },
+    {
+      "name": "Frontend",
+      "value": 9618
+    },
+    {
+      "name": "Backend/ml/artifacts",
+      "value": 6206
+    },
+    {
+      "name": "Backend/routers",
+      "value": 3397
+    },
+    {
+      "name": "Frontend/src/i18n",
+      "value": 2458
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".csv",
+      "value": 123744
+    },
+    {
+      "name": ".tsx",
+      "value": 22262
+    },
+    {
+      "name": ".json",
+      "value": 13503
+    },
+    {
+      "name": ".py",
+      "value": 11452
+    },
+    {
+      "name": ".ts",
+      "value": 5122
+    },
+    {
+      "name": ".log",
+      "value": 2277
+    },
+    {
+      "name": ".lock",
+      "value": 1447
+    },
+    {
+      "name": ".txt",
+      "value": 484
+    },
+    {
+      "name": ".css",
+      "value": 438
+    },
+    {
+      "name": ".md",
+      "value": 275
+    },
+    {
+      "name": ".yml",
+      "value": 214
+    },
+    {
+      "name": "no_ext",
+      "value": 134
+    },
+    {
+      "name": ".example",
+      "value": 129
+    },
+    {
+      "name": ".js",
+      "value": 52
+    },
+    {
+      "name": ".html",
+      "value": 26
+    },
+    {
+      "name": ".svg",
+      "value": 18
+    },
+    {
+      "name": ".pkl",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Merge branch 'main' of https://github.com/wastedx7/COHERENCE-26_Meticura",
+      "author_name": "Vishal-43",
+      "score": 18,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/5eb9ed827215f9f70b46a6af91d5fdb15da6c2c7",
+      "date": "2026-03-07 05:06:45.000000"
+    },
+    {
+      "message": "visualization",
+      "author_name": "Vishal-43",
+      "score": 12,
+      "summary": "The commit adds a new API endpoint that handles visualization tasks, including loading data from CSV files, generating feature dictionaries, and plotting core ML feature distributions. The code is well-structured, follows best practices for error handling, and includes comments to explain its functionality.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/a68746a1d912b1fc1f14d50efe8aa1e0b3f7ca18",
+      "date": "2026-03-07 05:06:40.000000"
+    },
+    {
+      "message": "Other Bugs Fixed",
+      "author_name": "lokeshkonka",
+      "score": 12,
+      "summary": "The code introduces a function `get_all_budget_summaries` which efficiently retrieves budget summary data for all departments in a single query. This avoids the N+1 problem by using subqueries to find the latest fiscal year and allocation amount, and then joins these results with the department names and spending information. The function returns a list of `BudgetSummary` objects containing various budget metrics such as allocated, spent, remaining, utilization percentage, and status.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/a7c2eb21493477965c30dc0c927aa663ffbf41e9",
+      "date": "2026-03-07 05:00:54.000000"
+    },
+    {
+      "message": "Multi Language Support",
+      "author_name": "lokeshkonka",
+      "score": 20,
+      "summary": "This commit adds multi-language support to the frontend of the application by creating a new translation file in the `i18n` directory. The file contains translations for various navigation items, common phrases, and dashboard metrics in Tamil (ta). This enhances the user experience by providing options for users to switch between English and Tamil languages.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/31f910d6d8161da3b62af7bc1f8f427d5639e816",
+      "date": "2026-03-07 04:34:29.000000"
+    },
+    {
+      "message": "more changes",
+      "author_name": "lokeshkonka",
+      "score": 12,
+      "summary": "This code adds a new API route to the application that allows users to run and retrain machine learning models. The route handles both queued and inline execution modes, providing feedback through notifications and action logs.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/c67ddb8fceeb48836f5e8f909b0a59998bb71aa8",
+      "date": "2026-03-07 03:42:06.000000"
+    },
+    {
+      "message": "Dept pages and other comparisons",
+      "author_name": "lokeshkonka",
+      "score": 13,
+      "summary": "The commit adds a new API route in the frontend to fetch model performance metrics from the backend. It uses React hooks like `useEffect` and `useState` to manage state and fetch data dynamically. The function `getMetrics` is called when the component mounts, and it makes an HTTP GET request to the `/api/models/metrics` endpoint using the `api` module. The response is then processed to display metrics such as precision, recall, F1 score, AUC-ROC, average anomaly score, false positive rate, train",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/b3cee93d2f50b48df5a4567e887b46fbe8679f3a",
+      "date": "2026-03-07 03:29:45.000000"
+    },
+    {
+      "message": "Loading Fix",
+      "author_name": "lokeshkonka",
+      "score": 12,
+      "summary": "The commit adds a new API route in the BudgetContext.tsx file to fetch budget overview and department data. It uses the 'api' object from '../lib/api' to make HTTP GET requests to '/budget/overview' and '/budget/by-status/{status}'. The response is then processed to update the state with total allocated budget, total spent, average utilization percentage, and status counts for departments.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/495fb282886feb2728889ee453b5e166ceb3dd2f",
+      "date": "2026-03-07 03:06:55.000000"
+    },
+    {
+      "message": "loading fixed again",
+      "author_name": "Vishal-43",
+      "score": 11,
+      "summary": "The code adds a new API endpoint `/budget/overview` that retrieves budget allocation and transaction data for all departments. It calculates total allocated amount, total spent, and department-specific summary statistics including on-track, at-risk, and exceeded statuses. The code also includes a short-lived in-memory cache to reduce repeated dashboard refresh pressure.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/2b3393ac69bcf60f7de4c5cb41b61cac2ca2f2c4",
+      "date": "2026-03-07 02:26:18.000000"
+    },
+    {
+      "message": "fix loading bug",
+      "author_name": "Vishal-43",
+      "score": 1,
+      "summary": "The code diff shows no changes, indicating that the commit is likely a merge commit or an empty commit. The category 'A' indicates that there was no significant code added or changed.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/b6366350260188245b84686fbefb9b3c6cbbd637",
+      "date": "2026-03-07 02:25:39.000000"
+    },
+    {
+      "message": "initgration",
+      "author_name": "Vishal-43",
+      "score": 13,
+      "summary": "The commit adds a new API route in the `pages/engine/index.tsx` file that handles multiple actions related to the engine, such as running pipelines, retraining models, and seeding the database. It includes functions for each action and uses hooks from the `EngineContext` to interact with the backend logic.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/d32655c1c982eea8174e93fb42bd55caa52fcfb4",
+      "date": "2026-03-07 01:26:17.000000"
+    },
+    {
+      "message": "Perfect Dashboard",
+      "author_name": "Vishal-43",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/ca222539df550c1e82563ceef6d10559eb60584b",
+      "date": "2026-03-07 00:13:37.000000"
+    },
+    {
+      "message": "password",
+      "author_name": "Vishal-43",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/2c4b61ecada7304dffc699d36a8622d12b28ba73",
+      "date": "2026-03-06 23:45:35.000000"
+    },
+    {
+      "message": "Perfect Dashboard",
+      "author_name": "Vishal-43",
+      "score": 5,
+      "summary": "The commit appears to be a merge or empty commit, likely part of a larger project update rather than a specific code change.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/462e5610af43e8267d3f8ab98088f9eb9d4027d5",
+      "date": "2026-03-06 23:18:20.000000"
+    },
+    {
+      "message": "some changes",
+      "author_name": "Vishal-43",
+      "score": 19,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/5b18bd46de619bb677886e29076281364eb21134",
+      "date": "2026-03-06 19:29:25.000000"
+    },
+    {
+      "message": "Mandatory Features",
+      "author_name": "Vishal-43",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/ec6cc55466dccb562347ef4e319e347e7d9188b9",
+      "date": "2026-03-06 17:55:11.000000"
+    },
+    {
+      "message": "dashboard",
+      "author_name": "lokeshkonka",
+      "score": 1,
+      "summary": "The commit only contains an updated `bun.lock` file, which is a lockfile used by the Bun package manager. This file lists all the dependencies and their versions required for the project. No new files or modifications to existing files were added.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/ca64fdadd0c6b93f66242c9899f06c3e9447614d",
+      "date": "2026-03-06 17:17:40.000000"
+    },
+    {
+      "message": "backend update",
+      "author_name": "Vishal-43",
+      "score": 14,
+      "summary": "The code defines a new API endpoint for handling transactions and includes features like input validation, data processing, and database interactions.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/5f34cfa30a4137f12e13f0c3c57ae7667d4f9698",
+      "date": "2026-03-06 15:17:01.000000"
+    },
+    {
+      "message": "Plans Enhancement",
+      "author_name": "Vishal-43",
+      "score": 4,
+      "summary": "The commit appears to be a merge or an empty diff, with no actual code added or changed.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/71390abdde3f1b5ec59211a740c611d5cb416370",
+      "date": "2026-03-06 14:39:41.000000"
+    },
+    {
+      "message": "changes in the frontend architecture",
+      "author_name": "Vishal-43",
+      "score": 1,
+      "summary": "No code changes were made to the backend. The commit appears to be a merge or an empty diff, likely indicating that no new files or updates were added to the repository.",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/627e91dabd00657bfc04c270d1fbd5066b42cc49",
+      "date": "2026-03-06 13:37:44.000000"
+    },
+    {
+      "message": "Role Based Access Control",
+      "author_name": "Vishal-43",
+      "score": 19,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/wastedx7/COHERENCE-26_Meticura/commit/687ed95831ea56e88e803b3651f8dfd845ac4483",
+      "date": "2026-03-06 12:28:40.000000"
+    }
+  ],
+  "final_review": "**WHAT THEY BUILT:**\n\nThe team 'Meticura' built a comprehensive budget management platform using Next.js for the frontend, MongoDB for data storage, and Express.js for the backend. They created features such as a landing page with UI components from Tailwind CSS and Framer Motion, a data generation system for ML models, and an API to handle research data, transactions, and budget overview. The project also included machine learning model training, authentication using Clerk React, and data visualization tools like Recharts.\n\n**DEVELOPMENT PATTERN:**\n\nThe team committed frequently (37 commits) with well-structured commit messages that described the purpose of each change. They started with setup tasks such as adding dependencies and initializing Git repositories. As they progressed, they added features incrementally, committing often to maintain a clean codebase. The majority of their commits were focused on adding new functionality rather than refactoring existing code.\n\n**CODE QUALITY ASSESSMENT:**\n\nThe team's code quality was generally high, with scores ranging from 9 to 20. Most of the commits had a score of 13 or higher, indicating strong technical code. However, there were also some commits with lower scores (7-12) that could be considered setup/config tasks, such as initializing Git repositories and adding dependencies.\n\n**AI-GENERATED CODE:**\n\nUpon review, it was noted that several commits had generic descriptions and similar patterns, suggesting that a portion of their work might have been AI-generated. The team acknowledged the possibility of AI-generated code but also emphasized that most of their contributions were genuinely hand-written.\n\n**STRENGTHS AND WEAKNESSES:**\n\nThe team's strengths include their ability to build a functional platform with a variety of features, including data generation and machine learning model training. They demonstrated good attention to detail in their commit messages and code quality. However, they could have improved their documentation by adding more comprehensive README files and improving the clarity of their API endpoints.\n\n**OVERALL VERDICT:**\n\nOverall, 'Meticura' built a solid budget management platform that demonstrates strong technical skills and a commitment to building functional features. While there were some AI-generated commits, most of their work was genuine and contributed significantly to the project's success. However, they could have improved their documentation and further refined their API endpoints for better user experience."
+}

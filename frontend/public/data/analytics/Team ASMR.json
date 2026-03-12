@@ -1,0 +1,267 @@
+{
+  "team_name": "Team ASMR",
+  "commit_count": 13,
+  "additions": 63514,
+  "deletions": 84507,
+  "churn_rate": 1.33,
+  "productivity_score": 6364.4,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    1,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    63514,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Aarchi Save",
+      "commits": 5
+    },
+    {
+      "name": "Meetrao",
+      "commits": 5
+    },
+    {
+      "name": "SUMEDH1234567",
+      "commits": 3
+    }
+  ],
+  "top_files": [
+    {
+      "name": "Gov-Vcet/backend/node_modules/.package-lock.json",
+      "value": 5955
+    },
+    {
+      "name": "Gov-Vcet/backend/node_modules/express/lib/response.js",
+      "value": 5265
+    },
+    {
+      "name": "Gov-Vcet/backend/node_modules/chokidar/index.js",
+      "value": 4865
+    },
+    {
+      "name": "Gov-Vcet/backend/node_modules/dotenv/README-es.md",
+      "value": 3870
+    },
+    {
+      "name": "Gov-Vcet/backend/node_modules/dotenv/README.md",
+      "value": 3870
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "Gov-Vcet/backend/node_modules/express/lib",
+      "value": 13775
+    },
+    {
+      "name": "Gov-Vcet/backend/node_modules/dotenv",
+      "value": 11325
+    },
+    {
+      "name": "Gov-Vcet/backend/node_modules/chokidar",
+      "value": 6860
+    },
+    {
+      "name": "Gov-Vcet/backend/node_modules/chokidar/lib",
+      "value": 6230
+    },
+    {
+      "name": "Gov-Vcet/backend/node_modules",
+      "value": 5955
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".js",
+      "value": 71909
+    },
+    {
+      "name": ".md",
+      "value": 45086
+    },
+    {
+      "name": ".json",
+      "value": 18341
+    },
+    {
+      "name": "no_ext",
+      "value": 4619
+    },
+    {
+      "name": ".ts",
+      "value": 3360
+    },
+    {
+      "name": ".html",
+      "value": 1607
+    },
+    {
+      "name": ".jsx",
+      "value": 1427
+    },
+    {
+      "name": ".css",
+      "value": 1152
+    },
+    {
+      "name": ".yml",
+      "value": 480
+    },
+    {
+      "name": ".map",
+      "value": 40
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "fix: use configured api instance in AuthContext for production login",
+      "author_name": "Meetrao",
+      "score": 11,
+      "summary": "The code adds a new API route in the AuthContext to handle user login. It uses axios to make a POST request to '/api/auth/login' and updates the token and user state upon successful login.",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/11b4b5563d8f2452ef5d109f74cbb82f447dfcd1",
+      "date": "2026-03-07 02:05:27.000000"
+    },
+    {
+      "message": "chore: prepare for production deployment to vercel and render",
+      "author_name": "Meetrao",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/796ae0a7802d4b2da25e8e8e7f2e712b8cb47772",
+      "date": "2026-03-07 00:59:53.000000"
+    },
+    {
+      "message": "feat: enhance intelligence features, add anomaly filters, and fix 500/key errors",
+      "author_name": "Meetrao",
+      "score": 11,
+      "summary": "The code adds a new API endpoint `/predictions` that retrieves budget records and generates forecasts or estimates based on the actuals and allocated values. It calculates utilization rates, projected spending, and risk levels to provide insights into financial trends.",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/716261f30647eeb6cfdac7591c0fa3b13d69164f",
+      "date": "2026-03-07 00:57:23.000000"
+    },
+    {
+      "message": "feat: real union budget integration, pfms treasury sync, and 2025-26 temporal shift",
+      "author_name": "Meetrao",
+      "score": 13,
+      "summary": "The commit adds a new API route `/api/analytics/overview` that retrieves budget records for the specified year (defaulting to 2024) and calculates department-wise allocations, spent amounts, and balance. It also includes logic for detecting anomalies using an `anomalyService`. The code is well-structured with clear functions and comments explaining its purpose.",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/ad0be8612ba1b036d19c2caf20d5da3db0d03821",
+      "date": "2026-03-07 00:36:41.000000"
+    },
+    {
+      "message": "Merge remote React structure, remove old vanilla files",
+      "author_name": "Aarchi Save",
+      "score": 1,
+      "summary": "This commit merges changes from a remote repository to update the backend project's React structure. It also removes outdated vanilla JavaScript files, likely as part of a larger code refactor or upgrade process.",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/8709eddfc77c4c77b3662f091bd646c110fae354",
+      "date": "2026-03-06 23:43:51.000000"
+    },
+    {
+      "message": "Merge remote structure",
+      "author_name": "Aarchi Save",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/b3ac958a800efcc3ae58dfc029410cd9d036a0dc",
+      "date": "2026-03-06 23:29:41.000000"
+    },
+    {
+      "message": "Update Dashboard flow for Data Workspace",
+      "author_name": "Aarchi Save",
+      "score": 1,
+      "summary": "The provided code diff indicates that no new files were added, merged, or changed. It appears to be a template file for a new HTML page with basic styling and components.",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/b8dfc7580897133bcca811448933676f121c61e0",
+      "date": "2026-03-06 23:29:00.000000"
+    },
+    {
+      "message": "feat: migrate to full MERN stack\n\n- Backend: Node.js + Express + MongoDB (backend/)\n  - JWT authentication (bcryptjs + jsonwebtoken)\n  - Mongoose models: User, BudgetRecord\n  - Analytics API: overview, anomalies, predictions, optimizer, reports\n  - File ingestion API: CSV/XLSX upload with multer\n  - Seeder: 1800 budget records + admin user (admin@gov.in / password)\n  - Services: anomaly detection (Z-score), linear regression forecasts,\n    reallocation optimizer \u2014 all ported from original JS\n\n- Frontend: React + Vite (frontend/)\n  - React Router v6 with protected routes\n  - AuthContext with JWT token management\n  - 7 dashboard pages: Overview, FlowTracker, AnomalyDetection,\n    Prediction, Optimizer, Reports, Ingestion\n  - Charts via react-chartjs-2\n  - AI Policy Advisor chatbot widget\n  - Dark/light theme toggle (preserved from original)\n  - Original premium CSS design ported to styles/main.css\n\n- Removed: legacy index.html, login.html, css/, js/",
+      "author_name": "Meetrao",
+      "score": 1,
+      "summary": "The commit introduces a significant change by migrating the backend and frontend of the application from a legacy setup to a modern MERN (MongoDB, Express.js, React, Node.js) architecture. This includes adding new features such as JWT authentication, MongoDB models, analytics APIs, file ingestion, and services for anomaly detection, linear regression forecasting, and reallocation optimization.",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/4ceb9197d0865fe5ccae5c4d3edbcc1f887a517d",
+      "date": "2026-03-06 23:26:58.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/aarchisave/COHERENCE-26_Team-ASMR",
+      "author_name": "Aarchi Save",
+      "score": 1,
+      "summary": "This commit merges the 'main' branch into the current branch. No code changes were made in this commit.",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/05082d0cdf4f99dcba23eb716571c29d8bc0f2c2",
+      "date": "2026-03-06 22:55:39.000000"
+    },
+    {
+      "message": "Initial commit",
+      "author_name": "Aarchi Save",
+      "score": 1,
+      "summary": "The commit adds a new file, `app.js`, to the repository. This file contains various functions and configurations related to the design and functionality of a web application, including chart styling, color palettes, state management, navigation logic, and default theme settings.",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/d8070e5907aea541fb84ae6578ab99b2160a8df7",
+      "date": "2026-03-06 22:54:42.000000"
+    },
+    {
+      "message": "Changes",
+      "author_name": "SUMEDH1234567",
+      "score": 19,
+      "summary": "The code introduces a new feature for displaying anomaly badges based on different types of anomalies. It includes additional icons and styles to visually distinguish between various anomaly types, enhancing the user interface. The use of React hooks (useEffect, useState) ensures efficient data fetching and state management. Additionally, it introduces a new badge style for 'High Utilization' anomalies, providing a distinct visual representation. This addition demonstrates exceptional engineerin",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/e702613444f287f8994f1dec575f9c0f52ca6ec6",
+      "date": "2026-03-06 13:17:45.000000"
+    },
+    {
+      "message": "changes",
+      "author_name": "SUMEDH1234567",
+      "score": 13,
+      "summary": "The code adds a new React component called Admin that manages budget data. It uses services to fetch and update budget information, includes form fields for entering budget values, and displays error messages based on user input.",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/70ffb4ee9758a18ec0ebbd64c9599bb05b9ca599",
+      "date": "2026-03-06 10:55:00.000000"
+    },
+    {
+      "message": "Init Commit",
+      "author_name": "SUMEDH1234567",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/aarchisave/COHERENCE-26_Team-ASMR/commit/80c83f57c2945cd9108c5d2dc63e2f10226a6084",
+      "date": "2026-03-06 09:37:02.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'Team ASMR' built a comprehensive financial management dashboard using React, Next.js, MongoDB, Express.js, and Node.js. They started with setting up the project structure and backend services, then progressively added features like budget management, anomaly detection, and forecasting. The team committed frequently to maintain a clean codebase and often refactored existing code for better efficiency and readability.\n\nThe code quality was generally high, with scores ranging from 7-19 out of 20. However, several commits had generic descriptions or were AI-generated, which suggests some work may have been automated or template-based. The standout commit was the one introducing anomaly badges based on different types of anomalies, showcasing exceptional engineering skills.\n\nDespite their efforts, there were some weaknesses in terms of code structure and documentation. Many commits lacked clear comments explaining the purpose of functions and variables, making it challenging for others to understand the codebase. Additionally, there were several wasted commits that could have been merged into larger, more cohesive updates.\n\nOverall, Team 'Team ASMR' built a functional dashboard with some strong technical features but struggled with maintaining a clean and maintainable codebase. They demonstrated good problem-solving skills and creativity in integrating various technologies to create a comprehensive solution. However, there is room for improvement in terms of code quality, documentation, and project organization."
+}

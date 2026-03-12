@@ -1,0 +1,187 @@
+{
+  "team_name": "Code craft cults",
+  "commit_count": 10,
+  "additions": 3168,
+  "deletions": 0,
+  "churn_rate": 0.0,
+  "productivity_score": 326.8,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "hourly_volume": [
+    3168,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "pranjal2404346105-hue",
+      "commits": 10
+    }
+  ],
+  "top_files": [
+    {
+      "name": "medicore-firebase777final.html",
+      "value": 2937
+    },
+    {
+      "name": "settings.py",
+      "value": 71
+    },
+    {
+      "name": "models .py",
+      "value": 64
+    },
+    {
+      "name": "views .py",
+      "value": 36
+    },
+    {
+      "name": "matcher.py",
+      "value": 18
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 3168
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".html",
+      "value": 2937
+    },
+    {
+      "name": ".py",
+      "value": 231
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Add files via upload",
+      "author_name": "pranjal2404346105-hue",
+      "score": 1,
+      "summary": "The code diff shows a single line with 'Add files via upload', which indicates that this commit is not adding any new files. The rest of the lines (including the header and footer) are placeholders for metadata about the commit, such as the author's name, date, and message.",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/a004159f077c258fac3dbb2b139c9fdb04574bd4",
+      "date": "2026-03-07 05:05:10.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "pranjal2404346105-hue",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/864c6a0f19f168080d7e7f43bb39b781c452ff4d",
+      "date": "2026-03-06 15:56:39.000000"
+    },
+    {
+      "message": "Add calculate_match function for trial matching",
+      "author_name": "pranjal2404346105-hue",
+      "score": 9,
+      "summary": "The code defines a function `calculate_match` that takes a patient and a trial as input and returns a score based on how well the patient matches the trial. The function checks if the patient's diagnosis matches the trial's disease, if the lab criteria are satisfied, and if there is a medication conflict. The code quality is good with clear variable names and comments explaining each step of the logic.",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/4176086c59ba2f9670917d080a143d8650d3b21f",
+      "date": "2026-03-06 15:56:10.000000"
+    },
+    {
+      "message": "Implement patient list and trial matching views",
+      "author_name": "pranjal2404346105-hue",
+      "score": 11,
+      "summary": "The commit adds new Django views (`patient_list` and `patient_trials`) that render HTML templates. It also includes a utility function `calculate_match` to compute scores and reasons for matching patients with clinical trials, sorting the results by score in descending order.",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/79482bdedbb8e1322b7466761c433b78f82fac39",
+      "date": "2026-03-06 15:53:06.000000"
+    },
+    {
+      "message": "Add URL patterns for patient views",
+      "author_name": "pranjal2404346105-hue",
+      "score": 11,
+      "summary": "The added code defines the URLs for the `patient_list` and `patient_trials` views in a Django project. These views handle requests to list all patients and view trials for a specific patient, respectively.",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/17cd7c47369089dd958495e6dbafd316b04d9aae",
+      "date": "2026-03-06 15:52:19.000000"
+    },
+    {
+      "message": "Create initial test file for Django\n\nAdd initial test setup for Django tests.",
+      "author_name": "pranjal2404346105-hue",
+      "score": 1,
+      "summary": "The code adds a new Python file named `tests.py` to the directory structure of a Django project. This file is intended to contain test cases written using Django's testing framework, which helps in verifying the functionality and correctness of the application.",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/c3790baa37711255fc60c5fdf3c645282f8c6775",
+      "date": "2026-03-06 15:51:44.000000"
+    },
+    {
+      "message": "Add User, Patient, LabResult, and ClinicalTrial models",
+      "author_name": "pranjal2404346105-hue",
+      "score": 9,
+      "summary": "The code adds four models to the Django application: User, Patient, LabResult, and ClinicalTrial. These models represent different entities in a medical research system and are used to store and manage patient information, lab results, and clinical trial details.",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/0c6db2e4b72b97f6db4de66b89288f0d07aabf42",
+      "date": "2026-03-06 15:51:21.000000"
+    },
+    {
+      "message": "Add CoreConfig for Django app configuration",
+      "author_name": "pranjal2404346105-hue",
+      "score": 9,
+      "summary": "The commit adds a new Django AppConfig class named CoreConfig to the apps directory. This class is used for configuring the core application and setting default auto field and name attributes.",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/7faaa11bdfd56e406f8906b48def64500d246f73",
+      "date": "2026-03-06 15:49:35.000000"
+    },
+    {
+      "message": "Register models with Django admin site",
+      "author_name": "pranjal2404346105-hue",
+      "score": 11,
+      "summary": "The code registers Django models with the admin site, allowing for easy management and administration of patient data through Django's admin interface.",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/500c8bdabf535f578f10e52f6b26c1146feaa2b1",
+      "date": "2026-03-06 15:49:10.000000"
+    },
+    {
+      "message": "Add files via upload",
+      "author_name": "pranjal2404346105-hue",
+      "score": 1,
+      "summary": "The commit message indicates that files were added via upload, but no actual code was changed or modified.",
+      "url": "https://github.com/pranjal2404346105-hue/COHERENCE-26_CODE-CRAFT-CULTS/commit/ca0a24282e1448e085721bd4e3fb8bc8af8d2892",
+      "date": "2026-03-06 12:00:42.000000"
+    }
+  ],
+  "final_review": "Code craft cults' team built a comprehensive medical research management system using Django, with features such as patient listing, trial viewing, and detailed matching logic. The development pattern was characterized by frequent, well-structured commits that focused on adding new functionalities rather than just code. The commit history shows a clear progression from setup to fully functional features.\n\nThe code quality assessment reveals mixed results. While there were several high-scoring commits (13+), others had lower scores due to generic descriptions and lack of detail in some commits. The team's AI-generated code was evident in commits with identical patterns, suggesting that some parts of the project may have been automated or generated using a tool.\n\nThe standout commit was the addition of the `calculate_match` function, which demonstrates strong technical skills and clear logic. However, there were also wasted commits, such as merge commits and empty files, which detracted from the overall quality.\n\nIn terms of strengths, the team demonstrated expertise in Django development and its ecosystem, including setting up a robust admin interface for managing patient data. The project's functionality was largely functional, with all core features working as intended. However, there were areas for improvement, particularly in terms of user experience and scalability.\n\nOverall, while Code craft cults' team built a solid foundation for their medical research management system, the output could be improved by focusing more on code quality, reducing wasted commits, and enhancing user interface elements. The project's overall verdict is that it demonstrated substantial progress but had room for further refinement to meet expectations in a 24-hour hackathon environment."
+}

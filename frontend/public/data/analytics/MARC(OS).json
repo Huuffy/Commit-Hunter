@@ -1,0 +1,327 @@
+{
+  "team_name": "MARC(OS)",
+  "commit_count": 25,
+  "additions": 16419,
+  "deletions": 8345,
+  "churn_rate": 0.51,
+  "productivity_score": 1666.9,
+  "hourly_commits": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    13,
+    1,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    16419,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "surverutuj68-glitch",
+      "commits": 12
+    },
+    {
+      "name": "Chaitanya2846",
+      "commits": 6
+    },
+    {
+      "name": "Rutuj",
+      "commits": 5
+    },
+    {
+      "name": "Manashree Vaidya",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "package-lock.json",
+      "value": 7410
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 5840
+    },
+    {
+      "name": "Frontend/package-lock.json",
+      "value": 4785
+    },
+    {
+      "name": "Frontend/src/pages/LeadProfile.jsx",
+      "value": 912
+    },
+    {
+      "name": "Frontend/src/pages/Leads.jsx",
+      "value": 747
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 7698
+    },
+    {
+      "name": "frontend",
+      "value": 6072
+    },
+    {
+      "name": "Frontend",
+      "value": 4931
+    },
+    {
+      "name": "Frontend/src/pages",
+      "value": 3015
+    },
+    {
+      "name": "src/pages",
+      "value": 568
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 18197
+    },
+    {
+      "name": ".jsx",
+      "value": 4121
+    },
+    {
+      "name": ".py",
+      "value": 988
+    },
+    {
+      "name": ".css",
+      "value": 918
+    },
+    {
+      "name": ".js",
+      "value": 247
+    },
+    {
+      "name": "no_ext",
+      "value": 141
+    },
+    {
+      "name": ".md",
+      "value": 80
+    },
+    {
+      "name": ".html",
+      "value": 62
+    },
+    {
+      "name": ".svg",
+      "value": 10
+    },
+    {
+      "name": ".txt",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Msg sent through emails",
+      "author_name": "Chaitanya2846",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/4a2d6de1331695cf9c328b0d7c4be932ca693887",
+      "date": "2026-03-07 04:06:47.000000"
+    },
+    {
+      "message": "CORS added for backend connection",
+      "author_name": "Rutuj",
+      "score": 11,
+      "summary": "The code added an API endpoint for the health check and configured Cross-Origin Resource Sharing (CORS) to allow requests from a React development server. This ensures that the backend can communicate securely with client-side applications.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/b3d4ebcb838b889892bde804a05f1ee5fd90cd74",
+      "date": "2026-03-07 00:46:59.000000"
+    },
+    {
+      "message": "Updated Sidebar and Mavbar",
+      "author_name": "Chaitanya2846",
+      "score": 12,
+      "summary": "The commit adds new features to the LeadProfile component, such as handling message sending, note adding, and scheduling. It also updates the sidebar and navbar.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/35cc32cbdb27db8edee7d8b7644ce3cfbb3d9cb8",
+      "date": "2026-03-07 00:30:07.000000"
+    },
+    {
+      "message": "Added Workflow and Lead",
+      "author_name": "Chaitanya2846",
+      "score": 18,
+      "summary": "This commit adds a new React component called `WorkflowBuilder` that allows users to create, edit, and manage workflows. The component includes various nodes such as triggers, actions, conditions, delays, and AI generation/rewrite functionalities. It also features drag-and-drop functionality for arranging nodes and provides options to save, toggle workflow status, and view last saved time. The code is well-architected with clear state management and recursive tree navigation logic.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/dc6bdd921e98c5a9e1dce6d5233f3b6809ead326",
+      "date": "2026-03-06 22:18:53.000000"
+    },
+    {
+      "message": "dashboard metrics feature added",
+      "author_name": "Rutuj",
+      "score": 11,
+      "summary": "The commit adds a new API endpoint `/analytics` to the FastAPI application that tracks and displays various metrics related to workflow executions, email sends, and blocks. This involves creating a new `AnalyticsService` class with methods to track events and retrieve metrics, updating the `main.py` file to include this new route, and adding an analytics router to the application.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/61ba795c1e6785a7b970d7a736c452eb44c1e288",
+      "date": "2026-03-06 22:05:50.000000"
+    },
+    {
+      "message": "added ai generate message,execute workflow and score lead",
+      "author_name": "Rutuj",
+      "score": 12,
+      "summary": "The code adds functions to research leads, generate outreach messages, send emails, and apply throttling. It also includes an AI component for generating outreach messages using the Groq API.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/6ec54bab560cb78c91b610498405541dc17a3b0e",
+      "date": "2026-03-06 21:35:15.000000"
+    },
+    {
+      "message": "Added frontend files",
+      "author_name": "Chaitanya2846",
+      "score": 14,
+      "summary": "The code adds a new React component called `LeadProfile` to the `src/pages` directory. This component is used to display and manage lead profiles in a frontend application. It includes various icons from the 'react-icons/fa' package, state management using React hooks, conditional rendering based on the `activeTab`, and styling for a modal card with different sections for lead information and actions.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/5af56bad25f26621827a5a1c4ec40233cd4329db",
+      "date": "2026-03-06 18:27:59.000000"
+    },
+    {
+      "message": "frontend restructured v2",
+      "author_name": "Chaitanya2846",
+      "score": 1,
+      "summary": "This is a common practice in version control systems where multiple branches are merged into a single branch. The commit message indicates that the frontend was restructured with version v2, which suggests significant changes were made to the frontend codebase.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/f015d65d39a92c3a8563db462786174428a4d30f",
+      "date": "2026-03-06 16:32:09.000000"
+    },
+    {
+      "message": "backend restructured",
+      "author_name": "Rutuj",
+      "score": 19,
+      "summary": "This code is a complete backend system for lead research. It includes data fetching from external APIs, text generation using a large language model, and integration with a FastAPI framework to expose API routes. The implementation showcases exceptional engineering by integrating multiple components, handling complex business logic, and ensuring production-grade standards.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/95960925ccba7c435014e05de3c6b3229f62b593",
+      "date": "2026-03-06 16:20:00.000000"
+    },
+    {
+      "message": "Delete vite.config.js",
+      "author_name": "surverutuj68-glitch",
+      "score": 1,
+      "summary": "The commit message indicates that the file `vite.config.js` was deleted, which means no new or changed code was introduced.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/6858fc2049b24976284c292014b756b3fef31d73",
+      "date": "2026-03-06 15:58:31.000000"
+    },
+    {
+      "message": "Delete tailwind.config.js",
+      "author_name": "surverutuj68-glitch",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/da443d7ca9e877a875c3f07e91e012fa249c00e8",
+      "date": "2026-03-06 15:58:20.000000"
+    },
+    {
+      "message": "Delete postcss.config.js",
+      "author_name": "surverutuj68-glitch",
+      "score": 1,
+      "summary": "The commit deletes a file named `postcss.config.js`, which is used to configure PostCSS and Autoprefixer for Tailwind CSS in a project. This change removes any configuration related to these tools, potentially simplifying the build process or removing unnecessary dependencies.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/00073880b118590700c115c9d30e6ed54d6459c2",
+      "date": "2026-03-06 15:58:05.000000"
+    },
+    {
+      "message": "Delete package.json",
+      "author_name": "surverutuj68-glitch",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/c2653ecaf3cc4300f9d44c59e03d8de16b5dd4ac",
+      "date": "2026-03-06 15:57:56.000000"
+    },
+    {
+      "message": "Delete package-lock.json",
+      "author_name": "surverutuj68-glitch",
+      "score": 1,
+      "summary": "The commit simply deletes the `package-lock.json` file, which is a lock file used by npm to manage project dependencies. This change does not add or modify any code.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/8c989c0326ffd16f10f017b5a68f94969fad7dea",
+      "date": "2026-03-06 15:57:47.000000"
+    },
+    {
+      "message": "Delete index.html",
+      "author_name": "surverutuj68-glitch",
+      "score": 1,
+      "summary": "The code diff shows that the `index.html` file has been removed from the repository. This is a commit where a default scaffolded HTML structure for a Next.js or Vite project was deleted, likely in favor of using a different front-end framework or tool.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/c93b31ee94ae23a97b3b8ed5d40d85bab991e561",
+      "date": "2026-03-06 15:57:39.000000"
+    },
+    {
+      "message": "Delete eslint.config.js",
+      "author_name": "surverutuj68-glitch",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/5c3b22a7770b3d80ea14cdb1582a64f2e95183cb",
+      "date": "2026-03-06 15:57:30.000000"
+    },
+    {
+      "message": "Delete README.md",
+      "author_name": "surverutuj68-glitch",
+      "score": 1,
+      "summary": "['The commit deleted the README.md file.', \"This action removes documentation and information about the project's setup, which might be useful for new contributors or when starting a fresh project.\", 'The code quality is low as it reduces the amount of information provided to users.']",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/706c829b5147cb0ed4b6117fa96f09166938ec49",
+      "date": "2026-03-06 15:57:17.000000"
+    },
+    {
+      "message": "Delete .gitignore",
+      "author_name": "surverutuj68-glitch",
+      "score": 1,
+      "summary": "This change removes the .gitignore file from the repository, which is used to specify files and directories that should be ignored by version control systems like Git. Deleting this file means that all files in the directory will now be tracked by Git.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/17e81087aa30e028a50ff5b0ce4c0ed3688e7ef0",
+      "date": "2026-03-06 15:57:06.000000"
+    },
+    {
+      "message": "Delete src directory",
+      "author_name": "surverutuj68-glitch",
+      "score": 1,
+      "summary": "This action removes all files and directories within the src directory, which typically contains application-specific code. It effectively resets the project to a state before any changes were made in that directory.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/cb6aa5dda8a1b189a66d40704d095a628fe1d77c",
+      "date": "2026-03-06 15:56:55.000000"
+    },
+    {
+      "message": "Delete public directory",
+      "author_name": "surverutuj68-glitch",
+      "score": 1,
+      "summary": "This commit appears to have removed an empty directory named 'public' from the repository. This action is typically used to clean up unnecessary files and directories, which can improve repository organization and performance.",
+      "url": "https://github.com/RutujSurve1234/COHERENCE-26_MARC-OS-/commit/115058b1767f11b513636edd165197d724e951d6",
+      "date": "2026-03-06 15:56:44.000000"
+    }
+  ],
+  "final_review": "Team 'MARC(OS)' built a comprehensive lead research system using React, Next.js, MongoDB, Express, FastAPI, and Groq API. They started with setting up the project structure and added features incrementally over time. The development pattern was mostly in large batches, allowing for focused work on specific features rather than frequent commits. Commits were well-structured, with clear descriptions of each commit's purpose. The code quality varied, with some commits showing high scores (13+) indicating strong technical code, while others had lower scores (1-6) suggesting more setup or configuration.\n\nThe project included a lead research system with data fetching from external APIs, text generation using a large language model, and integration with a FastAPI framework. The team also developed an AI component for generating outreach messages using the Groq API. They added new features to the LeadProfile component, such as handling message sending, note adding, and scheduling. The project included a backend system with data fetching from external APIs, text generation using a large language model, and integration with a FastAPI framework.\n\nOverall, Team 'MARC(OS)' built a functional lead research system that showcased their technical skills and ability to work on complex projects in a short amount of time. However, some commits appeared AI-generated or were empty files, which suggests they may have used code generation tools to speed up development."
+}

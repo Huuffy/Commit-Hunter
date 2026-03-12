@@ -1,0 +1,323 @@
+{
+  "team_name": "Bajrang Dal",
+  "commit_count": 16,
+  "additions": 144271,
+  "deletions": 3345,
+  "churn_rate": 0.02,
+  "productivity_score": 14443.1,
+  "hourly_commits": [
+    4,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    6,
+    0
+  ],
+  "hourly_volume": [
+    144271,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "aneesh-afk",
+      "commits": 11
+    },
+    {
+      "name": "K V S Varshith",
+      "commits": 5
+    }
+  ],
+  "top_files": [
+    {
+      "name": "backend/models/finetuned_trial_model/tokenizer.json",
+      "value": 61368
+    },
+    {
+      "name": "frontend/.vite/deps/chunk-H2E4SV6V.js",
+      "value": 21687
+    },
+    {
+      "name": "frontend/.vite/deps/@supabase_supabase-js.js",
+      "value": 11692
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 9714
+    },
+    {
+      "name": "frontend/.vite/deps/chunk-IW2PTZK5.js",
+      "value": 9566
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "backend/models/finetuned_trial_model",
+      "value": 62268
+    },
+    {
+      "name": "frontend/.vite/deps",
+      "value": 45986
+    },
+    {
+      "name": "frontend",
+      "value": 10138
+    },
+    {
+      "name": "backend",
+      "value": 7742
+    },
+    {
+      "name": "frontend/src/components",
+      "value": 5014
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 71629
+    },
+    {
+      "name": ".js",
+      "value": 47272
+    },
+    {
+      "name": ".jsx",
+      "value": 10250
+    },
+    {
+      "name": ".py",
+      "value": 10079
+    },
+    {
+      "name": ".csv",
+      "value": 4940
+    },
+    {
+      "name": ".md",
+      "value": 2078
+    },
+    {
+      "name": ".css",
+      "value": 500
+    },
+    {
+      "name": "no_ext",
+      "value": 244
+    },
+    {
+      "name": ".sql",
+      "value": 144
+    },
+    {
+      "name": ".txt",
+      "value": 124
+    },
+    {
+      "name": ".log",
+      "value": 123
+    },
+    {
+      "name": ".yml",
+      "value": 82
+    },
+    {
+      "name": ".map",
+      "value": 63
+    },
+    {
+      "name": ".conf",
+      "value": 58
+    },
+    {
+      "name": ".html",
+      "value": 26
+    },
+    {
+      "name": ".example",
+      "value": 2
+    },
+    {
+      "name": ".svg",
+      "value": 2
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".safetensors",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "docs: comprehensive README \u2014 features, architecture, trials catalog, API reference, dataset and ethics",
+      "author_name": "aneesh-afk",
+      "score": 4,
+      "summary": "1. Added a new README.md file with detailed information about the TrialSync.ai platform, including its features, system architecture, disease categories and trials, tech stack, getting started guide, API reference, dataset, and ethical & safety safeguards.\n2. The README.md file provides an overview of the platform, key features, system architecture, disease categories and trials, tech stack, getting started guide, API reference, dataset, and ethical & safety safeguards.\n3. The code quality is go",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/d242d54df7785c0b1eb326defd70454a48f25d67",
+      "date": "2026-03-07 05:16:39.000000"
+    },
+    {
+      "message": "feat: 3-category trial model (oncologic/neurologic/metabolic) \u2014 8 trials, 20 patients, balanced dataset",
+      "author_name": "aneesh-afk",
+      "score": 14,
+      "summary": "The code adds an API route that handles the creation of trials, including setting up routes for adding new trials and retrieving their details. It includes validation to ensure data integrity and uses React components and hooks to manage state and handle user interactions.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/4a48078186adc9879b70211d01796d7904b5d318",
+      "date": "2026-03-07 05:01:00.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/dipesh-23/COHERENCE-26_BajrangDal",
+      "author_name": "aneesh-afk",
+      "score": 1,
+      "summary": "The commit message indicates that it merges changes from the 'main' branch. The code diff shows no additions or deletions, only a merge operation.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/baa65b79da63a8ff3b9352f594b5ee28f60fbef6",
+      "date": "2026-03-07 04:49:51.000000"
+    },
+    {
+      "message": "Merge feature-login: UI animations, oncology trials, flag-for-review, dataset and bugfixes",
+      "author_name": "aneesh-afk",
+      "score": 6,
+      "summary": "The code diff shows only the default files and directories created by Create Next App or Vite when setting up a new project. There are no changes to any of the core framework components.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/16050f6aeb412ceb6eae60bbb995c7f7d8877ec5",
+      "date": "2026-03-07 04:48:13.000000"
+    },
+    {
+      "message": "feat: UI animations, per-trial flag review, location filter fix, oncology trials expansion, Indian patient dataset, zero-score matcher fix",
+      "author_name": "aneesh-afk",
+      "score": 9,
+      "summary": "The code adds a new entry to the `audit.log` file, which records the action of anonymizing patient data. This is part of a larger system that handles medical data anonymization and logging.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/37663acf315667319bd7e11eb2ccf7938cd451da",
+      "date": "2026-03-07 04:47:34.000000"
+    },
+    {
+      "message": "Sample-2",
+      "author_name": "aneesh-afk",
+      "score": 1,
+      "summary": "This commit is a merge commit that combines multiple previous commits into one. It does not add any new files or modify existing ones.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/cb82efcc792bfabe08ec7a9ab9b95234fa89caab",
+      "date": "2026-03-07 04:36:01.000000"
+    },
+    {
+      "message": "feat: integrate Oncology NLP Trial Matching engine and refine UI",
+      "author_name": "aneesh-afk",
+      "score": 1,
+      "summary": "This commit introduces a new feature that utilizes an Oncology NLP Trial Matching engine to enhance the functionality of the dashboard. It also includes several UI improvements such as adding animated numbers, refining component structures, and implementing a map for trial locations. The code quality is good as it follows best practices by using hooks for state management and animations, and modularizing components to improve maintainability.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/b13c534e1256ec933ed0b70dc3f0ef411f9d1447",
+      "date": "2026-03-07 02:11:37.000000"
+    },
+    {
+      "message": "Sample-1",
+      "author_name": "aneesh-afk",
+      "score": 12,
+      "summary": "This code defines helper functions to determine the appropriate text and background colors based on confidence levels and recommendation types. These functions enhance the visual representation of data in the application.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/b723d7bebb10a98ee4a4261e26aa94e84769f174",
+      "date": "2026-03-07 02:09:45.000000"
+    },
+    {
+      "message": "Backend",
+      "author_name": "aneesh-afk",
+      "score": 13,
+      "summary": "The code adds a function `parse_clinical_text` that uses SpaCy's biomedical models to parse and extract entities from clinical text. It also includes fallback mechanisms for loading different versions of the model if the specified one is not available.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/570312bf73658d3d382661db6b6032c982ed5b38",
+      "date": "2026-03-06 15:23:09.000000"
+    },
+    {
+      "message": "List sorted",
+      "author_name": "aneesh-afk",
+      "score": 14,
+      "summary": "This code adds a new Python module named 'anonymizer.py' that provides functionality to anonymize PHI (Personally Identifiable Information) in patient data. It uses the Presidio library, which includes an analyzer and anonymizer engine. The module supports various types of PHI entities such as PERSON, DATE_TIME, LOCATION, etc., and replaces them with numbered tokens for privacy protection.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/91c5025323fe38aae834085e022cf506626ccb61",
+      "date": "2026-03-06 12:58:16.000000"
+    },
+    {
+      "message": "Added matching",
+      "author_name": "aneesh-afk",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/b56b4f709650c15ebcb6cb997ce3614fa8be4079",
+      "date": "2026-03-06 10:44:53.000000"
+    },
+    {
+      "message": "feat: add ScispaCy + MedSpaCy clinical NLP parser and requirements",
+      "author_name": "K V S Varshith",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/2a175c75d195db4c3bfd924cef5cbfd5518494e9",
+      "date": "2026-03-06 07:35:22.000000"
+    },
+    {
+      "message": "Merge conflicts",
+      "author_name": "K V S Varshith",
+      "score": 1,
+      "summary": "This commit is a merge conflict resolution, which means it combines changes from multiple branches and resolves any conflicts that arose during the merge process. The code diff shows no changes since it's a merge commit.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/a48631d3ff07591f02555740be06c6732c6ec1b9",
+      "date": "2026-03-06 07:18:49.000000"
+    },
+    {
+      "message": "Initial skeleton for clinical-trial-engine",
+      "author_name": "K V S Varshith",
+      "score": 1,
+      "summary": "This is a new project with no specific code changes or additions. It's just a starting point, likely containing files like `README.md`, `.gitignore`, and some configuration files. The focus seems to be on setting up the basic structure of the project.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/0c6b54c1ea0eaa3e781cc7a4968f4c8fd2d01259",
+      "date": "2026-03-06 07:13:57.000000"
+    },
+    {
+      "message": "track",
+      "author_name": "K V S Varshith",
+      "score": 1,
+      "summary": "The commit message indicates that it is a 'track' commit, which typically means tracking or logging an action without making any actual code changes. This could be used for version control purposes to keep track of actions taken on the repository.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/9e98ec7fdd5695ce84cbc394fb324fa5765b1284",
+      "date": "2026-03-06 06:33:26.000000"
+    },
+    {
+      "message": "first commit",
+      "author_name": "K V S Varshith",
+      "score": 1,
+      "summary": "The commit message indicates that it's the first commit, which means there are no code files added or changed. The repository is empty and only contains metadata like the commit history.",
+      "url": "https://github.com/dipesh-23/COHERENCE-26_BajrangDal/commit/e13ec27aad0fdea293c0827756f02557f29eb951",
+      "date": "2026-03-06 06:26:04.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'Bajrang Dal' built a web-based platform called TrialSync.ai that integrates with an Oncology NLP Trial Matching engine to enhance the functionality of medical trial dashboards. The team used React and Next.js for frontend development, Express for backend server setup, MongoDB for database management, and Node.js for handling API requests. They committed frequently, often in small batches, with well-structured commits that clearly outlined changes made.\n\nThe code quality was generally good, with scores ranging from 7 to 14. The team used hooks effectively for state management and animations, which improved the user experience. However, some commits were AI-generated, such as auto-analyzed ones, indicating that there may have been room for manual refactoring or improvement.\n\nOne standout commit was the addition of a new feature that utilized the Oncology NLP Trial Matching engine to enhance dashboard functionality. This commit received a score of 14, indicating strong technical code. Another notable commit was the implementation of helper functions to determine appropriate text and background colors based on confidence levels and recommendation types, which also received a high score.\n\nDespite these strengths, there were some areas for improvement. The team could have further optimized their code by modularizing components more effectively, making it easier to maintain and scale. Additionally, they could have added more documentation to the README.md file to provide users with a better understanding of how to get started and use the platform.\n\nOverall, Team 'Bajrang Dal' built a functional and technically sound web-based platform that integrates with an Oncology NLP Trial Matching engine. While there were some areas for improvement, their work demonstrated a solid understanding of frontend and backend development, as well as the ability to integrate third-party services like the Oncology NLP Trial Matching engine."
+}

@@ -1,0 +1,327 @@
+{
+  "team_name": "BayHarborCoders",
+  "commit_count": 20,
+  "additions": 14904,
+  "deletions": 1943,
+  "churn_rate": 0.13,
+  "productivity_score": 1510.4,
+  "hourly_commits": [
+    0,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    2,
+    1,
+    4,
+    2,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+  ],
+  "hourly_volume": [
+    14904,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Bhargav Rokade",
+      "commits": 15
+    },
+    {
+      "name": "Ayush Gawade",
+      "commits": 5
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/package-lock.json",
+      "value": 5555
+    },
+    {
+      "name": "frontend/src/pages/WorkflowBuilderPage.tsx",
+      "value": 1526
+    },
+    {
+      "name": "frontend/src/pages/WorkflowBuilderPage.css",
+      "value": 1200
+    },
+    {
+      "name": "frontend/src/pages/KnowledgeBasePage.tsx",
+      "value": 848
+    },
+    {
+      "name": "Implementation Plan",
+      "value": 807
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend/src/pages",
+      "value": 6606
+    },
+    {
+      "name": "frontend",
+      "value": 5801
+    },
+    {
+      "name": "backend",
+      "value": 2223
+    },
+    {
+      "name": "frontend/src",
+      "value": 1263
+    },
+    {
+      "name": "/",
+      "value": 952
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 5667
+    },
+    {
+      "name": ".css",
+      "value": 3956
+    },
+    {
+      "name": ".tsx",
+      "value": 3913
+    },
+    {
+      "name": ".py",
+      "value": 2221
+    },
+    {
+      "name": "no_ext",
+      "value": 837
+    },
+    {
+      "name": ".md",
+      "value": 200
+    },
+    {
+      "name": ".js",
+      "value": 23
+    },
+    {
+      "name": ".html",
+      "value": 19
+    },
+    {
+      "name": ".ts",
+      "value": 7
+    },
+    {
+      "name": ".txt",
+      "value": 2
+    },
+    {
+      "name": ".svg",
+      "value": 2
+    },
+    {
+      "name": ".db",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Feat : Added Mail sending node to node palette",
+      "author_name": "Ayush Gawade",
+      "score": 11,
+      "summary": "The commit adds a new function `handle_send_email` to the backend that uses the smtplib library to send an email. The function retrieves recipient, subject, and message from the state and configuration dictionary, logs in to Gmail using environment variables, constructs and sends an email, and updates the state with the result.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/2867cba279d9a6df17e311c444e974ca19c5b57f",
+      "date": "2026-03-07 04:58:19.000000"
+    },
+    {
+      "message": "Add Send Email node via Gmail SMTP and resolve Dashboard UI conflict",
+      "author_name": "Ayush Gawade",
+      "score": 1,
+      "summary": "This is a typical example of a merge commit where multiple changes are combined into a single commit to maintain version control history. In this case, it resolves issues related to the DashboardPage component and adds functionality for sending emails.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/c823d49f17693d16ad9b6eda5aa18cfde7f02926",
+      "date": "2026-03-07 03:50:37.000000"
+    },
+    {
+      "message": "Fix: Updated dashboard aesthetic and design",
+      "author_name": "Bhargav Rokade",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/ebffad4852953717fcc9de55e36b3fd2cbd718b7",
+      "date": "2026-03-07 02:06:03.000000"
+    },
+    {
+      "message": "docs: Added new documentation for v2",
+      "author_name": "Bhargav Rokade",
+      "score": 1,
+      "summary": "This commit introduces a new section in the README.md file detailing the key features and improvements introduced in version 2.0.0, including AI workflow designer, A/B testing hub, real data integration, Markdown powered outputs, and smart personalization.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/199b8a2b0f494059dd4c40b3619356541d5f2203",
+      "date": "2026-03-06 23:48:15.000000"
+    },
+    {
+      "message": "Feat: Added feature to discard old workflows and fixed some other rendering issues",
+      "author_name": "Bhargav Rokade",
+      "score": 5,
+      "summary": "The commit does not add or modify any code; it is a default scaffold for Next.js or Vite projects.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/72f2fc8dcb3b4c74640f316f272958bffb81a8ff",
+      "date": "2026-03-06 23:27:51.000000"
+    },
+    {
+      "message": "MAJOR FEAT: Added Custom workflow generator and A/B comparison for different workflows",
+      "author_name": "Bhargav Rokade",
+      "score": 1,
+      "summary": "This commit adds a new feature to the frontend of the application called 'AI Workflow Designer'. It allows users to generate workflows using an AI model and compare different workflows.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/935bfccc9dff4c8cd53e7039f23f617f85e69602",
+      "date": "2026-03-06 23:09:37.000000"
+    },
+    {
+      "message": "\"fix: fixed HTTPs 422 errors and logging failures\"",
+      "author_name": "Bhargav Rokade",
+      "score": 1,
+      "summary": "The provided diff is empty, indicating that no changes were made to any files. This could be due to a merge commit, an intentional empty commit, or simply a clean repository state.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/1a939f21633f5776bbc47d71032e3e8ec243cba4",
+      "date": "2026-03-06 22:29:45.000000"
+    },
+    {
+      "message": "fix: Fixed HTTP 422 errors faced during designing workflows",
+      "author_name": "Bhargav Rokade",
+      "score": 11,
+      "summary": "The commit introduces a new function `handle_load_lead` that handles the loading of a lead from a database. This function fetches leads from a predefined list (`leads`) and returns them if available; otherwise, it uses default values specified in the configuration (`cfg`). The commit also includes an API route to handle the workflow execution process.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/6827b7c44b0d3c32650ba05ed62027a685fe6346",
+      "date": "2026-03-06 22:25:09.000000"
+    },
+    {
+      "message": "Del unneeded fylz",
+      "author_name": "Bhargav Rokade",
+      "score": 1,
+      "summary": "This commit removed a document that was no longer needed for the project's backend architecture plan. The deletion of this file indicates that the content it contained has been incorporated into other parts of the codebase or is no longer relevant.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/d6730f1c47fafb0759cc03e0deddb1261bdf4fd0",
+      "date": "2026-03-06 21:42:43.000000"
+    },
+    {
+      "message": "Fix: User neednt enter API key every time they wanna do an AI op",
+      "author_name": "Bhargav Rokade",
+      "score": 11,
+      "summary": "The commit adds a feature that allows users to extract text and refine questionnaires without needing to enter their OpenAI API key every time. It refactors the code to handle this functionality more efficiently by removing redundant checks for the API key.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/45a1e41d57c62d0e262a3091e5af99887c251af5",
+      "date": "2026-03-06 21:40:10.000000"
+    },
+    {
+      "message": "Feat : Added ai enabled knowledge based ingestion",
+      "author_name": "Ayush Gawade",
+      "score": 20,
+      "summary": "The code added a new feature to the KnowledgeBasePage component, which now supports three different input modes: text/paragraph, questionnaire, and file upload. It also introduces a structured data model and parameter cards for displaying and editing extracted information. The implementation includes API integration, state management, and UI components with various icons and colors.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/a178392d27f431ce87e313959db009e3fe3a1e19",
+      "date": "2026-03-06 21:01:31.000000"
+    },
+    {
+      "message": "Minor change: deleted unnecessary files",
+      "author_name": "Bhargav Rokade",
+      "score": 1,
+      "summary": "The commit message indicates that 'Minor change: deleted unnecessary files' has been made. This means no new code was added or changed; instead, existing files were removed.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/deebaecad7f9c4dea1e626bb494a74be0802429b",
+      "date": "2026-03-06 20:09:16.000000"
+    },
+    {
+      "message": "Fix: Incorrect Markdown handling and called model fix",
+      "author_name": "Bhargav Rokade",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/bef770815f6050c29b37c5415b46e43ad19560e6",
+      "date": "2026-03-06 20:01:55.000000"
+    },
+    {
+      "message": "Feat: Added Lead demograph visualization",
+      "author_name": "Bhargav Rokade",
+      "score": 20,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/a0276be55ab81c73ccd95e731807ee9fec699af2",
+      "date": "2026-03-06 17:16:19.000000"
+    },
+    {
+      "message": "Fix: Logs not rendering properly",
+      "author_name": "Bhargav Rokade",
+      "score": 7,
+      "summary": "The changes include adjusting the minimum height of elements in the page to ensure proper rendering, particularly when a log is open. The CSS for the canvas has also been updated to increase its minimum height from 500px to 600px.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/3367a241799379820c6150de7da46371eb1a929d",
+      "date": "2026-03-06 14:32:24.000000"
+    },
+    {
+      "message": "Feat: Enabled 12 distinct widgets in workflow builder",
+      "author_name": "Bhargav Rokade",
+      "score": 12,
+      "summary": "The code added a new category for triggers, including 'Load Lead Context' and 'Load Lead Data'. It also updated the node palette with 12 categories and nodes. The existing functionality was enhanced to support these new widgets.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/4e1aa7580649cb4dbb2bbe62df3b1410af8f599c",
+      "date": "2026-03-06 14:27:28.000000"
+    },
+    {
+      "message": "Fix: Intrusive UI rendering problem fixed",
+      "author_name": "Bhargav Rokade",
+      "score": 4,
+      "summary": "The commit adds and modifies several configuration files, including .gitignore, package.json, and others. This change is necessary to ensure that the project's dependencies are correctly managed.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/c337256208fd4285f68019ee2ecf51e2ea42240b",
+      "date": "2026-03-06 11:13:23.000000"
+    },
+    {
+      "message": "Fix: Drag and Drop editor not accepting deleting commands",
+      "author_name": "Bhargav Rokade",
+      "score": 1,
+      "summary": "The provided code diff is an empty file, indicating that there were no changes made to the codebase. The commit message mentions fixing a drag and drop editor not accepting deleting commands, but this change was not reflected in the code itself.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/1ac769215c766c3ab1ca6fbebecee86618aca234",
+      "date": "2026-03-06 10:44:59.000000"
+    },
+    {
+      "message": "Refine UI to Stripe-like aesthetic and add collapsible sidebar",
+      "author_name": "Ayush Gawade",
+      "score": 15,
+      "summary": "The code adds a collapsible sidebar to the frontend and refines its design to have a more modern, Stripe-like appearance. This involves modifying CSS variables, adding new classes for the sidebar's state, and adjusting spacing and border-radius values.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/995612e5008d291c91a412847a234c92cea8c03e",
+      "date": "2026-03-06 09:21:46.000000"
+    },
+    {
+      "message": "First base commit",
+      "author_name": "Ayush Gawade",
+      "score": 1,
+      "summary": "The commit adds a new directory called 'backend' with an empty `__init__.py` file. It also includes a `README.md` file that provides initial instructions on setting up the project.",
+      "url": "https://github.com/Bhargav-Rokade/COHERENCE-26_BayHarborCoders/commit/1853a48697036d368a81c0c807eba04a73d95bca",
+      "date": "2026-03-06 08:59:15.000000"
+    }
+  ],
+  "final_review": "Team 'BayHarborCoders' constructed a robust platform with a focus on modernizing the frontend interface, improving backend functionality, and enhancing AI capabilities. They started by setting up their project structure with directories for frontend and backend, ensuring proper dependency management using configuration files like .gitignore, package.json, etc. The team then developed features such as a collapsible sidebar, drag-and-drop editor improvements, and new categories for triggers and widgets in the node palette. They also enhanced the user experience by adjusting minimum heights of elements to ensure proper rendering, particularly when logs were open.\n\nIn terms of development pattern, they committed frequently but with well-structured commits that focused on specific features or bug fixes. The code quality was assessed based on scores ranging from 1 to 20, indicating a mix of setup/config (scores 1 and 5) and working features (scores 7-12). While some commits were AI-generated (score 20), the majority appeared to be hand-written with clear intentions.\n\nStrengths included their ability to build functional features like the AI Workflow Designer and the extraction of text from questionnaires. They also demonstrated strong refactoring skills, as evidenced by the improvements in the sidebar design and the restructuring of code for better maintainability. However, they could have improved on their commit structure, especially with merge commits that combined multiple changes into a single commit.\n\nWeaknesses included some wasted commits (merge commits and empty files), which could be reduced by breaking down larger tasks into smaller, more focused commits. Additionally, the AI-generated code in some commits suggested areas for further review to ensure genuine hand-written contributions.\n\nOverall, Team 'BayHarborCoders' built a solid foundation with functional features and strong code quality. Their project is functional but could benefit from better commit structure and more diverse use of AI-generated code."
+}

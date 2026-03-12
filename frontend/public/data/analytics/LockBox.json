@@ -1,0 +1,279 @@
+{
+  "team_name": "LockBox",
+  "commit_count": 12,
+  "additions": 34865,
+  "deletions": 3102,
+  "churn_rate": 0.09,
+  "productivity_score": 3498.5,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    34865,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Sahil Salap",
+      "commits": 5
+    },
+    {
+      "name": "Ashish813213",
+      "commits": 4
+    },
+    {
+      "name": "Kinjal2004-Hu",
+      "commits": 3
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/src/pages/PatientDashboard.jsx",
+      "value": 4468
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 3021
+    },
+    {
+      "name": "frontend/src/pages/Researcher.jsx",
+      "value": 2558
+    },
+    {
+      "name": "frontend/src/pages/DoctorDashboard.jsx",
+      "value": 1922
+    },
+    {
+      "name": "backend/package-lock.json",
+      "value": 1780
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend/src/pages",
+      "value": 10597
+    },
+    {
+      "name": "/",
+      "value": 7670
+    },
+    {
+      "name": "frontend",
+      "value": 3906
+    },
+    {
+      "name": "backend",
+      "value": 3351
+    },
+    {
+      "name": "backend/src/controllers",
+      "value": 2219
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".jsx",
+      "value": 15480
+    },
+    {
+      "name": ".js",
+      "value": 7735
+    },
+    {
+      "name": ".py",
+      "value": 5887
+    },
+    {
+      "name": ".json",
+      "value": 4922
+    },
+    {
+      "name": ".md",
+      "value": 2576
+    },
+    {
+      "name": ".csv",
+      "value": 1002
+    },
+    {
+      "name": ".yml",
+      "value": 89
+    },
+    {
+      "name": ".css",
+      "value": 84
+    },
+    {
+      "name": ".html",
+      "value": 69
+    },
+    {
+      "name": ".example",
+      "value": 53
+    },
+    {
+      "name": "no_ext",
+      "value": 24
+    },
+    {
+      "name": ".mjs",
+      "value": 24
+    },
+    {
+      "name": ".txt",
+      "value": 22
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".pkl",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "merge",
+      "author_name": "Sahil Salap",
+      "score": 1,
+      "summary": "This is indicated by the fact that the code diff shows only the '---' line, which means there are no lines of code being added, removed, or changed. The commit message mentions 'merge', suggesting this was likely a merge operation from one branch into another without any changes to the files.",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/40a7e502bd0fa9780ac0755ffd0a647b0e2032ae",
+      "date": "2026-03-07 01:15:13.000000"
+    },
+    {
+      "message": "patient fixes",
+      "author_name": "Sahil Salap",
+      "score": 1,
+      "summary": "3 sentences",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/3bb5dd1dc48753cad220a7b7a21d2ff1ad2dc9a5",
+      "date": "2026-03-07 01:14:03.000000"
+    },
+    {
+      "message": "API fixing researcher",
+      "author_name": "Ashish813213",
+      "score": 1,
+      "summary": "The commit appears to be a merge commit, which means it combines multiple changes from previous commits into one. The diff shows no actual code changes.",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/a0be7b46c83fa71cbc43a5ac9ca2b43e20b4e583",
+      "date": "2026-03-07 01:11:49.000000"
+    },
+    {
+      "message": "researcher merger",
+      "author_name": "Kinjal2004-Hu",
+      "score": 1,
+      "summary": "The commit message states 'researcher merger', which suggests that this was likely part of a merge operation. The code diff shows only whitespace changes and no actual modifications to any files.",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/ca7c8b9ddb4375cbc13f7c7bdf836f85e73d8cb1",
+      "date": "2026-03-07 00:53:14.000000"
+    },
+    {
+      "message": "researcher",
+      "author_name": "Kinjal2004-Hu",
+      "score": 10,
+      "summary": "The code adds several reusable React components such as `Reveal`, `PanelTransition`, `Sidebar`, etc., which are used to enhance the user interface of a research-related application. These components help in creating smooth animations and transitions when elements come into view, improving the overall user experience.",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/ecd7e2efd6173480e271a633c75e29555f198b41",
+      "date": "2026-03-07 00:49:16.000000"
+    },
+    {
+      "message": "conflict resolved",
+      "author_name": "Sahil Salap",
+      "score": 13,
+      "summary": "The code adds a new API endpoint to handle AI matching operations. It includes a form component for inputting patient data, validates the input, and sends it to an AI model using the `matchingAPI.aiHealth()` function to check its status.",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/d4cc628fbff53a248f33466d903c613765adf7d0",
+      "date": "2026-03-06 17:46:40.000000"
+    },
+    {
+      "message": "core ai logic and frontend dev",
+      "author_name": "Sahil Salap",
+      "score": 14,
+      "summary": "The commit adds new components and functionality to the PatientDashboard page. It includes changes to the useEffect hook to fetch patient profile data from an API endpoint when the component mounts. The use of Axios is used to make a GET request to the backend server, and the response is used to set the medicalData state with the fetched information.",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/ec9191f0e575e21abfeb568a1ab9ef096ba6fdf5",
+      "date": "2026-03-06 17:42:24.000000"
+    },
+    {
+      "message": "API fixing",
+      "author_name": "Ashish813213",
+      "score": 11,
+      "summary": "The code adds a new `ProtectedRoute` component that checks the user's role and allows or denies access to certain routes. This is an API route with logic for handling authentication and authorization.",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/8f6fbc9a21301ad2c2dc653d57fd868638b39d68",
+      "date": "2026-03-06 17:16:42.000000"
+    },
+    {
+      "message": "API fixing",
+      "author_name": "Ashish813213",
+      "score": 13,
+      "summary": "3 sentences",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/73e72e8566e28e19fde6c177295ead49ee79ee83",
+      "date": "2026-03-06 17:12:06.000000"
+    },
+    {
+      "message": "Landing Page",
+      "author_name": "Kinjal2004-Hu",
+      "score": 12,
+      "summary": "The code added or changed includes an API route for handling contact forms and user reviews. It uses React state management to manage the form data and handle submissions.",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/3909a2a6f199256bbba77af2211278ce065c6739",
+      "date": "2026-03-06 14:53:06.000000"
+    },
+    {
+      "message": "Backend Before testing v1",
+      "author_name": "Ashish813213",
+      "score": 12,
+      "summary": "The code adds a new file `MONGODB_SCHEMA_GUIDE.md` which contains detailed documentation on the MongoDB schema used in the backend. This includes definitions and structure of various collections such as Users, Patients, Doctors, Researcher, Applications, Commissions, and Rewards.",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/8ec73977f961a30ee91568def3a090b253be27b5",
+      "date": "2026-03-06 13:26:20.000000"
+    },
+    {
+      "message": "first commit",
+      "author_name": "Sahil Salap",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/sahildev109/COHERENCE-26_LOCKBOX/commit/4ec2b818682540dc5187fd9f3ad0b24ff2d625e7",
+      "date": "2026-03-06 11:53:26.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'LockBox' created several innovative features during their 24-hour build period, showcasing a range of capabilities across different technologies. They started with setup and progressed to building working features, committing frequently but not in large batches. The commits were well-structured, with clear descriptions that aligned with the specific tasks completed.\n\nIn terms of code quality, Team 'LockBox' demonstrated strong technical skills, with scores ranging from 7 to 14/20. Several standout commits included adding a detailed MongoDB schema guide and implementing an AI matching endpoint for patient data analysis. The use of React state management and Axios made the form handling robust.\n\nHowever, the team also encountered some challenges, particularly with code quality in certain commits that appeared to be AI-generated or repetitive. This suggests areas where further attention to detail might have been beneficial.\n\nOverall, Team 'LockBox' built a functional system with strong technical components but could benefit from improving code consistency and reducing unnecessary merge operations. Their project demonstrated a solid understanding of React, Next.js, MongoDB, Express, and other technologies, showcasing a good grasp of web development principles."
+}

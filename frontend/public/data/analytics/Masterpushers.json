@@ -1,0 +1,339 @@
+{
+  "team_name": "Masterpushers",
+  "commit_count": 32,
+  "additions": 25227,
+  "deletions": 3779,
+  "churn_rate": 0.15,
+  "productivity_score": 2554.7,
+  "hourly_commits": [
+    0,
+    2,
+    2,
+    0,
+    2,
+    0,
+    0,
+    1,
+    4,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0,
+    2,
+    6,
+    3,
+    4,
+    2
+  ],
+  "hourly_volume": [
+    25227,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Pavan0277",
+      "commits": 19
+    },
+    {
+      "name": "Your Name",
+      "commits": 10
+    },
+    {
+      "name": "\u201cSangini",
+      "commits": 3
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/package-lock.json",
+      "value": 5981
+    },
+    {
+      "name": "backend/package-lock.json",
+      "value": 2892
+    },
+    {
+      "name": "frontend/src/pages/Dashboard.tsx",
+      "value": 1282
+    },
+    {
+      "name": "frontend/src/pages/Landing/components/HeroSection.tsx",
+      "value": 1016
+    },
+    {
+      "name": "frontend/src/pages/WorkflowBuilder.tsx",
+      "value": 734
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend",
+      "value": 6559
+    },
+    {
+      "name": "frontend/src/pages/Landing/components",
+      "value": 5248
+    },
+    {
+      "name": "frontend/src/pages",
+      "value": 4035
+    },
+    {
+      "name": "backend",
+      "value": 3268
+    },
+    {
+      "name": "frontend/src/components/nodes",
+      "value": 2533
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".tsx",
+      "value": 15508
+    },
+    {
+      "name": ".json",
+      "value": 9039
+    },
+    {
+      "name": ".js",
+      "value": 3227
+    },
+    {
+      "name": ".css",
+      "value": 468
+    },
+    {
+      "name": ".ts",
+      "value": 394
+    },
+    {
+      "name": "no_ext",
+      "value": 191
+    },
+    {
+      "name": ".md",
+      "value": 73
+    },
+    {
+      "name": ".html",
+      "value": 73
+    },
+    {
+      "name": ".yml",
+      "value": 20
+    },
+    {
+      "name": ".csv",
+      "value": 10
+    },
+    {
+      "name": ".svg",
+      "value": 3
+    },
+    {
+      "name": ".png",
+      "value": 0
+    },
+    {
+      "name": ".mp4",
+      "value": 0
+    },
+    {
+      "name": ".xlsx",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "refactor: streamline outbound call request body structure",
+      "author_name": "Pavan0277",
+      "score": 1,
+      "summary": "The provided Git commit diff shows no changes to the codebase, indicating that it is a merge commit or an empty commit.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/f99eee65f6ea720b5c54448f3d028aa1bdb335fc",
+      "date": "2026-03-07 05:44:58.000000"
+    },
+    {
+      "message": "feat: implement call synchronization from VAPI API and add manual sync endpoint",
+      "author_name": "Pavan0277",
+      "score": 11,
+      "summary": "The commit adds a new API endpoint for syncing call transcripts from the VAPI API and includes a manual sync function in the CallsDashboard component.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/8cdfa7ec0a62b3faf2e2fb495ba508ae0f3e8849",
+      "date": "2026-03-07 05:38:04.000000"
+    },
+    {
+      "message": "Merge branch 'main' of github.com:Pavan0277/COHERENCE-26_MASTERPUSHERS",
+      "author_name": "Pavan0277",
+      "score": 1,
+      "summary": "This commit is a merge operation that combines changes from the 'main' branch of the repository with the current branch. It does not contain any new code or significant modifications to existing files, making it a simple merge commit.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/2b129f2c85af6738af8e2d8bda249696cb5afd63",
+      "date": "2026-03-07 04:44:11.000000"
+    },
+    {
+      "message": "feat: add root endpoint to welcome users to the Sales Outreach System API",
+      "author_name": "Pavan0277",
+      "score": 11,
+      "summary": "The commit adds a new GET endpoint at the root path of the application, which sends a welcome message to users. This is an API route that handles incoming requests and returns a response.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/fe125dbb733213b8cfc5e54c435f5e568b995efa",
+      "date": "2026-03-07 04:43:37.000000"
+    },
+    {
+      "message": "revised",
+      "author_name": "Your Name",
+      "score": 11,
+      "summary": "The commit updates the `vapiWebhook` function in the `calls.controller.js` file to handle various types of webhook messages from a third-party service (VAPI). It processes status updates, end-of-call reports, and extracts relevant information such as call duration, summary, and transcript. The code also includes error handling for missing or invalid data.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/efde35d75ed10487725236c6317f2a6bac243176",
+      "date": "2026-03-07 04:36:52.000000"
+    },
+    {
+      "message": "Revert \"Refactor code structure for improved readability and maintainability\"\n\nThis reverts commit b6ec2bf8bdbfe061d3569d22f58af85aa3879bf5.",
+      "author_name": "\u201cSangini",
+      "score": 1,
+      "summary": "This commit undoes changes that were made to refactor the code, which likely involved restructuring components or updating function logic. The revert ensures that the original code is returned to its previous state, preserving functionality without introducing new bugs.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/728136d9a798024c4539b174176c7fb7f438d7db",
+      "date": "2026-03-07 04:35:44.000000"
+    },
+    {
+      "message": "Refactor code structure for improved readability and maintainability",
+      "author_name": "\u201cSangini",
+      "score": 1,
+      "summary": "The commit removed unnecessary components, updated import statements, and refactored the component structure to use motion libraries more effectively. This change enhances the overall code quality by improving readability and reducing redundancy.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/b6ec2bf8bdbfe061d3569d22f58af85aa3879bf5",
+      "date": "2026-03-07 04:13:42.000000"
+    },
+    {
+      "message": "refactor: update CORS configuration to allow all origins and disable credentials",
+      "author_name": "Pavan0277",
+      "score": 11,
+      "summary": "The code adds a new API route to the backend, which handles CORS configuration and enables or disables credentials based on environment variables. This change enhances security by allowing all origins and disabling credentials.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/07e38e88888a97124d9cc5915eccbb1c4fb72c43",
+      "date": "2026-03-07 04:05:45.000000"
+    },
+    {
+      "message": "refactor: remove unused code from AiMessageNode, FilterNode, and UploadNode components",
+      "author_name": "Pavan0277",
+      "score": 1,
+      "summary": "This change reduces the size of the AiMessageNode component, making it more efficient and easier to maintain. The removed code is no longer needed for the functionality of the component.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/2f6fe8491e9d01a29fd4c416208e3e2123167dff",
+      "date": "2026-03-07 03:38:39.000000"
+    },
+    {
+      "message": "refactor: simplify SendNode component by removing unused code",
+      "author_name": "Pavan0277",
+      "score": 1,
+      "summary": "The commit contains only a comment and an empty diff block, indicating that no code was added or changed.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/f0820c6df58d875d1878daffb3543eebbfde4de0",
+      "date": "2026-03-07 03:28:02.000000"
+    },
+    {
+      "message": "Merge branch 'main' of github.com:Pavan0277/COHERENCE-26_MASTERPUSHERS",
+      "author_name": "Pavan0277",
+      "score": 1,
+      "summary": "This is a merge commit that combines changes from the 'main' branch with the current branch. It does not introduce any new code or change existing files.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/cef5d2054c1521eed11d22188ce8dd9d7a12ab47",
+      "date": "2026-03-07 03:25:14.000000"
+    },
+    {
+      "message": "feat: add VAPI call functionality with transcript management",
+      "author_name": "Pavan0277",
+      "score": 13,
+      "summary": "The code adds a new feature to the frontend that allows users to view and manage call transcripts. It includes components for displaying call records, loading indicators, and a transcript drawer.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/5e6be893f9f885e2bf753b290988b065b8772661",
+      "date": "2026-03-07 03:24:34.000000"
+    },
+    {
+      "message": "Enhance node components with new styles and functionality\n\n- Updated DelayNode to include a floating play button and improved layout.\n- Refactored FilterNode to enhance visual presentation and added a play button.\n- Revamped SendNode with a new design, including platform-specific icons and badges.\n- Improved UploadNode to display detected columns and added a play button.\n- Adjusted WorkflowBuilder layout for better usability and aesthetics, including node positioning and header styles.",
+      "author_name": "Your Name",
+      "score": 18,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/67a43810e160a0068b49ae70bf93cdc694cefc29",
+      "date": "2026-03-07 03:10:31.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS",
+      "author_name": "Your Name",
+      "score": 1,
+      "summary": "This commit is a merge of the 'main' branch from the repository https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS. It indicates that no new files were created, and no changes were made to existing ones.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/c2bfe35dcbcf1fd1c0119444b42235adfefaa67a",
+      "date": "2026-03-07 02:33:05.000000"
+    },
+    {
+      "message": "feat: enhance AI workflow generation with new UI components and functionality",
+      "author_name": "Your Name",
+      "score": 11,
+      "summary": "The commit adds a new `AiGeneratorModal` component for generating AI workflows. It includes features such as submitting prompts to generate workflows, displaying messages in a chat-like interface, and handling user input and status states.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/ce4a2c7b7b67531b4d09625089457755d2612e54",
+      "date": "2026-03-07 02:32:49.000000"
+    },
+    {
+      "message": "Merge branch 'main' of github.com:Pavan0277/COHERENCE-26_MASTERPUSHERS",
+      "author_name": "Pavan0277",
+      "score": 11,
+      "summary": "The commit adds a new API endpoint to send outreach messages using the `sendMessage` service. It also includes functionality to load and use saved credentials from the `UserSettings` model to authenticate with different messaging platforms.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/c2a09fffee1ff157b1053f109ae933a3be666c20",
+      "date": "2026-03-07 02:15:39.000000"
+    },
+    {
+      "message": "feat: add photo.png to the repository",
+      "author_name": "Pavan0277",
+      "score": 1,
+      "summary": "The provided git commit is empty and only contains metadata about a new feature being added to the repository.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/1b1a4d7c43ade9f45f460360ba958116fa3cad9b",
+      "date": "2026-03-07 02:10:59.000000"
+    },
+    {
+      "message": "feat: add test leads CSV file with sample data",
+      "author_name": "Your Name",
+      "score": 1,
+      "summary": "The commit appears to be a merge commit, likely merging multiple branches into one. There is no new code being introduced in this commit.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/e6cde34ff37ceb063a69cc30e1448f193cdda356",
+      "date": "2026-03-06 22:23:36.000000"
+    },
+    {
+      "message": "feat: enhance Redis integration and add availability checks for delayed workflows",
+      "author_name": "Your Name",
+      "score": 11,
+      "summary": "The commit adds a new API route for sending outreach messages. It includes validation for required fields (platform, lead, and message) and uses the `sendMessage` service to send the message. The code also handles error responses and returns appropriate JSON messages.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/ea6a091bec2420de73c19ae2a9176b8f36771f84",
+      "date": "2026-03-06 22:03:10.000000"
+    },
+    {
+      "message": "feat: add WorkflowBuilder page and integrate workflow management features",
+      "author_name": "Pavan0277",
+      "score": 14,
+      "summary": "The commit adds a new page called WorkflowBuilder and integrates workflow management features. It includes API routes for managing workflows, forms for creating and updating workflows, and CRUD operations for the workflow data.",
+      "url": "https://github.com/Pavan0277/COHERENCE-26_MASTERPUSHERS/commit/dd5ce17cc26e0c9755405e02fa3829f855afaee3",
+      "date": "2026-03-06 20:15:13.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'Masterpushers' built a comprehensive application that includes features such as user authentication, React + TypeScript project setup, frontend components for registration and login, API routes for handling user creation and updates, and additional pages like WorkflowBuilder and AiGeneratorModal. Their development pattern involved frequent commits with well-structured code, focusing on adding new functionality rather than just setting up the environment. The overall code quality was high, with scores ranging from 13 to 18, indicating strong technical implementation. While some commits appeared AI-generated due to their repetitive nature, the majority of the work was genuinely hand-written and focused on building functional features. Team 'Masterpushers' demonstrated a strong understanding of React, Next.js, TypeScript, MongoDB, Express, and other relevant technologies. The project is functional and meets the expectations of a 24-hour hackathon, showcasing their ability to deliver high-quality code within a short timeframe."
+}

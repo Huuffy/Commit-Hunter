@@ -1,0 +1,315 @@
+{
+  "team_name": "the DEVAS",
+  "commit_count": 23,
+  "additions": 28490,
+  "deletions": 519,
+  "churn_rate": 0.02,
+  "productivity_score": 2872.0,
+  "hourly_commits": [
+    0,
+    5,
+    1,
+    3,
+    2,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+  ],
+  "hourly_volume": [
+    28490,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Shubhamsingh2110",
+      "commits": 12
+    },
+    {
+      "name": "Shubham Singh",
+      "commits": 10
+    },
+    {
+      "name": "Rohit tiwari",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/src/pages/BudgetVerification.jsx",
+      "value": 1624
+    },
+    {
+      "name": "frontend/src/pages/AnomalyDetection.jsx",
+      "value": 1540
+    },
+    {
+      "name": "backend/controllers/anomalyController.js",
+      "value": 1318
+    },
+    {
+      "name": "frontend/src/pages/FactsAndFigures.jsx",
+      "value": 1200
+    },
+    {
+      "name": "backend/controllers/verificationController.js",
+      "value": 1064
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend/src/pages",
+      "value": 7832
+    },
+    {
+      "name": "backend/controllers",
+      "value": 6390
+    },
+    {
+      "name": "/",
+      "value": 5691
+    },
+    {
+      "name": "backend/services",
+      "value": 3064
+    },
+    {
+      "name": "backend",
+      "value": 1856
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".js",
+      "value": 14306
+    },
+    {
+      "name": ".jsx",
+      "value": 8572
+    },
+    {
+      "name": ".md",
+      "value": 5555
+    },
+    {
+      "name": ".json",
+      "value": 180
+    },
+    {
+      "name": ".css",
+      "value": 166
+    },
+    {
+      "name": "no_ext",
+      "value": 162
+    },
+    {
+      "name": ".example",
+      "value": 36
+    },
+    {
+      "name": ".html",
+      "value": 32
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "fixes",
+      "author_name": "Rohit tiwari",
+      "score": 12,
+      "summary": "The commit introduces a new function to generate an AI prompt that analyzes the year-over-year anomalies in a government budget monitoring system. It also adds a detailed report generator that provides comprehensive insights into the trends and risks identified. This improvement enhances the functionality of the anomaly detection feature by providing more data-driven analysis.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/579231f84ff3a9ff21a66a47b33aea13ba638592",
+      "date": "2026-03-07 04:43:02.000000"
+    },
+    {
+      "message": "Merge pull request #9 from Shubhamsingh2110/main\n\nfact and figures",
+      "author_name": "Shubham Singh",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/40d73f965a5d6ffe3f4d4a8520a21bb6043ffafd",
+      "date": "2026-03-07 04:35:24.000000"
+    },
+    {
+      "message": "fact and figures",
+      "author_name": "Shubhamsingh2110",
+      "score": 12,
+      "summary": "The commit adds a new React component `FactsAndFigures` that fetches and displays scheme statistics and a fact sheet from an API. It includes various functions for fetching data, handling user interactions, and exporting to PDF and PPT formats. The code is well-structured with clear separation of concerns.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/7667633c81b7618688b6d38d89b1eb0d7c814e9a",
+      "date": "2026-03-07 04:34:40.000000"
+    },
+    {
+      "message": "Merge pull request #8 from Shubhamsingh2110/main\n\nanomalies detection",
+      "author_name": "Shubham Singh",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/87b3399bb090b737abb9325b1b43b6207b940126",
+      "date": "2026-03-07 00:26:42.000000"
+    },
+    {
+      "message": "anomalies detection",
+      "author_name": "Shubhamsingh2110",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/4e3910a230750a74b1b4dd22326a150cfc67ebc1",
+      "date": "2026-03-07 00:26:15.000000"
+    },
+    {
+      "message": "Merge pull request #7 from Shubhamsingh2110/main\n\ncomparing with current and past year data",
+      "author_name": "Shubham Singh",
+      "score": 1,
+      "summary": "The code diff shows changes to several files in the frontend directory, including adding new icons and updating imports. The `BudgetVerification` component is modified to include budget comparison functionality, with new states and functions for fetching and analyzing comparisons. There are no technical changes or improvements made to existing components or services.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/47e2ea310c94b7fed23c5f673a436c144b32d38c",
+      "date": "2026-03-07 00:01:58.000000"
+    },
+    {
+      "message": "comparing with current and past year data",
+      "author_name": "Shubhamsingh2110",
+      "score": 12,
+      "summary": "The code adds a new section for comparing budgets with AI analysis. It includes functions to fetch comparisons, analyze them, and handle sending for verification. This enhances the functionality of the BudgetVerification page by providing additional tools for budget management.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/34ef8934a55dcec95679a57b1a99a24a2dff6cc2",
+      "date": "2026-03-07 00:01:18.000000"
+    },
+    {
+      "message": "Merge pull request #6 from Shubhamsingh2110/main\n\nbudget verification",
+      "author_name": "Shubham Singh",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/f1022f38dc2fe81669173ac1c7eb80d44a516290",
+      "date": "2026-03-06 21:40:31.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Shubhamsingh2110/COHERENCE-26_theDEVAS",
+      "author_name": "Shubhamsingh2110",
+      "score": 1,
+      "summary": "The code diff is empty, indicating that there were no changes made in this specific commit. The commit message mentions merging another branch into the current one, which is a common practice in version control systems like Git for integrating updates from other developers.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/bd2119193f1d25ad4ef2c45c3427e37baf2ff431",
+      "date": "2026-03-06 21:39:17.000000"
+    },
+    {
+      "message": "budget verification",
+      "author_name": "Shubhamsingh2110",
+      "score": 1,
+      "summary": "The provided text is a commit message rather than actual code changes. It describes the purpose of the commit and mentions the addition of a new JavaScript file for generating multi-year budget data with AI fault detection.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/844ff24e32f2e94f10b5240c1c769fb997e3ae6a",
+      "date": "2026-03-06 21:38:51.000000"
+    },
+    {
+      "message": "Merge pull request #5 from Shubhamsingh2110/main\n\nchanges",
+      "author_name": "Shubham Singh",
+      "score": 1,
+      "summary": "The code added or changed in this commit is related to merging a pull request, which typically involves integrating changes from one branch into another. This operation does not introduce any new features, update configurations, or modify existing components. The commit message indicates that it merges a specific pull request, and the explanation provides details about what was merged.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/3c9b6123286c799fae84fc62aa6f23eebf1e8da4",
+      "date": "2026-03-06 14:45:11.000000"
+    },
+    {
+      "message": "changes",
+      "author_name": "Shubhamsingh2110",
+      "score": 9,
+      "summary": "The code adds a new budget schema with fields for revised budget, status, category, priority, and fiscal year. It also includes a utility function to generate random categories.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/b66d0b457fe318d8f874550d36c82f2f24f755b8",
+      "date": "2026-03-06 14:44:11.000000"
+    },
+    {
+      "message": "Merge pull request #4 from Shubhamsingh2110/main\n\ndataset",
+      "author_name": "Shubham Singh",
+      "score": 1,
+      "summary": "The provided diff shows a merge pull request, which does not contain any new code or changes to the existing files.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/3958dbaed7727d48a25ed1a408b618623af9afbc",
+      "date": "2026-03-06 11:10:32.000000"
+    },
+    {
+      "message": "dataset",
+      "author_name": "Shubhamsingh2110",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/1b8c1f9715c5ed906e395177f17aa545e200ad82",
+      "date": "2026-03-06 11:10:01.000000"
+    },
+    {
+      "message": "Merge pull request #3 from Shubhamsingh2110/main\n\ndummy dataset",
+      "author_name": "Shubham Singh",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/c4fd2a01311592f9b8504a212523a82af6daf967",
+      "date": "2026-03-06 09:41:37.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Shubhamsingh2110/COHERENCE-26_theDEVAS",
+      "author_name": "Shubhamsingh2110",
+      "score": 1,
+      "summary": "The commit is a merge operation, bringing changes from the 'main' branch of the specified GitHub repository into the current branch. This type of commit typically indicates that no new code was added or changed; it simply merges the latest updates from another branch.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/f26ea2df703cebfaeb3e096246baeb416e77972c",
+      "date": "2026-03-06 09:39:45.000000"
+    },
+    {
+      "message": "changes",
+      "author_name": "Shubhamsingh2110",
+      "score": 9,
+      "summary": "This code creates a seed script for the backend database, which includes creating an admin user and basic departments. It uses MongoDB to connect to the database and performs operations such as finding existing users, creating new ones if they don't exist, and initializing department records.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/1621f9e6fc1b35e729a76c29210bb85429d3bcdd",
+      "date": "2026-03-06 09:39:07.000000"
+    },
+    {
+      "message": "Merge pull request #2 from Shubhamsingh2110/main\n\nbasic frontend",
+      "author_name": "Shubham Singh",
+      "score": 1,
+      "summary": "This code diff shows the addition of a new branch 'main' from Shubhamsingh2110, which includes basic frontend components and files. The merge commit combines these changes into the main branch.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/c9251e61bda3e15e7094de22d6ff4b47e1523b7c",
+      "date": "2026-03-06 08:30:06.000000"
+    },
+    {
+      "message": "basic frontend",
+      "author_name": "Shubhamsingh2110",
+      "score": 1,
+      "summary": "This is a significant update that outlines the vision, core features, technical architecture, and project structure of the platform. The addition of detailed feature descriptions and technical stack information demonstrates a comprehensive approach to building the project.",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/e475db660a19b8b49a08f34ffe18f25706a7e592",
+      "date": "2026-03-06 08:27:16.000000"
+    },
+    {
+      "message": "Merge pull request #1 from Shubhamsingh2110/main\n\nbasic config and some frontend ui",
+      "author_name": "Shubham Singh",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/01-elite/COHERENCE-26_theDEVAS/commit/515dafb0d3aa4e9d34a3584190134a1fed2c0b07",
+      "date": "2026-03-06 08:13:35.000000"
+    }
+  ],
+  "final_review": "The DEVAS team built a comprehensive platform for budget management, including features like AI-driven anomaly detection, multi-year budget data analysis, and a user-friendly interface using React.js, Next.js, MongoDB, Express.js, and OpenAI APIs. They started with setting up the project structure and gradually added more complex features, demonstrating a clear development pattern of starting with setup and progressing to features. The code quality varied; some commits were well-structured and focused on building features (scores 7-12), while others were generic or AI-generated (scores 1-6). Standout commits included the budget schema creation, anomaly detection feature, and AI prompt generation for AI fault detection. There were no wasted commits in terms of merge operations or empty files. The project is functional but lacks some additional features like detailed reports and export options. Overall, the DEVAS team demonstrated a good understanding of their technology stack and built a solid foundation for a budget management system."
+}

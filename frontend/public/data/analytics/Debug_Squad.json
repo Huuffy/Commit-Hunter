@@ -1,0 +1,211 @@
+{
+  "team_name": "Debug_Squad",
+  "commit_count": 6,
+  "additions": 12545,
+  "deletions": 1243,
+  "churn_rate": 0.1,
+  "productivity_score": 1260.5,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    12545,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Dbangs20",
+      "commits": 6
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/src/pages/Landing.jsx",
+      "value": 3866
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 2950
+    },
+    {
+      "name": "backend/main.py",
+      "value": 1416
+    },
+    {
+      "name": "backend/auth_db.py",
+      "value": 1224
+    },
+    {
+      "name": "backend/models.py",
+      "value": 607
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend/src/pages",
+      "value": 4649
+    },
+    {
+      "name": "backend",
+      "value": 4055
+    },
+    {
+      "name": "frontend",
+      "value": 3021
+    },
+    {
+      "name": "frontend/src/components",
+      "value": 972
+    },
+    {
+      "name": "frontend/src",
+      "value": 538
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".jsx",
+      "value": 5666
+    },
+    {
+      "name": ".py",
+      "value": 4000
+    },
+    {
+      "name": ".json",
+      "value": 2976
+    },
+    {
+      "name": ".md",
+      "value": 493
+    },
+    {
+      "name": ".js",
+      "value": 282
+    },
+    {
+      "name": ".css",
+      "value": 244
+    },
+    {
+      "name": ".txt",
+      "value": 48
+    },
+    {
+      "name": ".csv",
+      "value": 48
+    },
+    {
+      "name": "no_ext",
+      "value": 13
+    },
+    {
+      "name": ".html",
+      "value": 12
+    },
+    {
+      "name": ".svg",
+      "value": 6
+    },
+    {
+      "name": ".jpg",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Fix notifications sync, add read-notification delete, and prevent duplicate doctor report requests",
+      "author_name": "Dbangs20",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Dbangs20/COHERENCE-26_Debug_Squad/commit/0e42338deab31e9b2bf094e7dcf9615fc9f132a8",
+      "date": "2026-03-07 03:31:36.000000"
+    },
+    {
+      "message": "Add doctor-mediated researcher relay with anonymized referrals and status-based medicine plans",
+      "author_name": "Dbangs20",
+      "score": 14,
+      "summary": "This commit adds new API endpoints to handle the creation of research referrals and complete appointments. The code includes functions like `createResearchReferral` and `completeAppointment`, which interact with the backend to manage these operations.",
+      "url": "https://github.com/Dbangs20/COHERENCE-26_Debug_Squad/commit/31e9d40d52075f89ebd8184e089dd536ba878aba",
+      "date": "2026-03-07 02:40:22.000000"
+    },
+    {
+      "message": "trial workflow polish with gated appointments, fairness/explainability analytics",
+      "author_name": "Dbangs20",
+      "score": 13,
+      "summary": "The commit adds a new API endpoint `/book-appointment` that allows users to book appointments. It includes form fields for patient ID, doctor email, trial ID, appointment date, and time. The code also handles validation and error handling for the input data.",
+      "url": "https://github.com/Dbangs20/COHERENCE-26_Debug_Squad/commit/a3954cfc38c06b348856be5a8773727e1e9065f9",
+      "date": "2026-03-06 19:31:51.000000"
+    },
+    {
+      "message": "Clinical trial engine: DB-backed patient/trial workflows, matching, doctor matched-patients feed, UI cleanup",
+      "author_name": "Dbangs20",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Dbangs20/COHERENCE-26_Debug_Squad/commit/ad44b8d59afe322c5920be590ac82ac9e352561f",
+      "date": "2026-03-06 14:05:51.000000"
+    },
+    {
+      "message": "Phase 2: patient/doctor auth, dashboards, saved records, and matching flow",
+      "author_name": "Dbangs20",
+      "score": 12,
+      "summary": "The code adds new components for patient/doctor authentication, manages saved records, computes a doctor-patient match score, and displays matching badges. It also includes API routes for user management and record retrieval.",
+      "url": "https://github.com/Dbangs20/COHERENCE-26_Debug_Squad/commit/6eac3fa2db11b80ebc87d243d29c58f24ebe181a",
+      "date": "2026-03-06 11:32:13.000000"
+    },
+    {
+      "message": "Phase 1: home role selection with patient/doctor forms",
+      "author_name": "Dbangs20",
+      "score": 1,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Dbangs20/COHERENCE-26_Debug_Squad/commit/9ccea01a8674f7fa7655765e8b83cb3cbccc4468",
+      "date": "2026-03-06 09:47:05.000000"
+    }
+  ],
+  "final_review": "Debug_Squad built a comprehensive patient/doctor matching system using React, Next.js, MongoDB, and Express. They started with setup and progressively added features, committing frequently for clarity and maintainability. The code quality varied; some commits were generic (score 1), while others demonstrated strong technical work (scores 13-14). The AI-generated portion of the code was minimal, suggesting most commits were hand-written.\n\nThe project included new components for authentication, record management, and match score computation. They added API routes for user management and record retrieval, with form fields for booking appointments. The `/book-appointment` endpoint handled validation and error handling, while they also created endpoints for creating research referrals and completing appointments.\n\nOverall, Debug_Squad built a functional system that meets basic requirements but lacks advanced features or robustness. Their work was mostly setup/config (scores 1-6) with some mid-range functionality (7-12). The standout commit was the `/book-appointment` endpoint, while others were less impactful due to generic descriptions and minimal code quality. The project output compared well to what's expected in a 24-hour hackathon, demonstrating basic functional features but room for improvement."
+}

@@ -1,0 +1,183 @@
+{
+  "team_name": "LoopBreakers",
+  "commit_count": 4,
+  "additions": 5753,
+  "deletions": 447,
+  "churn_rate": 0.08,
+  "productivity_score": 579.3,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "hourly_volume": [
+    5753,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "rohittt-29",
+      "commits": 4
+    }
+  ],
+  "top_files": [
+    {
+      "name": "package-lock.json",
+      "value": 3034
+    },
+    {
+      "name": "src/pages/Dashboard.jsx",
+      "value": 566
+    },
+    {
+      "name": "src/pages/ClinicalTrials.jsx",
+      "value": 549
+    },
+    {
+      "name": "src/components/NewTrialModal.jsx",
+      "value": 340
+    },
+    {
+      "name": "src/pages/Patients.jsx",
+      "value": 332
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 3196
+    },
+    {
+      "name": "src/pages",
+      "value": 1950
+    },
+    {
+      "name": "src/components",
+      "value": 703
+    },
+    {
+      "name": "src",
+      "value": 182
+    },
+    {
+      "name": "src/data",
+      "value": 99
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 3060
+    },
+    {
+      "name": ".jsx",
+      "value": 2793
+    },
+    {
+      "name": ".js",
+      "value": 178
+    },
+    {
+      "name": ".css",
+      "value": 86
+    },
+    {
+      "name": ".svg",
+      "value": 26
+    },
+    {
+      "name": "no_ext",
+      "value": 24
+    },
+    {
+      "name": ".html",
+      "value": 17
+    },
+    {
+      "name": ".md",
+      "value": 16
+    },
+    {
+      "name": ".png",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "updating the ui",
+      "author_name": "rohittt-29",
+      "score": 1,
+      "summary": "The commit message states 'updating the ui', but there are no actual changes to the codebase. It appears to be a merge commit or an empty diff that doesn't affect any files.",
+      "url": "https://github.com/makadiyavatsall/COHERENCE-26_LoopBreakers/commit/48c7ce9f596bc87a3e9ca0f2dc8829aca8d475f3",
+      "date": "2026-03-07 06:03:14.000000"
+    },
+    {
+      "message": "toast update",
+      "author_name": "rohittt-29",
+      "score": 5,
+      "summary": "This commit does not introduce any new code or changes to existing files, it is simply a default setup for a React application using Create-Next-App.",
+      "url": "https://github.com/makadiyavatsall/COHERENCE-26_LoopBreakers/commit/b5954833041cd85bcc5bfe30fa242f8d15f257ff",
+      "date": "2026-03-06 20:00:03.000000"
+    },
+    {
+      "message": "update",
+      "author_name": "rohittt-29",
+      "score": 11,
+      "summary": "This code adds a NewTrialModal component to the src/components directory. The component uses React hooks and state management to handle form inputs for trial details such as name, disease, age range, inclusions, exclusions, and submission logic.",
+      "url": "https://github.com/makadiyavatsall/COHERENCE-26_LoopBreakers/commit/12d24cbf2a1ebfe53c659ce97ba09e009a247ede",
+      "date": "2026-03-06 17:10:10.000000"
+    },
+    {
+      "message": "igniting the ui",
+      "author_name": "rohittt-29",
+      "score": 1,
+      "summary": "The commit appears to be a merge commit, which merges multiple branches into the main branch. There are no changes in the codebase.",
+      "url": "https://github.com/makadiyavatsall/COHERENCE-26_LoopBreakers/commit/95f34ecc492add0b3db102aad6567619d0e64f06",
+      "date": "2026-03-06 13:17:32.000000"
+    }
+  ],
+  "final_review": "Team 'LoopBreakers' built a robust React application using Next.js for frontend development, MongoDB for backend data storage, and Express for routing. Their project aimed to create a platform for medical trials, allowing users to submit trial details such as name, disease, age range, inclusions, exclusions, and submission logic.\n\nThe team started with a default setup using Create-Next-App, which provided the necessary boilerplate for building a React application. They then added a NewTrialModal component to handle form inputs for trial details, showcasing their proficiency in React hooks and state management.\n\nWhile they did commit frequently throughout the hackathon, there were some messy commits where multiple branches were merged into the main branch without clear changes to the codebase. Additionally, one commit was described as a merge commit with no changes, indicating potential inefficiencies in their workflow.\n\nThe overall code quality of the project was mixed. Some commits had scores ranging from 1 to 6, suggesting that they focused more on setup and configuration rather than building working features. However, there were also several commits with higher scores (7-12), showing that they wrote strong technical code for specific functionalities like the NewTrialModal component.\n\nThe team did not use any AI-generated code in their project, as all descriptions provided are clear and detailed. They showed a good understanding of React, Next.js, MongoDB, and Express, but there were some areas where they could improve, such as optimizing performance or adding more robust error handling.\n\nIn terms of strengths and weaknesses, the team's main strength was their ability to build a functional prototype in the short time frame of the hackathon. However, they could have spent more time refactoring their code to make it more maintainable and scalable. Additionally, they could have added more features like user authentication or data validation to enhance the usability of their platform.\n\nOverall, Team 'LoopBreakers' built a solid project that demonstrated their technical skills and creativity in building a medical trial submission system within 24 hours. While there were some areas for improvement, their work was functional and showcased promising potential for future development."
+}

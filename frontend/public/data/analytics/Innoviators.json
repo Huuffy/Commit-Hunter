@@ -1,0 +1,347 @@
+{
+  "team_name": "Innoviators",
+  "commit_count": 16,
+  "additions": 414142,
+  "deletions": 1634,
+  "churn_rate": 0.0,
+  "productivity_score": 41430.2,
+  "hourly_commits": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    4,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    414142,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "bhakti-shingadi",
+      "commits": 5
+    },
+    {
+      "name": "purva",
+      "commits": 5
+    },
+    {
+      "name": "Lavanya Singh",
+      "commits": 2
+    },
+    {
+      "name": "anuradhatiwari4151-sys",
+      "commits": 2
+    },
+    {
+      "name": "lavanya-777-s",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "backend/node_modules/@types/node/fs.d.ts",
+      "value": 18704
+    },
+    {
+      "name": "backend/node_modules/bson/lib/bson.rn.cjs",
+      "value": 16636
+    },
+    {
+      "name": "backend/node_modules/bson/lib/bson.bundle.js",
+      "value": 16596
+    },
+    {
+      "name": "backend/node_modules/bson/lib/bson.cjs",
+      "value": 16576
+    },
+    {
+      "name": "backend/node_modules/bson/lib/bson.mjs",
+      "value": 16464
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "backend/node_modules/@types/node",
+      "value": 178034
+    },
+    {
+      "name": "backend/node_modules/bson/lib",
+      "value": 66288
+    },
+    {
+      "name": "backend/node_modules/bson/src",
+      "value": 18304
+    },
+    {
+      "name": "frontend/src/data",
+      "value": 15158
+    },
+    {
+      "name": "backend/node_modules/bson/vendor/text-encoding/lib",
+      "value": 10044
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".ts",
+      "value": 233420
+    },
+    {
+      "name": ".js",
+      "value": 82500
+    },
+    {
+      "name": ".cjs",
+      "value": 34764
+    },
+    {
+      "name": ".md",
+      "value": 18706
+    },
+    {
+      "name": ".mjs",
+      "value": 17973
+    },
+    {
+      "name": ".json",
+      "value": 13925
+    },
+    {
+      "name": ".jsx",
+      "value": 6285
+    },
+    {
+      "name": "no_ext",
+      "value": 1933
+    },
+    {
+      "name": ".csv",
+      "value": 1262
+    },
+    {
+      "name": ".html",
+      "value": 902
+    },
+    {
+      "name": ".cts",
+      "value": 828
+    },
+    {
+      "name": ".mts",
+      "value": 828
+    },
+    {
+      "name": ".txt",
+      "value": 721
+    },
+    {
+      "name": ".ps1",
+      "value": 560
+    },
+    {
+      "name": ".py",
+      "value": 448
+    },
+    {
+      "name": ".cmd",
+      "value": 340
+    },
+    {
+      "name": ".yml",
+      "value": 190
+    },
+    {
+      "name": ".map",
+      "value": 120
+    },
+    {
+      "name": ".markdown",
+      "value": 61
+    },
+    {
+      "name": ".css",
+      "value": 10
+    },
+    {
+      "name": ".gz",
+      "value": 0
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Merge branch 'main' of https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS",
+      "author_name": "purva",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/c220eb48fc6744fa3f3ba359d0aab2cba27aa3fc",
+      "date": "2026-03-07 03:34:51.000000"
+    },
+    {
+      "message": "add: Chatbot component",
+      "author_name": "purva",
+      "score": 1,
+      "summary": "The code adds a new component called Chatbot to the frontend of the CitizenPublicDashboard. This component is likely responsible for providing chat-based interactions or support within the dashboard.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/830fd46c635f3b800be4ddafb810843d87b79c0c",
+      "date": "2026-03-07 03:33:14.000000"
+    },
+    {
+      "message": "added anomaly section",
+      "author_name": "lavanya-777-s",
+      "score": 4,
+      "summary": "The commit adds a Tailwind CSS configuration file to the project, which defines custom styles and animations for the application.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/dde4ae80be4c61b536d4b0092158f99d4fc70a70",
+      "date": "2026-03-07 00:08:44.000000"
+    },
+    {
+      "message": "added anomalay detection section",
+      "author_name": "lavanya-777-s",
+      "score": 20,
+      "summary": "The commit adds a new section for anomalous detection to the HTTP server and client modules. This involves adding functionality to detect unusual patterns or behaviors in incoming requests, which can help improve security and performance of web applications. The code is well-written and follows best practices for handling HTTP messages and headers.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/44c53d74fa37353b87cf0246a8bceb9af85a39f7",
+      "date": "2026-03-07 00:02:51.000000"
+    },
+    {
+      "message": "Resolve merge conflicts from stashed changes",
+      "author_name": "purva",
+      "score": 1,
+      "summary": "This commit is a merge of two branches but does not introduce any new code or changes to existing files. It's likely used for resolving conflicts from stashed changes.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/a898b8b0c5c84897968d45f0411603f0a0349663",
+      "date": "2026-03-06 22:00:44.000000"
+    },
+    {
+      "message": "errors fixed",
+      "author_name": "bhakti-shingadi",
+      "score": 11,
+      "summary": "The commit adds new components, hooks, and logic to display budget data, handle state changes, and identify global leakages. It also includes improvements to the UI with additional icons and sorting functionality.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/c658739539dee0755ba772c61f2622f892ae668e",
+      "date": "2026-03-06 21:23:41.000000"
+    },
+    {
+      "message": "Working Officer Dashboard",
+      "author_name": "bhakti-shingadi",
+      "score": 14,
+      "summary": "The code adds new tabs, charts, modals, and components like AllocationModal, FundTrackerTab, Chatbot, RegionalAnalytics, AuditorResolutionHub, FraudDetectionTab, and more. It also includes state management, routing, and API interactions.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/ede3df1ebdee5ead6c24270537960b2e0453d70d",
+      "date": "2026-03-06 20:54:44.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS",
+      "author_name": "anuradhatiwari4151-sys",
+      "score": 1,
+      "summary": "This commit merges changes from the main branch into the current branch. It does not introduce any new code or change existing files, making it a simple merge operation.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/47dd672809701853a78adb6ca82a7d0f25a5329b",
+      "date": "2026-03-06 20:44:24.000000"
+    },
+    {
+      "message": "public dashboard",
+      "author_name": "anuradhatiwari4151-sys",
+      "score": 1,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/c6b5e9fd7f3f72f4e4d1ecfcfeed05a41b2b0af2",
+      "date": "2026-03-06 20:42:46.000000"
+    },
+    {
+      "message": "Updated Fetures",
+      "author_name": "bhakti-shingadi",
+      "score": 13,
+      "summary": "The code adds a ReallocationTab component to the frontend, which simulates and executes fund reallocation optimizations. It uses Lucide icons for UI elements and handles state management with React hooks.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/85615bf379da61753116b4325e985b9ec2e0bcd4",
+      "date": "2026-03-06 19:03:59.000000"
+    },
+    {
+      "message": "updated file",
+      "author_name": "purva",
+      "score": 1,
+      "summary": "The code added or changed the following lines: removed import statements for Lucide icons that are not used in the component, and modified the hero section of the AboutUs page to use new font styles and improve typography. The code quality is good as it maintains a clean and functional structure while improving the visual presentation.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/4a6bbb61b2892e40b3437029344460566548b95d",
+      "date": "2026-03-06 17:25:14.000000"
+    },
+    {
+      "message": "Update files",
+      "author_name": "purva",
+      "score": 1,
+      "summary": "This commit includes changes to various files, such as removing unused imports, updating styles, and simplifying the code structure. The overall aim is to clean up the project by removing unnecessary elements and improving readability.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/dc8c9bfb05695bc85f4d657ee37f6af11ff6c81a",
+      "date": "2026-03-06 16:00:49.000000"
+    },
+    {
+      "message": "Merge pull request #1 from lavanya-777-s/master\n\nAdded  Official Dashboard with tabs+ Public Dashboard, anomaly detection and about us",
+      "author_name": "Lavanya Singh",
+      "score": 1,
+      "summary": "The code was merged from a pull request that introduced significant changes to the project. This includes adding new features such as an official dashboard with multiple tabs, a public dashboard, anomaly detection functionality, and an 'about us' section.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/b080e83899889045972088e5c714d0ea62f6bad2",
+      "date": "2026-03-06 12:39:41.000000"
+    },
+    {
+      "message": "Added  Official Dashboard with tabs+ Public Dashboard, anomaly detection, and AboutUs page",
+      "author_name": "bhakti-shingadi",
+      "score": 20,
+      "summary": "The code adds an official dashboard with tabs, public dashboard, anomaly detection, and AboutUs page. This indicates a complex feature that involves integrating multiple systems and providing a comprehensive user interface.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/b68e8dae0925eb13355c490a0e9ac01acd630916",
+      "date": "2026-03-06 12:21:46.000000"
+    },
+    {
+      "message": "Add README for project overview",
+      "author_name": "Lavanya Singh",
+      "score": 1,
+      "summary": "The commit adds a README.md file to the repository, providing an overview of the ArthSetu platform. This file includes information about the platform's purpose, features, technology stack, and goal.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/6c03835e297ad9e8274bcf821f74c00183a2816b",
+      "date": "2026-03-06 09:28:57.000000"
+    },
+    {
+      "message": "Added login and register features with auth",
+      "author_name": "bhakti-shingadi",
+      "score": 12,
+      "summary": "The code adds a new page for user registration, including fields for name, email, password, role (default 'analyst'), department, and handles form submission to create an account. It uses Axios for API requests and includes validation checks for passwords.",
+      "url": "https://github.com/lavanya-777-s/COHERENCE-26_INNOVIATORS/commit/2a0a15bcc427b321ecff546fc8bcf0ade89fa4de",
+      "date": "2026-03-06 08:56:25.000000"
+    }
+  ],
+  "final_review": "Team 'Innoviators' built a comprehensive platform for financial analysis and management, integrating features like user registration, official dashboard with multiple tabs, public dashboard, anomaly detection, and an 'about us' section. They used React, Next.js, MongoDB, Express, and Tailwind CSS to develop the frontend and backend functionalities. The development pattern involved frequent commits (16 in total), mostly well-structured and focused on adding new features. Their code quality varied from basic setup (scores 1-6) to strong technical code (scores 13+). AI-generated portions were identified in some commits, but the majority of the work was genuinely hand-written. The standout commit was the addition of a new feature for reallocation optimizations using Lucide icons and React hooks. The project is functional and demonstrates a good understanding of web development principles. However, there were wasted commits (merge commits) and empty files that could be removed to streamline the codebase. Overall, Team 'Innoviators' built a substantial platform with solid technical foundations but could benefit from further optimization and cleanup in terms of code quality and structure."
+}

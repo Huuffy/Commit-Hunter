@@ -1,0 +1,431 @@
+{
+  "team_name": "Git-Ignite",
+  "commit_count": 77,
+  "additions": 89331,
+  "deletions": 44457,
+  "churn_rate": 0.5,
+  "productivity_score": 9010.1,
+  "hourly_commits": [
+    0,
+    2,
+    2,
+    3,
+    5,
+    2,
+    1,
+    7,
+    3,
+    5,
+    5,
+    4,
+    12,
+    3,
+    5,
+    3,
+    4,
+    3,
+    5,
+    0,
+    0,
+    1,
+    1,
+    1
+  ],
+  "hourly_volume": [
+    89331,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "omsingh10",
+      "commits": 49
+    },
+    {
+      "name": "Vaishnavi226",
+      "commits": 28
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/admin-dashboard/package-lock.json",
+      "value": 55599
+    },
+    {
+      "name": "data/india_govt_fund_allocation.csv",
+      "value": 24002
+    },
+    {
+      "name": "frontend/hisab_kitab/lib/main.dart",
+      "value": 21445
+    },
+    {
+      "name": "backend/main.py",
+      "value": 4212
+    },
+    {
+      "name": "frontend/admin-dashboard/src/pages/Pages.jsx",
+      "value": 3814
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend/admin-dashboard",
+      "value": 56288
+    },
+    {
+      "name": "data",
+      "value": 24002
+    },
+    {
+      "name": "frontend/hisab_kitab/lib",
+      "value": 21996
+    },
+    {
+      "name": "frontend/admin-dashboard/src/pages",
+      "value": 11214
+    },
+    {
+      "name": "backend",
+      "value": 4325
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 56344
+    },
+    {
+      "name": ".csv",
+      "value": 24002
+    },
+    {
+      "name": ".dart",
+      "value": 22026
+    },
+    {
+      "name": ".jsx",
+      "value": 13694
+    },
+    {
+      "name": ".py",
+      "value": 7323
+    },
+    {
+      "name": ".js",
+      "value": 4440
+    },
+    {
+      "name": ".pbxproj",
+      "value": 1321
+    },
+    {
+      "name": ".lock",
+      "value": 588
+    },
+    {
+      "name": ".txt",
+      "value": 508
+    },
+    {
+      "name": ".css",
+      "value": 471
+    },
+    {
+      "name": ".cpp",
+      "value": 467
+    },
+    {
+      "name": ".xib",
+      "value": 343
+    },
+    {
+      "name": "no_ext",
+      "value": 300
+    },
+    {
+      "name": ".md",
+      "value": 231
+    },
+    {
+      "name": ".h",
+      "value": 219
+    },
+    {
+      "name": ".xcscheme",
+      "value": 200
+    },
+    {
+      "name": ".html",
+      "value": 193
+    },
+    {
+      "name": ".yaml",
+      "value": 159
+    },
+    {
+      "name": ".cc",
+      "value": 158
+    },
+    {
+      "name": ".plist",
+      "value": 139
+    },
+    {
+      "name": ".xml",
+      "value": 133
+    },
+    {
+      "name": ".rc",
+      "value": 121
+    },
+    {
+      "name": ".kts",
+      "value": 100
+    },
+    {
+      "name": ".swift",
+      "value": 77
+    },
+    {
+      "name": ".storyboard",
+      "value": 63
+    },
+    {
+      "name": ".cmake",
+      "value": 46
+    },
+    {
+      "name": ".xcconfig",
+      "value": 35
+    },
+    {
+      "name": ".xcworkspacedata",
+      "value": 21
+    },
+    {
+      "name": ".entitlements",
+      "value": 20
+    },
+    {
+      "name": ".xcsettings",
+      "value": 16
+    },
+    {
+      "name": ".manifest",
+      "value": 14
+    },
+    {
+      "name": ".properties",
+      "value": 8
+    },
+    {
+      "name": ".kt",
+      "value": 5
+    },
+    {
+      "name": ".svg",
+      "value": 3
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".db",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "fix: update SmartReallocationDashboard formatting and package-lock",
+      "author_name": "Vaishnavi226",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/9b1297392d1721b209b32d7c660c8930a8b8f625",
+      "date": "2026-03-07 05:43:40.000000"
+    },
+    {
+      "message": "Merge remote-tracking branch 'origin/shiv'",
+      "author_name": "Vaishnavi226",
+      "score": 1,
+      "summary": "The code diff provided is a merge commit that combines changes from the 'origin/shiv' branch into the current branch. This type of commit does not introduce any new code or change existing code; it simply merges another branch's changes into the current one.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/0e3052a29a1041da8d7be97ae170d4d6a78ccf79",
+      "date": "2026-03-07 05:27:50.000000"
+    },
+    {
+      "message": "header change and charts update",
+      "author_name": "omsingh10",
+      "score": 11,
+      "summary": "The code adds an API endpoint that processes user queries and returns a response. It uses the `fetch` function to send a POST request to a local server running on port 8000 with the query and chat history as JSON data. The server responds with a reply, which is then displayed in the frontend component.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/b2f828a1af3a4eaf5e9d815ec388e115010927a1",
+      "date": "2026-03-07 04:21:17.000000"
+    },
+    {
+      "message": "ALL MOST DONE",
+      "author_name": "omsingh10",
+      "score": 1,
+      "summary": "The commit message indicates that 'ALL MOST DONE' was committed, which suggests no actual changes were made to the codebase. This is likely a merge commit or an empty diff where no new files were added or existing ones modified.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/a61113c61611cf8ca43225b8dd76217a57034754",
+      "date": "2026-03-07 01:07:17.000000"
+    },
+    {
+      "message": "feat: add logo splash screen with fade+scale animation",
+      "author_name": "omsingh10",
+      "score": 11,
+      "summary": "The commit adds a new `SplashScreen` class to the frontend of the Hisab Kitab application. This component is designed to display a logo with a fade-in effect followed by a scaling animation before navigating to the authentication gate. The code includes state management using an AnimationController, animations for opacity and scale, and a delay before navigation.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/71af4bdf1a3dcb3f6e8932e8a6c1bb061e853e35",
+      "date": "2026-03-07 00:59:32.000000"
+    },
+    {
+      "message": "merge: anomalies public endpoint, Budget AI chip overflow fix",
+      "author_name": "omsingh10",
+      "score": 11,
+      "summary": "The commit adds a new API route in the frontend/hisab_kitab/lib/main.dart file to fetch and display analytics data, including states summary, fund lapse risk, reallocation suggestions, and leakage map. The code uses HTTP GET requests to retrieve this data from the backend server and updates the UI accordingly.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/622ae337703bc382f4eec82ccacd2bad112af274",
+      "date": "2026-03-07 00:53:57.000000"
+    },
+    {
+      "message": "fix: make anomalies/list endpoint public, fix Budget AI chip overflow with Flexible",
+      "author_name": "omsingh10",
+      "score": 1,
+      "summary": "The code diff shows no actual modifications to the files, only a merge operation. This indicates that there were separate commits for each change and they have been combined into a single commit.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/fd0fa56e549532dd56c52aa12d15e4e22743be0f",
+      "date": "2026-03-07 00:53:02.000000"
+    },
+    {
+      "message": "feat: add LeakageMap tab (Flutter), app logo in dashboard header & Flutter, fix Fund Lapse Predictor number formatting",
+      "author_name": "omsingh10",
+      "score": 11,
+      "summary": "The code adds a new tab for leakage map visualization, which will help users understand potential financial leaks or inefficiencies in their investments. The addition of the app logo enhances the visual appeal and branding of the dashboard. Additionally, the code fixes the formatting of the Fund Lapse Predictor data to ensure it is displayed correctly.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/bef636e4f96ad87ff90d43baec0e0118c1ff7255",
+      "date": "2026-03-07 00:39:41.000000"
+    },
+    {
+      "message": "WOW",
+      "author_name": "omsingh10",
+      "score": 4,
+      "summary": "The commit adds two new JSON files, `.vite/deps/_metadata.json` and `.vite/deps/package.json`, which contain metadata about the dependencies of a project. These files are crucial for managing the project's state and configuration.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/463b60d84e3aa891e03d90f2bed4e27a198924c5",
+      "date": "2026-03-06 23:45:46.000000"
+    },
+    {
+      "message": "Sync shiv with master: bring in CSV upload, ML anomaly detection, Smart Reallocation dashboard",
+      "author_name": "omsingh10",
+      "score": 13,
+      "summary": "The code adds a new API endpoint `/api/upload-csv` that allows users to upload CSV files containing budget data. It also includes logic to validate the columns, clean and type-cast the data, and perform basic error handling.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/72e56e0d06c0902d820e4d65ee6b0d8ad58df5b2",
+      "date": "2026-03-06 23:38:58.000000"
+    },
+    {
+      "message": "Merge shiv->master: Insights screen, Fund Lapse Risk, Reallocation tabs",
+      "author_name": "omsingh10",
+      "score": 1,
+      "summary": "The code added or changed includes new tabs for Insights, Fund Lapse Risk, and Reallocation in the AnalyticsScreen. It also introduces a new state variable `realloc` to store reallocation suggestions. The commit is marked as a merge commit with no specific technical changes described.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/2fe0f2a6c76ee02cdba613af5e7d86df085fedfb",
+      "date": "2026-03-06 23:38:07.000000"
+    },
+    {
+      "message": "feat: Smart Reallocation dashboard with live backend analytics\n\n- Add /api/analytics/smart-reallocation endpoint with median-based surplus/deficit detection\n- Build SmartReallocationDashboard with KPIs, expandable recommendations, before/after utilization bars\n- Charts: department utilization, state status pie, state allocation vs spending\n- Surplus/deficit department comparison tables\n- Add getSmartReallocation to api.js\n- Update App.jsx routing to use new dashboard",
+      "author_name": "Vaishnavi226",
+      "score": 12,
+      "summary": "The commit introduces a new feature for the Admin Dashboard, which includes an Anomaly Detection Dashboard. This dashboard provides real-time analytics on anomalies using various methods such as Isolation Forest and Z-Score. The dashboard displays key performance indicators (KPIs), expandable recommendations, before/after utilization bars, charts showing department utilization, state status pie, and state allocation vs spending. It also includes surplus/deficit department comparison tables.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/4c136959cfd57c1d9df5b45cdfd3795ccb660be0",
+      "date": "2026-03-06 23:20:07.000000"
+    },
+    {
+      "message": "feat: add CSV upload, ML anomaly detection, and fund lapse prediction\n\nBackend:\n- POST /api/upload-csv: CSV file upload with validation and auto-insert\n- GET /api/upload/template-columns: returns required column schema\n- GET /api/analytics/anomaly-detection: multi-model detection\n  (Isolation Forest + Z-Score + Rule Engine) with composite scoring\n- GET /api/analytics/fund-lapse-prediction: Linear Regression forecasting\n  with district/dept-level risk scoring and trend analysis\n- Fix: GEMINI_API_KEY made optional, emoji prints replaced for Windows\n\nFrontend:\n- CSVUploadPage: drag-drop CSV upload with preview and validation\n- AnomalyDetectionDashboard: severity charts, method comparison,\n  dept/state breakdown, expandable detail rows\n- PredictiveModelingDashboard: spending trend with forecast overlay,\n  department lapse chart, district risk table with factors\n- Sidebar: added Upload Data + shield icon for Anomaly Detection\n- api.js: 4 new endpoint functions",
+      "author_name": "Vaishnavi226",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/e037c34061491a3b43ec8a0fb3b5f01acd197799",
+      "date": "2026-03-06 22:55:57.000000"
+    },
+    {
+      "message": "Feature: Insights screen - Budget Utilization, Fund Lapse Risk, Reallocation Suggestions\n\n- Analytics tab renamed to 'Insights' with 3 sub-tabs\n- Tab 1 (Utilization): distribution overview + state-wise progress bars\n- Tab 2 (Fund Lapse): at-risk depts with HIGH/MEDIUM/LOW badges + unspent amounts\n- Tab 3 (Reallocation): surplus->deficit arrow cards with suggested Cr amounts\n- Backend: /api/fund-lapse-risk (adaptive threshold based on dataset median)\n- Backend: /api/reallocation-suggestions (surplus/deficit dept pairs)",
+      "author_name": "omsingh10",
+      "score": 12,
+      "summary": "The code adds three new API endpoints for fund lapse risk and reallocation suggestions. It also updates the UI to include a new tab in the Analytics section of the app, which displays utilization data, fund lapse risk information, and reallocation suggestions.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/73c74a3458bd58076a6965b1098552a461b86860",
+      "date": "2026-03-06 22:48:37.000000"
+    },
+    {
+      "message": "Merge shiv->master: all features, AndroidManifest cleartext, hotspot IP, custom logo, Gemini AI",
+      "author_name": "omsingh10",
+      "score": 1,
+      "summary": "This is a merge commit that combines changes from two branches, adding new functionalities and optimizations to the project.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/707491d0ee1dcd783613920ea7afcb71ee8c4aa7",
+      "date": "2026-03-06 22:33:09.000000"
+    },
+    {
+      "message": "p2-budgetindia",
+      "author_name": "Vaishnavi226",
+      "score": 1,
+      "summary": "This commit is a merge commit that combines multiple changes into one, resulting in no new code being added or modified.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/50df87dd61b086f92dc94b92298f9d27b1561e5f",
+      "date": "2026-03-06 22:26:26.000000"
+    },
+    {
+      "message": "update",
+      "author_name": "Vaishnavi226",
+      "score": 11,
+      "summary": "The code adds a new API endpoint `/api/chat` that uses the Gemini AI client to handle budget-related chat requests. It includes error handling for when the Gemini API key is missing.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/46b08a940d7a8cd0eb6abb2ac3caa5da730b5854",
+      "date": "2026-03-06 22:24:44.000000"
+    },
+    {
+      "message": "chore: resolve DB binary conflict, keep origin version",
+      "author_name": "Vaishnavi226",
+      "score": 4,
+      "summary": "The code diff shows changes to configuration files and a commit message. This is likely a merge commit or an update to the project's configuration settings.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/43adb7c216a7477dc277338c0db781283d6bb75a",
+      "date": "2026-03-06 21:35:00.000000"
+    },
+    {
+      "message": "PHYCALLY-CONNECTED - PHONE",
+      "author_name": "omsingh10",
+      "score": 5,
+      "summary": "The commit does not add or change any code, only updates the build configuration for an Android app using Flutter. This is typical of a default setup when creating a new project with these frameworks.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/2528b36d03f7ea2fe8408875661c03199971ff6b",
+      "date": "2026-03-06 21:14:42.000000"
+    },
+    {
+      "message": "Fix: add usesCleartextTraffic=true and INTERNET permission to AndroidManifest (Android 9+ blocks HTTP by default)",
+      "author_name": "omsingh10",
+      "score": 11,
+      "summary": "The commit adds a new API route that handles the creation, reading, updating, and deletion of data. It includes input validation to ensure data integrity.",
+      "url": "https://github.com/omsingh10/COHERENCE-26_Git-Ignite/commit/f0851f58acdbedae3fa29ef77da4bcab3219f615",
+      "date": "2026-03-06 21:12:34.000000"
+    }
+  ],
+  "final_review": "The developers built several features and systems for various applications, including an Admin Dashboard with Anomaly Detection, Insights, Fund Lapse Risk, Reallocation, and Leakage Map tabs in the AnalyticsScreen. They used React, Next.js, MongoDB, Express, and FastAPI technologies. Their development pattern involved frequent commits and well-structured code, with a focus on building working features rather than just adding setup/configurations. The code quality was assessed based on scores: 13+ for strong technical code, 7-12 for building working features, and 1-6 for mostly setup/configurations. AI-generated code portions were noted where multiple commits had generic descriptions or identical patterns. Standout commits included the BudgetGptScreen class with an API route for sending messages to a backend service, and the Admin Dashboard with Anomaly Detection. Wasted commits were identified as merge commits and empty files. The project was functional but could have been improved in terms of code quality and documentation. The overall verdict was that they built substantial features using React, Next.js, MongoDB, Express, and FastAPI technologies, with a focus on building working features rather than just adding setup/configurations."
+}

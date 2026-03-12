@@ -1,0 +1,331 @@
+{
+  "team_name": "BlackBox Lite",
+  "commit_count": 27,
+  "additions": 11392,
+  "deletions": 3778,
+  "churn_rate": 0.33,
+  "productivity_score": 1166.2,
+  "hourly_commits": [
+    0,
+    0,
+    4,
+    13,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    11392,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Visha Yadav",
+      "commits": 9
+    },
+    {
+      "name": "viraj222del",
+      "commits": 8
+    },
+    {
+      "name": "viraj ravani",
+      "commits": 8
+    },
+    {
+      "name": "yashvi",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "backend/storage/leads.json",
+      "value": 4131
+    },
+    {
+      "name": "backend/main.py",
+      "value": 1652
+    },
+    {
+      "name": "frontend/index.html",
+      "value": 1065
+    },
+    {
+      "name": "frontend/outreach_dashboard.html",
+      "value": 935
+    },
+    {
+      "name": "frontend/script.js",
+      "value": 849
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend",
+      "value": 6801
+    },
+    {
+      "name": "backend/storage",
+      "value": 5517
+    },
+    {
+      "name": "backend",
+      "value": 1858
+    },
+    {
+      "name": "/",
+      "value": 808
+    },
+    {
+      "name": "backend/storage/generated",
+      "value": 119
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 5547
+    },
+    {
+      "name": ".html",
+      "value": 3958
+    },
+    {
+      "name": ".py",
+      "value": 1952
+    },
+    {
+      "name": ".js",
+      "value": 1941
+    },
+    {
+      "name": ".css",
+      "value": 939
+    },
+    {
+      "name": ".txt",
+      "value": 605
+    },
+    {
+      "name": ".csv",
+      "value": 155
+    },
+    {
+      "name": ".md",
+      "value": 56
+    },
+    {
+      "name": "no_ext",
+      "value": 17
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "dashboard",
+      "author_name": "viraj ravani",
+      "score": 8,
+      "summary": "The code adds a few minor changes to the outreach_dashboard.html file, including updates to CSS styles and transitions for hover effects. The overall impact is minimal and focused on improving the visual appearance of the dashboard.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/b9a44d36088008c88f6ba886d6e43528da4b3a1b",
+      "date": "2026-03-06 23:42:27.000000"
+    },
+    {
+      "message": "dashboard",
+      "author_name": "viraj ravani",
+      "score": 9,
+      "summary": "The code adds a new file `workflow_builder.html` with a simple layout for building custom workflows using Tailwind CSS and Lucide icons. It includes a navigation bar, a title, and a section with a node palette for drag-and-drop functionality.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/50083db5acc905b5f52cf41715a419c87e534fd5",
+      "date": "2026-03-06 22:21:27.000000"
+    },
+    {
+      "message": "clean integration: secure whatsapp outreach",
+      "author_name": "viraj ravani",
+      "score": 12,
+      "summary": "The code adds a new API endpoint to send WhatsApp messages using Twilio. It retrieves the necessary configuration from environment variables and uses the Twilio client to send messages. The function `_send_whatsapp_message` is added to handle the message sending process.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/cb65a695324ddbd62c0830070f626e00aa18b230",
+      "date": "2026-03-06 20:39:03.000000"
+    },
+    {
+      "message": "dashboard",
+      "author_name": "viraj ravani",
+      "score": 7,
+      "summary": "The code adds a simple outreach dashboard with navigation, search functionality, and basic styling elements. It includes components like a nav bar, main content area, and input fields for filtering campaigns.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/a8689dd0e5bedfa19d0688f7115906fcd95b4186",
+      "date": "2026-03-06 19:46:57.000000"
+    },
+    {
+      "message": "Nurture working",
+      "author_name": "viraj ravani",
+      "score": 12,
+      "summary": "The code adds a new API endpoint `/generate-emails` to handle email generation based on the provided payload. It also includes a new endpoint `/save-campaign` to save campaign details. The code uses FastAPI for routing, handles HTTP requests, and interacts with JSON files for storing leads and campaign runs.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/b2151792d038777cf7fb7fbc2040f810b6f55669",
+      "date": "2026-03-06 19:39:37.000000"
+    },
+    {
+      "message": "Nurturing 0.2",
+      "author_name": "Visha Yadav",
+      "score": 11,
+      "summary": "The commit adds a new Python script, `test_nurture_imaps.py`, which implements an API to send emails and wait for replies. It uses SMTP for email sending and IMAP for receiving responses. The code is well-architected with clear functions and error handling.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/f497c16080346abfef15d89f7a65780ea44f6793",
+      "date": "2026-03-06 17:35:27.000000"
+    },
+    {
+      "message": "template 2 established",
+      "author_name": "Visha Yadav",
+      "score": 11,
+      "summary": "The code introduces a function `_process_bulk_send` that handles the logic for sending emails based on the campaign workflow. It includes steps for soft intro, nurture follow-up, and AI-generated pitch emails for the 'nurture' workflow. The code also logs Gmail errors and updates the campaign progress.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/6153253a9b4d7a2360c5a826e5b6ea0c3e56476d",
+      "date": "2026-03-06 17:16:21.000000"
+    },
+    {
+      "message": "feat: implement SMTP email campaign launching and workflow status",
+      "author_name": "viraj ravani",
+      "score": 1,
+      "summary": "The code diff shows additions to `frontend/stage4.html`, including HTML structure, CSS imports and Tailwind configuration. The page contains navigation elements, icons from Lucide, and basic styling with Tailwind classes.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/7d0d1e4222d450233ddb460c6796e5e1c171d379",
+      "date": "2026-03-06 16:03:51.000000"
+    },
+    {
+      "message": "stage 3",
+      "author_name": "viraj ravani",
+      "score": 1,
+      "summary": "The commit adds a new JSON file with 9 lead entries, each containing details like name, company, email, industry, location, linkedin, status, source, and created_at. The code does not add or change any other files or directories.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/080f338639e4f941c594bafb0464b2daac57347c",
+      "date": "2026-03-06 13:09:48.000000"
+    },
+    {
+      "message": "refined frontend",
+      "author_name": "viraj ravani",
+      "score": 4,
+      "summary": "The commit only contains changes to configuration files such as `tailwind.config.js`, `style.css`, and metadata in the HTML file. It does not introduce any new code or functionality.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/5ceb6a61526c291206c5ac0c25c82cbca17dc36f",
+      "date": "2026-03-06 12:02:40.000000"
+    },
+    {
+      "message": "with phase 2",
+      "author_name": "yashvi",
+      "score": 1,
+      "summary": "The code adds a new file named 'leads.json' to the backend/storage directory. This file contains an array of objects, each representing a lead with details such as name, company, email, industry, location, linkedin profile (empty), status, source, and creation date. The data is generated mock data for testing purposes.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/63b49e6d57d1cf8bf06c98d1743314f921f88310",
+      "date": "2026-03-06 10:06:00.000000"
+    },
+    {
+      "message": "Update campaign_context.json",
+      "author_name": "viraj222del",
+      "score": 9,
+      "summary": "The commit adds a new campaign context to the database with details such as industry, company name, product description, target customer, geography, outreach channel, campaign goal, and timestamps. This is a simple utility function for managing campaign data.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/2ee913ecfaea2af2f42aec8bd12af907715a53c4",
+      "date": "2026-03-06 09:34:34.000000"
+    },
+    {
+      "message": "Update style.css",
+      "author_name": "viraj222del",
+      "score": 17,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/38865061b2ece69c4e124137a7625899061b9433",
+      "date": "2026-03-06 09:33:51.000000"
+    },
+    {
+      "message": "Create campaign_context.json",
+      "author_name": "Visha Yadav",
+      "score": 1,
+      "summary": "The commit adds an empty JSON file to the backend/storage directory, which is likely intended for storing context or metadata related to campaigns. The code does not contain any logic or functionality; it simply creates a new file.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/82b3c30bc7ebcd152d8e97c324172a3eaf30bb7d",
+      "date": "2026-03-06 09:33:42.000000"
+    },
+    {
+      "message": "Update stage2.html",
+      "author_name": "viraj222del",
+      "score": 1,
+      "summary": "This commit introduces new dependencies and customizations to the HTML file. It enhances the user interface with modern design elements and integrates additional functionality through third-party libraries.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/6b8c502dce58b162ed96a0aa1488e2c8020f9ef5",
+      "date": "2026-03-06 09:32:59.000000"
+    },
+    {
+      "message": "Create style.css",
+      "author_name": "Visha Yadav",
+      "score": 1,
+      "summary": "This is an empty commit that creates a new CSS file. It doesn't contain any code or changes to existing files, which fits the 'No code / merge commit / empty diff' category.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/c3c966a1169c59214b444729f97c8e75e9e1bbb3",
+      "date": "2026-03-06 09:32:53.000000"
+    },
+    {
+      "message": "Create stage2.html",
+      "author_name": "Visha Yadav",
+      "score": 1,
+      "summary": "The commit message indicates that a file named 'stage2.html' was created, but the actual diff shows an empty line. This suggests that the commit might have been intended to create the file without any content.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/ebfcfb350d7a8d6c238c1cb94c018b3b7fe3adbf",
+      "date": "2026-03-06 09:32:37.000000"
+    },
+    {
+      "message": "Update setup.html",
+      "author_name": "viraj222del",
+      "score": 1,
+      "summary": "The commit added a new HTML file for the campaign setup page, which includes Bootstrap, Tailwind CSS, Google Fonts, Lucide Icons, and custom styles. The script configures Tailwind CSS with custom colors and fonts. Additionally, it includes navigation elements to return to the index page.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/5406c03dc8601ac5048455bcbd99393ea238206f",
+      "date": "2026-03-06 09:32:18.000000"
+    },
+    {
+      "message": "Create setup.html",
+      "author_name": "Visha Yadav",
+      "score": 1,
+      "summary": "This commit adds a new HTML file to the project, which is typically used for setting up initial configurations or metadata. The addition of this file indicates that the developer has started working on the frontend setup process.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/ab49bac0a7a5517e6e4ea88efa1587486e377346",
+      "date": "2026-03-06 09:32:07.000000"
+    },
+    {
+      "message": "Update script.js",
+      "author_name": "viraj222del",
+      "score": 11,
+      "summary": "The code adds functionality to validate required fields, handle the multi-select geography dropdown using checkboxes, update selected geographies, render geo tags, and update the placeholder text. It also includes event listeners for toggling the dropdown and handling checkbox changes.",
+      "url": "https://github.com/Vishayadav/COHERENCE-26_BlackBox_Lite/commit/4cc61fae2eb2435ebf51483ebc0ef11afd9b358a",
+      "date": "2026-03-06 09:31:49.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'BlackBox Lite' built several key features, including lead management, campaign setup, user interface enhancements, and email automation. They started with basic setup tasks such as adding files for leads, campaigns, and UI components, which they committed frequently to keep the project organized. However, some commits were auto-analyzed or empty, indicating potential AI-generated content.\n\nThe code quality varied widely, with scores ranging from 1 to 17. The highest score of 17 was given to an auto-analyzed commit, suggesting that some parts of their work might have been generated by AI tools. Other commits had lower scores, indicating that they were more focused on setup and configuration rather than building robust features.\n\nThe team committed well-structured code for many of the tasks, with clear descriptions in commit messages. However, there was a noticeable trend of merge commits, which could indicate a lack of frequent feature development or refactoring. This might have been due to the pressure of completing the project within the 24-hour timeframe.\n\nOne standout commit was the addition of a new API endpoint for sending emails and waiting for replies, demonstrating a strong understanding of backend development and integration with third-party services like Gmail and IMAP.\n\nOverall, while Team 'BlackBox Lite' managed to complete several tasks within the given time frame, their code quality could be improved. They demonstrated some strengths in setup and configuration but fell short in building functional features that would have made the project more robust and maintainable."
+}

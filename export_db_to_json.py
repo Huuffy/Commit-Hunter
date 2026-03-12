@@ -14,7 +14,7 @@ import sqlite3
 import json
 import os
 
-DB_PATH = os.path.join("backend", "data", "commit_collector.db")
+DB_PATH = os.path.join("backend", "commit_collector.db")
 OUT_DIR = os.path.join("frontend", "public", "data")
 ANALYTICS_DIR = os.path.join(OUT_DIR, "analytics")
 

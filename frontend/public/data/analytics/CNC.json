@@ -1,0 +1,339 @@
+{
+  "team_name": "CNC",
+  "commit_count": 22,
+  "additions": 42500,
+  "deletions": 10256,
+  "churn_rate": 0.24,
+  "productivity_score": 4272.0,
+  "hourly_commits": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    4,
+    1,
+    1,
+    0,
+    2,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    42500,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Vinit Yadav",
+      "commits": 11
+    },
+    {
+      "name": "Urvashi-0810",
+      "commits": 7
+    },
+    {
+      "name": "Vipul",
+      "commits": 3
+    },
+    {
+      "name": "Urvashi Yadav",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "my-app/package-lock.json",
+      "value": 6592
+    },
+    {
+      "name": "frontend/package-lock.json",
+      "value": 4782
+    },
+    {
+      "name": "frontend/pnpm-lock.yaml",
+      "value": 3268
+    },
+    {
+      "name": "frontend/app/analyze/page.tsx",
+      "value": 2965
+    },
+    {
+      "name": "frontend/app/results/page.tsx",
+      "value": 2369
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "frontend",
+      "value": 8247
+    },
+    {
+      "name": "frontend/components",
+      "value": 6893
+    },
+    {
+      "name": "my-app",
+      "value": 6761
+    },
+    {
+      "name": "frontend/components/ui",
+      "value": 6755
+    },
+    {
+      "name": "frontend/app/analyze",
+      "value": 3665
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".tsx",
+      "value": 33547
+    },
+    {
+      "name": ".json",
+      "value": 11582
+    },
+    {
+      "name": ".ts",
+      "value": 3461
+    },
+    {
+      "name": ".yaml",
+      "value": 3268
+    },
+    {
+      "name": ".css",
+      "value": 672
+    },
+    {
+      "name": ".svg",
+      "value": 78
+    },
+    {
+      "name": "no_ext",
+      "value": 58
+    },
+    {
+      "name": ".mjs",
+      "value": 44
+    },
+    {
+      "name": ".md",
+      "value": 43
+    },
+    {
+      "name": ".tsbuildinfo",
+      "value": 3
+    },
+    {
+      "name": ".ico",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    },
+    {
+      "name": ".jpg",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Merge branch 'main' of https://github.com/VipulMore11/26_CODECRUSADERS",
+      "author_name": "Vipul",
+      "score": 1,
+      "summary": "This is a merge commit that combines changes from another branch into the current one. It does not introduce new features or modify existing ones.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/832a9f32477249e92b5368a7acad64e6eb6e99b6",
+      "date": "2026-03-07 04:24:09.000000"
+    },
+    {
+      "message": "Added animation",
+      "author_name": "Vipul",
+      "score": 1,
+      "summary": "The code diff shows changes in the `page.tsx` file, where a new import statement for the `Clock` icon from Lucide React was added. This addition suggests that an animation or visual element related to time has been implemented in the application.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/0bad09c8b65099bd3ae130360f7d8ba07ab4e4f6",
+      "date": "2026-03-07 04:20:44.000000"
+    },
+    {
+      "message": " map feature added",
+      "author_name": "Vinit Yadav",
+      "score": 11,
+      "summary": "The commit adds a new API route that handles logic for managing trials. It includes handling CRUD operations such as creating, reading, updating, and deleting trial records.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/6620ea4c9c126305187a8e5b8d94720fa4e88b72",
+      "date": "2026-03-07 02:25:56.000000"
+    },
+    {
+      "message": " created new pages for alternate treatments and also fixed the routing issue",
+      "author_name": "Vinit Yadav",
+      "score": 1,
+      "summary": "The commit introduces new treatment options (GLP-1 agonists, immunotherapy) and corrects routing issues in the frontend application. This enhances user experience by providing more comprehensive health management information.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/9a3c7131b982c9d2623ddb6e843eee1eca9a6215",
+      "date": "2026-03-07 01:25:17.000000"
+    },
+    {
+      "message": " final forntend push",
+      "author_name": "Vinit Yadav",
+      "score": 1,
+      "summary": "The code diff shows a significant addition of a new file `page.tsx` which contains the main content of the analysis dashboard page. This component uses React hooks for state management and integrates with Next.js routing and dropzone functionality for handling file uploads. The page includes features like manual form inputs, condition selection, medication input, allergy management, location entry, notes, and tabs for different sections of the dashboard.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/572313e554125c2f9450f4c649404c0d0091272a",
+      "date": "2026-03-07 00:21:14.000000"
+    },
+    {
+      "message": "additional ui features",
+      "author_name": "Urvashi-0810",
+      "score": 12,
+      "summary": "The code adds a new API endpoint to handle requests related to clinical trials. It includes functions to fetch, create, and update trial data, which are essential for managing the application's database of clinical trials.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/516cb7338c76ffe026b012e8df4b18aa464cc4b8",
+      "date": "2026-03-06 23:44:31.000000"
+    },
+    {
+      "message": "additional ui changes",
+      "author_name": "Urvashi-0810",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/ca17a4bafef1acb813930c94c48137f1476a4346",
+      "date": "2026-03-06 23:40:36.000000"
+    },
+    {
+      "message": " added briefinfo in Clinical Trial Matches and Clinical Trial Discovery",
+      "author_name": "Vinit Yadav",
+      "score": 12,
+      "summary": "The code adds mock clinical trial data to the frontend application. This involves creating a new TypeScript file `data.ts` that exports an array of `ClinicalTrial` objects, each representing a mock clinical trial. The trials include details such as ID, name, phase, status, condition, and more. This setup allows for easy integration of mock data into the application's API routes, forms, and CRUD operations.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/571919e1830c3a11ae8aaed1ee0027a71b5b5420",
+      "date": "2026-03-06 23:36:49.000000"
+    },
+    {
+      "message": "Changed the  UI of the home page",
+      "author_name": "Urvashi-0810",
+      "score": 7,
+      "summary": "The code changes focus on updating the UI of a section called 'Features Section' within the frontend components. It modifies the styles and layout of various features listed under this section, including changing icons, titles, descriptions, and highlighting for some features.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/cfc98d153f80f9750c1d3df6b9af6ccd88c2013b",
+      "date": "2026-03-06 22:50:46.000000"
+    },
+    {
+      "message": " changed the logo of the site",
+      "author_name": "Vinit Yadav",
+      "score": 1,
+      "summary": "The provided commit only contains changes to the commit message and metadata files, which do not affect any actual code or functionality.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/f8f7a4029d755cc7d2c321ced3dc37ade6874062",
+      "date": "2026-03-06 21:50:43.000000"
+    },
+    {
+      "message": "Dashboard cards fix",
+      "author_name": "Vinit Yadav",
+      "score": 1,
+      "summary": "The provided diff shows no modifications to the file, indicating that it is a merge commit or an empty diff.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/0bde62cc5f2fed24f8c031eab91074c07f054ae2",
+      "date": "2026-03-06 20:59:35.000000"
+    },
+    {
+      "message": "merged feature branch code to main",
+      "author_name": "Urvashi-0810",
+      "score": 1,
+      "summary": "This is a merge commit with no specific changes to the codebase, only updates to the README.md file.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/99c23c8b63011a176b0ef1bfeedecd7e52ef933e",
+      "date": "2026-03-06 20:12:44.000000"
+    },
+    {
+      "message": "Merge pull request #1 from VipulMore11/feature/new-updated-frontend\n\nReplaced existing frontend with updated frontend",
+      "author_name": "Urvashi Yadav",
+      "score": 1,
+      "summary": "This is a merge commit, which means it combines changes from one branch into another. The code diff shows significant modifications to various components and files within the frontend of the application.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/1ac7242a627831028ed90f0e64eee4fb97e2a9db",
+      "date": "2026-03-06 19:05:09.000000"
+    },
+    {
+      "message": "Replaced existing frontend with updated frontend",
+      "author_name": "Urvashi-0810",
+      "score": 14,
+      "summary": "The commit replaces the existing frontend with an updated version that includes a new API route for handling treatment data. It also introduces features such as input fields for creating and updating treatments, along with basic validation for user inputs.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/70c858e1b65d9928bfa2da9c0d0b43decfb8f11a",
+      "date": "2026-03-06 18:55:23.000000"
+    },
+    {
+      "message": " fixed the overall css error",
+      "author_name": "Vinit Yadav",
+      "score": 1,
+      "summary": "[\"The code diff shows a single addition to the file `layout.tsx` in the frontend directory. This addition consists of a new line that reads '// pushing it for some changes'.\", 'This change does not affect any technical functionality or logic within the codebase. It is simply an additional comment added to the file.', 'The quality of this change can be considered poor as it does not contribute to the main purpose of the code and adds no value to the overall project.']",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/88ff5b8561983653b2aa4f3c9598c0d573a4f2b2",
+      "date": "2026-03-06 18:24:11.000000"
+    },
+    {
+      "message": " fixed the overall css error",
+      "author_name": "Vinit Yadav",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/fbf2d62df6326520222fbfdf72a4d48a0c6c0a0e",
+      "date": "2026-03-06 17:06:52.000000"
+    },
+    {
+      "message": " created view details page for clinical analysis",
+      "author_name": "Vinit Yadav",
+      "score": 12,
+      "summary": "The code adds a new route and component to display detailed information about clinical trials. It uses Next.js client-side rendering, Next.js navigation hooks, and React components from Tailwind CSS UI library. The data is mocked using `trialDetailsStore` object, which simulates fetching real trial details in a production environment.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/a272d8226c1e94b5ee5d8872d013eae41cda8fb6",
+      "date": "2026-03-06 16:19:57.000000"
+    },
+    {
+      "message": " error resolved -clinical analysis",
+      "author_name": "Vinit Yadav",
+      "score": 18,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/92f7455dcdda801f7e0015a5a6f8a0de3cc4c030",
+      "date": "2026-03-06 14:16:12.000000"
+    },
+    {
+      "message": " changed the theme of the site",
+      "author_name": "Vinit Yadav",
+      "score": 5,
+      "summary": "The commit only includes configuration files and a README file. There are no new files or changes to existing ones that would affect the functionality of the site.",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/0cf15ba9ce2e1bdcdb13f5fb2e80e963aade926f",
+      "date": "2026-03-06 13:13:52.000000"
+    },
+    {
+      "message": "Frontend iter1",
+      "author_name": "Urvashi-0810",
+      "score": 20,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/VipulMore11/26_CODECRUSADERS/commit/2bbfce3f1f516cc1fbd17690406c9a6eafedaa6b",
+      "date": "2026-03-06 12:20:58.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'CNC' built a comprehensive clinical trial management system using Next.js for the frontend, with MongoDB as the database backend. The team started by setting up the project structure, including routes and components for displaying trial details and managing treatments. They then added new features such as creating and updating trials, handling file uploads, and integrating mock data into the application's API routes.\n\nThe development pattern was characterized by frequent commits, with each commit focusing on a specific feature or improvement. While some commits were well-structured, others were more casual and lacked clear descriptions. The code quality varied; mid-range scores indicated that they built working features but still needed improvements in terms of readability and maintainability.\n\nAI-generated code was identified in several commits, particularly those with generic descriptions and identical patterns. This suggests that the team may have used AI tools for some parts of their development process, which could impact the overall quality of the work.\n\nThe standout commit was the addition of a new API endpoint to handle trial data management, which demonstrated strong technical code and improved functionality. However, there were several wasted commits, including merge commits and empty files, which detracted from the project's progress.\n\nOverall, Team 'CNC' built a functional clinical trial management system with some areas for improvement in terms of code quality and documentation. The project is still functional but could benefit from more thorough refactoring and better documentation to ensure it meets expected standards for a 24-hour hackathon."
+}

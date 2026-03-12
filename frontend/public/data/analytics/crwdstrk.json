@@ -1,0 +1,191 @@
+{
+  "team_name": "crwdstrk",
+  "commit_count": 4,
+  "additions": 12901,
+  "deletions": 20,
+  "churn_rate": 0.0,
+  "productivity_score": 1294.1,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    12901,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "wajiha-kulsum",
+      "commits": 3
+    },
+    {
+      "name": "0xsoydev",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "pnpm-lock.yaml",
+      "value": 5890
+    },
+    {
+      "name": "convex/matching.ts",
+      "value": 745
+    },
+    {
+      "name": "app/(app)/match/page.tsx",
+      "value": 606
+    },
+    {
+      "name": "app/(app)/match/[patientId]/[trialId]/page.tsx",
+      "value": 576
+    },
+    {
+      "name": "convex/seed.ts",
+      "value": 527
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 6048
+    },
+    {
+      "name": "convex",
+      "value": 2457
+    },
+    {
+      "name": "components/landing",
+      "value": 1557
+    },
+    {
+      "name": "app/(app)/match",
+      "value": 606
+    },
+    {
+      "name": "app/(app)/match/[patientId]/[trialId]",
+      "value": 576
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".yaml",
+      "value": 5890
+    },
+    {
+      "name": ".tsx",
+      "value": 4169
+    },
+    {
+      "name": ".ts",
+      "value": 2417
+    },
+    {
+      "name": ".css",
+      "value": 191
+    },
+    {
+      "name": ".json",
+      "value": 109
+    },
+    {
+      "name": ".md",
+      "value": 90
+    },
+    {
+      "name": "no_ext",
+      "value": 45
+    },
+    {
+      "name": ".mjs",
+      "value": 7
+    },
+    {
+      "name": ".cjs",
+      "value": 3
+    },
+    {
+      "name": ".png",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "feat: add landing page sections with custom hover animations",
+      "author_name": "wajiha-kulsum",
+      "score": 13,
+      "summary": "The commit adds a new `FeaturesSection` component to the landing page. This component uses Next.js client-side rendering, React hooks (useState and useRef), framer-motion for animations, and icons from Lucide React. The component displays six cards with titles, subtitles, statistics, tags, images, icons, accents, hover labels, and related functionalities. The commit also includes a ref to the container element and uses scroll-based animations for smooth progress tracking.",
+      "url": "https://github.com/0xsoydev/COHERENCE-26_CRWDSTRK/commit/eae037ce06b8d6fa395737d24b622f8cffd6f5f0",
+      "date": "2026-03-07 02:52:43.000000"
+    },
+    {
+      "message": "feat: add modular landing page with Navbar and HeroSection",
+      "author_name": "wajiha-kulsum",
+      "score": 1,
+      "summary": "The code adds a new feature to the landing page by introducing components for floating resources, bottom-right features, and a doctor card. It also includes updates to the hero section's design and functionality.",
+      "url": "https://github.com/0xsoydev/COHERENCE-26_CRWDSTRK/commit/595d539515e8fa255d455a7ba58900e8b6608f29",
+      "date": "2026-03-06 20:49:02.000000"
+    },
+    {
+      "message": "fix: initialize Groq client lazily to avoid missing env var at module load time",
+      "author_name": "wajiha-kulsum",
+      "score": 1,
+      "summary": "The commit is a merge commit with no changes to the files.",
+      "url": "https://github.com/0xsoydev/COHERENCE-26_CRWDSTRK/commit/3f6162d1550b94b8f286be132425fc6e4145dfb2",
+      "date": "2026-03-06 15:49:47.000000"
+    },
+    {
+      "message": "init",
+      "author_name": "0xsoydev",
+      "score": 12,
+      "summary": "The code defines interfaces for patient data, criterion data, trial data, and criterion results. It also includes functions to evaluate criteria based on structured or heuristic matching logic.",
+      "url": "https://github.com/0xsoydev/COHERENCE-26_CRWDSTRK/commit/7262974065daeb7a417ad85369f4c9c898d60512",
+      "date": "2026-03-06 11:03:54.000000"
+    }
+  ],
+  "final_review": "Team 'crwdstrk' built a robust healthcare platform with features like patient data management, criterion evaluation, trial tracking, and dynamic landing pages using React, Next.js, MongoDB, and Express. The development pattern was characterized by frequent commits (4) that often contained multiple related changes or improvements. While some commits were well-structured and focused on specific features, others appeared to be merge commits with no meaningful changes.\n\nThe code quality assessment revealed a mix of work. Some commits, such as the first one defining interfaces for patient data, criterion data, trial data, and criterion results, showed strong technical depth (score 12). However, other commits, like the landing page updates, were more focused on design and functionality improvements (scores 13).\n\nThe project included several standout commits, including the addition of a new `FeaturesSection` component to the landing page. This commit demonstrated proficiency in Next.js client-side rendering, React hooks, framer-motion for animations, and Lucide React icons. The component's structure was clean and efficient, showcasing strong technical skills.\n\nDespite these strengths, there were also some wasted commits, such as a merge commit with no changes (score 1) and an empty file commit (score 1). These could have been avoided by more careful planning and organization.\n\nOverall, 'crwdstrk' built a functional platform with several notable features. However, the project could benefit from better code structure and refactoring to ensure that each commit is focused on a single, well-defined task. The final output was functional but not groundbreaking, which aligns with what's expected in a 24-hour hackathon."
+}

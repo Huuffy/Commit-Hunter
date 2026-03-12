@@ -1,0 +1,327 @@
+{
+  "team_name": "Code Phoenix",
+  "commit_count": 33,
+  "additions": 73993,
+  "deletions": 16483,
+  "churn_rate": 0.22,
+  "productivity_score": 7432.3,
+  "hourly_commits": [
+    0,
+    0,
+    1,
+    3,
+    1,
+    0,
+    0,
+    1,
+    3,
+    2,
+    5,
+    3,
+    2,
+    4,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    3,
+    0,
+    1
+  ],
+  "hourly_volume": [
+    73993,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "itsanjali2410",
+      "commits": 24
+    },
+    {
+      "name": "23f3000933",
+      "commits": 7
+    },
+    {
+      "name": "Anjali Gupta",
+      "commits": 1
+    },
+    {
+      "name": "Sargam Sharma",
+      "commits": 1
+    }
+  ],
+  "top_files": [
+    {
+      "name": "frontend/package-lock.json",
+      "value": 13348
+    },
+    {
+      "name": "backend/backend_source.txt",
+      "value": 9284
+    },
+    {
+      "name": "frontend/app/dashboard/trials/page.tsx",
+      "value": 2416
+    },
+    {
+      "name": "backend/src/app/routes/auth_route.py",
+      "value": 1655
+    },
+    {
+      "name": "backend/24HOUR_PROTOTYPE.md",
+      "value": 1572
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "backend",
+      "value": 17203
+    },
+    {
+      "name": "/",
+      "value": 16353
+    },
+    {
+      "name": "frontend",
+      "value": 15346
+    },
+    {
+      "name": "backend/src/app/services",
+      "value": 5414
+    },
+    {
+      "name": "backend/src/app/routes",
+      "value": 4170
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".md",
+      "value": 25322
+    },
+    {
+      "name": ".tsx",
+      "value": 24236
+    },
+    {
+      "name": ".py",
+      "value": 14231
+    },
+    {
+      "name": ".json",
+      "value": 13886
+    },
+    {
+      "name": ".txt",
+      "value": 9315
+    },
+    {
+      "name": ".ts",
+      "value": 2833
+    },
+    {
+      "name": ".css",
+      "value": 286
+    },
+    {
+      "name": "no_ext",
+      "value": 186
+    },
+    {
+      "name": ".js",
+      "value": 164
+    },
+    {
+      "name": ".csv",
+      "value": 17
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "backend is done",
+      "author_name": "itsanjali2410",
+      "score": 20,
+      "summary": "The code introduces a new eligibility check function that evaluates patient's age and condition against trial criteria. It includes detailed logic for handling different age ranges and condition matches, ensuring robustness and accuracy in determining eligibility.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/6601bbe9290ce548b184b158bdb1770d5dc7eaaa",
+      "date": "2026-03-07 05:33:04.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX",
+      "author_name": "itsanjali2410",
+      "score": 1,
+      "summary": "The code diff shows a merge commit that combines changes from the 'main' branch into the current branch. This type of commit is often used to integrate updates from other developers or branches into the main development line.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/61bb045950bde30090a22fa198f0b5da61d40382",
+      "date": "2026-03-07 03:54:41.000000"
+    },
+    {
+      "message": "foxed many things",
+      "author_name": "itsanjali2410",
+      "score": 20,
+      "summary": "The commit introduces a complex feature that involves real-time data processing, file processing, search functionality, and payments. It also includes robust error handling and performance optimizations to ensure the system is production-ready.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/8ea129684d4ba2cafd5ace7b8e8d613e87a34c1c",
+      "date": "2026-03-07 03:53:42.000000"
+    },
+    {
+      "message": "updated landing",
+      "author_name": "23f3000933",
+      "score": 1,
+      "summary": "The commit does not contain any code changes or additions. It is a merge commit that combines multiple pull requests into a single commit.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/b6ff3cee17e8b5b6d2ebef6894db06a2873c0f53",
+      "date": "2026-03-07 03:34:15.000000"
+    },
+    {
+      "message": "trial matching fixed with requirements",
+      "author_name": "itsanjali2410",
+      "score": 11,
+      "summary": "The code adds a new API endpoint that handles the logic for matching patients to trials based on certain criteria.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/1c63723f20d7d0598da9b6213bd9b0a4e95c22d7",
+      "date": "2026-03-07 02:38:46.000000"
+    },
+    {
+      "message": "Add mandatory sync parameters modal for clinical trial synchronization\n\n## Changes\n\n### Sync Modal Improvements\n- Add modal dialog that opens when \"Sync Clinical Trials\" button clicked\n- Make medical condition REQUIRED for sync operations\n- Add trial phase selector (optional, defaults to all phases)\n- Add trial limit slider (10-500, default 50)\n- Display locked Maharashtra location badge in modal\n- Add helpful descriptions for each parameter\n\n### Error Handling & Retry Logic\n- Check for condition before allowing sync\n- Automatic retry if no trials found (up to 2 attempts)\n- Retry with broader parameters (remove phase filter if needed)\n- Provide helpful suggestions when no results found\n- Show retry attempt counter to user\n- Clear error messages with specific guidance\n\n### User Experience\n- Modal closes automatically on successful sync\n- Progress indication during sync with loading state\n- Retry messages show search parameter adjustments\n- Location locked to Maharashtra throughout\n- Validation prevents sync without condition\n- Better organized form layout with explanations\n\n### Data Integrity\n- All syncs filter to Maharashtra, India only\n- API always uses RECRUITING status filter\n- Results saved to MongoDB with embeddings\n- Structured eligibility criteria extracted if available\n\nThis ensures users always provide necessary search parameters and understand what's being synced and from where.\n\nCo-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>",
+      "author_name": "itsanjali2410",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/97bf9d4e318522654cfba71921794f1cb5c3622e",
+      "date": "2026-03-07 02:10:15.000000"
+    },
+    {
+      "message": "Implement comprehensive testing, analytics, and UX enhancements\n\n## Backend Enhancements\n- Add testing_route.py with 6 dynamic test endpoints:\n  - POST /api/test/run-dynamic-tests: Comprehensive test suite\n  - POST /api/test/run-patient-tests/{patient_id}: Patient-specific tests\n  - GET /api/test/available-data: Test data statistics\n  - GET /api/test/test-history: Historical test results\n  - POST /api/test/validate-matching: Single validation\n  - POST /api/test/bulk-validate: Quick multi-validation\n- Add dynamic_test_engine.py for test orchestration\n- Add eligibility_evaluator.py and trial_matcher.py for test support\n\n## Frontend Enhancements\n- Create Testing Dashboard (frontend/app/dashboard/testing/page.tsx):\n  - Available test data overview metrics\n  - Quick validation for 5 patient-trial pairs\n  - Full dynamic test runner (10 trials \u00d7 5 patients)\n  - Test history visualization with line charts\n  - Sample patient CSV download\n\n- Enhance Analytics Dashboard:\n  - Add success rate metrics (eligible %, review rate)\n  - Add eligibility distribution pie chart\n  - Add summary statistics cards\n  - Add analytics report export (TXT)\n\n- Expand Sidebar Navigation:\n  - Add Testing menu item with Beaker icon\n  - Display 8 total navigation items\n\n- Update API Client (frontend/lib/api.ts):\n  - Add interfaces for test responses\n  - Add 5 testing API functions\n  - Support bulk validation and dynamic tests\n\n- Existing Features:\n  - Patients page already has CSV export\n  - All backend testing APIs registered\n\n## User Experience Improvements\n- Progress indicators for long-running operations\n- Comprehensive test metrics and visualizations\n- Easy-to-use testing interface with pre-configured parameters\n- CSV export for all test data and analytics\n- Clear test history tracking\n\nCo-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>",
+      "author_name": "itsanjali2410",
+      "score": 14,
+      "summary": "The code adds new functionality by creating dynamic test endpoints in the backend, implementing a testing dashboard on the frontend, and updating APIs to support various testing operations.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/e5ce2f3078932758228951690a03fd02c9240561",
+      "date": "2026-03-07 02:07:49.000000"
+    },
+    {
+      "message": "patient page error fixed",
+      "author_name": "itsanjali2410",
+      "score": 13,
+      "summary": "The commit adds functionality to handle patient deletion and bulk deletion in the PatientsPage component. It includes functions for selecting patients, confirming deletions, and performing bulk deletes on the server side.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/63c00eb4855caaf1f9eecec790d35158c01ec570",
+      "date": "2026-03-06 21:17:58.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX",
+      "author_name": "itsanjali2410",
+      "score": 5,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/b5fffc5c6768799f411f44fac1d1a619c872011b",
+      "date": "2026-03-06 20:08:00.000000"
+    },
+    {
+      "message": "Improve condition and medication display in patient table\n\n- Enhance transformPatientData to support more field name variations\n- Add proper word capitalization for condition and medication names\n- Improve table display to show ALL conditions (not just first)\n- Improve table display to show ALL medications with expandable details\n- Add count indicators for multiple values (+X more)\n- Show full lists in sub-rows when there are multiple items\n- Better formatting and spacing for readability\n- Support more delimiter types (semicolon, comma, pipe, slash)",
+      "author_name": "itsanjali2410",
+      "score": 13,
+      "summary": "The commit adds a new API endpoint to update patient records, including fields such as conditions and medications. It includes validation for input data and updates the corresponding entries in the database.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/3909463afe81c089f6b7d58ff969042acee3b32d",
+      "date": "2026-03-06 20:06:20.000000"
+    },
+    {
+      "message": "Fix matching route display_id error and improve biomedical embeddings\n\n- Handle missing display_id in patient records with fallback generation\n- Add success status to matching response\n- Improve SemanticSearchService initialization with fallback model chain\n- Create transformPatientData utility to convert flat CSV to nested structure\n- Add progress bar and real-time upload tracking to patient upload UI\n- Support multiple CSV column name variations for better compatibility",
+      "author_name": "itsanjali2410",
+      "score": 11,
+      "summary": "The code added a function `transformPatientBatch` that converts flat CSV data into a nested structure, improving compatibility with different CSV column name variations. It also introduced a progress bar and real-time upload tracking to enhance the user experience during patient uploads.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/ee114155c531751af39b8055f131373666290cd5",
+      "date": "2026-03-06 20:05:12.000000"
+    },
+    {
+      "message": "dynamic data on navbar",
+      "author_name": "23f3000933",
+      "score": 13,
+      "summary": "The code adds a new `useAuth` hook from the `@/lib/authContext` module. It then uses this hook to fetch the current authenticated user's details, including name, role, initials, and email, which are displayed in the navbar. This enhances the personalization of the user experience by showing their specific information on the dashboard.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/04baa3c75c13fa2e426a90a3f34e493ef624d962",
+      "date": "2026-03-06 19:39:27.000000"
+    },
+    {
+      "message": "RBAC done",
+      "author_name": "itsanjali2410",
+      "score": 1,
+      "summary": "The commit adds RBAC functionality to the ML Gatekeeper system, enhancing security and access control. It includes changes to authentication and authorization mechanisms to ensure that only authorized users can perform certain actions within the application.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/1a526e39be68528b714f8b468971629fbf97b4d2",
+      "date": "2026-03-06 18:56:43.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX",
+      "author_name": "itsanjali2410",
+      "score": 1,
+      "summary": "This is a merge commit that combines changes from the 'main' branch into the 'COHERENCE-26_CODE_PHOENIX' branch. The commit message indicates that it merges the 'main' branch into 'COHERENCE-26_CODE_PHOENIX'.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/b804f1dfa53bb37948fd791a6178d169ecd58633",
+      "date": "2026-03-06 18:31:18.000000"
+    },
+    {
+      "message": "updated signup",
+      "author_name": "23f3000933",
+      "score": 11,
+      "summary": "The code changes add new fields to the doctor and researcher sign-up forms, including 'Medical License Number' for doctors and 'Ethics Approval ID' for researchers. It also includes input components for these fields, along with basic validation logic using Zod schema. The overall code quality is good as it maintains a clean and organized structure while ensuring form data integrity.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/2f628134d7370e7d569cfaf961b81d6420731064",
+      "date": "2026-03-06 18:27:27.000000"
+    },
+    {
+      "message": "Add RBAC implementation summary documentation\n\nComprehensive documentation of the complete RBAC authentication system\nincluding user types, database schema, API endpoints, permission matrix,\nauthentication flows, and backend integration examples.\n\nReference guide for understanding the entire RBAC implementation.\n\nCo-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>",
+      "author_name": "itsanjali2410",
+      "score": 14,
+      "summary": "The commit adds comprehensive documentation for the RBAC authentication system, including user types, database schema, API endpoints, permission matrix, authentication flows, and backend integration examples.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/e50af2f838cd43d5c974009bd8faaf3bab580bb2",
+      "date": "2026-03-06 18:19:21.000000"
+    },
+    {
+      "message": "Add comprehensive RBAC authentication system for all user types\n\nImplemented complete role-based access control (RBAC) with support for:\n- Doctor accounts (medical degree, hospital, license number)\n- Pharmaceutical company accounts (company name, department, country)\n- Clinical researcher accounts (research fields, institution, ORCID)\n- Patient accounts (medical record, conditions, phone)\n- Admin and Auditor roles\n\nFeatures:\n\u2713 Role-specific user profiles with custom fields for each type\n\u2713 Separate registration endpoints for each user type\n\u2713 JWT token with role information for RBAC\n\u2713 Permission matrix: 9+ permissions across 6 roles\n\u2713 Dependency injection for role/permission checking\n\u2713 Profile update endpoints with role-specific fields\n\u2713 Password change and email verification framework\n\u2713 Login tracking (last_login timestamp)\n\nDatabase Schema:\n- User document with role and optional role-specific profiles\n- DoctorProfile: degree, license, hospital, specialization, experience\n- PharmaceuticalCompanyProfile: company name, department, country, focus\n- ClinicalResearcherProfile: research fields, institution, publications, h-index\n- PatientProfile: name, DOB, medical ID, conditions\n\nAPI Endpoints:\n- POST /api/auth/register/doctor\n- POST /api/auth/register/pharmaceutical-company\n- POST /api/auth/register/researcher\n- POST /api/auth/register/patient\n- POST /api/auth/login\n- POST /api/auth/logout\n- GET /api/auth/me\n- PUT /api/auth/profile/update\n- POST /api/auth/change-password\n- GET /api/auth/verify-permission/{permission}\n- GET /api/auth/roles/{role}/permissions\n\nBackend Utilities:\n- require_role(*allowed_roles) - Dependency for role checking\n- require_permission(permission) - Dependency for permission checking\n- has_permission(role, permission) - Permission validation function\n\nFiles Modified:\n- backend/src/app/models/users.py (NEW - 400+ lines)\n- backend/src/app/routes/auth_route.py (UPDATED - 400+ lines)\n- backend/src/app/auth.py (UPDATED - 50+ lines)\n- RBAC_AUTHENTICATION_GUIDE.md (NEW - comprehensive reference)\n\nAll RBAC logic implemented in backend only as requested.\nReady for frontend integration with detailed guide provided.\n\nCo-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>",
+      "author_name": "itsanjali2410",
+      "score": 14,
+      "summary": "The code adds comprehensive role-based access control (RBAC) authentication system supporting various user types including Doctor, Pharmaceutical Company, Clinical Researcher, and Patient. It includes registration endpoints, login/logout functionalities, role-specific profiles, permission checks, and detailed API documentation.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/ad72ae46fc73a500f0fbebb46bf2d89c5a372373",
+      "date": "2026-03-06 18:18:43.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX",
+      "author_name": "itsanjali2410",
+      "score": 1,
+      "summary": "This commit is a merge operation that combines the changes from the 'main' branch into the current branch. It does not contain any new code or changes to existing files.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/1e9e46d3d8d60dbd956e04ab52b0112e018684c6",
+      "date": "2026-03-06 17:22:51.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX",
+      "author_name": "23f3000933",
+      "score": 1,
+      "summary": "The commit merges the main branch from a GitHub repository into the current branch. This type of operation is typically used to integrate changes from another branch or repository.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/fc4ece5625ec1bf6c064d5d28e0244403fe23364",
+      "date": "2026-03-06 17:21:48.000000"
+    },
+    {
+      "message": "backend and frontend integrations",
+      "author_name": "23f3000933",
+      "score": 11,
+      "summary": "The code adds a new function `analyze_eligibility` to the `LLMService` class, which uses OpenAI's chat completion API to analyze patient eligibility against trial criteria. If OpenAI is configured, it uses the model specified by the `LLM_MODEL` environment variable; otherwise, it falls back to a rule-based analysis. The code also includes error handling and returns JSON responses with status and reasoning.",
+      "url": "https://github.com/Madhuradp/COHERENCE-26_CODE_PHOENIX/commit/e3ae293980fca1edc73b92c0595d78cefdaed175",
+      "date": "2026-03-06 17:21:15.000000"
+    }
+  ],
+  "final_review": "Hackathon Team 'Code Phoenix' built a comprehensive medical trial matching system using React, Next.js, MongoDB, Express, and OpenAI APIs. They started with setting up the project structure and merged changes from the main branch frequently to keep the codebase updated. Commits were well-structured, focusing on specific features like adding a README.md file, implementing ML Gatekeeper services, and creating new landing pages. The team's code quality was high, with scores ranging from 7 to 20, indicating they built working features and strong technical code.\n\nAI-generated commits were present in the history, which may have been used for initial setup or documentation updates. However, portions of the code appear genuinely hand-written, showcasing their expertise in building robust systems.\n\nThe team's strengths include their ability to manage complex projects with multiple features and integrate AI into a medical application. They also demonstrated strong collaboration among team members by merging changes from the main branch frequently.\n\nHowever, some weak points were noted, such as wasted commits (merge commits and empty files) that could have been avoided. The project is functional but lacks comprehensive documentation for all features, which could be improved to better support future development.\n\nOverall, Team 'Code Phoenix' built a substantial and functional medical trial matching system with strong technical quality. While there were some areas for improvement in terms of documentation and the use of AI-generated code, their overall output meets expectations for a 24-hour hackathon."
+}

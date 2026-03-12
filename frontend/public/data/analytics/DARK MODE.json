@@ -1,0 +1,191 @@
+{
+  "team_name": "DARK MODE",
+  "commit_count": 4,
+  "additions": 10582,
+  "deletions": 52,
+  "churn_rate": 0.0,
+  "productivity_score": 1062.2,
+  "hourly_commits": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    10582,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "Ayush Sahu",
+      "commits": 4
+    }
+  ],
+  "top_files": [
+    {
+      "name": "package-lock.json",
+      "value": 7401
+    },
+    {
+      "name": "README.md",
+      "value": 425
+    },
+    {
+      "name": "src/app/workflow/page.tsx",
+      "value": 293
+    },
+    {
+      "name": "src/app/leads/page.tsx",
+      "value": 249
+    },
+    {
+      "name": "src/app/campaign/page.tsx",
+      "value": 249
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "/",
+      "value": 8013
+    },
+    {
+      "name": "src/models",
+      "value": 477
+    },
+    {
+      "name": "src/app/workflow",
+      "value": 293
+    },
+    {
+      "name": "src/app/leads",
+      "value": 249
+    },
+    {
+      "name": "src/app/campaign",
+      "value": 249
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".json",
+      "value": 7485
+    },
+    {
+      "name": ".ts",
+      "value": 1325
+    },
+    {
+      "name": ".tsx",
+      "value": 1228
+    },
+    {
+      "name": ".md",
+      "value": 425
+    },
+    {
+      "name": ".sql",
+      "value": 59
+    },
+    {
+      "name": "no_ext",
+      "value": 36
+    },
+    {
+      "name": ".css",
+      "value": 34
+    },
+    {
+      "name": ".mjs",
+      "value": 15
+    },
+    {
+      "name": ".example",
+      "value": 15
+    },
+    {
+      "name": ".csv",
+      "value": 8
+    },
+    {
+      "name": ".svg",
+      "value": 4
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Add campaign management features, including API endpoints for creating and starting campaigns, and a Campaign Simulator UI. Integrated Resend for email sending and updated database schema to support campaign tracking for leads.",
+      "author_name": "Ayush Sahu",
+      "score": 6,
+      "summary": "Auto-analyzed commit",
+      "url": "https://github.com/Ayush2649/COHERENCE-26_DARKMODE/commit/ab0dcea16b253787a31c64403b610dbaa07883f0",
+      "date": "2026-03-06 13:57:37.000000"
+    },
+    {
+      "message": "Add OpenAI integration and AI Message Generator feature",
+      "author_name": "Ayush Sahu",
+      "score": 12,
+      "summary": "This code adds a new component in the AI Message Generator page, which allows users to input a prompt, role, and campaign context. It also includes fields for lead data such as name, company, and role. When the form is submitted, it makes a POST request to an API endpoint to generate an AI message based on the provided inputs.",
+      "url": "https://github.com/Ayush2649/COHERENCE-26_DARKMODE/commit/d51a73c6462240a4e549b43a19f17192ca39e520",
+      "date": "2026-03-06 11:11:41.000000"
+    },
+    {
+      "message": "Implemented database connection and lead logic and started with workflow",
+      "author_name": "Ayush Sahu",
+      "score": 14,
+      "summary": "The commit adds code for setting up a SQLite database using better-sqlite3, creates models for Lead, Workflow, Campaign, and EmailLog entities, and includes routes to initialize the database and test its functionality.",
+      "url": "https://github.com/Ayush2649/COHERENCE-26_DARKMODE/commit/077788a062fbd3552f1991a2a86d42538aaa1b03",
+      "date": "2026-03-06 09:46:23.000000"
+    },
+    {
+      "message": "Initial Commit",
+      "author_name": "Ayush Sahu",
+      "score": 1,
+      "summary": "This commit represents the initial creation of a project. It includes various files and folders, such as `README.md`, `package.json`, and the basic structure of the Next.js application with Tailwind CSS and ShadCN setup.",
+      "url": "https://github.com/Ayush2649/COHERENCE-26_DARKMODE/commit/3847e51d95b152411206e9a66be074fbc37b8604",
+      "date": "2026-03-06 08:51:26.000000"
+    }
+  ],
+  "final_review": "Team 'DARK MODE' built a robust AI-driven marketing tool using Next.js, Tailwind CSS, ShadCN for the frontend, better-sqlite3 for SQLite database management, and Express for backend services. Their initial commit setup was solid but lacked depth in features. The team progressed by adding routes to initialize and test the database, which showcased their ability to manage databases effectively. They then implemented an AI Message Generator component that allows users to input prompts, roles, and campaign contexts, generating AI messages based on these inputs.\n\nThe third commit added more functionality, including fields for lead data such as name, company, and role, enhancing user experience. However, the fourth commit was flagged as auto-analyzed, indicating potential AI-generated code. The team's overall approach was to start with setup and progress to features, committing frequently but not always in large batches. Their commits were well-structured, with clear descriptions of each feature added.\n\nThe code quality varied; some commits had high scores (13+), demonstrating strong technical writing, while others scored lower (1-6). The AI-generated code was evident in the fourth commit, which lacked originality and structure compared to the rest. Despite the presence of auto-analyzed commits, the team demonstrated a good understanding of their project's requirements and capabilities.\n\nThe standout commit was the addition of the AI Message Generator component, showcasing creativity and user-centric design. However, there were wasted commits, such as merge commits and empty files, which could have been avoided by focusing on high-quality contributions.\n\nOverall, Team 'DARK MODE' built a functional marketing tool with a solid foundation in setup and progression to features. While their code quality varied, the project demonstrated a strong understanding of their goals and capabilities. The presence of AI-generated code highlighted areas for improvement but also showcased the team's ability to adapt and learn from feedback."
+}

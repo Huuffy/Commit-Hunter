@@ -1,0 +1,243 @@
+{
+  "team_name": "Aventre",
+  "commit_count": 6,
+  "additions": 61893,
+  "deletions": 23,
+  "churn_rate": 0.0,
+  "productivity_score": 6195.3,
+  "hourly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hourly_volume": [
+    61893,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "top_contributors": [
+    {
+      "name": "madhu12-c",
+      "commits": 4
+    },
+    {
+      "name": "Rashmit Gaikwad",
+      "commits": 2
+    }
+  ],
+  "top_files": [
+    {
+      "name": "budget-intel/backend/dataset/budget_full_10000.csv",
+      "value": 10001
+    },
+    {
+      "name": "budget-intel/auditflow/package-lock.json",
+      "value": 8686
+    },
+    {
+      "name": "budget-intel/backend/dataset/budget_train_8000.csv",
+      "value": 8001
+    },
+    {
+      "name": "budget-intel/auditflow/pnpm-lock.yaml",
+      "value": 6416
+    },
+    {
+      "name": "budget-intel/backend/ml_models.ipynb",
+      "value": 2161
+    }
+  ],
+  "top_folders": [
+    {
+      "name": "budget-intel/backend/dataset",
+      "value": 21204
+    },
+    {
+      "name": "budget-intel/auditflow",
+      "value": 15458
+    },
+    {
+      "name": "budget-intel/auditflow/components/ui",
+      "value": 12890
+    },
+    {
+      "name": "budget-intel/auditflow/components",
+      "value": 4682
+    },
+    {
+      "name": "budget-intel/backend",
+      "value": 3465
+    }
+  ],
+  "file_types": [
+    {
+      "name": ".csv",
+      "value": 21289
+    },
+    {
+      "name": ".tsx",
+      "value": 18034
+    },
+    {
+      "name": ".json",
+      "value": 8959
+    },
+    {
+      "name": ".yaml",
+      "value": 6416
+    },
+    {
+      "name": ".ipynb",
+      "value": 4319
+    },
+    {
+      "name": ".ts",
+      "value": 1878
+    },
+    {
+      "name": ".css",
+      "value": 450
+    },
+    {
+      "name": ".py",
+      "value": 435
+    },
+    {
+      "name": ".svg",
+      "value": 56
+    },
+    {
+      "name": ".mjs",
+      "value": 44
+    },
+    {
+      "name": "no_ext",
+      "value": 21
+    },
+    {
+      "name": ".example",
+      "value": 8
+    },
+    {
+      "name": ".txt",
+      "value": 7
+    },
+    {
+      "name": ".pyc",
+      "value": 0
+    },
+    {
+      "name": ".png",
+      "value": 0
+    },
+    {
+      "name": ".jpg",
+      "value": 0
+    },
+    {
+      "name": ".npy",
+      "value": 0
+    },
+    {
+      "name": ".pkl",
+      "value": 0
+    },
+    {
+      "name": ".zip",
+      "value": 0
+    }
+  ],
+  "recent_commits": [
+    {
+      "message": "Frontend Fixes",
+      "author_name": "madhu12-c",
+      "score": 11,
+      "summary": "The code added a new API route for file complaint submission to the backend, which includes fetching states from the backend and handling file uploads.",
+      "url": "https://github.com/aarchi4/COHERENCE-26_AVENTRE/commit/ab8d0675868045c2ee5cb9d1a3bcb4efd6673550",
+      "date": "2026-03-07 01:45:40.000000"
+    },
+    {
+      "message": "Merge branch 'main' of https://github.com/aarchi4/COHERENCE-26_AVENTRE",
+      "author_name": "Rashmit Gaikwad",
+      "score": 1,
+      "summary": "This commit is a merge operation, bringing changes from the 'main' branch of a GitHub repository into the current branch. It does not add or change any code.",
+      "url": "https://github.com/aarchi4/COHERENCE-26_AVENTRE/commit/69b082d3f42a0b701676266965170dcfc234344b",
+      "date": "2026-03-06 23:15:18.000000"
+    },
+    {
+      "message": "anomaly model integrated",
+      "author_name": "Rashmit Gaikwad",
+      "score": 14,
+      "summary": "The commit adds code to generate synthetic government budget records, train anomaly detection models using Isolation Forest, and implement a reallocation suggestion system. The code is well-structured with clear imports and comments, making it easy to understand and maintain.",
+      "url": "https://github.com/aarchi4/COHERENCE-26_AVENTRE/commit/ae9d07fedec8ec7590cdb6deb9f99e502ca491fe",
+      "date": "2026-03-06 23:15:07.000000"
+    },
+    {
+      "message": "map feature added",
+      "author_name": "madhu12-c",
+      "score": 11,
+      "summary": "The code adds a new feature that includes an API route for fetching states from the backend and displaying them on a map. It also includes a form with validation to handle user input.",
+      "url": "https://github.com/aarchi4/COHERENCE-26_AVENTRE/commit/bceff61a660b9435486f9f85e46488cfea385832",
+      "date": "2026-03-06 22:18:32.000000"
+    },
+    {
+      "message": "frontend ui changes",
+      "author_name": "madhu12-c",
+      "score": 14,
+      "summary": "The code adds a new API endpoint that allows users to submit complaints about projects. It includes input fields for the district, project, description, and images, as well as validation checks for the required fields.",
+      "url": "https://github.com/aarchi4/COHERENCE-26_AVENTRE/commit/24ae63ee455aebe5ea860c2b5829afb020073958",
+      "date": "2026-03-06 21:19:32.000000"
+    },
+    {
+      "message": "backend mvp",
+      "author_name": "madhu12-c",
+      "score": 9,
+      "summary": "The code adds a list of users and defines a function to detect anomalies based on allocated and spent values. These additions are related to the database schema and utility functions used for data analysis.",
+      "url": "https://github.com/aarchi4/COHERENCE-26_AVENTRE/commit/235cf6b1a0ffacd87f1b7f9725939e395c0479f4",
+      "date": "2026-03-06 19:58:10.000000"
+    }
+  ],
+  "final_review": "Team 'Aventre' built several features for their project, including a list of users, anomaly detection functionality, an API endpoint for submitting complaints, a new feature that includes an API route for fetching states from the backend and displaying them on a map, code to generate synthetic government budget records, train anomaly detection models using Isolation Forest, implement a reallocation suggestion system, and a new API route for file complaint submission to the backend. Their development pattern was to commit frequently and in large batches, with well-structured commits that included clear imports and comments. The code quality assessment showed that their work was mostly setup/config until they added code to generate synthetic government budget records, train anomaly detection models using Isolation Forest, and implement a reallocation suggestion system. These commits had high scores (13+), indicating strong technical code. There were no standout commits or wasted commits in the project. Overall, Team 'Aventre' built something substantial and functional, but their work could be improved by adding more features and ensuring that the code is well-structured and maintainable."
+}
