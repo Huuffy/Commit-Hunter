@@ -1,0 +1,14 @@
+.logo-img {
+    margin: auto;
+    width: 70%;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(4px 4px 7px rgb(60, 79, 253));
+}
+
+.logo-img:hover {
+    transform: scale(1.1);
+}
+
+.hamburger-react{
+    color: white;
+}

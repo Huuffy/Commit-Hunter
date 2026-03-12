@@ -1,0 +1,74 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+venv/
+.venv/
+env/
+.env
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/                # Vite cache
+frontend/.firebase/             # Firebase cache
+frontend/.firebaserc            # optional: ignore if personal config
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# Backend
+# ========================
+backend/node_modules/
+backend/dist/                  # build output
+backend/.env                   # environment variables
+
+# ========================
+# IDE & Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# OS
+# ========================
+desktop.ini
+*.lnk
+
+# ========================
+# Data & Secrets
+# ========================
+*.sqlite3
+*.db
+data/
+*.xlsx
+*.csv
+!sample_teams.xlsx             # keep sample
+
+# ========================
+# Misc
+# ========================
+*.log
+*.zip
+*.tar.gz
+.cache/
+.pytest_cache/
+htmlcov/
+.coverage
